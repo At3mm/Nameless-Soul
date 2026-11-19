@@ -1,0 +1,2627 @@
+[
+  {
+    "source": "Aseprite\\Book Desk.aseprite",
+    "destination": "Source/Aseprite/BookDesk.aseprite",
+    "sha256": "D53657B23A7CC7DEE84A3558D84E5A902887288B5CC9D847673DCD6B990DDBAB"
+  },
+  {
+    "source": "Aseprite\\Inventory Book SpriteSheet.aseprite",
+    "destination": "Source/Aseprite/InventoryBookSpriteSheet.aseprite",
+    "sha256": "FF76BA9367F29CAFA0A1ACBCCA53F67850709617AC546BA54333A592FF1961D4"
+  },
+  {
+    "source": "Aseprite\\Animated\\Day & Night Cycle.aseprite",
+    "destination": "Source/Aseprite/Animated/DayAndNightCycle.aseprite",
+    "sha256": "7FF31A8DC65D420E9CDD896A6786F84C539ACE9A6207123BCD34545F8F4110E4"
+  },
+  {
+    "source": "Aseprite\\Animated\\Inventory Book.aseprite",
+    "destination": "Source/Aseprite/Animated/InventoryBook.aseprite",
+    "sha256": "A132CBF2D758E4799BEDAB998B796626221215F3B38D4549AA75AF1C55F521A0"
+  },
+  {
+    "source": "Sprites\\Book Desk\\1.png",
+    "destination": "Sprites/BookDesk/BookDesk_01.png",
+    "sha256": "463F9D4F82996B2A602ABD1BA239781D1DC7C20C83B511B2F06ACF41A95B9A9D"
+  },
+  {
+    "source": "Sprites\\Book Desk\\2.png",
+    "destination": "Sprites/BookDesk/BookDesk_02.png",
+    "sha256": "4576E3B58BC317AAC0E18D60DE3D984048D62273E37624921B8571BE8D7F20A0"
+  },
+  {
+    "source": "Sprites\\Book Desk\\3.png",
+    "destination": "Sprites/BookDesk/BookDesk_03.png",
+    "sha256": "4D703B19832936EF708EF5E6A208FCA1C17A57BF4E2168E952C891297CFA5711"
+  },
+  {
+    "source": "Sprites\\Book Desk\\4.png",
+    "destination": "Sprites/BookDesk/BookDesk_04.png",
+    "sha256": "B0DE4D4079B09338C56F28E64562C6626803558875D13B8705B6BBCE0F35AD6E"
+  },
+  {
+    "source": "Sprites\\Book Desk\\5.png",
+    "destination": "Sprites/BookDesk/BookDesk_05.png",
+    "sha256": "558C3E7121D8E631E6E066E28A33AFE5B89349371937B26DF0067F9E6645979F"
+  },
+  {
+    "source": "Sprites\\Book Desk\\6.png",
+    "destination": "Sprites/BookDesk/BookDesk_06.png",
+    "sha256": "4A7CE3BB8980A7F31765979C4648AB966D36C6DFC5E3FF4D5F9C5188C5275CBB"
+  },
+  {
+    "source": "Sprites\\Book Desk\\7.png",
+    "destination": "Sprites/BookDesk/BookDesk_07.png",
+    "sha256": "76C2CA547ACBB05EC0F3DCECDE10ECA57539575F94059A8145608E0905C975DE"
+  },
+  {
+    "source": "Sprites\\Content\\1 Items\\1.png",
+    "destination": "Sprites/Content/Items/Items_01.png",
+    "sha256": "4A773D1794BEEFF51FBF7E13C4C14066AFDB7ED963046D49DB2B467D8AEF3F54"
+  },
+  {
+    "source": "Sprites\\Content\\1 Items\\10.png",
+    "destination": "Sprites/Content/Items/Items_10.png",
+    "sha256": "DE29DDB38DA79EC8683F3133A060ED6F46DB1A49B8259BBA09B427FB2E8DF2C6"
+  },
+  {
+    "source": "Sprites\\Content\\1 Items\\11.png",
+    "destination": "Sprites/Content/Items/Items_11.png",
+    "sha256": "865BFA0B069696A30E27A7A8FF6DC86700FD9E06278B5B3B86DD0E4368EE24C9"
+  },
+  {
+    "source": "Sprites\\Content\\1 Items\\12.png",
+    "destination": "Sprites/Content/Items/Items_12.png",
+    "sha256": "391D7CA17426DC4647224A4F6E1DAC5B26BEDE295483CEFC8E79B3F10B2C3866"
+  },
+  {
+    "source": "Sprites\\Content\\1 Items\\13.png",
+    "destination": "Sprites/Content/Items/Items_13.png",
+    "sha256": "41F8DC0104ABD52AB6A635509E72B55C9A99F49F7CCA5F1D26BBACE6924820E3"
+  },
+  {
+    "source": "Sprites\\Content\\1 Items\\14.png",
+    "destination": "Sprites/Content/Items/Items_14.png",
+    "sha256": "5187CCB947032B33AF228350ABC9E23FBA8BEFC458B34A57FF7A08B7FA577535"
+  },
+  {
+    "source": "Sprites\\Content\\1 Items\\15.png",
+    "destination": "Sprites/Content/Items/Items_15.png",
+    "sha256": "B8420603E2E26D1CDF7276724753ABDEBAFB75C42B40C10486E1B20E07D76953"
+  },
+  {
+    "source": "Sprites\\Content\\1 Items\\16.png",
+    "destination": "Sprites/Content/Items/Items_16.png",
+    "sha256": "22598367B37AF5454CC27CA5F6D8885296EDBD37449006285E6E5FBC247D8B70"
+  },
+  {
+    "source": "Sprites\\Content\\1 Items\\17.png",
+    "destination": "Sprites/Content/Items/Items_17.png",
+    "sha256": "67C24926C010BF107EC7641F4368F26B8F27EEA45A667F29C3765A7040A0D7A5"
+  },
+  {
+    "source": "Sprites\\Content\\1 Items\\18.png",
+    "destination": "Sprites/Content/Items/Items_18.png",
+    "sha256": "7270F7BA4276A7DFE307F5C57FAEDE3B83FC092525CB7BCAD25659ED2B93C4F1"
+  },
+  {
+    "source": "Sprites\\Content\\1 Items\\19.png",
+    "destination": "Sprites/Content/Items/Items_19.png",
+    "sha256": "2D1E5E631F5C473AA6D477F944A8B86F185A7A1F2DD358B2E5787F7088D7172D"
+  },
+  {
+    "source": "Sprites\\Content\\1 Items\\2.png",
+    "destination": "Sprites/Content/Items/Items_02.png",
+    "sha256": "FD7342B8F39726CD71BFBDB36A27D48CF08EB860D793FDA93DFAFCFE81447902"
+  },
+  {
+    "source": "Sprites\\Content\\1 Items\\20.png",
+    "destination": "Sprites/Content/Items/Items_20.png",
+    "sha256": "33994CC755AB0E1496E79084777F76D0F2472C83994ED0187E34C9FFDBCE87F9"
+  },
+  {
+    "source": "Sprites\\Content\\1 Items\\21.png",
+    "destination": "Sprites/Content/Items/Items_21.png",
+    "sha256": "35A1BB9B261195973AF288997397857AC2F63EF255F3E643B015C1CE073DE425"
+  },
+  {
+    "source": "Sprites\\Content\\1 Items\\22.png",
+    "destination": "Sprites/Content/Items/Items_22.png",
+    "sha256": "58C45D0F91BE5650BA129E4F010B330FC00A58080E05E7A30B423C186E6B0761"
+  },
+  {
+    "source": "Sprites\\Content\\1 Items\\23.png",
+    "destination": "Sprites/Content/Items/Items_23.png",
+    "sha256": "C813981E721C05B26642B342E8C6AA41AF06A1F0E75E88F5C46049A245C6127E"
+  },
+  {
+    "source": "Sprites\\Content\\1 Items\\24.png",
+    "destination": "Sprites/Content/Items/Items_24.png",
+    "sha256": "D433D0BABAD62C02ED021200782118AC3BE8BAB901E11C42F277356CBD9C37F6"
+  },
+  {
+    "source": "Sprites\\Content\\1 Items\\25.png",
+    "destination": "Sprites/Content/Items/Items_25.png",
+    "sha256": "0EE95789BEAA61A6EDEA35FE38A9ACBA33F22A71DB374AE6B7D5A2F3AA2FCBE7"
+  },
+  {
+    "source": "Sprites\\Content\\1 Items\\26.png",
+    "destination": "Sprites/Content/Items/Items_26.png",
+    "sha256": "3746DF3863C3CA2DE0022B2536895B0DC47EF701A06D18CEAB2CE3BEBBCDB6AE"
+  },
+  {
+    "source": "Sprites\\Content\\1 Items\\3.png",
+    "destination": "Sprites/Content/Items/Items_03.png",
+    "sha256": "5AC13CFCBAA4324781816E90E1D660D6CD80001E6C941F799B1BE382A0785374"
+  },
+  {
+    "source": "Sprites\\Content\\1 Items\\4.png",
+    "destination": "Sprites/Content/Items/Items_04.png",
+    "sha256": "D6D57983B7CFC6BE77155A64677672D871B1D2EDDC299CEBD09CC5C247C3D244"
+  },
+  {
+    "source": "Sprites\\Content\\1 Items\\5.png",
+    "destination": "Sprites/Content/Items/Items_05.png",
+    "sha256": "90E1A1C90C14A06EA1EB668C23CD9DCE33B1276C0B36C4DAC362CC2E5DFBEB04"
+  },
+  {
+    "source": "Sprites\\Content\\1 Items\\6.png",
+    "destination": "Sprites/Content/Items/Items_06.png",
+    "sha256": "5848539CC4361BC22CDF50ADEE2B1FA589D3CF2578DF3303512B50C7CFECFB7A"
+  },
+  {
+    "source": "Sprites\\Content\\1 Items\\7.png",
+    "destination": "Sprites/Content/Items/Items_07.png",
+    "sha256": "44C7EDFE928157785F5239B7016F981143EC099B78E28AA60414BFFC52F519BE"
+  },
+  {
+    "source": "Sprites\\Content\\1 Items\\8.png",
+    "destination": "Sprites/Content/Items/Items_08.png",
+    "sha256": "C58EA1C0E96782BA579A442EA309C736D0F433BE25E18C000C552AF5B768CEA2"
+  },
+  {
+    "source": "Sprites\\Content\\1 Items\\9.png",
+    "destination": "Sprites/Content/Items/Items_09.png",
+    "sha256": "332EB49F9DB62C8FDC47B60BD3957E91BCAD05A5058F4EC89F41A1F1A9B7B3FC"
+  },
+  {
+    "source": "Sprites\\Content\\10 Signs\\0.png",
+    "destination": "Sprites/Content/Signs/Signs_00.png",
+    "sha256": "8047A3EFAA866C94B86B3D142869B77CE25C42372D65F24EDCA519A0140B563F"
+  },
+  {
+    "source": "Sprites\\Content\\10 Signs\\1.png",
+    "destination": "Sprites/Content/Signs/Signs_01.png",
+    "sha256": "34ED644DCC67594CCCF3280D38B8153966FBB24E1FF5B93A35F66A1CAF989D12"
+  },
+  {
+    "source": "Sprites\\Content\\10 Signs\\2.png",
+    "destination": "Sprites/Content/Signs/Signs_02.png",
+    "sha256": "598DFE07A729A18AECC04310767B22FF67FFB66F14EE7077E6C9B480D747FF3C"
+  },
+  {
+    "source": "Sprites\\Content\\10 Signs\\3.png",
+    "destination": "Sprites/Content/Signs/Signs_03.png",
+    "sha256": "E36CB29BA2128B058977F6A58EB6A313A7FC4E5787D3642AA9C5E96B55643A8A"
+  },
+  {
+    "source": "Sprites\\Content\\10 Signs\\4.png",
+    "destination": "Sprites/Content/Signs/Signs_04.png",
+    "sha256": "F4B44E79ACE3A3DD7629390610065F3535642680B7681E64E980F01752907F7C"
+  },
+  {
+    "source": "Sprites\\Content\\10 Signs\\5.png",
+    "destination": "Sprites/Content/Signs/Signs_05.png",
+    "sha256": "BA4138D5E30C7F5E07C9094EBA87F830EDAED7C0AB837B7BB6B0DEF8F75CDB57"
+  },
+  {
+    "source": "Sprites\\Content\\10 Signs\\6.png",
+    "destination": "Sprites/Content/Signs/Signs_06.png",
+    "sha256": "61931CBE782A7AF649B1C298B4CA132C6FA8998951B20B5DD0E06681C1F6F7BA"
+  },
+  {
+    "source": "Sprites\\Content\\11 Treasure Chest\\1.png",
+    "destination": "Sprites/Content/TreasureChest/TreasureChest_01.png",
+    "sha256": "C65848B6CBC37D58B9442A47A5D3DF9A16A06061A053A9F41FF9CDB472581E3A"
+  },
+  {
+    "source": "Sprites\\Content\\11 Treasure Chest\\2.png",
+    "destination": "Sprites/Content/TreasureChest/TreasureChest_02.png",
+    "sha256": "53840C3027069384F226503D674CABC409167FCC50E76C9AB50BE9A7DD886293"
+  },
+  {
+    "source": "Sprites\\Content\\11 Treasure Chest\\3.png",
+    "destination": "Sprites/Content/TreasureChest/TreasureChest_03.png",
+    "sha256": "4D61C49149D5AB1D907D4559AB89B7F3B06B27AB7CEE981CC6F411A4F99AB63A"
+  },
+  {
+    "source": "Sprites\\Content\\11 Treasure Chest\\4.png",
+    "destination": "Sprites/Content/TreasureChest/TreasureChest_04.png",
+    "sha256": "4D275BC5EA3D81003353D12F6BD688DB396E7F0573387D95BA8C4AA4E29BA17E"
+  },
+  {
+    "source": "Sprites\\Content\\11 Treasure Chest\\5.png",
+    "destination": "Sprites/Content/TreasureChest/TreasureChest_05.png",
+    "sha256": "4D61C49149D5AB1D907D4559AB89B7F3B06B27AB7CEE981CC6F411A4F99AB63A"
+  },
+  {
+    "source": "Sprites\\Content\\12 Dust Bin\\1.png",
+    "destination": "Sprites/Content/DustBin/DustBin_01.png",
+    "sha256": "F65B41251D4BC43B0C6BC461D34B059C356E70101E6747A82095ECD27593A7B8"
+  },
+  {
+    "source": "Sprites\\Content\\12 Dust Bin\\2.png",
+    "destination": "Sprites/Content/DustBin/DustBin_02.png",
+    "sha256": "DF81BC9F8FCC015C7AB8404FAF7BA290BF194C8A27AE9CFD4B4656CAF89BBFAD"
+  },
+  {
+    "source": "Sprites\\Content\\12 Dust Bin\\3.png",
+    "destination": "Sprites/Content/DustBin/DustBin_03.png",
+    "sha256": "43197A0E5FE57B421E9F89C08E60F49719184E466B150D204924CE5A394D7A81"
+  },
+  {
+    "source": "Sprites\\Content\\12 Dust Bin\\4.png",
+    "destination": "Sprites/Content/DustBin/DustBin_04.png",
+    "sha256": "2E5312E26FCF64A95D741354EC81D24D7A2F504C10E5E1EB899A28429D169C5E"
+  },
+  {
+    "source": "Sprites\\Content\\12 Dust Bin\\5.png",
+    "destination": "Sprites/Content/DustBin/DustBin_05.png",
+    "sha256": "C88916B486256D48D1BED33A7B0567FF53878CE681BABE481E468D1299EFE3FB"
+  },
+  {
+    "source": "Sprites\\Content\\12 Dust Bin\\6.png",
+    "destination": "Sprites/Content/DustBin/DustBin_06.png",
+    "sha256": "D6A044CB38275C526965084CEB994FF93278E01D278275CDCBF926C906468A90"
+  },
+  {
+    "source": "Sprites\\Content\\2 Icons\\1.png",
+    "destination": "Sprites/Content/Icons/Icons_01.png",
+    "sha256": "048AFED953A9243D9E26B0429E960FDA35BB65E6A70F3764AEF3926AC81BC9E2"
+  },
+  {
+    "source": "Sprites\\Content\\2 Icons\\10.png",
+    "destination": "Sprites/Content/Icons/Icons_10.png",
+    "sha256": "67BE9A5C730F56D57C3885E0DFDBE52BDC690D03A87EF4537AD1246DC569E4F5"
+  },
+  {
+    "source": "Sprites\\Content\\2 Icons\\11.png",
+    "destination": "Sprites/Content/Icons/Icons_11.png",
+    "sha256": "32982916FC742AA6D2376CAA1CDDE5F675C87076BC230CCE31BFB7F105E7BB37"
+  },
+  {
+    "source": "Sprites\\Content\\2 Icons\\12.png",
+    "destination": "Sprites/Content/Icons/Icons_12.png",
+    "sha256": "DA6B54C85321114F6C4DAA344F984E2C9ACDCFAFFC1BF828DEDE483A8E56112F"
+  },
+  {
+    "source": "Sprites\\Content\\2 Icons\\13.png",
+    "destination": "Sprites/Content/Icons/Icons_13.png",
+    "sha256": "FBFB6977F5B03F722EADCD59ACF825D77A64C59C08001D9A7EB81894A0DD070B"
+  },
+  {
+    "source": "Sprites\\Content\\2 Icons\\14.png",
+    "destination": "Sprites/Content/Icons/Icons_14.png",
+    "sha256": "5F988AE20A3F3A142D73C958448AAC145BA7518B54587210C0834DC8D066ED23"
+  },
+  {
+    "source": "Sprites\\Content\\2 Icons\\15.png",
+    "destination": "Sprites/Content/Icons/Icons_15.png",
+    "sha256": "F4C8523973520C4DDF8AF82455B56B2210F2380200F4E6C0D203430313A68D93"
+  },
+  {
+    "source": "Sprites\\Content\\2 Icons\\16.png",
+    "destination": "Sprites/Content/Icons/Icons_16.png",
+    "sha256": "7059CC2EF7F686318AD067C0C51A1135B76E6480A0401FD4420805206FB08A6C"
+  },
+  {
+    "source": "Sprites\\Content\\2 Icons\\17.png",
+    "destination": "Sprites/Content/Icons/Icons_17.png",
+    "sha256": "F9CA9934B7CAB8F3211B87F8C4B81667D36AF857EB88B6DBAFDBBAC8D9FD8BAD"
+  },
+  {
+    "source": "Sprites\\Content\\2 Icons\\18.png",
+    "destination": "Sprites/Content/Icons/Icons_18.png",
+    "sha256": "E07115DF22E94F4DEF97B411DA94B46B3671D095DCCCB4C99E8C39EEBD8A315E"
+  },
+  {
+    "source": "Sprites\\Content\\2 Icons\\19.png",
+    "destination": "Sprites/Content/Icons/Icons_19.png",
+    "sha256": "4A0A9ECD207BFF7D3E2C35653B169EF187584A547788369BD9B9D058D37CBC4A"
+  },
+  {
+    "source": "Sprites\\Content\\2 Icons\\2.png",
+    "destination": "Sprites/Content/Icons/Icons_02.png",
+    "sha256": "3D3A9DD6A9BC63077F0F2CEA9729FE2B780F624D07D48599A74840DFC6F9E72C"
+  },
+  {
+    "source": "Sprites\\Content\\2 Icons\\20.png",
+    "destination": "Sprites/Content/Icons/Icons_20.png",
+    "sha256": "B4905C990ED16BAE2DFE0B6DB814EF947332021DAD8A53DBE6FBF28160E8B37B"
+  },
+  {
+    "source": "Sprites\\Content\\2 Icons\\21.png",
+    "destination": "Sprites/Content/Icons/Icons_21.png",
+    "sha256": "72BF2DC40757FAA2344D6E9C8B1BCA282198DADC6F7EF62C3C63EB954DE43E16"
+  },
+  {
+    "source": "Sprites\\Content\\2 Icons\\3.png",
+    "destination": "Sprites/Content/Icons/Icons_03.png",
+    "sha256": "0DB36A51FACB3E59A4278016DC0177601D9EB532DD223367D816D873448E4E6A"
+  },
+  {
+    "source": "Sprites\\Content\\2 Icons\\4.png",
+    "destination": "Sprites/Content/Icons/Icons_04.png",
+    "sha256": "96CB22CF5766B35EB77E801F1E9169338B1720DD3E5C0CDF831FC9BE60C0B448"
+  },
+  {
+    "source": "Sprites\\Content\\2 Icons\\5.png",
+    "destination": "Sprites/Content/Icons/Icons_05.png",
+    "sha256": "EECAB943CCDEBAEAFDC848EE6526E87DE1AAF7B7C723AD348482C5BDE60CB03A"
+  },
+  {
+    "source": "Sprites\\Content\\2 Icons\\6.png",
+    "destination": "Sprites/Content/Icons/Icons_06.png",
+    "sha256": "62F7E7E74F9F84915F002A54A3B6E033CAFDA4AAB59ED0BEDE4FBC600313432D"
+  },
+  {
+    "source": "Sprites\\Content\\2 Icons\\7.png",
+    "destination": "Sprites/Content/Icons/Icons_07.png",
+    "sha256": "D15CD8B4A1A421B390D6A77CD8DCC839F93DA3F75261E04091FD4D5330BBC1EF"
+  },
+  {
+    "source": "Sprites\\Content\\2 Icons\\8.png",
+    "destination": "Sprites/Content/Icons/Icons_08.png",
+    "sha256": "496F64671BC10F07DC9414D43A2122CA4B72F5C2B581F916D2F7F2EC5BC30631"
+  },
+  {
+    "source": "Sprites\\Content\\2 Icons\\9.png",
+    "destination": "Sprites/Content/Icons/Icons_09.png",
+    "sha256": "04055F0F03DFC4481DEB777722F741D847D9C3A2D2837DEABD396E69B701A35B"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\1.png",
+    "destination": "Sprites/Content/ProgressBars/ProgressBars_01.png",
+    "sha256": "408E0D26429A8E8850A9E9152593722562F8D0C8B4525938CF040D40C6843B17"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\10.png",
+    "destination": "Sprites/Content/ProgressBars/ProgressBars_10.png",
+    "sha256": "CDE3672127D672D1274502DA9E11DCCD09C768083CDAD7BE278DBD3702700768"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\11.png",
+    "destination": "Sprites/Content/ProgressBars/ProgressBars_11.png",
+    "sha256": "D9F3CB94AD7C8413E938D50D825910309039D4F1A18686E1091F796BA3589CDE"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\12.png",
+    "destination": "Sprites/Content/ProgressBars/ProgressBars_12.png",
+    "sha256": "308DF6D20E5AF5A28AC9D9C156A7E8EE07088F92CDCE092B178AC95F2E60BB05"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\13.png",
+    "destination": "Sprites/Content/ProgressBars/ProgressBars_13.png",
+    "sha256": "B07BDDB96E4BD5366EB82D8A19906A406007EEE03BFD38712EC82B61EA59C5D2"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\14.png",
+    "destination": "Sprites/Content/ProgressBars/ProgressBars_14.png",
+    "sha256": "0B16FB4962F5D1D83C613C831CBA61557E8C7F8EE51A4A0D6AEBB34C86DEB2AD"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\15.png",
+    "destination": "Sprites/Content/ProgressBars/ProgressBars_15.png",
+    "sha256": "D70EE5ECC8D9B44228B021E41529C10642B0FBC83FB1AC3A4C2CA2C273E4A32D"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\16.png",
+    "destination": "Sprites/Content/ProgressBars/ProgressBars_16.png",
+    "sha256": "EA3BEDF900A9B25B7D1166FE269F1B05E6A617CC8F1E1F0CEE9018D6E3989462"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\17.png",
+    "destination": "Sprites/Content/ProgressBars/ProgressBars_17.png",
+    "sha256": "D72F73FCD3663167CAB289D334389961CC6195C7467A7692C877B34DCE920C06"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\18.png",
+    "destination": "Sprites/Content/ProgressBars/ProgressBars_18.png",
+    "sha256": "A1B99230DF065E4E7C36CBA6BA13EA0E5848E024F28FF1E8493EEAD065AE84C3"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\2.png",
+    "destination": "Sprites/Content/ProgressBars/ProgressBars_02.png",
+    "sha256": "CD4B239F66E1A61BFBF8C560C0A0CED6AD23B335B9A3296D4B5A47BC5AC2335F"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\3.png",
+    "destination": "Sprites/Content/ProgressBars/ProgressBars_03.png",
+    "sha256": "A19CC5A94E21BBD343088FBBBEBFFDA278416902810B2965C2CD5CB3288338A1"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\4.png",
+    "destination": "Sprites/Content/ProgressBars/ProgressBars_04.png",
+    "sha256": "E1CCDEA6FAA9F9633E8E934C892D05C97630A2BF05D7CC09B0D4C627D33DE6F9"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\5.png",
+    "destination": "Sprites/Content/ProgressBars/ProgressBars_05.png",
+    "sha256": "0DB1601CF5D3A136BE25327344A89A80614FC75334014FBE5D54121A187074D4"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\6.png",
+    "destination": "Sprites/Content/ProgressBars/ProgressBars_06.png",
+    "sha256": "2E576FB59B263ECE9A058AC606CB5DB8A3B6777EB2B0F2921A6B1F3A74D87C60"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\7.png",
+    "destination": "Sprites/Content/ProgressBars/ProgressBars_07.png",
+    "sha256": "E3601A6141FD474FE46A619470F918A156C9B7ADADB0DB99D78D4B1414F778F4"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\8.png",
+    "destination": "Sprites/Content/ProgressBars/ProgressBars_08.png",
+    "sha256": "C84AA92A6995D8A47A5ED977EE4CA89ED8ABC2D3B0895F638B68D68DA5F3521E"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\9.png",
+    "destination": "Sprites/Content/ProgressBars/ProgressBars_09.png",
+    "sha256": "966928887B34E6D9155D20CD27A06095829D5F5BEEBE3956C5917D3615789EB1"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\1.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/Hearts_01.png",
+    "sha256": "DF780F80D95202BBDEA2C0A6B151631304D82C242BECE29CD945FFFF677097DE"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\2.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/Hearts_02.png",
+    "sha256": "A3F559EED85D72F92FCBC84518A0920CC8404A029EC2E64A23221DAAF9404571"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Middle Heart\\Empty\\1.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/MiddleHeart/Empty/Empty_01.png",
+    "sha256": "8CAB9F26B4852DFDF3D03784F2E12090FC49741EF4B672279056193F3DEC2F65"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Middle Heart\\Empty\\2.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/MiddleHeart/Empty/Empty_02.png",
+    "sha256": "10EF00890EAEC33A34544A2F63274702A4D900DCFFA4BE05109D4C5E448D4647"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Middle Heart\\idle\\1.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/MiddleHeart/idle/idle_01.png",
+    "sha256": "14EE4C084FA81A445348C64C4C705030F5E53F801225FFF612445CADED92E678"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Middle Heart\\Recover\\1.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/MiddleHeart/Recover/Recover_01.png",
+    "sha256": "23E5608079DC8A38FE1D74C1A1E530F2207971D6B539B23A76EB0F46499DB4A2"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Middle Heart\\Recover\\2.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/MiddleHeart/Recover/Recover_02.png",
+    "sha256": "57EFE280FB20D84414FED738A2869C2442F3376F4FA54574D402D08CC4A1FEAA"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Middle Heart\\Recover\\3.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/MiddleHeart/Recover/Recover_03.png",
+    "sha256": "489275AF599AC903E6EB91DBFC185ED32A509A41BEB1C5EFE65C9D2A46BABF55"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Middle Heart\\Recover\\4.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/MiddleHeart/Recover/Recover_04.png",
+    "sha256": "DBDF888679A5532E2CB809A7B1F73D59C3B31327EC57CD15159866B2C2D1FE1D"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Middle Heart\\Recover\\5.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/MiddleHeart/Recover/Recover_05.png",
+    "sha256": "F9EA330F8598D8462C3CECDD20FCE2BD6ADAC3E66099A71CE3725206C1CFF8AD"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Middle Heart\\Recover\\6.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/MiddleHeart/Recover/Recover_06.png",
+    "sha256": "14EE4C084FA81A445348C64C4C705030F5E53F801225FFF612445CADED92E678"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Middle Heart\\Shine\\1.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/MiddleHeart/Shine/Shine_01.png",
+    "sha256": "23E5608079DC8A38FE1D74C1A1E530F2207971D6B539B23A76EB0F46499DB4A2"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Middle Heart\\Shine\\2.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/MiddleHeart/Shine/Shine_02.png",
+    "sha256": "6D71D095F4D5E88AD1469B8257F2F77A7D5F4BB77F93436994482C47C5176040"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Middle Heart\\Shine\\3.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/MiddleHeart/Shine/Shine_03.png",
+    "sha256": "2FDA451D9BFE38BC1020454773F3AB5BF55816F9F3B744FE34BD54EFF5A7B6AB"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Middle Heart\\Shine\\4.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/MiddleHeart/Shine/Shine_04.png",
+    "sha256": "88262C282BA5DE6D99E91D79674C2A534C13EC15BF55E41741EA3F003E15807C"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Middle Heart\\Shine\\5.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/MiddleHeart/Shine/Shine_05.png",
+    "sha256": "F9EA330F8598D8462C3CECDD20FCE2BD6ADAC3E66099A71CE3725206C1CFF8AD"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Middle Heart\\Shine\\6.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/MiddleHeart/Shine/Shine_06.png",
+    "sha256": "14EE4C084FA81A445348C64C4C705030F5E53F801225FFF612445CADED92E678"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Small\\Red\\Empty\\1.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/Small/Red/Empty/Empty_01.png",
+    "sha256": "69058F168D2809C5B75E32E882C4D0E207CA86E49519FAF8D184CC3EE34468AB"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Small\\Red\\Empty\\2.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/Small/Red/Empty/Empty_02.png",
+    "sha256": "8E5C9C230E6358F8F9929FCB5CC4BA708B836313E9A7B856B523BBA9673BC1DC"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Small\\Red\\idle\\1.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/Small/Red/idle/idle_01.png",
+    "sha256": "D92C08917933D0383E59B4B717B727BFB6C18C73BDD70077118B3472F8ECC856"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Small\\Red\\Recover\\1.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/Small/Red/Recover/Recover_01.png",
+    "sha256": "1E79AE0AC81CF023796969A69FCA78F5DB9F1D9218B2DA4054FFD182C10BAC75"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Small\\Red\\Recover\\2.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/Small/Red/Recover/Recover_02.png",
+    "sha256": "B58BC89E89AE8F105D7FFE348C7EDEAB5140928AEF6EB2E5EF46D9AA459A63DC"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Small\\Red\\Recover\\3.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/Small/Red/Recover/Recover_03.png",
+    "sha256": "05903E4B779BE3FAD6F5D48FB0F87F4597FEA2964E296DACC32B48F4C0ED6F88"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Small\\Red\\Recover\\4.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/Small/Red/Recover/Recover_04.png",
+    "sha256": "1021031E58340C9D5A8FA796F52DD7A4C7CD417CCFD26017E7F3960C9361CD8B"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Small\\Red\\Recover\\5.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/Small/Red/Recover/Recover_05.png",
+    "sha256": "265614C762BA9652BE6626971E98C3380A814B72D0C0D91E956274409C9E426D"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Small\\Red\\Recover\\6.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/Small/Red/Recover/Recover_06.png",
+    "sha256": "D92C08917933D0383E59B4B717B727BFB6C18C73BDD70077118B3472F8ECC856"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Small\\Red\\Shine\\1.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/Small/Red/Shine/Shine_01.png",
+    "sha256": "1E79AE0AC81CF023796969A69FCA78F5DB9F1D9218B2DA4054FFD182C10BAC75"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Small\\Red\\Shine\\2.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/Small/Red/Shine/Shine_02.png",
+    "sha256": "A00B722340DB573972F6637F65BB60E4AFF02DF50E0D1AF6529C133D5F393E9B"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Small\\Red\\Shine\\3.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/Small/Red/Shine/Shine_03.png",
+    "sha256": "7695E38CC720F42A999C50F8A86C76C049BE981BABF06C8520FC1AF568849740"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Small\\Red\\Shine\\4.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/Small/Red/Shine/Shine_04.png",
+    "sha256": "C98683611F9DAA61FC64011FD4991CD011886F0B683E99B079E75499E0AC0FF1"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Small\\Red\\Shine\\5.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/Small/Red/Shine/Shine_05.png",
+    "sha256": "265614C762BA9652BE6626971E98C3380A814B72D0C0D91E956274409C9E426D"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Small\\Red\\Shine\\6.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/Small/Red/Shine/Shine_06.png",
+    "sha256": "D92C08917933D0383E59B4B717B727BFB6C18C73BDD70077118B3472F8ECC856"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Small\\Yellow\\Empty\\1.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/Small/Yellow/Empty/Empty_01.png",
+    "sha256": "69058F168D2809C5B75E32E882C4D0E207CA86E49519FAF8D184CC3EE34468AB"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Small\\Yellow\\Empty\\2.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/Small/Yellow/Empty/Empty_02.png",
+    "sha256": "8E5C9C230E6358F8F9929FCB5CC4BA708B836313E9A7B856B523BBA9673BC1DC"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Small\\Yellow\\idle\\1.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/Small/Yellow/idle/idle_01.png",
+    "sha256": "F82C5E402E0172F56C5F6AAED6FC4354EF27810577C1630D463269BB83D77EB9"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Small\\Yellow\\Recover\\1.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/Small/Yellow/Recover/Recover_01.png",
+    "sha256": "1E79AE0AC81CF023796969A69FCA78F5DB9F1D9218B2DA4054FFD182C10BAC75"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Small\\Yellow\\Recover\\2.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/Small/Yellow/Recover/Recover_02.png",
+    "sha256": "B58BC89E89AE8F105D7FFE348C7EDEAB5140928AEF6EB2E5EF46D9AA459A63DC"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Small\\Yellow\\Recover\\3.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/Small/Yellow/Recover/Recover_03.png",
+    "sha256": "476545C2B9B74E27DFCAAC1C4375DD141B194A63CAA21D519878FA05F827C2CF"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Small\\Yellow\\Recover\\4.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/Small/Yellow/Recover/Recover_04.png",
+    "sha256": "273F96D22735FF034BC53AF14CF55DDABFDCBC1FC6DE811539A666A6F6160D74"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Small\\Yellow\\Recover\\5.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/Small/Yellow/Recover/Recover_05.png",
+    "sha256": "77CD84032E322DB3C7EDD60913721AD775C2A2CC0F417D1EF634C369FCF8C767"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Small\\Yellow\\Recover\\6.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/Small/Yellow/Recover/Recover_06.png",
+    "sha256": "F82C5E402E0172F56C5F6AAED6FC4354EF27810577C1630D463269BB83D77EB9"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Small\\Yellow\\Shine\\1.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/Small/Yellow/Shine/Shine_01.png",
+    "sha256": "1E79AE0AC81CF023796969A69FCA78F5DB9F1D9218B2DA4054FFD182C10BAC75"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Small\\Yellow\\Shine\\2.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/Small/Yellow/Shine/Shine_02.png",
+    "sha256": "88D000C701B06832A80EFAD75BC954BC9AF49304DC9CFA2B9A82A585B91B0982"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Small\\Yellow\\Shine\\3.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/Small/Yellow/Shine/Shine_03.png",
+    "sha256": "CF851B94653DC21915754111F98AB5C734DCCEACEAD7DDEC2C1E71E1F7B8C928"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Small\\Yellow\\Shine\\4.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/Small/Yellow/Shine/Shine_04.png",
+    "sha256": "6DBFA6DB2BF91FEA1FF8EBAFE0D400CE3FC081EB69FEE3008CE9868C96993745"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Small\\Yellow\\Shine\\5.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/Small/Yellow/Shine/Shine_05.png",
+    "sha256": "77CD84032E322DB3C7EDD60913721AD775C2A2CC0F417D1EF634C369FCF8C767"
+  },
+  {
+    "source": "Sprites\\Content\\3 Progress Bars\\Hearts\\Small\\Yellow\\Shine\\6.png",
+    "destination": "Sprites/Content/ProgressBars/Hearts/Small/Yellow/Shine/Shine_06.png",
+    "sha256": "F82C5E402E0172F56C5F6AAED6FC4354EF27810577C1630D463269BB83D77EB9"
+  },
+  {
+    "source": "Sprites\\Content\\4 Buttons\\1.png",
+    "destination": "Sprites/Content/Buttons/Buttons_01.png",
+    "sha256": "DD738F27E7E69E18FD4248EBBF67860853C6C02883D035A23FCA6D159085FBF7"
+  },
+  {
+    "source": "Sprites\\Content\\4 Buttons\\10.png",
+    "destination": "Sprites/Content/Buttons/Buttons_10.png",
+    "sha256": "F70BE78E6DEB222DBD9F313E735EEF60D60CD3FA4A48AE0336E3314E5C29BB25"
+  },
+  {
+    "source": "Sprites\\Content\\4 Buttons\\11.png",
+    "destination": "Sprites/Content/Buttons/Buttons_11.png",
+    "sha256": "99ACA584202A63618C3E80ADC8037423A28902E5E59FE943609AA21A9CAF7901"
+  },
+  {
+    "source": "Sprites\\Content\\4 Buttons\\12.png",
+    "destination": "Sprites/Content/Buttons/Buttons_12.png",
+    "sha256": "68CD5A164C8F09282962D3DC3E4868BF811C2A04923D76CF1BCA83CCCA036513"
+  },
+  {
+    "source": "Sprites\\Content\\4 Buttons\\2.png",
+    "destination": "Sprites/Content/Buttons/Buttons_02.png",
+    "sha256": "39311362F6066704A8DC492EEC98C5F8D26CF4AFE8F05654B0D0C8BAFC574BC1"
+  },
+  {
+    "source": "Sprites\\Content\\4 Buttons\\3.png",
+    "destination": "Sprites/Content/Buttons/Buttons_03.png",
+    "sha256": "4C1F07E616A553B99E422DEB481EDD00F36B7E1012CEEB11490CAFB7C8D02C6F"
+  },
+  {
+    "source": "Sprites\\Content\\4 Buttons\\4.png",
+    "destination": "Sprites/Content/Buttons/Buttons_04.png",
+    "sha256": "BE184F68DE706E636511933A5C4A73115E02643313230012E533959CE78C9403"
+  },
+  {
+    "source": "Sprites\\Content\\4 Buttons\\5.png",
+    "destination": "Sprites/Content/Buttons/Buttons_05.png",
+    "sha256": "E69045CD13892A6297DFFF8286E0B3E883DDC2B2DB2B3302C9E3A792E5244ABD"
+  },
+  {
+    "source": "Sprites\\Content\\4 Buttons\\6.png",
+    "destination": "Sprites/Content/Buttons/Buttons_06.png",
+    "sha256": "D1BEF16D5F3D37C0454E67D32FCF9865A3AEC492DBCCE49522B958F4F99FF3BF"
+  },
+  {
+    "source": "Sprites\\Content\\4 Buttons\\7.png",
+    "destination": "Sprites/Content/Buttons/Buttons_07.png",
+    "sha256": "05C79F04E333BF7D08B50B12E19A10F63012980B946605C170E429A60D7B18E3"
+  },
+  {
+    "source": "Sprites\\Content\\4 Buttons\\8.png",
+    "destination": "Sprites/Content/Buttons/Buttons_08.png",
+    "sha256": "A30E55DD459124E0B428F929CD709842BBCA826E70B86EDC6A231FE51BABB0B3"
+  },
+  {
+    "source": "Sprites\\Content\\4 Buttons\\9.png",
+    "destination": "Sprites/Content/Buttons/Buttons_09.png",
+    "sha256": "4E664CF41CF349E2E7B6456E03176074B04DE4263DF73A80522F5E9D90CD24EA"
+  },
+  {
+    "source": "Sprites\\Content\\5 Holders\\1.png",
+    "destination": "Sprites/Content/Holders/Holders_01.png",
+    "sha256": "B2A02D1B7F20389D39D32D8D447ADAC49003F8250917AA5FC74C726A2C03B290"
+  },
+  {
+    "source": "Sprites\\Content\\5 Holders\\10.png",
+    "destination": "Sprites/Content/Holders/Holders_10.png",
+    "sha256": "7ACE2283660CAFD06C8A2687888C50278D3D607E9C493F8BF95F39BC91910DCD"
+  },
+  {
+    "source": "Sprites\\Content\\5 Holders\\11.png",
+    "destination": "Sprites/Content/Holders/Holders_11.png",
+    "sha256": "D4B95AC15A598AA34FD296DAE2CD4DA28AFE5F3D90147061932D5FEEAFBD914C"
+  },
+  {
+    "source": "Sprites\\Content\\5 Holders\\12.png",
+    "destination": "Sprites/Content/Holders/Holders_12.png",
+    "sha256": "92BF30F8892207860B28F10B387DF5B8A173518F47B9DC640435A80CE792F18D"
+  },
+  {
+    "source": "Sprites\\Content\\5 Holders\\13.png",
+    "destination": "Sprites/Content/Holders/Holders_13.png",
+    "sha256": "432DC42D4E5D5D6D2410A82C05FCDDD59D89BEB74153E12E4AD7230FAD3C40FE"
+  },
+  {
+    "source": "Sprites\\Content\\5 Holders\\14.png",
+    "destination": "Sprites/Content/Holders/Holders_14.png",
+    "sha256": "E807D58A5BA37B7C52E03645A665F10091C6D0FBE9A004A0604586C0A11F26BC"
+  },
+  {
+    "source": "Sprites\\Content\\5 Holders\\15.png",
+    "destination": "Sprites/Content/Holders/Holders_15.png",
+    "sha256": "E1D2E27262D3F3DC6F2DF4651BADD40551365C7634288468477DC215FF46A938"
+  },
+  {
+    "source": "Sprites\\Content\\5 Holders\\16.png",
+    "destination": "Sprites/Content/Holders/Holders_16.png",
+    "sha256": "DE8F6E2CD493E77A494352C003F2B4A5EF10D238881E38B136258763B4FC40E8"
+  },
+  {
+    "source": "Sprites\\Content\\5 Holders\\17.png",
+    "destination": "Sprites/Content/Holders/Holders_17.png",
+    "sha256": "050C9ED9877320CCC43CC6E2546A2882D721A84205B493EFB9A81F8F8D42A595"
+  },
+  {
+    "source": "Sprites\\Content\\5 Holders\\18.png",
+    "destination": "Sprites/Content/Holders/Holders_18.png",
+    "sha256": "4D610463FF79DF10BA4C9B24F51CB19DB4F03E3FA2A6950FCACE8C6A59D0365F"
+  },
+  {
+    "source": "Sprites\\Content\\5 Holders\\19.png",
+    "destination": "Sprites/Content/Holders/Holders_19.png",
+    "sha256": "3A14B04C37FE8493F6207C0AEAE0C232BB1132EF06FBB8A5A244623507621211"
+  },
+  {
+    "source": "Sprites\\Content\\5 Holders\\2.png",
+    "destination": "Sprites/Content/Holders/Holders_02.png",
+    "sha256": "93CD479CCEE2A38B50E7DC108AB539C46F3DB7077EF142ABCD6DBFC5E00A7254"
+  },
+  {
+    "source": "Sprites\\Content\\5 Holders\\20.png",
+    "destination": "Sprites/Content/Holders/Holders_20.png",
+    "sha256": "79FB74AE02F58256E44ABD812A37C7C1D306B50A4357985C9CEA42432AC1F704"
+  },
+  {
+    "source": "Sprites\\Content\\5 Holders\\21.png",
+    "destination": "Sprites/Content/Holders/Holders_21.png",
+    "sha256": "C896AACD297306B25D80A4C83593A26E89FC0814401FE76DF0E39AAB8F187C2A"
+  },
+  {
+    "source": "Sprites\\Content\\5 Holders\\22.png",
+    "destination": "Sprites/Content/Holders/Holders_22.png",
+    "sha256": "7A1802BD67D4B9A51BC9D94141904F6C7E657A62D5FBA7EE97355ECE65D8F7D0"
+  },
+  {
+    "source": "Sprites\\Content\\5 Holders\\23.png",
+    "destination": "Sprites/Content/Holders/Holders_23.png",
+    "sha256": "25B633EB0F21D330146368C0809736594EC0EF1E76B872EBBC8B1B437F4C76A6"
+  },
+  {
+    "source": "Sprites\\Content\\5 Holders\\24.png",
+    "destination": "Sprites/Content/Holders/Holders_24.png",
+    "sha256": "60745E2DD7088AC5A95855DB2F279A9931D1A289CAE510F115B5B6DDBA21A12F"
+  },
+  {
+    "source": "Sprites\\Content\\5 Holders\\25.png",
+    "destination": "Sprites/Content/Holders/Holders_25.png",
+    "sha256": "CAD1525AAD8170F0F9C2496A057F48FFDF584D057B99E5CDE24935D8F690E289"
+  },
+  {
+    "source": "Sprites\\Content\\5 Holders\\26.png",
+    "destination": "Sprites/Content/Holders/Holders_26.png",
+    "sha256": "1CEDBA864CAE116B562BFF8731B922473F53653F73A3B199B9455ADD67C9663F"
+  },
+  {
+    "source": "Sprites\\Content\\5 Holders\\27.png",
+    "destination": "Sprites/Content/Holders/Holders_27.png",
+    "sha256": "91451E41FD79D95230B854FF31CCC57640233D606AC35F4953B0AE131BB88C33"
+  },
+  {
+    "source": "Sprites\\Content\\5 Holders\\3.png",
+    "destination": "Sprites/Content/Holders/Holders_03.png",
+    "sha256": "3B1922B606FBADCC332EB9262F8FB89942514702C4C1ABAD2FAA7441941A859A"
+  },
+  {
+    "source": "Sprites\\Content\\5 Holders\\4.png",
+    "destination": "Sprites/Content/Holders/Holders_04.png",
+    "sha256": "08764137C85ACFAE1080EBAFFC02B02A552231EF96872964FFE7C82B22BA58CE"
+  },
+  {
+    "source": "Sprites\\Content\\5 Holders\\5.png",
+    "destination": "Sprites/Content/Holders/Holders_05.png",
+    "sha256": "159C24A70B4F8CE73032A88A59A3C68CCA2BD6F1275DDA5ACBE00B047C31356F"
+  },
+  {
+    "source": "Sprites\\Content\\5 Holders\\6.png",
+    "destination": "Sprites/Content/Holders/Holders_06.png",
+    "sha256": "62DEB05F15801FA05B95838D4DB71FDB46F54509DDEBA8C8681C2F582FEBDAAA"
+  },
+  {
+    "source": "Sprites\\Content\\5 Holders\\7.png",
+    "destination": "Sprites/Content/Holders/Holders_07.png",
+    "sha256": "956D69B70A0C7FFE8FE3ED606F7EB65DC44EA025A90174328DE99AF643889560"
+  },
+  {
+    "source": "Sprites\\Content\\5 Holders\\8.png",
+    "destination": "Sprites/Content/Holders/Holders_08.png",
+    "sha256": "D4E8E8B6F228F3D6BD330DACEEEE3EF19CA8FE882B64D9E2EB259776059F8DF2"
+  },
+  {
+    "source": "Sprites\\Content\\5 Holders\\9.png",
+    "destination": "Sprites/Content/Holders/Holders_09.png",
+    "sha256": "2321618F0E3B7B000087CEBCFCD385EC423DEED5A19D89CFAB44B524A19A2CD2"
+  },
+  {
+    "source": "Sprites\\Content\\6 Highlighter\\1.png",
+    "destination": "Sprites/Content/Highlighter/Highlighter_01.png",
+    "sha256": "B3EDF109A94C8BB1D71715F0DAE3EE33A386FA3A4A9A021C360FCCEEC728FF9A"
+  },
+  {
+    "source": "Sprites\\Content\\6 Highlighter\\2.png",
+    "destination": "Sprites/Content/Highlighter/Highlighter_02.png",
+    "sha256": "51C2A975511B0DF50DE5677734E9ABCAD909932E049CFAE6EA6DDDB40B2D3DF0"
+  },
+  {
+    "source": "Sprites\\Content\\6 Highlighter\\3.png",
+    "destination": "Sprites/Content/Highlighter/Highlighter_03.png",
+    "sha256": "F5A5C1E1042C5719348CB464996FB8764BA02E48A91252D36C1026ABF5C9595B"
+  },
+  {
+    "source": "Sprites\\Content\\6 Highlighter\\4.png",
+    "destination": "Sprites/Content/Highlighter/Highlighter_04.png",
+    "sha256": "06DEA2957DF30206A5B6885E1762ED6462E1C11C4006D2DF7380A8338F39A9FD"
+  },
+  {
+    "source": "Sprites\\Content\\6 Highlighter\\5.png",
+    "destination": "Sprites/Content/Highlighter/Highlighter_05.png",
+    "sha256": "6FF3AAA599EADA3119D308F7731A5EF45286239A12E4A4212A526AA7869F436F"
+  },
+  {
+    "source": "Sprites\\Content\\7 Day & Night Cycle\\1.png",
+    "destination": "Sprites/Content/DayAndNightCycle/DayAndNightCycle_01.png",
+    "sha256": "0C4358B24687AC9961169BA365353CF690B443B09E5F45EDF5B9226A3A37148D"
+  },
+  {
+    "source": "Sprites\\Content\\7 Day & Night Cycle\\10.png",
+    "destination": "Sprites/Content/DayAndNightCycle/DayAndNightCycle_10.png",
+    "sha256": "28115DCDABB386E8FD3D026BC1E3BAE25A724D7BB36E8C2894019A791FB91252"
+  },
+  {
+    "source": "Sprites\\Content\\7 Day & Night Cycle\\11.png",
+    "destination": "Sprites/Content/DayAndNightCycle/DayAndNightCycle_11.png",
+    "sha256": "711F01B99BF5E4E52D40708537FA6819F566987FF9A9E8D5E299F95A4C9E579C"
+  },
+  {
+    "source": "Sprites\\Content\\7 Day & Night Cycle\\12.png",
+    "destination": "Sprites/Content/DayAndNightCycle/DayAndNightCycle_12.png",
+    "sha256": "B7C10133F60B691B3653EF461CA33D8D24A4339712DF4C6814F29875E85947E7"
+  },
+  {
+    "source": "Sprites\\Content\\7 Day & Night Cycle\\13.png",
+    "destination": "Sprites/Content/DayAndNightCycle/DayAndNightCycle_13.png",
+    "sha256": "0BECD77C328AAC32F648A6135EC57427C85F2B02318FA3865654A9D10BF0F5F3"
+  },
+  {
+    "source": "Sprites\\Content\\7 Day & Night Cycle\\14.png",
+    "destination": "Sprites/Content/DayAndNightCycle/DayAndNightCycle_14.png",
+    "sha256": "15C7A1FE46010FF28A015038CAB940405B8F9AEDA7EA304A027F5E986774F942"
+  },
+  {
+    "source": "Sprites\\Content\\7 Day & Night Cycle\\15.png",
+    "destination": "Sprites/Content/DayAndNightCycle/DayAndNightCycle_15.png",
+    "sha256": "81B38EFA2D3966B6E51BF3D830B38DF26BBC51C692BEC6565E52874CE7AD72F6"
+  },
+  {
+    "source": "Sprites\\Content\\7 Day & Night Cycle\\16.png",
+    "destination": "Sprites/Content/DayAndNightCycle/DayAndNightCycle_16.png",
+    "sha256": "582BA6E1AB089B4F45BA43B05044A729FC57A8A057AE0FD7D69E6C8E85B58D6E"
+  },
+  {
+    "source": "Sprites\\Content\\7 Day & Night Cycle\\2.png",
+    "destination": "Sprites/Content/DayAndNightCycle/DayAndNightCycle_02.png",
+    "sha256": "46CBA6B291A902BD7A3FE0CFDA83FB24FE34808476707C4B3C31796A973507D7"
+  },
+  {
+    "source": "Sprites\\Content\\7 Day & Night Cycle\\3.png",
+    "destination": "Sprites/Content/DayAndNightCycle/DayAndNightCycle_03.png",
+    "sha256": "72B7399867215462159F83EE9A82B6FA6BE512E6D547C0287E2516A4F2546AFF"
+  },
+  {
+    "source": "Sprites\\Content\\7 Day & Night Cycle\\4.png",
+    "destination": "Sprites/Content/DayAndNightCycle/DayAndNightCycle_04.png",
+    "sha256": "5009458A61B24D0C37CFE4637F147C27CE4F3E760BE2784EEC445E070B7FAEED"
+  },
+  {
+    "source": "Sprites\\Content\\7 Day & Night Cycle\\5.png",
+    "destination": "Sprites/Content/DayAndNightCycle/DayAndNightCycle_05.png",
+    "sha256": "B7CE718F26E9CCB578DFF1ADD80BA367F1F3CEC54B90E05BC61E9E143DDECFB0"
+  },
+  {
+    "source": "Sprites\\Content\\7 Day & Night Cycle\\6.png",
+    "destination": "Sprites/Content/DayAndNightCycle/DayAndNightCycle_06.png",
+    "sha256": "4E3C8632389E99D982DDA70F4B7EDBE16A87CF3E54C2ABFDD5805D0A095A4472"
+  },
+  {
+    "source": "Sprites\\Content\\7 Day & Night Cycle\\7.png",
+    "destination": "Sprites/Content/DayAndNightCycle/DayAndNightCycle_07.png",
+    "sha256": "C86CA1ACCF86BEBD916BE1556DEB560D843FCEE23801AE487377C39BD84E6451"
+  },
+  {
+    "source": "Sprites\\Content\\7 Day & Night Cycle\\8.png",
+    "destination": "Sprites/Content/DayAndNightCycle/DayAndNightCycle_08.png",
+    "sha256": "0C35C7257011B247123F84DF7BF1136F0A5E946CA587F796D44939D284D38A7D"
+  },
+  {
+    "source": "Sprites\\Content\\7 Day & Night Cycle\\9.png",
+    "destination": "Sprites/Content/DayAndNightCycle/DayAndNightCycle_09.png",
+    "sha256": "AD8C12790D98FD7588AA67CF914261C8B98574558051A974E3B798AF7F243E9D"
+  },
+  {
+    "source": "Sprites\\Content\\8 Side tabs\\1.png",
+    "destination": "Sprites/Content/Sidetabs/Sidetabs_01.png",
+    "sha256": "98931F80B691A394C40FAB16232F5D0D886AAED49F3AB5BA5D49F3B8BD14F39A"
+  },
+  {
+    "source": "Sprites\\Content\\8 Side tabs\\10.png",
+    "destination": "Sprites/Content/Sidetabs/Sidetabs_10.png",
+    "sha256": "CE2BA945F0046F532A1D0831AC862330112F924EC3CE28D5D195DAAEF674F111"
+  },
+  {
+    "source": "Sprites\\Content\\8 Side tabs\\11.png",
+    "destination": "Sprites/Content/Sidetabs/Sidetabs_11.png",
+    "sha256": "B0D6B9E97143D7EAECAF4FA091E261C93226AB94400EE373236C99291DEAB70A"
+  },
+  {
+    "source": "Sprites\\Content\\8 Side tabs\\12.png",
+    "destination": "Sprites/Content/Sidetabs/Sidetabs_12.png",
+    "sha256": "A2EF769CF394637FE9E9AA3D3D19A30ECB209297648F579CC26D79E94AC1F776"
+  },
+  {
+    "source": "Sprites\\Content\\8 Side tabs\\2.png",
+    "destination": "Sprites/Content/Sidetabs/Sidetabs_02.png",
+    "sha256": "D69F565ADC5BE855F8B290006C8E3BD0030389FF710AD30B3AA6A93A3848B698"
+  },
+  {
+    "source": "Sprites\\Content\\8 Side tabs\\3.png",
+    "destination": "Sprites/Content/Sidetabs/Sidetabs_03.png",
+    "sha256": "6A4CAE3CAB12BAD4FA16A2E7B9A2104346E0EC3A86B327BA893AD26851FDCF93"
+  },
+  {
+    "source": "Sprites\\Content\\8 Side tabs\\4.png",
+    "destination": "Sprites/Content/Sidetabs/Sidetabs_04.png",
+    "sha256": "3A350D181720D6CC01AEE2025CEDE4C0BDE8EE99BB2AB761F8FB0BC7B827FA8D"
+  },
+  {
+    "source": "Sprites\\Content\\8 Side tabs\\5.png",
+    "destination": "Sprites/Content/Sidetabs/Sidetabs_05.png",
+    "sha256": "71A615F6C96AA6E56672565492D30E13BCF5E0F578F771895DD089774BF4162D"
+  },
+  {
+    "source": "Sprites\\Content\\8 Side tabs\\6.png",
+    "destination": "Sprites/Content/Sidetabs/Sidetabs_06.png",
+    "sha256": "EB93E89EE677085BB97D34BFA0965F4EFFF0E2215CD66BEE476FB0DA22EBB6CB"
+  },
+  {
+    "source": "Sprites\\Content\\8 Side tabs\\7.png",
+    "destination": "Sprites/Content/Sidetabs/Sidetabs_07.png",
+    "sha256": "F5ED031C695A587D23DA776240D69BE9E99D8E530B0B2D27FDE6F41D47BB2DA0"
+  },
+  {
+    "source": "Sprites\\Content\\8 Side tabs\\8.png",
+    "destination": "Sprites/Content/Sidetabs/Sidetabs_08.png",
+    "sha256": "4CD9616EE8965FB9ABC94EE085639A645ADD00773BDC86728E0B8BAF5A9D4BA0"
+  },
+  {
+    "source": "Sprites\\Content\\8 Side tabs\\9.png",
+    "destination": "Sprites/Content/Sidetabs/Sidetabs_09.png",
+    "sha256": "056C4B33364DFB775E80B8BF1ACC5C347265275CB20F729AE1DD277130CB401A"
+  },
+  {
+    "source": "Sprites\\Content\\9 Equipment\\1.png",
+    "destination": "Sprites/Content/Equipment/Equipment_01.png",
+    "sha256": "12CF97903CC8EBA42EEB1075DBF5AA62A6911FFB7D5AF9EAFA0A585DAEDBEB98"
+  },
+  {
+    "source": "Sprites\\Content\\9 Equipment\\10.png",
+    "destination": "Sprites/Content/Equipment/Equipment_10.png",
+    "sha256": "F30F4642E9870D6253ECB786652B85F77776A0F2A40A4DA6A7136F95C59B20D8"
+  },
+  {
+    "source": "Sprites\\Content\\9 Equipment\\11.png",
+    "destination": "Sprites/Content/Equipment/Equipment_11.png",
+    "sha256": "A3A830635C6A7CB79D29260F8EB9F9CDCB6079283B1499C65A1F3817BEED10F3"
+  },
+  {
+    "source": "Sprites\\Content\\9 Equipment\\12.png",
+    "destination": "Sprites/Content/Equipment/Equipment_12.png",
+    "sha256": "CD0197943A2F0536C06769458133CFA2CA7C35FEB423F880A6930374F6E547A9"
+  },
+  {
+    "source": "Sprites\\Content\\9 Equipment\\13.png",
+    "destination": "Sprites/Content/Equipment/Equipment_13.png",
+    "sha256": "6A0A40E1C607E8CDBB0A80B38964904F438425ECDEBBB6D8423C65368FF6F22B"
+  },
+  {
+    "source": "Sprites\\Content\\9 Equipment\\14.png",
+    "destination": "Sprites/Content/Equipment/Equipment_14.png",
+    "sha256": "D75F8D4AD81B33CF5414F34EB30D85F2650DBCB2A6B49C06DD0E4A451C57289A"
+  },
+  {
+    "source": "Sprites\\Content\\9 Equipment\\15.png",
+    "destination": "Sprites/Content/Equipment/Equipment_15.png",
+    "sha256": "2A894E9ABB59512399671D5AD0D46F00CE1358903F00840A96FCB5188D471B1E"
+  },
+  {
+    "source": "Sprites\\Content\\9 Equipment\\16.png",
+    "destination": "Sprites/Content/Equipment/Equipment_16.png",
+    "sha256": "DAF5E5560479BCA2196C373230E53F821C000651515A3E35C6F274C8B45B0DAD"
+  },
+  {
+    "source": "Sprites\\Content\\9 Equipment\\17.png",
+    "destination": "Sprites/Content/Equipment/Equipment_17.png",
+    "sha256": "FFF018E84ACDD4F74CF560B47F73304BBB2DA8F3E92CEB801309EF3756F93622"
+  },
+  {
+    "source": "Sprites\\Content\\9 Equipment\\18.png",
+    "destination": "Sprites/Content/Equipment/Equipment_18.png",
+    "sha256": "1F301CFFD42DAB067B1125227980D25D17B4371BE31B3129677FF6D1781B1AEC"
+  },
+  {
+    "source": "Sprites\\Content\\9 Equipment\\2.png",
+    "destination": "Sprites/Content/Equipment/Equipment_02.png",
+    "sha256": "54F732DB2335EC20CE88D36AEB8F2473093C742F0F71FC13193B3EB3DCE113BC"
+  },
+  {
+    "source": "Sprites\\Content\\9 Equipment\\3.png",
+    "destination": "Sprites/Content/Equipment/Equipment_03.png",
+    "sha256": "9DD3A26B74E4FCB70EC90A9A57B6BED5519C84FC036742956CBED25EA663C904"
+  },
+  {
+    "source": "Sprites\\Content\\9 Equipment\\4.png",
+    "destination": "Sprites/Content/Equipment/Equipment_04.png",
+    "sha256": "046318A101ABECD28204110585364DD600862D3CDC8F3A7B142840537448BDF5"
+  },
+  {
+    "source": "Sprites\\Content\\9 Equipment\\5.png",
+    "destination": "Sprites/Content/Equipment/Equipment_05.png",
+    "sha256": "1796F0A3B29411D4E2A525672F88081434B8B87F057ECF7D1E87FED3F5EB6599"
+  },
+  {
+    "source": "Sprites\\Content\\9 Equipment\\6.png",
+    "destination": "Sprites/Content/Equipment/Equipment_06.png",
+    "sha256": "11DC081F5A5767CF8263228425360C6B57B540CE6B16EB4F45CBEF8814F98CCD"
+  },
+  {
+    "source": "Sprites\\Content\\9 Equipment\\7.png",
+    "destination": "Sprites/Content/Equipment/Equipment_07.png",
+    "sha256": "B074540102E47AD1E23A8F202D1510350A9DE149C4BC6E8E4819303DF52301E4"
+  },
+  {
+    "source": "Sprites\\Content\\9 Equipment\\8.png",
+    "destination": "Sprites/Content/Equipment/Equipment_08.png",
+    "sha256": "5F92A02B2B8E1AC0602D7F5B840D4A68C9FFACC6CEE098338AC838AC79BE326B"
+  },
+  {
+    "source": "Sprites\\Content\\9 Equipment\\9.png",
+    "destination": "Sprites/Content/Equipment/Equipment_09.png",
+    "sha256": "27AEB39D3C9706D43C83E454D67BA31FE63D9B63CEE8E5EF96C3ECBC72ED2BDD"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\1 Dawn\\1.png",
+    "destination": "Sprites/DayAndNightCycle/Dawn/Dawn_01.png",
+    "sha256": "08D803C98A7BB09105F4703E26BEDE112DB2243D4FB571A35B5FD14B8416EE0C"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\1 Dawn\\10.png",
+    "destination": "Sprites/DayAndNightCycle/Dawn/Dawn_10.png",
+    "sha256": "08D803C98A7BB09105F4703E26BEDE112DB2243D4FB571A35B5FD14B8416EE0C"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\1 Dawn\\2.png",
+    "destination": "Sprites/DayAndNightCycle/Dawn/Dawn_02.png",
+    "sha256": "F4673447EC0A1CF9B9DACC2B7B8746993493E44C2BB9D123F624B2DB6F16C235"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\1 Dawn\\3.png",
+    "destination": "Sprites/DayAndNightCycle/Dawn/Dawn_03.png",
+    "sha256": "8A1FF12B00E099A3D1E014DD0A165A28DE9475EF6821B03D036B0ED163F9A238"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\1 Dawn\\4.png",
+    "destination": "Sprites/DayAndNightCycle/Dawn/Dawn_04.png",
+    "sha256": "A673778706F3D5967B24BABF17EC03081F759828506260E7B192F7A2DEE4BF0D"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\1 Dawn\\5.png",
+    "destination": "Sprites/DayAndNightCycle/Dawn/Dawn_05.png",
+    "sha256": "A673778706F3D5967B24BABF17EC03081F759828506260E7B192F7A2DEE4BF0D"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\1 Dawn\\6.png",
+    "destination": "Sprites/DayAndNightCycle/Dawn/Dawn_06.png",
+    "sha256": "A673778706F3D5967B24BABF17EC03081F759828506260E7B192F7A2DEE4BF0D"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\1 Dawn\\7.png",
+    "destination": "Sprites/DayAndNightCycle/Dawn/Dawn_07.png",
+    "sha256": "EF69AE486B0F22577F0D47F417155CC6B22F8FF75EC3AF3C437420F5B5466DC7"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\1 Dawn\\8.png",
+    "destination": "Sprites/DayAndNightCycle/Dawn/Dawn_08.png",
+    "sha256": "987855B4D103A3B13303F14D562E24526FA103BDA62F2181408C19A5E8619A07"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\1 Dawn\\9.png",
+    "destination": "Sprites/DayAndNightCycle/Dawn/Dawn_09.png",
+    "sha256": "08D803C98A7BB09105F4703E26BEDE112DB2243D4FB571A35B5FD14B8416EE0C"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\2 Day\\1.png",
+    "destination": "Sprites/DayAndNightCycle/Day/Day_01.png",
+    "sha256": "2F38B0E413AC3B447DF456BB5A93E43CFC05C1218A14F69D7FA2781993CA9B21"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\2 Day\\10.png",
+    "destination": "Sprites/DayAndNightCycle/Day/Day_10.png",
+    "sha256": "2F38B0E413AC3B447DF456BB5A93E43CFC05C1218A14F69D7FA2781993CA9B21"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\2 Day\\2.png",
+    "destination": "Sprites/DayAndNightCycle/Day/Day_02.png",
+    "sha256": "8339571FE75D59640F14BD5AB2FA7DEC219FEB8FE71DA0B50DF0B0806E62CF6F"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\2 Day\\3.png",
+    "destination": "Sprites/DayAndNightCycle/Day/Day_03.png",
+    "sha256": "6C7DC0B90F35EDB6A9DB5C047D1925BEA9FBC9A1E92282097CC704DB553A62EA"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\2 Day\\4.png",
+    "destination": "Sprites/DayAndNightCycle/Day/Day_04.png",
+    "sha256": "DB3CACA7A723AA4CBBC56B830AC399BA6A3D292B47B50C180F1FE0E40630247B"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\2 Day\\5.png",
+    "destination": "Sprites/DayAndNightCycle/Day/Day_05.png",
+    "sha256": "DB3CACA7A723AA4CBBC56B830AC399BA6A3D292B47B50C180F1FE0E40630247B"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\2 Day\\6.png",
+    "destination": "Sprites/DayAndNightCycle/Day/Day_06.png",
+    "sha256": "DB3CACA7A723AA4CBBC56B830AC399BA6A3D292B47B50C180F1FE0E40630247B"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\2 Day\\7.png",
+    "destination": "Sprites/DayAndNightCycle/Day/Day_07.png",
+    "sha256": "CF4A8FA4DDFB814EAB9A0D5DAAEE96182C6CCDD0B3EE4242A4AD40026ABB04EE"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\2 Day\\8.png",
+    "destination": "Sprites/DayAndNightCycle/Day/Day_08.png",
+    "sha256": "DDF05225ACF474BC7FB55675C6D3E60A3B21C2FE8C44CF889AB45EFC83AD4BFF"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\2 Day\\9.png",
+    "destination": "Sprites/DayAndNightCycle/Day/Day_09.png",
+    "sha256": "2F38B0E413AC3B447DF456BB5A93E43CFC05C1218A14F69D7FA2781993CA9B21"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\3 Noon\\1.png",
+    "destination": "Sprites/DayAndNightCycle/Noon/Noon_01.png",
+    "sha256": "B02DCFC90E31DB4C6262FF90C38C6FD91315BC39DBC1F3386B6E194182E4AB4E"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\3 Noon\\10.png",
+    "destination": "Sprites/DayAndNightCycle/Noon/Noon_10.png",
+    "sha256": "B02DCFC90E31DB4C6262FF90C38C6FD91315BC39DBC1F3386B6E194182E4AB4E"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\3 Noon\\2.png",
+    "destination": "Sprites/DayAndNightCycle/Noon/Noon_02.png",
+    "sha256": "F5E0004D3B61E11B39B7BA67128C569C761837ED8F8BAB37E7EA41C31FD1C892"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\3 Noon\\3.png",
+    "destination": "Sprites/DayAndNightCycle/Noon/Noon_03.png",
+    "sha256": "BE35477C739E4AE8E48CA6214D143151F4F265E702E369F1C4CDCC739B025EC9"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\3 Noon\\4.png",
+    "destination": "Sprites/DayAndNightCycle/Noon/Noon_04.png",
+    "sha256": "D62A0BCBFD6A4DA7E4DC19A6A9B89594EBEAB33C1A6CC458C21F44154C8C3FE8"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\3 Noon\\5.png",
+    "destination": "Sprites/DayAndNightCycle/Noon/Noon_05.png",
+    "sha256": "D62A0BCBFD6A4DA7E4DC19A6A9B89594EBEAB33C1A6CC458C21F44154C8C3FE8"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\3 Noon\\6.png",
+    "destination": "Sprites/DayAndNightCycle/Noon/Noon_06.png",
+    "sha256": "D62A0BCBFD6A4DA7E4DC19A6A9B89594EBEAB33C1A6CC458C21F44154C8C3FE8"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\3 Noon\\7.png",
+    "destination": "Sprites/DayAndNightCycle/Noon/Noon_07.png",
+    "sha256": "7A29214404D6E7DB6B1E35E1C5ACAF8AB9B7A3729FA37ADF83CDF2083366FDA9"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\3 Noon\\8.png",
+    "destination": "Sprites/DayAndNightCycle/Noon/Noon_08.png",
+    "sha256": "1850DF18B7986E59359CEAB6CEE9C9E46F92A91C8CA23641F7E79FCC2AFAA17D"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\3 Noon\\9.png",
+    "destination": "Sprites/DayAndNightCycle/Noon/Noon_09.png",
+    "sha256": "B02DCFC90E31DB4C6262FF90C38C6FD91315BC39DBC1F3386B6E194182E4AB4E"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\4 Night\\1.png",
+    "destination": "Sprites/DayAndNightCycle/Night/Night_01.png",
+    "sha256": "88A87FBBD9CCFD01AA48192B6564C952A8BFDA49D8B5BBCC70B6A694685C6E71"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\4 Night\\10.png",
+    "destination": "Sprites/DayAndNightCycle/Night/Night_10.png",
+    "sha256": "88A87FBBD9CCFD01AA48192B6564C952A8BFDA49D8B5BBCC70B6A694685C6E71"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\4 Night\\2.png",
+    "destination": "Sprites/DayAndNightCycle/Night/Night_02.png",
+    "sha256": "FAA0106B397C5AE561E8D7F38BA9D179BD2354E175E3A0F52C78255030692CFA"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\4 Night\\3.png",
+    "destination": "Sprites/DayAndNightCycle/Night/Night_03.png",
+    "sha256": "7C51D4BBFF16D9FB461734EF2C0D5F07CC76C376087DCBDCF95A6714FD72D995"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\4 Night\\4.png",
+    "destination": "Sprites/DayAndNightCycle/Night/Night_04.png",
+    "sha256": "D045CF3A864F06D09C372CE78C4FA52D947E863D100E7A00E6AC89D50378CD7C"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\4 Night\\5.png",
+    "destination": "Sprites/DayAndNightCycle/Night/Night_05.png",
+    "sha256": "D045CF3A864F06D09C372CE78C4FA52D947E863D100E7A00E6AC89D50378CD7C"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\4 Night\\6.png",
+    "destination": "Sprites/DayAndNightCycle/Night/Night_06.png",
+    "sha256": "D045CF3A864F06D09C372CE78C4FA52D947E863D100E7A00E6AC89D50378CD7C"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\4 Night\\7.png",
+    "destination": "Sprites/DayAndNightCycle/Night/Night_07.png",
+    "sha256": "A3E17E24D35A42D72C4142B30ED7BB9DDA2D5FC72688A56B1267F42EF107A3EB"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\4 Night\\8.png",
+    "destination": "Sprites/DayAndNightCycle/Night/Night_08.png",
+    "sha256": "CCD628F0BE644261386F4F0D62983DE13328B8004208CA22AE5B585DC67E2700"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\4 Night\\9.png",
+    "destination": "Sprites/DayAndNightCycle/Night/Night_09.png",
+    "sha256": "88A87FBBD9CCFD01AA48192B6564C952A8BFDA49D8B5BBCC70B6A694685C6E71"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\5 Lightning 1\\1.png",
+    "destination": "Sprites/DayAndNightCycle/Lightning1/Lightning1_01.png",
+    "sha256": "9E4344EFBB31F158F45A643B0340B8932AA6DA2FA01829A363F804C133D57953"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\5 Lightning 1\\10.png",
+    "destination": "Sprites/DayAndNightCycle/Lightning1/Lightning1_10.png",
+    "sha256": "9E4344EFBB31F158F45A643B0340B8932AA6DA2FA01829A363F804C133D57953"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\5 Lightning 1\\2.png",
+    "destination": "Sprites/DayAndNightCycle/Lightning1/Lightning1_02.png",
+    "sha256": "FF1015DC33C17D8450D75A48C1DF1A74F2452D954F12681CF51846D7FC82902E"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\5 Lightning 1\\3.png",
+    "destination": "Sprites/DayAndNightCycle/Lightning1/Lightning1_03.png",
+    "sha256": "5EFB044C0461AECA2A5EAF3604C962C584141318D6A29C5B8DC24A046B32D60B"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\5 Lightning 1\\4.png",
+    "destination": "Sprites/DayAndNightCycle/Lightning1/Lightning1_04.png",
+    "sha256": "A1A406B0C5505E45C374133A8C808CC1E349848F669D4DC02FCE96296013B903"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\5 Lightning 1\\5.png",
+    "destination": "Sprites/DayAndNightCycle/Lightning1/Lightning1_05.png",
+    "sha256": "A1A406B0C5505E45C374133A8C808CC1E349848F669D4DC02FCE96296013B903"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\5 Lightning 1\\6.png",
+    "destination": "Sprites/DayAndNightCycle/Lightning1/Lightning1_06.png",
+    "sha256": "7A5D4243F459B1C6AEA430BFF6BEFFC941283E7490E949346353172AA4AC5179"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\5 Lightning 1\\7.png",
+    "destination": "Sprites/DayAndNightCycle/Lightning1/Lightning1_07.png",
+    "sha256": "2237E0D5E11A417B115975B333B5F2ADAC1CBF0ABEDD0C8ECB6AD97CA2113F49"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\5 Lightning 1\\8.png",
+    "destination": "Sprites/DayAndNightCycle/Lightning1/Lightning1_08.png",
+    "sha256": "2D86B849899A1AFA9A2DF5F6792B9AF32EC3B5E96D2EE07BB58B50CBA64DE559"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\5 Lightning 1\\9.png",
+    "destination": "Sprites/DayAndNightCycle/Lightning1/Lightning1_09.png",
+    "sha256": "9E4344EFBB31F158F45A643B0340B8932AA6DA2FA01829A363F804C133D57953"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\6 Lightning 2\\1.png",
+    "destination": "Sprites/DayAndNightCycle/Lightning2/Lightning2_01.png",
+    "sha256": "9E4344EFBB31F158F45A643B0340B8932AA6DA2FA01829A363F804C133D57953"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\6 Lightning 2\\10.png",
+    "destination": "Sprites/DayAndNightCycle/Lightning2/Lightning2_10.png",
+    "sha256": "9E4344EFBB31F158F45A643B0340B8932AA6DA2FA01829A363F804C133D57953"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\6 Lightning 2\\2.png",
+    "destination": "Sprites/DayAndNightCycle/Lightning2/Lightning2_02.png",
+    "sha256": "FF1015DC33C17D8450D75A48C1DF1A74F2452D954F12681CF51846D7FC82902E"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\6 Lightning 2\\3.png",
+    "destination": "Sprites/DayAndNightCycle/Lightning2/Lightning2_03.png",
+    "sha256": "5EFB044C0461AECA2A5EAF3604C962C584141318D6A29C5B8DC24A046B32D60B"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\6 Lightning 2\\4.png",
+    "destination": "Sprites/DayAndNightCycle/Lightning2/Lightning2_04.png",
+    "sha256": "A1A406B0C5505E45C374133A8C808CC1E349848F669D4DC02FCE96296013B903"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\6 Lightning 2\\5.png",
+    "destination": "Sprites/DayAndNightCycle/Lightning2/Lightning2_05.png",
+    "sha256": "A1A406B0C5505E45C374133A8C808CC1E349848F669D4DC02FCE96296013B903"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\6 Lightning 2\\6.png",
+    "destination": "Sprites/DayAndNightCycle/Lightning2/Lightning2_06.png",
+    "sha256": "7A5D4243F459B1C6AEA430BFF6BEFFC941283E7490E949346353172AA4AC5179"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\6 Lightning 2\\7.png",
+    "destination": "Sprites/DayAndNightCycle/Lightning2/Lightning2_07.png",
+    "sha256": "CC1488D49364A052A30B987970352A083BF1770FB4F043C860BEB71D4A11C254"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\6 Lightning 2\\8.png",
+    "destination": "Sprites/DayAndNightCycle/Lightning2/Lightning2_08.png",
+    "sha256": "2D86B849899A1AFA9A2DF5F6792B9AF32EC3B5E96D2EE07BB58B50CBA64DE559"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\6 Lightning 2\\9.png",
+    "destination": "Sprites/DayAndNightCycle/Lightning2/Lightning2_09.png",
+    "sha256": "9E4344EFBB31F158F45A643B0340B8932AA6DA2FA01829A363F804C133D57953"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\7 Raining\\1.png",
+    "destination": "Sprites/DayAndNightCycle/Raining/Raining_01.png",
+    "sha256": "1180F0B5658879E064F7FFE637F523E76022D79C81DBE25FB24B346CBAEC0A34"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\7 Raining\\10.png",
+    "destination": "Sprites/DayAndNightCycle/Raining/Raining_10.png",
+    "sha256": "6F9004BF4E1E2FA6C203FF97BB6B9D6F9D76A2DAB1A2E90615AF9639651D49EC"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\7 Raining\\2.png",
+    "destination": "Sprites/DayAndNightCycle/Raining/Raining_02.png",
+    "sha256": "4198FCA46FBEF7EB5FBAAD7AEE597A812FB97052A98F796CE54D0C29EF82BBF0"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\7 Raining\\3.png",
+    "destination": "Sprites/DayAndNightCycle/Raining/Raining_03.png",
+    "sha256": "3DD60C654F615762E80EB57AF5072D42755662EEA716DA82C0865673DE96F71E"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\7 Raining\\4.png",
+    "destination": "Sprites/DayAndNightCycle/Raining/Raining_04.png",
+    "sha256": "82A5589569CF4078E986A98D4DFDE80AD7EEBF8D370F19000E1BDF742E77F68B"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\7 Raining\\5.png",
+    "destination": "Sprites/DayAndNightCycle/Raining/Raining_05.png",
+    "sha256": "C7CB42285BC26AC4FEFA0DF1A40AED7F6A7A47F7372E0267EF799F0CA696480D"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\7 Raining\\6.png",
+    "destination": "Sprites/DayAndNightCycle/Raining/Raining_06.png",
+    "sha256": "8BB6AA8FAF15B0C555C35C1FE6FCABC9CBBC63902F006FAC178924A8E162BD8F"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\7 Raining\\7.png",
+    "destination": "Sprites/DayAndNightCycle/Raining/Raining_07.png",
+    "sha256": "FD22F20F1B86724ABCC62C16F641357E18DB3E3B5D52AEC60E4B3CDA1B3C7F09"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\7 Raining\\8.png",
+    "destination": "Sprites/DayAndNightCycle/Raining/Raining_08.png",
+    "sha256": "6286285E7103C7D6A1D5A19A24E396D4167902104DDD4596DF39007671C73D33"
+  },
+  {
+    "source": "Sprites\\Day & Night Cycle\\7 Raining\\9.png",
+    "destination": "Sprites/DayAndNightCycle/Raining/Raining_09.png",
+    "sha256": "0A77893CFF18EF594E7C31FBE39545F6C7A9F6A56EA42AFE7FFD3051351E2038"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\1.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_01.png",
+    "sha256": "2349060757538D4E08D20F23626EEA57D0F20A865D5028B85D17CBAF8C76EDA0"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\10.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_10.png",
+    "sha256": "3BC4BB2258D1CB83FBE248021C53C204FC11171A4DB84783B5F97AF6F482F7C8"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\11.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_11.png",
+    "sha256": "AA73A4CEB2B5856B6130B25F13CA723A99F8CCE7876E1F53068F226BA25A2EB5"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\12.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_12.png",
+    "sha256": "170F6B5371E5ADD0C6D316D70ECCF0E3EF72AF78D1321B5FB6216FC0B3CF4AE3"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\13.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_13.png",
+    "sha256": "5069F27F0E519DB3738541E6D2DD78CF6F73938D94C610E364A0BCFF99D655E1"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\14.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_14.png",
+    "sha256": "3C34838B4165C6A37C8148FD2EBEE95F5243BEDBEBCBA91A9395E628142AB133"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\15.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_15.png",
+    "sha256": "F61A11CF1FC667F477E3473BC8A29DE92963711A174E67AD0C576563A5724F02"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\16.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_16.png",
+    "sha256": "456B204F76B981A389F058243B30AAAD4BD591F89FA3EBE9DBB8597BDA40D5D4"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\17.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_17.png",
+    "sha256": "665721BE121855944FB57029576D85BA5B6D33E8779C3F285581C787B0DA3F45"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\18.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_18.png",
+    "sha256": "64DAAB29CE53E20029486C86B729B9F7AC0A532B1B83BE9DDDD7927574F193E5"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\19.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_19.png",
+    "sha256": "E1880CACC65EB185E2AE31278F6861735165F2CDD25C460E68F219026EBC45D0"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\2.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_02.png",
+    "sha256": "E4806544327DA7609ECD5725D85E0B49991D12A64AAF9AEABF76EC9B11602156"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\20.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_20.png",
+    "sha256": "AB5932137C450591F98E3A88F0E2070D906B2CD2DD65E152C6C42CD48630FC90"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\21.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_21.png",
+    "sha256": "74F6B85649FE0D95177CC7E9624A2542941E0052F65FCF3FBFA84F8A16C2B30E"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\22.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_22.png",
+    "sha256": "E22A41EF8A0E3E982586C22EC70664AF4F5DF21D0DA3B7877745658477F26DA6"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\23.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_23.png",
+    "sha256": "3DAAD5F765EC796B7177860CED3C3CB07A3F07C0363C4CCB4FC1C00BA4AB692F"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\24.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_24.png",
+    "sha256": "A159801AA849E2FEFBE32DEFC302551476A9E86BAAC397784CD3396E408FC23B"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\25.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_25.png",
+    "sha256": "D361F417630D00E92FE1F5F93FFBD92491A2DE57247BB4BA0D51FF96F8916166"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\26.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_26.png",
+    "sha256": "0A6214DC6C86F2076D6AA377097E663DC3CD33FF53E55E859D132CC9A03BAE72"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\27.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_27.png",
+    "sha256": "208F452D3CF349056B347FE9868DFEDA7981D27469BAC05DE4805B9D1BA78351"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\28.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_28.png",
+    "sha256": "75F14D1A6E793E90EE0C12DB48A9B6B417617242F59A7F726B2E8AF47E0E4164"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\29.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_29.png",
+    "sha256": "CFA8C9E6CC95788B340EDF894CEE821B9B5D142B30F6A8F5E6912F24D25EB6AE"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\3.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_03.png",
+    "sha256": "03CFC14CD87FF37732A3A674A0142FAE9B1A1BBB8776C5011E48B3F4F3C83E75"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\30.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_30.png",
+    "sha256": "FA530E6F3D9B97075749D225D72DE98521F87B7CF090B5A6D354B3555D6BFD0C"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\31.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_31.png",
+    "sha256": "1656E015841BC169F98ED339BB0D6E5C7CE06A9C1C2C2C7BEF5143194BBEB585"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\32.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_32.png",
+    "sha256": "D017BCCDE866DC21EE68E32966075E22282164CFAD22C39C9765E54EBC421700"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\33.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_33.png",
+    "sha256": "F6EB6ACD07122B1A91A07B5EBD9A01ABC1F5FF034E95E65A87CB4F99415E9A5F"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\34.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_34.png",
+    "sha256": "8476221B047940AB9997F24E4C7BEAC9465252F31453E3462DC78821A182047A"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\35.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_35.png",
+    "sha256": "C176D9D4539A6107F51ADC97362DA0BC1CFBB742C909F05AE9499426B39AAE50"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\36.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_36.png",
+    "sha256": "04B2FE9E77BF00CF1AC3E9BF2D71B50903AD1B571253485EF26E9999E1E74FE8"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\4.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_04.png",
+    "sha256": "1E3B399EE0CB667E8CE4C13136CB2D148D9430D2118652B9AEB7622D181CB418"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\5.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_05.png",
+    "sha256": "1D6BDB160D1E67E5024428520F17D1B1185AF9B0A78926F502C7B71E4FC85B7C"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\6.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_06.png",
+    "sha256": "533177D6FDD8BE94D19DEA5B5742C767E80512DA94AAC0EFED5726362EB281EB"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\7.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_07.png",
+    "sha256": "9348EA40BA56967F766794CABCE4662983C1AF40A2E6687ACF447B76A7680DBB"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\8.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_08.png",
+    "sha256": "6F385B71FCF7FD935BA5C6D05D3D55C92106C355AD29A390C1064602074BCAAD"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 1\\9.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style1/Style1_09.png",
+    "sha256": "1F0A26B567DD75C496D99072BC037A70808621B4FE888A9EFBFA564D2042D4B1"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\1.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_01.png",
+    "sha256": "2349060757538D4E08D20F23626EEA57D0F20A865D5028B85D17CBAF8C76EDA0"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\10.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_10.png",
+    "sha256": "5A4D2BC7719ECABD0BEDB86D5EE2665A0BEAAC01BA6E8656EE35D4262C420CD8"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\11.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_11.png",
+    "sha256": "64F1A0AD9B9BF3133774CF3A60A6F4BF4FE982280F900C77A7B57378081A7C1E"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\12.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_12.png",
+    "sha256": "966234EF53CB6E45B2252E547CFFBFE741FED19881D65308A4A2E5F663A902E4"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\13.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_13.png",
+    "sha256": "C00B638E1374E41B9916EB71BFA7ABF5F42EDB779B6937FE2DE27A339C42B611"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\14.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_14.png",
+    "sha256": "36F877C3DD24C5E83EBF5FAA978132F26B0B52DE7EDBCDD5372F9357152AE5D7"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\15.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_15.png",
+    "sha256": "5FF79F063E4A94F4E5A724B66330B3B76A5992995639D16377302B67746A7441"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\16.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_16.png",
+    "sha256": "D0A4887807620DFDA91619B4BFF22C196E351930F28E4D38C9CC75C31B14CF0B"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\17.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_17.png",
+    "sha256": "27C79A91B2F55CE73A9F43FB69C17A1B4DEFB95F5A6F3C06C6616FABDBC221EF"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\18.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_18.png",
+    "sha256": "4D477A5064B876ABD7299AF13EF051A70123372965D7A509DDDBDB253AEAF208"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\19.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_19.png",
+    "sha256": "FA0F4EA877EDEA2BA94B47BF23BB9566B6C7B6B8C37712C3C211C8863A5F18C7"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\2.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_02.png",
+    "sha256": "5A813949373518DB66C6DCDA27F5E2D904B99A0665E2330BE04393E59832754A"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\20.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_20.png",
+    "sha256": "1BA080CFE05593DD4CFBFAF2498939E985443F317BBCBF8C6D4655C8D32D2A30"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\21.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_21.png",
+    "sha256": "CA84AA0986E3F345D4A161705F194EB522C75250DE383B7F2D5B07E9FCDFCBE3"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\22.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_22.png",
+    "sha256": "B27535C8029618F8163C1CF18CCCEA5AC6533196D150EC566037ECE7DF4FF046"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\23.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_23.png",
+    "sha256": "FF9879D1A1FBAC67F21DA753EF30A4775BCE3DF7A3DD7E986974D1D2E519B39C"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\24.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_24.png",
+    "sha256": "6172080A5B9C62F0EC6FDCB95575912A184B1B7692A484F59B1E48841C2DCCCD"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\25.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_25.png",
+    "sha256": "B6CC5872F6D23D03964EFE874CFD5594963447A3B4DFDDF9635280A86BB571D3"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\26.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_26.png",
+    "sha256": "2927C9E8828F7EC74E7D1505085862E927C5C49D1B68CFE517089411EA5DEEFF"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\27.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_27.png",
+    "sha256": "0356E233DC63477E8E69EEB3E06632E55D72E59FD33C2E49F106617D70106966"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\28.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_28.png",
+    "sha256": "219B93A860A6A21F41CD8BE7B7CCCDE99CCE47278E4DC29F4192B95F4DFAC522"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\29.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_29.png",
+    "sha256": "87BE21E7D8C550AF845B00F1D451B73E3BE595AED49AE4CD7143C878E69900B3"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\3.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_03.png",
+    "sha256": "B1CBCE461DAC919B803EEA42F0B14CA8162D35B95CF3CAE24D08DE7A9D59A3F4"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\30.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_30.png",
+    "sha256": "D985195F592E26C6540B32DCA4BE2EDB1D14878D8DB26E4B679AF23647EBFCA6"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\31.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_31.png",
+    "sha256": "0D0CC1BB1405E1BF365F079DA6DB77210A0C532F30F43B0D832BC61E0521A680"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\32.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_32.png",
+    "sha256": "BA02D8F2E14CE4A7021561BEE5975879C46A01932ED6AC1D0F6FF9D590A5EE46"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\33.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_33.png",
+    "sha256": "282A62D12660AE88984A50ACE9E80FF5855572346E77D024A3DCEFB28608D8EC"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\34.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_34.png",
+    "sha256": "2B9555BB61D1D20E9399A715AA85660904FE90294D8FB3036D49552672B58D7F"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\35.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_35.png",
+    "sha256": "9FD72A0A9DA8A655ED60FDF9122B4A0AC5018EE96D6E6EF8A6812B4E0FFE56CD"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\36.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_36.png",
+    "sha256": "04B2FE9E77BF00CF1AC3E9BF2D71B50903AD1B571253485EF26E9999E1E74FE8"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\4.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_04.png",
+    "sha256": "2DDDF294E90BBE08398816957960A06C3C60F7DAA00E931D2FB3B8A7A6DF0D0E"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\5.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_05.png",
+    "sha256": "17BCC76A1EF56A74A2E3D3558B7F6806845DE3805209E839EDE432EDBA81E3C3"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\6.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_06.png",
+    "sha256": "EED14019833496EAAC4D10B3F6986C3151BC554316EB5D7CFD91E88DDB8FC76D"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\7.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_07.png",
+    "sha256": "E142804B86D534B546894ACE5D4D7675DA57EEFCF74F68B879A8A71BEF7D0214"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\8.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_08.png",
+    "sha256": "5405B34ABA0EDE9CF939F08243E3E255BAC748DCF4E07159E0C09DDA0E13E380"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Content Appear\\Style 2\\9.png",
+    "destination": "Sprites/InventoryBook/BookContentAppear/Style2/Style2_09.png",
+    "sha256": "4E86008C3FCF87BC4D408A225B203F2CBDC6D742336D7FF6905B23181BCB84D4"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Idle\\1.png",
+    "destination": "Sprites/InventoryBook/BookIdle/BookIdle_01.png",
+    "sha256": "F90727D6AB19C2C3613E3EF2C4AD548A05FF3DA4E8C994ACFF47615E43D8440E"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Open and Close\\Style 1\\Close\\1.png",
+    "destination": "Sprites/InventoryBook/BookOpenandClose/Style1/Close/Close_01.png",
+    "sha256": "F90727D6AB19C2C3613E3EF2C4AD548A05FF3DA4E8C994ACFF47615E43D8440E"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Open and Close\\Style 1\\Close\\2.png",
+    "destination": "Sprites/InventoryBook/BookOpenandClose/Style1/Close/Close_02.png",
+    "sha256": "AE461D01369F69DB15CEB67B1921944782D7E821A02A22441A9A62B041A830D9"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Open and Close\\Style 1\\Close\\3.png",
+    "destination": "Sprites/InventoryBook/BookOpenandClose/Style1/Close/Close_03.png",
+    "sha256": "2343167167ADBE064D8A5962779B8F86B5D06407CB13983497D20765F828D04C"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Open and Close\\Style 1\\Close\\4.png",
+    "destination": "Sprites/InventoryBook/BookOpenandClose/Style1/Close/Close_04.png",
+    "sha256": "9F717E98AA053D325ABEC17C63B2B4D7544A262AC01E82869CEEEF6F5C50A939"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Open and Close\\Style 1\\Close\\5.png",
+    "destination": "Sprites/InventoryBook/BookOpenandClose/Style1/Close/Close_05.png",
+    "sha256": "7CF0A2F09A63112C40020F8E2A5EBBCCC6190C866FC0EB3E8BDE17CF5BDBA891"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Open and Close\\Style 1\\Open\\1.png",
+    "destination": "Sprites/InventoryBook/BookOpenandClose/Style1/Open/Open_01.png",
+    "sha256": "7CF0A2F09A63112C40020F8E2A5EBBCCC6190C866FC0EB3E8BDE17CF5BDBA891"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Open and Close\\Style 1\\Open\\2.png",
+    "destination": "Sprites/InventoryBook/BookOpenandClose/Style1/Open/Open_02.png",
+    "sha256": "9F717E98AA053D325ABEC17C63B2B4D7544A262AC01E82869CEEEF6F5C50A939"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Open and Close\\Style 1\\Open\\3.png",
+    "destination": "Sprites/InventoryBook/BookOpenandClose/Style1/Open/Open_03.png",
+    "sha256": "2343167167ADBE064D8A5962779B8F86B5D06407CB13983497D20765F828D04C"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Open and Close\\Style 1\\Open\\4.png",
+    "destination": "Sprites/InventoryBook/BookOpenandClose/Style1/Open/Open_04.png",
+    "sha256": "AE461D01369F69DB15CEB67B1921944782D7E821A02A22441A9A62B041A830D9"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Open and Close\\Style 1\\Open\\5.png",
+    "destination": "Sprites/InventoryBook/BookOpenandClose/Style1/Open/Open_05.png",
+    "sha256": "F90727D6AB19C2C3613E3EF2C4AD548A05FF3DA4E8C994ACFF47615E43D8440E"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Open and Close\\Style 2\\Close\\1.png",
+    "destination": "Sprites/InventoryBook/BookOpenandClose/Style2/Close/Close_01.png",
+    "sha256": "F90727D6AB19C2C3613E3EF2C4AD548A05FF3DA4E8C994ACFF47615E43D8440E"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Open and Close\\Style 2\\Close\\2.png",
+    "destination": "Sprites/InventoryBook/BookOpenandClose/Style2/Close/Close_02.png",
+    "sha256": "DEC0D11D6C27896C12D74055544A7092E8B02ED5ED12B44969E4BD0B533E43A8"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Open and Close\\Style 2\\Close\\3.png",
+    "destination": "Sprites/InventoryBook/BookOpenandClose/Style2/Close/Close_03.png",
+    "sha256": "E0C5DBB4890E4F4FEC18A5B84D82992E7336826FA99D9D8AA17E90B1B484C38E"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Open and Close\\Style 2\\Close\\4.png",
+    "destination": "Sprites/InventoryBook/BookOpenandClose/Style2/Close/Close_04.png",
+    "sha256": "57718144AC368BC022ACDE7726303B2DA91549FCA8161092DB7C36BEE0386105"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Open and Close\\Style 2\\Open\\1.png",
+    "destination": "Sprites/InventoryBook/BookOpenandClose/Style2/Open/Open_01.png",
+    "sha256": "57718144AC368BC022ACDE7726303B2DA91549FCA8161092DB7C36BEE0386105"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Open and Close\\Style 2\\Open\\2.png",
+    "destination": "Sprites/InventoryBook/BookOpenandClose/Style2/Open/Open_02.png",
+    "sha256": "E0C5DBB4890E4F4FEC18A5B84D82992E7336826FA99D9D8AA17E90B1B484C38E"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Open and Close\\Style 2\\Open\\3.png",
+    "destination": "Sprites/InventoryBook/BookOpenandClose/Style2/Open/Open_03.png",
+    "sha256": "DEC0D11D6C27896C12D74055544A7092E8B02ED5ED12B44969E4BD0B533E43A8"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Open and Close\\Style 2\\Open\\4.png",
+    "destination": "Sprites/InventoryBook/BookOpenandClose/Style2/Open/Open_04.png",
+    "sha256": "F90727D6AB19C2C3613E3EF2C4AD548A05FF3DA4E8C994ACFF47615E43D8440E"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 1\\Flip Left\\1.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style1/FlipLeft/FlipLeft_01.png",
+    "sha256": "F90727D6AB19C2C3613E3EF2C4AD548A05FF3DA4E8C994ACFF47615E43D8440E"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 1\\Flip Left\\2.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style1/FlipLeft/FlipLeft_02.png",
+    "sha256": "6133C4CFDC3DA170073CFD640719ED08C5D277ED7AD3BCE53CC357C6AD1054C7"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 1\\Flip Left\\3.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style1/FlipLeft/FlipLeft_03.png",
+    "sha256": "1E2B42CF98CC55099CE9A32598C4C2C94A57C97BE8F268FD57E2856B58CF663D"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 1\\Flip Left\\4.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style1/FlipLeft/FlipLeft_04.png",
+    "sha256": "80D20D5471FFA6C2A291DC892E4A0B03A7D1879263A84C841712F581DD554164"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 1\\Flip Left\\5.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style1/FlipLeft/FlipLeft_05.png",
+    "sha256": "B53D8BEAE5A14A6D36353FC07871F4D88E5164DD94713603880A533F030E6F8B"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 1\\Flip Left\\6.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style1/FlipLeft/FlipLeft_06.png",
+    "sha256": "E25A7EDD9D1BA37F6C07D6F39D4E9A67223F23AB7190D78CCC370C9F5D2BE400"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 1\\Flip Left\\7.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style1/FlipLeft/FlipLeft_07.png",
+    "sha256": "222C1ED54BFDE9FC974D00352241B529428D3E3D63A2CFB65AA6E5BC5E3994F9"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 1\\Flip Left\\8.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style1/FlipLeft/FlipLeft_08.png",
+    "sha256": "E924456DD0EAA8F4E24CCE11424C498ECF46BEBF654965A4168D341B5FB1422B"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 1\\Flip Left\\9.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style1/FlipLeft/FlipLeft_09.png",
+    "sha256": "F90727D6AB19C2C3613E3EF2C4AD548A05FF3DA4E8C994ACFF47615E43D8440E"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 1\\Flip Right\\1.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style1/FlipRight/FlipRight_01.png",
+    "sha256": "F90727D6AB19C2C3613E3EF2C4AD548A05FF3DA4E8C994ACFF47615E43D8440E"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 1\\Flip Right\\2.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style1/FlipRight/FlipRight_02.png",
+    "sha256": "C3BFA5BE344A9B7C8B4E7C8A43F9C16EA27B69CA50B0C7E09FC4F12D5872A531"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 1\\Flip Right\\3.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style1/FlipRight/FlipRight_03.png",
+    "sha256": "162F7132A3BD341834E5AC08AFC0D8C09BA6F9DA6C9E28894438FFFD4D1C546F"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 1\\Flip Right\\4.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style1/FlipRight/FlipRight_04.png",
+    "sha256": "28FB77239A86D191C0BCD6C005B64666CFCAC5EC2DF122A7D74AAA67F01B139D"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 1\\Flip Right\\5.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style1/FlipRight/FlipRight_05.png",
+    "sha256": "EFF983BA9B9741CD880680FF1334B51D9DBB9D993E5CD0A6F8B339D5303357C8"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 1\\Flip Right\\6.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style1/FlipRight/FlipRight_06.png",
+    "sha256": "4A4F22DF7ADD1D3381D239CDF548AC1062DD5A8178BF355515CCFD4AE9269FDB"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 1\\Flip Right\\7.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style1/FlipRight/FlipRight_07.png",
+    "sha256": "BFC8FA8EAB1CAE69157B306302488D3A2926D74E450ED7E4D87B1004D371F561"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 1\\Flip Right\\8.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style1/FlipRight/FlipRight_08.png",
+    "sha256": "4D6C4FAC7B9D5AA4474481EB73171A3A8390378726C7BDFD021737E35A774A5A"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 1\\Flip Right\\9.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style1/FlipRight/FlipRight_09.png",
+    "sha256": "F90727D6AB19C2C3613E3EF2C4AD548A05FF3DA4E8C994ACFF47615E43D8440E"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 2\\Flip Left\\1.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style2/FlipLeft/FlipLeft_01.png",
+    "sha256": "F90727D6AB19C2C3613E3EF2C4AD548A05FF3DA4E8C994ACFF47615E43D8440E"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 2\\Flip Left\\2.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style2/FlipLeft/FlipLeft_02.png",
+    "sha256": "7F4CB8A05414BF5B7F024EE2418F903608F29CE83F5D768643ECA52181EBED19"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 2\\Flip Left\\3.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style2/FlipLeft/FlipLeft_03.png",
+    "sha256": "12DD727984598375FC62DEC562308EA75E7678BB7360C110AED4CA39C06945C6"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 2\\Flip Left\\4.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style2/FlipLeft/FlipLeft_04.png",
+    "sha256": "BCBA69B1D61BC256F9C0488B8284D31F210875A3AF7A36035D92177D4CF85AA3"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 2\\Flip Left\\5.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style2/FlipLeft/FlipLeft_05.png",
+    "sha256": "A423097DD4B2D1DFDC51F7358B691D5660CF85FFEF90EB8C0FD61969AFE6D66D"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 2\\Flip Left\\6.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style2/FlipLeft/FlipLeft_06.png",
+    "sha256": "F83E9547E5886572762B99857E1D6E991AF3643A7FF1038C5201629D289E34A2"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 2\\Flip Left\\7.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style2/FlipLeft/FlipLeft_07.png",
+    "sha256": "4D4E8C0EC695A0FDED3AE48693EB43D79B23488445F3722EDF0B9DE9827965D2"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 2\\Flip Left\\8.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style2/FlipLeft/FlipLeft_08.png",
+    "sha256": "F90727D6AB19C2C3613E3EF2C4AD548A05FF3DA4E8C994ACFF47615E43D8440E"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 2\\Flip Right\\1.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style2/FlipRight/FlipRight_01.png",
+    "sha256": "F90727D6AB19C2C3613E3EF2C4AD548A05FF3DA4E8C994ACFF47615E43D8440E"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 2\\Flip Right\\2.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style2/FlipRight/FlipRight_02.png",
+    "sha256": "CAC5882DFA92072C75188B440625AB6F04419A19B5808FAD539F12ADF7FEA52E"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 2\\Flip Right\\3.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style2/FlipRight/FlipRight_03.png",
+    "sha256": "E62931B6390793E35FC02EA0E22E95101CF05F768C6CD80DD8AF85CB2E63603D"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 2\\Flip Right\\4.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style2/FlipRight/FlipRight_04.png",
+    "sha256": "CF27CB9E471F9E544882C463A003312AA036E48094ADDD43EE6B93A62823BB07"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 2\\Flip Right\\5.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style2/FlipRight/FlipRight_05.png",
+    "sha256": "3FB036B3AF507A62E115C19E18F4E7CB0E136BE84D9BAA19695756A70BDB41F6"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 2\\Flip Right\\6.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style2/FlipRight/FlipRight_06.png",
+    "sha256": "A304F783B8FDD03FC44E0246AEDE5E8E48E6BEFD973AC77532AF8CC6366C8DE7"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 2\\Flip Right\\7.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style2/FlipRight/FlipRight_07.png",
+    "sha256": "E2D2767AF59F0756D319794E89879CC5F1D9E2C9359AFBD7FADAAAC71BDE3B25"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 2\\Flip Right\\8.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style2/FlipRight/FlipRight_08.png",
+    "sha256": "F90727D6AB19C2C3613E3EF2C4AD548A05FF3DA4E8C994ACFF47615E43D8440E"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 3\\Flip Left\\1.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style3/FlipLeft/FlipLeft_01.png",
+    "sha256": "F90727D6AB19C2C3613E3EF2C4AD548A05FF3DA4E8C994ACFF47615E43D8440E"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 3\\Flip Left\\2.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style3/FlipLeft/FlipLeft_02.png",
+    "sha256": "52AE887C1CC3B7AA11C27CE3A4D88A6EADFA4C4B0010B539E05BDCC21C9E2A3F"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 3\\Flip Left\\3.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style3/FlipLeft/FlipLeft_03.png",
+    "sha256": "B06801FFE9F5E70D5DBAA34374410BD1E8B151107E7521300FC2CE441CC4AB4F"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 3\\Flip Left\\4.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style3/FlipLeft/FlipLeft_04.png",
+    "sha256": "51F4AA5AB35E908F5CCDE1CB8F4E20B412D65A030D19A667F9CBB6AF59503819"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 3\\Flip Left\\5.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style3/FlipLeft/FlipLeft_05.png",
+    "sha256": "5824990C9E944BE3CE75250BF62B000EE1E4DA65E091B8EF2BD289D34A09481B"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 3\\Flip Left\\6.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style3/FlipLeft/FlipLeft_06.png",
+    "sha256": "3B314C0693A6CF0D1C1EE8AF368845FE427D283F584DD072835C1AAE65FF5B93"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 3\\Flip Left\\7.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style3/FlipLeft/FlipLeft_07.png",
+    "sha256": "76B03884AD665DD7D24C8022FE952B61316268D22BF3F71F777879339F4885E8"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 3\\Flip Left\\8.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style3/FlipLeft/FlipLeft_08.png",
+    "sha256": "F90727D6AB19C2C3613E3EF2C4AD548A05FF3DA4E8C994ACFF47615E43D8440E"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 3\\Flip Right\\1.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style3/FlipRight/FlipRight_01.png",
+    "sha256": "F90727D6AB19C2C3613E3EF2C4AD548A05FF3DA4E8C994ACFF47615E43D8440E"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 3\\Flip Right\\2.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style3/FlipRight/FlipRight_02.png",
+    "sha256": "4D4E8C0EC695A0FDED3AE48693EB43D79B23488445F3722EDF0B9DE9827965D2"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 3\\Flip Right\\3.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style3/FlipRight/FlipRight_03.png",
+    "sha256": "F83E9547E5886572762B99857E1D6E991AF3643A7FF1038C5201629D289E34A2"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 3\\Flip Right\\4.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style3/FlipRight/FlipRight_04.png",
+    "sha256": "A423097DD4B2D1DFDC51F7358B691D5660CF85FFEF90EB8C0FD61969AFE6D66D"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 3\\Flip Right\\5.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style3/FlipRight/FlipRight_05.png",
+    "sha256": "BCBA69B1D61BC256F9C0488B8284D31F210875A3AF7A36035D92177D4CF85AA3"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 3\\Flip Right\\6.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style3/FlipRight/FlipRight_06.png",
+    "sha256": "12DD727984598375FC62DEC562308EA75E7678BB7360C110AED4CA39C06945C6"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 3\\Flip Right\\7.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style3/FlipRight/FlipRight_07.png",
+    "sha256": "7F4CB8A05414BF5B7F024EE2418F903608F29CE83F5D768643ECA52181EBED19"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Page Flip\\Style 3\\Flip Right\\8.png",
+    "destination": "Sprites/InventoryBook/BookPageFlip/Style3/FlipRight/FlipRight_08.png",
+    "sha256": "F90727D6AB19C2C3613E3EF2C4AD548A05FF3DA4E8C994ACFF47615E43D8440E"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\With icons\\1.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withicons/Withicons_01.png",
+    "sha256": "F90727D6AB19C2C3613E3EF2C4AD548A05FF3DA4E8C994ACFF47615E43D8440E"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\With icons\\10.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withicons/Withicons_10.png",
+    "sha256": "55785A7C886F1C0ACC08155743C0741AE96F064DA8A663BEEF670FABA46C4202"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\With icons\\11.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withicons/Withicons_11.png",
+    "sha256": "C379416BBFE3DD0B20AB95B46B1BC198C3D6EACC58BAAE5F158BF6769E70ED98"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\With icons\\12.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withicons/Withicons_12.png",
+    "sha256": "D92383A499C4D6D859E7D0CDB196E759C1E0F8A011DDF247D8E1093CF6971B3A"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\With icons\\13.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withicons/Withicons_13.png",
+    "sha256": "D92383A499C4D6D859E7D0CDB196E759C1E0F8A011DDF247D8E1093CF6971B3A"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\With icons\\14.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withicons/Withicons_14.png",
+    "sha256": "D92383A499C4D6D859E7D0CDB196E759C1E0F8A011DDF247D8E1093CF6971B3A"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\With icons\\15.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withicons/Withicons_15.png",
+    "sha256": "D92383A499C4D6D859E7D0CDB196E759C1E0F8A011DDF247D8E1093CF6971B3A"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\With icons\\16.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withicons/Withicons_16.png",
+    "sha256": "D92383A499C4D6D859E7D0CDB196E759C1E0F8A011DDF247D8E1093CF6971B3A"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\With icons\\17.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withicons/Withicons_17.png",
+    "sha256": "D92383A499C4D6D859E7D0CDB196E759C1E0F8A011DDF247D8E1093CF6971B3A"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\With icons\\2.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withicons/Withicons_02.png",
+    "sha256": "658043251958B684F276F91DCA2A76946299411547F963E214E6DD7C206B39D6"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\With icons\\3.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withicons/Withicons_03.png",
+    "sha256": "D0138FA22E5C5F0B6904525841F439CBAD8D513D853B2EFC15DAAE6CF45497B3"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\With icons\\4.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withicons/Withicons_04.png",
+    "sha256": "2303742120864AB0F11721A6E0DCCE73FCE4688123F9647D9A348E2C4CC4034D"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\With icons\\5.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withicons/Withicons_05.png",
+    "sha256": "EB620EFB97AC7DBE25E1FA5F0E6031C2469A80FB5B925BB4D8A2427C3F891E71"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\With icons\\6.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withicons/Withicons_06.png",
+    "sha256": "FDAD9612D791CF9C82E197C2A93737F54B6E97C5AA0AD57680D2B9C042C1E473"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\With icons\\7.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withicons/Withicons_07.png",
+    "sha256": "D6B730E4F88E22FC9DAFBA91A263758B842A0CECABA52ABC5766C294BCD1976D"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\With icons\\8.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withicons/Withicons_08.png",
+    "sha256": "BE5E0ECB5FCBFCB2DB0642CB4531FF5F8171EF0BAE1049E6E817374DD318735B"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\With icons\\9.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withicons/Withicons_09.png",
+    "sha256": "AB0D3CE11DF7F058A360EC6DF5E0D6D1D675A6D5BD63068234D6E247AFA95B50"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\Without icons\\1.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withouticons/Withouticons_01.png",
+    "sha256": "F90727D6AB19C2C3613E3EF2C4AD548A05FF3DA4E8C994ACFF47615E43D8440E"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\Without icons\\10.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withouticons/Withouticons_10.png",
+    "sha256": "093E8DF43D69D92C513DB157128781E2A566F7939551D2B6A9B8CA72FAC4459F"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\Without icons\\11.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withouticons/Withouticons_11.png",
+    "sha256": "8CFE91D6CAD3AB1A417CD9D2C8225CBCA612ACB8FF37E53BD578460434A4FCDC"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\Without icons\\12.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withouticons/Withouticons_12.png",
+    "sha256": "58CCA5919290A413495894B7D333DB3552E0C8737CDFA5E4B183C5A56B410657"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\Without icons\\13.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withouticons/Withouticons_13.png",
+    "sha256": "58CCA5919290A413495894B7D333DB3552E0C8737CDFA5E4B183C5A56B410657"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\Without icons\\14.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withouticons/Withouticons_14.png",
+    "sha256": "58CCA5919290A413495894B7D333DB3552E0C8737CDFA5E4B183C5A56B410657"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\Without icons\\15.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withouticons/Withouticons_15.png",
+    "sha256": "58CCA5919290A413495894B7D333DB3552E0C8737CDFA5E4B183C5A56B410657"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\Without icons\\16.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withouticons/Withouticons_16.png",
+    "sha256": "58CCA5919290A413495894B7D333DB3552E0C8737CDFA5E4B183C5A56B410657"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\Without icons\\17.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withouticons/Withouticons_17.png",
+    "sha256": "58CCA5919290A413495894B7D333DB3552E0C8737CDFA5E4B183C5A56B410657"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\Without icons\\2.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withouticons/Withouticons_02.png",
+    "sha256": "658043251958B684F276F91DCA2A76946299411547F963E214E6DD7C206B39D6"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\Without icons\\3.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withouticons/Withouticons_03.png",
+    "sha256": "3B088991EBC1314DD19FA020A7A270D03018344A2829A015C84F720F0832D866"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\Without icons\\4.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withouticons/Withouticons_04.png",
+    "sha256": "E730C5A16EB572AA4ACF6A4AC662B7E2CFD146F37473A69F1B0BF4DC6F83A71E"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\Without icons\\5.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withouticons/Withouticons_05.png",
+    "sha256": "C72EBCEB5A4FEA1B30E3EE856F04F03A2130E48F8DDAC4CC256DA86155FDCB2D"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\Without icons\\6.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withouticons/Withouticons_06.png",
+    "sha256": "B298AE6956D1F01D13EEEFB65709A0A94BC6CE1857198EB8F90FB95F616A5762"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\Without icons\\7.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withouticons/Withouticons_07.png",
+    "sha256": "CD940FCC96E75BF900A4F462E020D6520676E43C72B22D93148510D0F0B928F3"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\Without icons\\8.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withouticons/Withouticons_08.png",
+    "sha256": "C2B4618CD5878AD3B9E809425837120E8D88F6E558BDCEAA0DC82E98CECDA1B3"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Appear\\Without icons\\9.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Appear/Withouticons/Withouticons_09.png",
+    "sha256": "71C19D0E94ED2E0B535957F3461249531EC1368B8F8741B66FDE3EB9D98B8CEC"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\With icons\\1.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withicons/Withicons_01.png",
+    "sha256": "D92383A499C4D6D859E7D0CDB196E759C1E0F8A011DDF247D8E1093CF6971B3A"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\With icons\\10.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withicons/Withicons_10.png",
+    "sha256": "BE5E0ECB5FCBFCB2DB0642CB4531FF5F8171EF0BAE1049E6E817374DD318735B"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\With icons\\11.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withicons/Withicons_11.png",
+    "sha256": "D6B730E4F88E22FC9DAFBA91A263758B842A0CECABA52ABC5766C294BCD1976D"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\With icons\\12.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withicons/Withicons_12.png",
+    "sha256": "FDAD9612D791CF9C82E197C2A93737F54B6E97C5AA0AD57680D2B9C042C1E473"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\With icons\\13.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withicons/Withicons_13.png",
+    "sha256": "EB620EFB97AC7DBE25E1FA5F0E6031C2469A80FB5B925BB4D8A2427C3F891E71"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\With icons\\14.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withicons/Withicons_14.png",
+    "sha256": "2303742120864AB0F11721A6E0DCCE73FCE4688123F9647D9A348E2C4CC4034D"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\With icons\\15.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withicons/Withicons_15.png",
+    "sha256": "D0138FA22E5C5F0B6904525841F439CBAD8D513D853B2EFC15DAAE6CF45497B3"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\With icons\\16.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withicons/Withicons_16.png",
+    "sha256": "658043251958B684F276F91DCA2A76946299411547F963E214E6DD7C206B39D6"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\With icons\\17.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withicons/Withicons_17.png",
+    "sha256": "F90727D6AB19C2C3613E3EF2C4AD548A05FF3DA4E8C994ACFF47615E43D8440E"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\With icons\\2.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withicons/Withicons_02.png",
+    "sha256": "D92383A499C4D6D859E7D0CDB196E759C1E0F8A011DDF247D8E1093CF6971B3A"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\With icons\\3.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withicons/Withicons_03.png",
+    "sha256": "D92383A499C4D6D859E7D0CDB196E759C1E0F8A011DDF247D8E1093CF6971B3A"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\With icons\\4.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withicons/Withicons_04.png",
+    "sha256": "D92383A499C4D6D859E7D0CDB196E759C1E0F8A011DDF247D8E1093CF6971B3A"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\With icons\\5.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withicons/Withicons_05.png",
+    "sha256": "D92383A499C4D6D859E7D0CDB196E759C1E0F8A011DDF247D8E1093CF6971B3A"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\With icons\\6.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withicons/Withicons_06.png",
+    "sha256": "D92383A499C4D6D859E7D0CDB196E759C1E0F8A011DDF247D8E1093CF6971B3A"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\With icons\\7.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withicons/Withicons_07.png",
+    "sha256": "C379416BBFE3DD0B20AB95B46B1BC198C3D6EACC58BAAE5F158BF6769E70ED98"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\With icons\\8.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withicons/Withicons_08.png",
+    "sha256": "55785A7C886F1C0ACC08155743C0741AE96F064DA8A663BEEF670FABA46C4202"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\With icons\\9.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withicons/Withicons_09.png",
+    "sha256": "AB0D3CE11DF7F058A360EC6DF5E0D6D1D675A6D5BD63068234D6E247AFA95B50"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\Without icons\\1.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withouticons/Withouticons_01.png",
+    "sha256": "58CCA5919290A413495894B7D333DB3552E0C8737CDFA5E4B183C5A56B410657"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\Without icons\\10.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withouticons/Withouticons_10.png",
+    "sha256": "C2B4618CD5878AD3B9E809425837120E8D88F6E558BDCEAA0DC82E98CECDA1B3"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\Without icons\\11.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withouticons/Withouticons_11.png",
+    "sha256": "CD940FCC96E75BF900A4F462E020D6520676E43C72B22D93148510D0F0B928F3"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\Without icons\\12.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withouticons/Withouticons_12.png",
+    "sha256": "B298AE6956D1F01D13EEEFB65709A0A94BC6CE1857198EB8F90FB95F616A5762"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\Without icons\\13.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withouticons/Withouticons_13.png",
+    "sha256": "C72EBCEB5A4FEA1B30E3EE856F04F03A2130E48F8DDAC4CC256DA86155FDCB2D"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\Without icons\\14.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withouticons/Withouticons_14.png",
+    "sha256": "E730C5A16EB572AA4ACF6A4AC662B7E2CFD146F37473A69F1B0BF4DC6F83A71E"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\Without icons\\15.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withouticons/Withouticons_15.png",
+    "sha256": "3B088991EBC1314DD19FA020A7A270D03018344A2829A015C84F720F0832D866"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\Without icons\\16.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withouticons/Withouticons_16.png",
+    "sha256": "658043251958B684F276F91DCA2A76946299411547F963E214E6DD7C206B39D6"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\Without icons\\17.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withouticons/Withouticons_17.png",
+    "sha256": "F90727D6AB19C2C3613E3EF2C4AD548A05FF3DA4E8C994ACFF47615E43D8440E"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\Without icons\\2.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withouticons/Withouticons_02.png",
+    "sha256": "58CCA5919290A413495894B7D333DB3552E0C8737CDFA5E4B183C5A56B410657"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\Without icons\\3.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withouticons/Withouticons_03.png",
+    "sha256": "58CCA5919290A413495894B7D333DB3552E0C8737CDFA5E4B183C5A56B410657"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\Without icons\\4.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withouticons/Withouticons_04.png",
+    "sha256": "58CCA5919290A413495894B7D333DB3552E0C8737CDFA5E4B183C5A56B410657"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\Without icons\\5.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withouticons/Withouticons_05.png",
+    "sha256": "58CCA5919290A413495894B7D333DB3552E0C8737CDFA5E4B183C5A56B410657"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\Without icons\\6.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withouticons/Withouticons_06.png",
+    "sha256": "58CCA5919290A413495894B7D333DB3552E0C8737CDFA5E4B183C5A56B410657"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\Without icons\\7.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withouticons/Withouticons_07.png",
+    "sha256": "8CFE91D6CAD3AB1A417CD9D2C8225CBCA612ACB8FF37E53BD578460434A4FCDC"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\Without icons\\8.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withouticons/Withouticons_08.png",
+    "sha256": "093E8DF43D69D92C513DB157128781E2A566F7939551D2B6A9B8CA72FAC4459F"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Disappear\\Without icons\\9.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Disappear/Withouticons/Withouticons_09.png",
+    "sha256": "71C19D0E94ED2E0B535957F3461249531EC1368B8F8741B66FDE3EB9D98B8CEC"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Tabs\\With icons\\1.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Tabs/Withicons/Withicons_01.png",
+    "sha256": "D92383A499C4D6D859E7D0CDB196E759C1E0F8A011DDF247D8E1093CF6971B3A"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Tabs\\With icons\\2.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Tabs/Withicons/Withicons_02.png",
+    "sha256": "0B0D6D4581F82E51848DAC4B514EDB95E2D36B78A64B883C0574096B2D4B4A2B"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Tabs\\With icons\\3.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Tabs/Withicons/Withicons_03.png",
+    "sha256": "E30FC7DF912F52055D23F932D064879E974622E0F699EE11FEF762AE3F113ED8"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Tabs\\With icons\\4.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Tabs/Withicons/Withicons_04.png",
+    "sha256": "ABABF73177F91A9EE67F4BC3D13E645629F5AE8E55D0CB26BC94C29653DD20A3"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Tabs\\With icons\\5.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Tabs/Withicons/Withicons_05.png",
+    "sha256": "6185692E528FA581A5DC1682C662E9A339575C63F28A1BD060114FE1099A8ACE"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Tabs\\With icons\\6.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Tabs/Withicons/Withicons_06.png",
+    "sha256": "E1AF5BD8A02D8C0A7835CB8675588EFEE49D17D34D2AE062A9C30B479753F73A"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Tabs\\With icons\\7.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Tabs/Withicons/Withicons_07.png",
+    "sha256": "10E11DCB525A8204EB0EC8108C04F9DC654EC32A31CECBF06BED8EFD3992F14A"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Tabs\\Without icons\\1.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Tabs/Withouticons/Withouticons_01.png",
+    "sha256": "58CCA5919290A413495894B7D333DB3552E0C8737CDFA5E4B183C5A56B410657"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Tabs\\Without icons\\2.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Tabs/Withouticons/Withouticons_02.png",
+    "sha256": "0D5D90C6EFA7DEDFD36674AD6B34491032EA0949AD7E68C0529F41DB77A80E18"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Tabs\\Without icons\\3.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Tabs/Withouticons/Withouticons_03.png",
+    "sha256": "4346097BF9EBDBF975A0874EA732C384E64F709C02715F9D8CC0ACE9460D8FC7"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Tabs\\Without icons\\4.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Tabs/Withouticons/Withouticons_04.png",
+    "sha256": "7790A97873BA7CB95FC69216C65B2A5D062932080FEBF8DFD12057F196AFB1BD"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Tabs\\Without icons\\5.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Tabs/Withouticons/Withouticons_05.png",
+    "sha256": "BEC80803D2015EFF2F08E3749EA6561BC8FAF38E1738834F1B9FFE36582855F9"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Tabs\\Without icons\\6.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Tabs/Withouticons/Withouticons_06.png",
+    "sha256": "904BB304089DE988B1F45AA6D6DFD470EC9B4DE846C7CB1806F10B78226EEF93"
+  },
+  {
+    "source": "Sprites\\Inventory Book\\Book Side Tabs\\Tabs\\Without icons\\7.png",
+    "destination": "Sprites/InventoryBook/BookSideTabs/Tabs/Withouticons/Withouticons_07.png",
+    "sha256": "DA2A92F2F63140CBC616CB72BA4336DF9430CC5A8024D377FE5369560262DECF"
+  },
+  {
+    "source": "SpriteSheet\\Inventory Book SpriteSheet.png",
+    "destination": "SpriteSheets/InventoryBookSpriteSheet.png",
+    "sha256": "4B149515403158563CFC28A473AB0C121D944A5D4F1861A00FC030013C83393F"
+  }
+]

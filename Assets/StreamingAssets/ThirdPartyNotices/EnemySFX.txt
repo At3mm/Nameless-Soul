@@ -1,0 +1,32 @@
+Enemy sound effects — downloaded 2026-11-12
+
+All sources below identify their listed audio as Creative Commons Zero (CC0):
+https://creativecommons.org/publicdomain/zero/1.0/
+
+80 CC0 creture SFX #2 — rubberduck
+https://opengameart.org/content/80-cc0-creture-sfx-2
+Archive: https://opengameart.org/sites/default/files/80-CC0-creature-sfx-2.zip
+Selected attack, grunt, roar, slime, die and weird clips.
+
+Monster Sound Pack, Volume 1 — Ogrebane
+https://opengameart.org/content/monster-sound-pack-volume-1
+The page's attached archive is named monster-sounds-volume-2.zip:
+https://opengameart.org/sites/default/files/monster-sounds-volume-2.zip
+Selected Monster-1 through Monster-4.
+
+Bat Screeches — AntumDeluge, derived from recording by polymorpheva
+https://opengameart.org/content/bat-screeches
+https://opengameart.org/sites/default/files/bat.zip
+Selected OGG bat_01, bat_02 and bat_03.
+
+Magic Spell SFX — JaggedStone
+https://opengameart.org/node/29772
+https://opengameart.org/content/magic-spell-sfx
+Downloaded original magical_1 through magical_7 attachments. Local filenames are simplified; source page HTML is retained in References/Audio/EnemySFX/Magic.html.
+
+Original downloads, archive contents and source-page HTML are retained outside Assets:
+References/Audio/EnemySFX/
+Selected runtime clips and profiles:
+Assets/Effects/Audio/Enemies/
+
+Audio was imported as mono PCM for short gameplay cues. Profiles apply volume and pitch settings without altering the original downloaded recordings. No credit, account login or paid license is required by these CC0 sources; attribution is retained here for provenance.

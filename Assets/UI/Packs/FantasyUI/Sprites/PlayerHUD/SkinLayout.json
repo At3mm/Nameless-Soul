@@ -1,0 +1,16 @@
+{
+  "source": "SpriteSheets/HealthBars/DragonHealthBar_03.png",
+  "fullStage": 0,
+  "fillRectTopLeft": {
+    "x": 25,
+    "width": 71,
+    "y": 16,
+    "height": 7
+  },
+  "frameSize": {
+    "width": 112,
+    "height": 32
+  },
+  "note": "Derived frame and grayscale fill mask; original sheet unchanged. Tint only the fill for HP/Stamina.",
+  "frameStage": 7
+}

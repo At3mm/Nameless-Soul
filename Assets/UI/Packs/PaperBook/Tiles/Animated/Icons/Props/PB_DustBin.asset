@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: PB_DustBin
+  m_EditorClassIdentifier: Unity.2D.Tilemap.Extras::UnityEngine.Tilemaps.AnimatedTile
+  m_AnimatedSprites:
+  - {fileID: 21300000, guid: 27d9bfc7256036b4ea1aef1b88c13f89, type: 3}
+  - {fileID: 21300000, guid: bc14ca02d8f812647a3886b539ac45ac, type: 3}
+  - {fileID: 21300000, guid: e14e9183022497c48b1eeac9ef1e3cde, type: 3}
+  - {fileID: 21300000, guid: d8d87acb6ff95bf43b008f2f8b8ec3fc, type: 3}
+  - {fileID: 21300000, guid: 9b038351800d3944999adaed0f1e8a24, type: 3}
+  - {fileID: 21300000, guid: c1073d2db424be148afd3a68382000ee, type: 3}
+  m_MinSpeed: 10
+  m_MaxSpeed: 10
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
+  m_TileAnimationFlags: 8

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a2537dc2c870f48b3e013440b79cae, type: 3}
+  m_Name: DefaultMenuAudio
+  m_EditorClassIdentifier: Assembly-CSharp::MenuAudioSettings
+  open: {fileID: 8300000, guid: 94bf69164272995409ce8be25ba52313, type: 3}
+  close: {fileID: 8300000, guid: bd0d278990998f540acd28dcb4a0a559, type: 3}
+  move: {fileID: 8300000, guid: 05b423d82114a6a43b9ddf043fcb7ac8, type: 3}
+  confirm: {fileID: 8300000, guid: 1ff2ccd84219e174da4e0f4371cff8fd, type: 3}
+  back: {fileID: 8300000, guid: c359b24f240f4c34dadd04ab39f851e0, type: 3}
+  error: {fileID: 8300000, guid: 6b86a1b52a7aead43a523d1e97f0956d, type: 3}
+  page: {fileID: 8300000, guid: 2f3a130d69407d543becdcf77610a5f4, type: 3}
+  purchase: {fileID: 8300000, guid: 0da460fb1b699184c90e57dec181fbd2, type: 3}
+  volume: 0.5

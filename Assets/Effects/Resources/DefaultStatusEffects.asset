@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3b20a2e044749d46bb9f40a5bbf4552, type: 3}
+  m_Name: DefaultStatusEffects
+  m_EditorClassIdentifier: Assembly-CSharp::StatusEffectDefaults
+  burningFrames:
+  - {fileID: 2801448113155347191, guid: 963c62c1ba2559d4eb684744019b2c01, type: 3}
+  - {fileID: 663332445445551136, guid: 963c62c1ba2559d4eb684744019b2c01, type: 3}
+  - {fileID: 2453623918157266200, guid: 963c62c1ba2559d4eb684744019b2c01, type: 3}
+  - {fileID: 1410126370390537146, guid: 963c62c1ba2559d4eb684744019b2c01, type: 3}
+  poisonFrames:
+  - {fileID: -4347532159779508366, guid: c35467f2d4f04944396874414f99612e, type: 3}
+  - {fileID: -5105903152727900799, guid: c35467f2d4f04944396874414f99612e, type: 3}
+  - {fileID: -6863629707666585689, guid: c35467f2d4f04944396874414f99612e, type: 3}
+  - {fileID: 1432012168791554657, guid: c35467f2d4f04944396874414f99612e, type: 3}
+  stressFrames:
+  - {fileID: 5575842270196637367, guid: ff13b421699566245a6281f89143f084, type: 3}
+  - {fileID: 3456629310952234304, guid: ff13b421699566245a6281f89143f084, type: 3}
+  - {fileID: 1498316272803718004, guid: ff13b421699566245a6281f89143f084, type: 3}
+  - {fileID: 9215416536459214881, guid: ff13b421699566245a6281f89143f084, type: 3}
+  particleMaterial: {fileID: 2100000, guid: 5859e76429e3acc4293f3435a62c6bb9, type: 2}
+  tintMaterial: {fileID: 2100000, guid: 6d07f84fb5150c445b55fb0a9691de63, type: 2}
+  healingPrefab: {fileID: 5403664823570062273, guid: 85d7e76ca46f88f47a75b5473933d7a0, type: 3}
+  healingDuration: 0.75
+  healingOffset: {x: 0, y: 0, z: 0}
+  framesPerSecond: 4
+  particleOpacity: 0.75
+  particleScale: 0.7
+  tintStrength: 0.23
+  tintPulseDuration: 1.8
+  healingTintDuration: 1.6
+  burningTint: {r: 1, g: 0.28, b: 0.08, a: 1}
+  poisonTint: {r: 0.55, g: 0.95, b: 0.25, a: 1}
+  stressTint: {r: 0.5, g: 0.6, b: 1, a: 1}
+  healingTint: {r: 0.5, g: 1, b: 0.65, a: 1}

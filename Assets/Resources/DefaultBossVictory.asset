@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 656288bc90f2df340949b644fcbae564, type: 3}
+  m_Name: DefaultBossVictory
+  m_EditorClassIdentifier: Assembly-CSharp::BossVictoryStyle
+  font: {fileID: 12800000, guid: b7a06ccccedd1b84c9dc3ba41db98785, type: 3}
+  parchment: {fileID: 21300000, guid: 7e390d2ef7c03cf42ab65777c592cb73, type: 2}
+  headline: "C\u01AF\u1EDCNG \u0110\u1ECACH \u0110\xC3 H\u1EA0"
+  ink: {r: 0.1, g: 0.065, b: 0.035, a: 1}
+  gold: {r: 0.91, g: 0.74, b: 0.43, a: 1}
+  parchmentInk: {r: 0.24, g: 0.15, b: 0.075, a: 1}
+  worldDim: 0.22
+  leadDuration: 0.3
+  revealDuration: 0.85
+  holdDuration: 2.1
+  fadeDuration: 0.5
+  rewardDuration: 3.2
+  animationFPS: 12
+  volume: 0.8
+  impact: {fileID: 8300000, guid: 156cad1ff6ff9294982e36b3771a9a4d, type: 3}
+  resolve: {fileID: 8300000, guid: 0a089ffad2446514fae04b88ac12b577, type: 3}
+  reward: {fileID: 8300000, guid: c8013ea0312d6384db29da015566f106, type: 3}

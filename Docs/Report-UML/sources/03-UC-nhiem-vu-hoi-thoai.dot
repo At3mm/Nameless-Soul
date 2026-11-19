@@ -1,0 +1,26 @@
+digraph UML { graph [rankdir=LR, bgcolor="white", fontname="Arial", fontsize=19, label="Hình 3. Use Case chi tiết — hội thoại và nhiệm vụ", labelloc=t, pad="0.28", nodesep="0.45", ranksep="0.85", splines=polyline, outputorder=edgesfirst, ordering=out]; node [fontname="Arial", fontsize=13, color="#263442"]; edge [fontname="Arial", fontsize=10, color="#526170", arrowsize=.7];
+player [shape=plaintext, width=1.5, height=1.7, fixedsize=true, labelloc=b, label="Người chơi"];
+subgraph cluster_system { label="Hệ thống game NONAME"; fontsize=15; color="#758493"; margin=24;
+"talk" [shape=ellipse, style=filled, fillcolor=white, margin="0.22,0.16", label="UC07 · Hội thoại / chọn câu trả lời"];
+"accept" [shape=ellipse, style=filled, fillcolor=white, margin="0.22,0.16", label="Nhận nhiệm vụ"];
+"report" [shape=ellipse, style=filled, fillcolor=white, margin="0.22,0.16", label="Trở lại NPC để tự trả nhiệm vụ"];
+"shop" [shape=ellipse, style=filled, fillcolor=white, margin="0.22,0.16", label="Mở cửa hàng NPC"];
+"kill" [shape=ellipse, style=filled, fillcolor=white, margin="0.22,0.16", label="UC05 · Hạ boss yêu cầu"];
+"checkavailable" [shape=ellipse, style=filled, fillcolor=white, margin="0.22,0.16", label="Kiểm tra điều kiện mở nhiệm vụ"];
+"checkready" [shape=ellipse, style=filled, fillcolor=white, margin="0.22,0.16", label="Kiểm tra mục tiêu đã đạt"];
+"reward" [shape=ellipse, style=filled, fillcolor=white, margin="0.22,0.16", label="Nhận phần thưởng nhiệm vụ"];
+"progress" [shape=ellipse, style=filled, fillcolor=white, margin="0.22,0.16", label="Ghi nhận hạ boss / tiến độ"];
+}
+"player" -> "talk" [dir=none];
+"player" -> "kill" [dir=none];
+"accept" -> "talk" [style=dashed, arrowhead=vee, constraint=false, xlabel="«extend»"];
+"report" -> "talk" [style=dashed, arrowhead=vee, constraint=false, xlabel="«extend»"];
+"shop" -> "talk" [style=dashed, arrowhead=vee, constraint=false, xlabel="«extend»"];
+"accept" -> "checkavailable" [style=dashed, arrowhead=vee, label="«include»"];
+"report" -> "checkready" [style=dashed, arrowhead=vee, label="«include»"];
+"report" -> "reward" [style=dashed, arrowhead=vee, label="«include»"];
+"kill" -> "progress" [style=dashed, arrowhead=vee, label="«include»"];
+"talk" -> "accept" [style=invis, weight=8];
+"talk" -> "report" [style=invis, weight=8];
+"talk" -> "shop" [style=invis, weight=8];
+}

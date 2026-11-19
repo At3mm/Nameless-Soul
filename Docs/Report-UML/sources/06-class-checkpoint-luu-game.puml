@@ -1,0 +1,134 @@
+@startuml
+skinparam backgroundColor white
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam classAttributeIconSize 0
+title Hình 6. Class Diagram — checkpoint, kinh tế và lưu game
+class "World.CheckpointInteractable" as cp <<WorldInteractable subclass>> {
++checkpointId: string
++RespawnPosition: Vector3
+--
+#Interact(player)
+}
+class "World.CheckpointMenu" as menu <<MonoBehaviour>> {
++checkpointName: string
++CurrentSection: int
+--
++Pray()
++TravelToSelected()
+}
+class "World.CheckpointService" as service <<singleton MonoBehaviour>> {
+-{static} instance: CheckpointService
++{static} SavedChanged: event
+--
++{static} Save(...)
++{static} TravelTo(...)
++{static} ReturnToLastShrine(...)
+}
+class "CheckpointService.Record" as record <<Serializable>> {
++scenePath / checkpointId: string
++returnScenePath / returnCheckpointId
++x / y / z: float
+}
+class "World.ScreenFader" as fade <<singleton MonoBehaviour>> {
+--
++FadeOut(...) / FadeIn(...)
++TransitionToScene(...)
+}
+class "World.NormalEnemyRespawns" as respawn <<static service>> {
+--
++{static} Register(...)
++{static} ResetNormals(scene)
+}
+class "GameEconomy" as eco <<static service>> {
++{static} Gold / Experience / LifeSeeds
++{static} Changed: event
+--
++{static} TryUpgrade(stat)
++{static} SacrificeLifeSeed(potion)
++{static} PurifySoulConsumption()
+}
+class "EconomySettings" as settings <<ScriptableObject>> {
+--
++UpgradeCost(purchaseCount)
++Rewards(type, ...)
+}
+class "PlayerProgression" as prog <<MonoBehaviour>> {
+--
++GrantGold(amount)
++GrantExperience(amount)
+}
+class "PlayerHealthPotion" as potion <<MonoBehaviour>> {
++StartingCapacity = 3
++MaximumCapacity = 10
++Charges: int
+--
++TryUse()
++ResetForRest()
+}
+class "PlayerConsumables" as items <<MonoBehaviour>> {
++Selected: ConsumableKind
+--
++TryUse(kind)
++Equip(kind)
+}
+class "ConsumableCatalog" as catalog <<ScriptableObject>> {
++items: Item[]
+--
++Find(kind): Item
+}
+class "SoulConsumption" as soul <<static service>> {
++{static} Active / NextChancePercent
+--
++{static} OutgoingMultiplier(...)
++{static} IncomingMultiplier(...)
+}
+class "World.PlayerDeathDrops" as drops <<static service>> {
+--
++{static} OnDeath(player)
++{static} Refresh()
+}
+class "World.PlayerDeathDropPickup" as pickup <<WorldInteractable subclass>> {
++DropId: string
+--
+#Interact(player)
+}
+class "EnemyDefeatState" as defeat <<static service>> {
+--
++{static} WasDefeated(id)
+}
+class "BossItemInventory" as bossinv <<static service>> {
+--
++{static} TryGrant(...)
++{static} OwnedItems()
+}
+class "UnityEngine.PlayerPrefs" as prefs <<Unity API>> {
+--
++{static} GetString(...)
++{static} SetString(...) / Save()
+}
+cp --> menu : mở menu
+cp ..> service : lưu / mở tượng
+menu ..> service : du hành / ghi nhớ tượng
+service --> record : pending / fallback
+service ..> fade : chuyển cảnh / fade
+menu ..> respawn : cầu nguyện
+menu ..> eco : nâng cấp / hiến tế / thanh tẩy
+menu ..> potion : hồi bình máu
+eco --> settings : đọc giá / thưởng
+prog ..> eco : nghe Changed
+items --> catalog : đọc hiệu ứng / icon
+items ..> eco : quản lý ô dùng nhanh
+items ..> service : Bùa hồi quy
+soul ..> eco : trạng thái nhiễm / thưởng
+drops ..> eco : ghi khoản rơi 50%
+drops ..> pickup : tạo điểm thu hồi
+pickup ..> eco : thu hồi khoản rơi
+eco ..> prefs : JSON / PlayerPrefs
+service ..> prefs : JSON / PlayerPrefs
+defeat ..> prefs : JSON / PlayerPrefs
+bossinv ..> prefs : JSON / PlayerPrefs
+legend bottom
+QuestService và GameControls cũng lưu PlayerPrefs (lược bớt khỏi hình này). Chưa có cơ sở dữ liệu SQL/server; definition ScriptableObject và dữ liệu tiến trình JSON là hai nhóm khác nhau.
+endlegend
+@enduml

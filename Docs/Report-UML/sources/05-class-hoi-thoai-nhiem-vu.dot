@@ -1,0 +1,42 @@
+digraph UML { graph [rankdir=TB, bgcolor="white", fontname="Arial", fontsize=19, label="Hình 5. Class Diagram — tương tác, hội thoại và nhiệm vụ", labelloc=t, pad="0.28", nodesep="0.45", ranksep="0.85", splines=polyline, outputorder=edgesfirst, ordering=out]; node [fontname="Arial", fontsize=13, color="#263442"]; edge [fontname="Arial", fontsize=10, color="#526170", arrowsize=.7];
+"interactor" [shape=plain, label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="8"><TR><TD BGCOLOR="#eef2f5"><FONT POINT-SIZE="11">«MonoBehaviour»</FONT><BR/><B>World.PlayerInteractor</B></TD></TR><TR><TD ALIGN="LEFT">+Target: WorldInteractable<BR ALIGN="LEFT"/>+CanInteract / IsInCombat<BR ALIGN="LEFT"/></TD></TR><TR><TD ALIGN="LEFT">+TryInteract()<BR ALIGN="LEFT"/>+ShowNotice(text)<BR ALIGN="LEFT"/></TD></TR></TABLE>>];
+"base" [shape=plain, label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="8"><TR><TD BGCOLOR="#eef2f5"><FONT POINT-SIZE="11">«abstract MonoBehaviour»</FONT><BR/><B>World.WorldInteractable</B></TD></TR><TR><TD ALIGN="LEFT">+interactionRadius: float<BR ALIGN="LEFT"/>+interactionLabel: string<BR ALIGN="LEFT"/></TD></TR><TR><TD ALIGN="LEFT">+TryInteract(player)<BR ALIGN="LEFT"/>#Interact(player): bool {abstract}<BR ALIGN="LEFT"/></TD></TR></TABLE>>];
+"npc" [shape=plain, label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="8"><TR><TD BGCOLOR="#eef2f5"><FONT POINT-SIZE="11">«MonoBehaviour»</FONT><BR/><B>World.NpcInteractable</B></TD></TR><TR><TD ALIGN="LEFT">+dialogue: DialogueDefinition<BR ALIGN="LEFT"/>+CurrentNodeId: string<BR ALIGN="LEFT"/></TD></TR><TR><TD ALIGN="LEFT">+Open(player)<BR ALIGN="LEFT"/>+Choose(index)<BR ALIGN="LEFT"/></TD></TR></TABLE>>];
+"shop" [shape=plain, label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="8"><TR><TD BGCOLOR="#eef2f5"><FONT POINT-SIZE="11">«MonoBehaviour»</FONT><BR/><B>World.NpcShop</B></TD></TR><TR><TD ALIGN="LEFT">+Quantity: int<BR ALIGN="LEFT"/></TD></TR><TR><TD ALIGN="LEFT">+Open(...)<BR ALIGN="LEFT"/>+Trade(action, quantity)<BR ALIGN="LEFT"/></TD></TR></TABLE>>];
+"dialogue" [shape=plain, label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="8"><TR><TD BGCOLOR="#eef2f5"><FONT POINT-SIZE="11">«ScriptableObject»</FONT><BR/><B>DialogueDefinition</B></TD></TR><TR><TD ALIGN="LEFT">+startNodeId: string<BR ALIGN="LEFT"/>+nodes: List&lt;Node&gt;<BR ALIGN="LEFT"/></TD></TR><TR><TD ALIGN="LEFT">+Find(id): Node<BR ALIGN="LEFT"/></TD></TR></TABLE>>];
+"node" [shape=plain, label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="8"><TR><TD BGCOLOR="#eef2f5"><FONT POINT-SIZE="11">«Serializable»</FONT><BR/><B>DialogueDefinition.Node</B></TD></TR><TR><TD ALIGN="LEFT">+id / speaker / text: string<BR ALIGN="LEFT"/>+nextNodeId: string<BR ALIGN="LEFT"/></TD></TR></TABLE>>];
+"choice" [shape=plain, label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="8"><TR><TD BGCOLOR="#eef2f5"><FONT POINT-SIZE="11">«Serializable»</FONT><BR/><B>DialogueDefinition.Choice</B></TD></TR><TR><TD ALIGN="LEFT">+action: DialogueAction<BR ALIGN="LEFT"/>+quest: QuestDefinition<BR ALIGN="LEFT"/>+conditionQuest: QuestDefinition<BR ALIGN="LEFT"/>+requiredStatus: QuestStatus<BR ALIGN="LEFT"/></TD></TR></TABLE>>];
+"qs" [shape=plain, label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="8"><TR><TD BGCOLOR="#eef2f5"><FONT POINT-SIZE="11">«static service»</FONT><BR/><B>QuestService</B></TD></TR><TR><TD ALIGN="LEFT">+[static] Changed: event<BR ALIGN="LEFT"/></TD></TR><TR><TD ALIGN="LEFT">+[static] Accept(quest)<BR ALIGN="LEFT"/>+[static] TurnIn(quest)<BR ALIGN="LEFT"/>+[static] Status(quest)<BR ALIGN="LEFT"/>+[static] OwnedItems()<BR ALIGN="LEFT"/></TD></TR></TABLE>>];
+"qd" [shape=plain, label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="8"><TR><TD BGCOLOR="#eef2f5"><FONT POINT-SIZE="11">«ScriptableObject»</FONT><BR/><B>QuestDefinition</B></TD></TR><TR><TD ALIGN="LEFT">+questId / title: string<BR ALIGN="LEFT"/>+prerequisites: List&lt;QuestDefinition&gt;<BR ALIGN="LEFT"/>+objectives / consumables / items<BR ALIGN="LEFT"/></TD></TR></TABLE>>];
+"objective" [shape=plain, label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="8"><TR><TD BGCOLOR="#eef2f5"><FONT POINT-SIZE="11">«Serializable»</FONT><BR/><B>QuestDefinition.BossObjective</B></TD></TR><TR><TD ALIGN="LEFT">+bossId / encounterId: string<BR ALIGN="LEFT"/>+count: int<BR ALIGN="LEFT"/></TD></TR></TABLE>>];
+"reward" [shape=plain, label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="8"><TR><TD BGCOLOR="#eef2f5"><FONT POINT-SIZE="11">«Serializable»</FONT><BR/><B>QuestDefinition.ItemReward</B></TD></TR><TR><TD ALIGN="LEFT">+item: QuestItemDefinition<BR ALIGN="LEFT"/>+count: int<BR ALIGN="LEFT"/></TD></TR></TABLE>>];
+"qi" [shape=plain, label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="8"><TR><TD BGCOLOR="#eef2f5"><FONT POINT-SIZE="11">«ScriptableObject»</FONT><BR/><B>QuestItemDefinition</B></TD></TR><TR><TD ALIGN="LEFT">+itemId / displayName: string<BR ALIGN="LEFT"/>+icon: Sprite<BR ALIGN="LEFT"/></TD></TR><TR><TD ALIGN="LEFT">+[static] Find(id)<BR ALIGN="LEFT"/></TD></TR></TABLE>>];
+"gate" [shape=plain, label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="8"><TR><TD BGCOLOR="#eef2f5"><FONT POINT-SIZE="11">«MonoBehaviour»</FONT><BR/><B>World.QuestBossEncounter</B></TD></TR><TR><TD ALIGN="LEFT">+requiredQuest: QuestDefinition<BR ALIGN="LEFT"/>+conversation: NpcInteractable<BR ALIGN="LEFT"/>+CurrentStage: Stage<BR ALIGN="LEFT"/></TD></TR><TR><TD ALIGN="LEFT">+RefreshQuestState()<BR ALIGN="LEFT"/></TD></TR></TABLE>>];
+"eco" [shape=plain, label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="8"><TR><TD BGCOLOR="#eef2f5"><FONT POINT-SIZE="11">«static service»</FONT><BR/><B>GameEconomy</B></TD></TR><TR><TD ALIGN="LEFT">+[static] TryGrantQuestReward(...)<BR ALIGN="LEFT"/>+[static] BuyConsumable(...)<BR ALIGN="LEFT"/>+[static] SellConsumable(...)<BR ALIGN="LEFT"/></TD></TR></TABLE>>];
+"interactor" -> "base" [arrowhead=vee, constraint=false, label="chọn đối tượng · 0..1"];
+"base" -> "npc" [dir=back, arrowtail=empty, arrowhead=none, constraint=false];
+"npc" -> "dialogue" [arrowhead=vee, constraint=false, label="kịch bản · 0..1"];
+"dialogue" -> "node" [dir=both, arrowtail=diamond, arrowhead=none, constraint=false, label="nodes · 0..*"];
+"node" -> "choice" [dir=both, arrowtail=diamond, arrowhead=none, constraint=false, label="choices · 0..*"];
+"choice" -> "qd" [arrowhead=vee, constraint=false, label="quest / điều kiện · 0..1"];
+"npc" -> "qs" [style=dashed, arrowhead=vee, constraint=false, label="Accept / TryAutoTurnIn"];
+"npc" -> "shop" [arrowhead=vee, constraint=false, label="cửa hàng tùy chọn · 0..1"];
+"shop" -> "eco" [style=dashed, arrowhead=vee, constraint=false, label="mua / bán"];
+"qs" -> "qd" [style=dashed, arrowhead=vee, constraint=false, label="đọc định nghĩa"];
+"qs" -> "eco" [style=dashed, arrowhead=vee, constraint=false, label="trả thưởng có receipt"];
+"qd" -> "objective" [dir=both, arrowtail=diamond, arrowhead=none, constraint=false, label="objectives · 1..*"];
+"qd" -> "reward" [dir=both, arrowtail=diamond, arrowhead=none, constraint=false, label="items · 0..*"];
+"reward" -> "qi" [arrowhead=vee, constraint=false, label="tham chiếu asset · 1"];
+"gate" -> "qd" [arrowhead=vee, constraint=false, label="requiredQuest · 1"];
+"gate" -> "npc" [arrowhead=vee, constraint=false, label="conversation · 0..1"];
+"gate" -> "qs" [style=dashed, arrowhead=vee, constraint=false, label="nghe Changed"];
+{rank=same; "interactor";"gate";}
+{rank=same; "base";"qs";}
+{rank=same; "npc";"qd";}
+{rank=same; "dialogue";"shop";"objective";"reward";}
+{rank=same; "node";"choice";"eco";"qi";}
+"interactor" -> "base" [style=invis,weight=100];
+"base" -> "npc" [style=invis,weight=100];
+"npc" -> "dialogue" [style=invis,weight=100];
+"dialogue" -> "node" [style=invis,weight=100];
+}

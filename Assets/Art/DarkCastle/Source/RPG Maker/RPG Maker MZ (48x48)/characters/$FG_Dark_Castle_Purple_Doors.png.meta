@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: d53aece5ec287804f9c0341e3b3913db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7278014001959999685
+    second: $FG_Dark_Castle_Purple_Doors_0
+  - first:
+      213: 7590740909829420565
+    second: $FG_Dark_Castle_Purple_Doors_1
+  - first:
+      213: -4583406398781419817
+    second: $FG_Dark_Castle_Purple_Doors_2
+  - first:
+      213: 1686329823247571500
+    second: $FG_Dark_Castle_Purple_Doors_3
+  - first:
+      213: -6472016613686965294
+    second: $FG_Dark_Castle_Purple_Doors_4
+  - first:
+      213: 5116793963909087016
+    second: $FG_Dark_Castle_Purple_Doors_5
+  - first:
+      213: 1881924087025511412
+    second: $FG_Dark_Castle_Purple_Doors_6
+  - first:
+      213: 3652874942239032552
+    second: $FG_Dark_Castle_Purple_Doors_7
+  - first:
+      213: -3194780644540043036
+    second: $FG_Dark_Castle_Purple_Doors_8
+  - first:
+      213: 2067632208775461655
+    second: $FG_Dark_Castle_Purple_Doors_9
+  - first:
+      213: -4491636995001434405
+    second: $FG_Dark_Castle_Purple_Doors_10
+  - first:
+      213: 5545153106013390895
+    second: $FG_Dark_Castle_Purple_Doors_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: $FG_Dark_Castle_Purple_Doors_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 287
+        width: 92
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c815299c23b00560800000000000000
+      internalID: 7278014001959999685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $FG_Dark_Castle_Purple_Doors_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 287
+        width: 92
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5167868d3aab75960800000000000000
+      internalID: 7590740909829420565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $FG_Dark_Castle_Purple_Doors_2
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 287
+        width: 92
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de816b0a287460c0800000000000000
+      internalID: -4583406398781419817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $FG_Dark_Castle_Purple_Doors_3
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 191
+        width: 92
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a91d82a0c076710800000000000000
+      internalID: 1686329823247571500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $FG_Dark_Castle_Purple_Doors_4
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 191
+        width: 92
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db03c81e27ce26a0800000000000000
+      internalID: -6472016613686965294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $FG_Dark_Castle_Purple_Doors_5
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 191
+        width: 92
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82ff9af0001820740800000000000000
+      internalID: 5116793963909087016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $FG_Dark_Castle_Purple_Doors_6
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 95
+        width: 92
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb286d7cffed1a10800000000000000
+      internalID: 1881924087025511412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $FG_Dark_Castle_Purple_Doors_7
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 95
+        width: 92
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e4451df76e91b230800000000000000
+      internalID: 3652874942239032552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $FG_Dark_Castle_Purple_Doors_8
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 95
+        width: 92
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e0b5e23eebd9a3d0800000000000000
+      internalID: -3194780644540043036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $FG_Dark_Castle_Purple_Doors_9
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 0
+        width: 92
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71bb7320a84b1bc10800000000000000
+      internalID: 2067632208775461655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $FG_Dark_Castle_Purple_Doors_10
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 92
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdebfe463ff7aa1c0800000000000000
+      internalID: -4491636995001434405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $FG_Dark_Castle_Purple_Doors_11
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 0
+        width: 92
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f280515de5754fc40800000000000000
+      internalID: 5545153106013390895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      $FG_Dark_Castle_Purple_Doors_0: 7278014001959999685
+      $FG_Dark_Castle_Purple_Doors_1: 7590740909829420565
+      $FG_Dark_Castle_Purple_Doors_10: -4491636995001434405
+      $FG_Dark_Castle_Purple_Doors_11: 5545153106013390895
+      $FG_Dark_Castle_Purple_Doors_2: -4583406398781419817
+      $FG_Dark_Castle_Purple_Doors_3: 1686329823247571500
+      $FG_Dark_Castle_Purple_Doors_4: -6472016613686965294
+      $FG_Dark_Castle_Purple_Doors_5: 5116793963909087016
+      $FG_Dark_Castle_Purple_Doors_6: 1881924087025511412
+      $FG_Dark_Castle_Purple_Doors_7: 3652874942239032552
+      $FG_Dark_Castle_Purple_Doors_8: -3194780644540043036
+      $FG_Dark_Castle_Purple_Doors_9: 2067632208775461655
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

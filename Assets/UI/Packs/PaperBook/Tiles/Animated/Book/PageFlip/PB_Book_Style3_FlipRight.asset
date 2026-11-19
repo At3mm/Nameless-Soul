@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: PB_Book_Style3_FlipRight
+  m_EditorClassIdentifier: Unity.2D.Tilemap.Extras::UnityEngine.Tilemaps.AnimatedTile
+  m_AnimatedSprites:
+  - {fileID: 21300000, guid: 7196cb24da598c644b53219a71d13237, type: 3}
+  - {fileID: 21300000, guid: 3e18ed5fe4a782242b1585e4dbf6131b, type: 3}
+  - {fileID: 21300000, guid: 437090b827d25bf459a84871971f6b79, type: 3}
+  - {fileID: 21300000, guid: 5a915da1f348c8c42b51d7747c6c811e, type: 3}
+  - {fileID: 21300000, guid: 6e18cbb5057409745ad369f79846a48e, type: 3}
+  - {fileID: 21300000, guid: 9861484cf4b69444f8aead16a6bb66a5, type: 3}
+  - {fileID: 21300000, guid: 22b2fdf2d51eda94793d101b8c7afb65, type: 3}
+  - {fileID: 21300000, guid: 5309f9360ac866c4388f45e7471cd87a, type: 3}
+  m_MinSpeed: 20
+  m_MaxSpeed: 20
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
+  m_TileAnimationFlags: 9

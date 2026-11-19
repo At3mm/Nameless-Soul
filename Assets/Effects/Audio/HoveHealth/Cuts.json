@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Heal",
+    "source": "Heal_DSGNRise_HealthRegen_HA_HealthDmg_01.wav",
+    "start": 0.0,
+    "duration": 0.8
+  },
+  {
+    "name": "Cleanse",
+    "source": "Cleanse_4th_01.wav",
+    "start": 0.23875,
+    "duration": 0.65
+  },
+  {
+    "name": "BuffDamage",
+    "source": "BuffDamage_3rd_01.wav",
+    "start": 0.17458,
+    "duration": 0.55
+  },
+  {
+    "name": "BuffSpeed",
+    "source": "BuffSpeed_5th_01.wav",
+    "start": 0.11506,
+    "duration": 0.55
+  },
+  {
+    "name": "BuffResistance",
+    "source": "BuffResistance_4th_and_octave_01.wav",
+    "start": 0.34913,
+    "duration": 0.65
+  },
+  {
+    "name": "BuffStamina",
+    "source": "BuffStamina_DSGNSynth_HealingSynthetic_HA_HealthDmg_01.wav",
+    "start": 0.06377,
+    "duration": 0.65
+  },
+  {
+    "name": "BuffReduction",
+    "source": "BuffReduction_4th_and_3rd_01.wav",
+    "start": 0.2796,
+    "duration": 0.65
+  },
+  {
+    "name": "Burn",
+    "source": "Burn_DSGNSynth_HealthFalling_HA_HealthDmg_01.wav",
+    "start": 0.01154,
+    "duration": 0.6
+  },
+  {
+    "name": "Poison",
+    "source": "Poison_DSGNSynth_HealthFallingSynth_HA_HealthDmg_03.wav",
+    "start": 0.01881,
+    "duration": 0.6
+  },
+  {
+    "name": "Stress",
+    "source": "Stress_HMNHart_HeartBeat_HA_HealthDmg_01.wav",
+    "start": 0.02529,
+    "duration": 0.4836
+  }
+]

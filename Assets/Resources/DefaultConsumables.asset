@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d80c5c2382de13245adf6226527af51e, type: 3}
+  m_Name: DefaultConsumables
+  m_EditorClassIdentifier: Assembly-CSharp::ConsumableCatalog
+  items:
+  - kind: 0
+    displayName: "Thu\u1ED1c gi\u1EA3i \u0111\u1ED9c"
+    description: "X\xF3a tr\u1EA1ng th\xE1i tr\xFAng \u0111\u1ED9c hi\u1EC7n t\u1EA1i.
+      Kh\xF4ng ng\u0103n nhi\u1EC5m \u0111\u1ED9c l\u1EA1i."
+    icon: {fileID: 21300000, guid: 1818254d57b5c0c4fa61f371b67265f3, type: 2}
+    buyPrice: 25
+    sellPrice: 8
+    duration: 30
+    percent: 0
+  - kind: 1
+    displayName: "Thu\u1ED1c ch\u1EEFa b\u1ECFng"
+    description: "X\xF3a tr\u1EA1ng th\xE1i thi\xEAu \u0111\u1ED1t hi\u1EC7n t\u1EA1i."
+    icon: {fileID: 21300000, guid: 9e0060c347c44f54d9557dc96c18a568, type: 2}
+    buyPrice: 25
+    sellPrice: 8
+    duration: 30
+    percent: 0
+  - kind: 2
+    displayName: "Thu\u1ED1c an th\u1EA7n"
+    description: "X\xF3a tr\u1EA1ng th\xE1i c\u0103ng th\u1EB3ng hi\u1EC7n t\u1EA1i."
+    icon: {fileID: 21300000, guid: 6173c505fefb1aa42983fead9baa036c, type: 2}
+    buyPrice: 25
+    sellPrice: 8
+    duration: 30
+    percent: 0
+  - kind: 3
+    displayName: "Thu\u1ED1c c\u01B0\u1EDDng l\u1EF1c"
+    description: "T\u0103ng 25% s\xE1t th\u01B0\u01A1ng trong 30 gi\xE2y."
+    icon: {fileID: 21300000, guid: e1db09a18bc9ee1428eb35b1a1006faa, type: 2}
+    buyPrice: 60
+    sellPrice: 20
+    duration: 30
+    percent: 25
+  - kind: 4
+    displayName: "Thu\u1ED1c nhanh nh\u1EB9n"
+    description: "T\u0103ng 20% t\u1ED1c \u0111\u1ED9 di chuy\u1EC3n trong 30 gi\xE2y."
+    icon: {fileID: 21300000, guid: c43a5df4f82222d4aa957d9bdb8b46f9, type: 2}
+    buyPrice: 60
+    sellPrice: 20
+    duration: 30
+    percent: 20
+  - kind: 5
+    displayName: "Thu\u1ED1c kh\xE1ng l\u1EF1c"
+    description: "T\u0103ng 20 \u0111i\u1EC3m ph\u1EA7n tr\u0103m kh\xE1ng trong
+      30 gi\xE2y. Kh\xF4ng mi\u1EC5n nhi\u1EC5m \u0111\u1ED9c."
+    icon: {fileID: 21300000, guid: f19efc039ea47de4eaa9404ff7983e33, type: 2}
+    buyPrice: 60
+    sellPrice: 20
+    duration: 30
+    percent: 20
+  - kind: 6
+    displayName: "Thu\u1ED1c b\u1EC1n s\u1EE9c"
+    description: "Gi\u1EA3m 25% stamina ti\xEAu hao trong 30 gi\xE2y."
+    icon: {fileID: 21300000, guid: 49ea18c270635b348be5644db3113ba6, type: 2}
+    buyPrice: 60
+    sellPrice: 20
+    duration: 30
+    percent: 25
+  - kind: 7
+    displayName: "Thu\u1ED1c h\u1ED9 th\u1EC3"
+    description: "Gi\u1EA3m 20% s\xE1t th\u01B0\u01A1ng nh\u1EADn v\xE0o trong 30
+      gi\xE2y."
+    icon: {fileID: 21300000, guid: b07b2daa5bd5e6b41a230e47c500f8fc, type: 2}
+    buyPrice: 60
+    sellPrice: 20
+    duration: 30
+    percent: 20
+  - kind: 8
+    displayName: "V\xF2ng sinh m\u1EC7nh"
+    description: "D\xF9ng 1 t\u1EA1i t\u01B0\u1EE3ng th\u1EA7n \u2192 Thanh t\u1EA9y
+      \u0111\u1EC3 gi\u1EA3i \u0102n h\u1ED3n v\xE0 \u0111\u1EB7t l\u1EA1i t\u1EC9
+      l\u1EC7 nhi\u1EC5m v\u1EC1 6%. Kh\xF4ng th\u1EC3 d\xF9ng nhanh ngo\xE0i chi\u1EBFn
+      tr\u01B0\u1EDDng."
+    icon: {fileID: -1115277686026739517, guid: ab66069d1bb888e45b2ac671cfaded12, type: 3}
+    buyPrice: 150
+    sellPrice: 30
+    duration: 30
+    percent: 20
+  - kind: 9
+    displayName: "D\xE2y chuy\u1EC1n c\u1EE7a Th\u1EA7n"
+    description: "Tr\u1EDF v\u1EC1 t\u01B0\u1EE3ng th\u1EA7n \u0111\xE3 c\u1EA7u
+      nguy\u1EC7n ho\u1EB7c du h\xE0nh \u0111\u1EBFn g\u1EA7n nh\u1EA5t. C\xF3 th\u1EC3
+      t\xE1i s\u1EED d\u1EE5ng, kh\xF4ng ti\xEAu hao. Kh\xF4ng d\xF9ng khi giao tranh.
+      G\u1EAFn v\xE0o \xF4 d\xF9ng nhanh \u0111\u1EC3 s\u1EED d\u1EE5ng ngo\xE0i
+      menu."
+    icon: {fileID: 4996425866903264551, guid: dac8db0c56afc9d47937f9f26f465848, type: 3}
+    buyPrice: 0
+    sellPrice: 0
+    duration: 0
+    percent: 0

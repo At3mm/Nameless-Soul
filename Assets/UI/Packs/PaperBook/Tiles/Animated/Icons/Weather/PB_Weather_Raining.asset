@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: PB_Weather_Raining
+  m_EditorClassIdentifier: Unity.2D.Tilemap.Extras::UnityEngine.Tilemaps.AnimatedTile
+  m_AnimatedSprites:
+  - {fileID: 21300000, guid: 0daf89dc177a4b04f89886ea7f0d614a, type: 3}
+  - {fileID: 21300000, guid: 0ba0ee90bea4bb94893a0ec869b2b9c5, type: 3}
+  - {fileID: 21300000, guid: 0c9e9f8b652648648bb245967e80630e, type: 3}
+  - {fileID: 21300000, guid: e41bb7c7ce925b448b26460639e1161c, type: 3}
+  - {fileID: 21300000, guid: ae397b05eb7dccf4c9e564094ac2b131, type: 3}
+  - {fileID: 21300000, guid: 57a25fb3d4816e349ae6d0e4e2e95a7a, type: 3}
+  - {fileID: 21300000, guid: 8d40ed8600932dd4c9d10aa01121df74, type: 3}
+  - {fileID: 21300000, guid: 071e7ac059ba50f4bbe4fc2f63f28d11, type: 3}
+  - {fileID: 21300000, guid: 35ce852ec33bc144f84ce2197fc5dd6b, type: 3}
+  - {fileID: 21300000, guid: 9bf20073fefbdbe4fbcb7f545769cf88, type: 3}
+  m_MinSpeed: 10
+  m_MaxSpeed: 10
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
+  m_TileAnimationFlags: 8

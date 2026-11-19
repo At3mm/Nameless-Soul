@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 251d10523ceda684995e2ff2a4cb3d2a, type: 3}
+  m_Name: GreatswordSkeleton
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyAudioProfile
+  attacks:
+  - {fileID: 8300000, guid: 991044ff696446058a1e2d44b53034ce, type: 3}
+  hurt:
+  - {fileID: 8300000, guid: 0b8e8822707f44da85712020eef10e96, type: 3}
+  - {fileID: 8300000, guid: bf0fba552ea44aec899c8182203400eb, type: 3}
+  death:
+  - {fileID: 8300000, guid: 559e2a992b5c48cc91990421264740dd, type: 3}
+  phaseTransition:
+  - {fileID: 8300000, guid: 588d9addace844d690cf2078bd5dc7ad, type: 3}
+  replaceDefaultWeaponSwing: 1
+  skills:
+  - skillName: HeavyAttack
+    clips:
+    - {fileID: 8300000, guid: 991044ff696446058a1e2d44b53034ce, type: 3}
+  - skillName: Skill3
+    clips:
+    - {fileID: 8300000, guid: 520ccd6eeee74542b1d9557105c80c78, type: 3}
+  volume: 0.8
+  pitch: 0.85
+  attackInterval: 0.45
+  hurtInterval: 0.5

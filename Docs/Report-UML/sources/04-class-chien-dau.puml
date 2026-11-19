@@ -1,0 +1,136 @@
+@startuml
+skinparam backgroundColor white
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam classAttributeIconSize 0
+title Hình 4. Class Diagram — điều khiển và chiến đấu
+class "PlayerController" as controller <<MonoBehaviour>> {
++moveSpeed: float
++IsSprinting: bool
+--
++StopSprinting()
++DelayStaminaRecovery()
+}
+class "PlayerDash" as dash <<MonoBehaviour>> {
++dashDuration: float
++dashStaminaCost: float
+--
++TryDash(inputDirection)
++CancelDash()
+}
+class "PlayerCombat" as pc <<MonoBehaviour>> {
++normalAttackSkillName: string
++skill2SkillName: string
+}
+class "CharacterParry" as parry <<MonoBehaviour>> {
++isParrying: bool
+--
++EnableParryWindow()
++ExecuteParry(attacker)
+}
+class "CharacterStats" as stats <<MonoBehaviour>> {
++maxHP / currentHP: float
++maxStamina / currentStamina: float
++ATK / DEF / STR: float
+--
++AddPosture(amount)
+}
+class "CharacterHealth" as health <<MonoBehaviour>> {
++isDead: bool
++{static} AnyDied: event
+--
++TakeDamage(...)
++Heal(amount)
+}
+class "SkillDamageManager" as mgr <<MonoBehaviour>> {
++skills: List<SkillData>
++targetLayer: LayerMask
+--
++MarkSkillUsed(skillName)
++ExecuteHit(skillName)
+}
+class "SkillData" as skill <<Serializable>> {
++skillName: string
++damageMultiplier: float
++cooldownTime: float
++attackRange: float
+}
+class "EnemyBehavior" as ai <<MonoBehaviour>> {
++currentState: OrcState
+--
++IsInCombatWith(target)
+}
+class "EnemyAwareness" as aware <<MonoBehaviour>> {
++maxChaseDistance: float
+--
++HasLineOfSight(target)
++MaxAlert()
+}
+class "EnemyCombat" as ec <<MonoBehaviour>> {
++skillManager: SkillDamageManager
+--
++TriggerAttack(...)
++TriggerSkill(...)
+#ShouldLunge(skill): bool
+}
+class "EnemyBreak" as break <<MonoBehaviour>> {
++recoveryDelay: float
++IsBroken / Ratio
+--
++ReceiveHit(staminaDamage)
++ClearBreak()
+}
+class "BossPhaseController" as phase <<MonoBehaviour>> {
++phase1Skills / phase2Skills
++IsTransitioning: bool
+--
++AllowsSkill(skill)
++EvaluatePhase()
+}
+class "BossMovesetDirector" as director <<MonoBehaviour>> {
++combos: List<Combo>
++ObservedMove: PlayerMove
+--
++SelectOpening(...)
++OnSkillStarted(...)
+}
+class "SlimeCombat" as SlimeCombat <<EnemyCombat subclass>> {
+}
+class "WerebearCombat" as WerebearCombat <<EnemyCombat subclass>> {
+}
+class "WerewolfCombat" as WerewolfCombat <<EnemyCombat subclass>> {
+}
+class "OrcRiderCombat" as OrcRiderCombat <<EnemyCombat subclass>> {
+}
+class "NecromancerCombat" as NecromancerCombat <<EnemyCombat subclass>> {
+}
+class "BlackKnightCombat" as BlackKnightCombat <<EnemyCombat subclass>> {
+}
+class "BlackKnightBossCombat" as BlackKnightBossCombat <<EnemyCombat subclass>> {
+}
+controller --> dash : điều khiển dash
+dash --> stats : tiêu hao stamina
+pc --> mgr : gọi kỹ năng
+parry ..> break : đỡ đòn → sát thương choáng
+health --> stats : đọc / cập nhật HP
+health --> break : chuyển sát thương choáng
+mgr *-- "0..*" skill : skills
+mgr --> stats : tính sát thương
+mgr ..> health : gây sát thương mục tiêu
+ai --> aware : nhận biết / LOS
+ai --> ec : ra lệnh tấn công
+ec --> mgr : thực thi kỹ năng
+ec ..> phase : lọc chiêu theo phase
+ec ..> director : chọn đòn / combo
+break --> stats : hồi thanh choáng
+SlimeCombat --|> ec
+WerebearCombat --|> ec
+WerewolfCombat --|> ec
+OrcRiderCombat --|> ec
+NecromancerCombat --|> ec
+BlackKnightCombat --|> ec
+BlackKnightBossCombat --|> ec
+legend bottom
+Các component cùng gắn trên GameObject được nối bằng tham chiếu, không phải kế thừa. Skeleton / Armor Skeleton / Greatsword Skeleton dùng EnemyCombat chung; không có lớp C# riêng tương ứng tên prefab.
+endlegend
+@enduml

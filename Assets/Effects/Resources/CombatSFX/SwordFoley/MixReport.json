@@ -1,0 +1,346 @@
+[
+  {
+    "name": "Hit1",
+    "duration": 0.27,
+    "rms": 0.15,
+    "peak": 0.7492,
+    "layers": [
+      {
+        "source": "impactSoft_medium_000",
+        "gain": 0.65,
+        "speed": 1.05,
+        "delay": 0
+      },
+      {
+        "source": "impactPunch_heavy_000",
+        "gain": 0.5,
+        "speed": 1.12,
+        "delay": 0.002
+      },
+      {
+        "source": "impactMetal_medium_000",
+        "gain": 0.28,
+        "speed": 1.12,
+        "delay": 0.004
+      },
+      {
+        "source": "knifeSlice",
+        "gain": 0.15,
+        "speed": 1.6,
+        "delay": 0.008
+      }
+    ]
+  },
+  {
+    "name": "HeavyHit1",
+    "duration": 0.34,
+    "rms": 0.15,
+    "peak": 0.6598,
+    "layers": [
+      {
+        "source": "impactPunch_heavy_000",
+        "gain": 0.95,
+        "speed": 0.88,
+        "delay": 0
+      },
+      {
+        "source": "impactSoft_medium_000",
+        "gain": 0.43,
+        "speed": 0.94,
+        "delay": 0.003
+      },
+      {
+        "source": "impactMetal_heavy_000",
+        "gain": 0.4,
+        "speed": 0.94,
+        "delay": 0.005
+      },
+      {
+        "source": "knifeSlice",
+        "gain": 0.18,
+        "speed": 1.3,
+        "delay": 0.007
+      }
+    ]
+  },
+  {
+    "name": "Swing1",
+    "duration": 0.18,
+    "rms": 0.15,
+    "peak": 0.7216,
+    "layers": [
+      {
+        "source": "knifeSlice",
+        "gain": 0.9,
+        "speed": 1.7,
+        "delay": 0
+      },
+      {
+        "source": "drawKnife1",
+        "gain": 0.09,
+        "speed": 1.6,
+        "delay": 0.003
+      }
+    ]
+  },
+  {
+    "name": "HeavySwing1",
+    "duration": 0.235,
+    "rms": 0.15,
+    "peak": 0.665,
+    "layers": [
+      {
+        "source": "knifeSlice",
+        "gain": 0.95,
+        "speed": 1.3,
+        "delay": 0
+      },
+      {
+        "source": "drawKnife1",
+        "gain": 0.12,
+        "speed": 1.25,
+        "delay": 0.005
+      }
+    ]
+  },
+  {
+    "name": "Hit2",
+    "duration": 0.27,
+    "rms": 0.1339,
+    "peak": 0.78,
+    "layers": [
+      {
+        "source": "impactSoft_medium_001",
+        "gain": 0.65,
+        "speed": 1.05,
+        "delay": 0
+      },
+      {
+        "source": "impactPunch_heavy_001",
+        "gain": 0.5,
+        "speed": 1.12,
+        "delay": 0.002
+      },
+      {
+        "source": "impactMetal_medium_001",
+        "gain": 0.28,
+        "speed": 1.12,
+        "delay": 0.004
+      },
+      {
+        "source": "knifeSlice2",
+        "gain": 0.15,
+        "speed": 1.6,
+        "delay": 0.008
+      }
+    ]
+  },
+  {
+    "name": "HeavyHit2",
+    "duration": 0.34,
+    "rms": 0.15,
+    "peak": 0.64,
+    "layers": [
+      {
+        "source": "impactPunch_heavy_001",
+        "gain": 0.95,
+        "speed": 0.88,
+        "delay": 0
+      },
+      {
+        "source": "impactSoft_medium_001",
+        "gain": 0.43,
+        "speed": 0.94,
+        "delay": 0.003
+      },
+      {
+        "source": "impactMetal_heavy_001",
+        "gain": 0.4,
+        "speed": 0.94,
+        "delay": 0.005
+      },
+      {
+        "source": "knifeSlice2",
+        "gain": 0.18,
+        "speed": 1.3,
+        "delay": 0.007
+      }
+    ]
+  },
+  {
+    "name": "Swing2",
+    "duration": 0.188,
+    "rms": 0.1328,
+    "peak": 0.78,
+    "layers": [
+      {
+        "source": "knifeSlice2",
+        "gain": 0.9,
+        "speed": 1.7449999999999999,
+        "delay": 0
+      },
+      {
+        "source": "drawKnife2",
+        "gain": 0.09,
+        "speed": 1.6,
+        "delay": 0.003
+      }
+    ]
+  },
+  {
+    "name": "HeavySwing2",
+    "duration": 0.243,
+    "rms": 0.1378,
+    "peak": 0.78,
+    "layers": [
+      {
+        "source": "knifeSlice2",
+        "gain": 0.95,
+        "speed": 1.335,
+        "delay": 0
+      },
+      {
+        "source": "drawKnife2",
+        "gain": 0.12,
+        "speed": 1.25,
+        "delay": 0.005
+      }
+    ]
+  },
+  {
+    "name": "Hit3",
+    "duration": 0.27,
+    "rms": 0.15,
+    "peak": 0.7312,
+    "layers": [
+      {
+        "source": "impactSoft_medium_002",
+        "gain": 0.65,
+        "speed": 1.05,
+        "delay": 0
+      },
+      {
+        "source": "impactPunch_heavy_002",
+        "gain": 0.5,
+        "speed": 1.12,
+        "delay": 0.002
+      },
+      {
+        "source": "impactMetal_medium_002",
+        "gain": 0.28,
+        "speed": 1.12,
+        "delay": 0.004
+      },
+      {
+        "source": "knifeSlice",
+        "gain": 0.15,
+        "speed": 1.6,
+        "delay": 0.008
+      }
+    ]
+  },
+  {
+    "name": "HeavyHit3",
+    "duration": 0.34,
+    "rms": 0.15,
+    "peak": 0.6156,
+    "layers": [
+      {
+        "source": "impactPunch_heavy_002",
+        "gain": 0.95,
+        "speed": 0.88,
+        "delay": 0
+      },
+      {
+        "source": "impactSoft_medium_002",
+        "gain": 0.43,
+        "speed": 0.94,
+        "delay": 0.003
+      },
+      {
+        "source": "impactMetal_heavy_002",
+        "gain": 0.4,
+        "speed": 0.94,
+        "delay": 0.005
+      },
+      {
+        "source": "knifeSlice",
+        "gain": 0.18,
+        "speed": 1.3,
+        "delay": 0.007
+      }
+    ]
+  },
+  {
+    "name": "Swing3",
+    "duration": 0.196,
+    "rms": 0.15,
+    "peak": 0.7015,
+    "layers": [
+      {
+        "source": "knifeSlice",
+        "gain": 0.9,
+        "speed": 1.79,
+        "delay": 0
+      },
+      {
+        "source": "drawKnife3",
+        "gain": 0.09,
+        "speed": 1.6,
+        "delay": 0.003
+      }
+    ]
+  },
+  {
+    "name": "HeavySwing3",
+    "duration": 0.251,
+    "rms": 0.15,
+    "peak": 0.7291,
+    "layers": [
+      {
+        "source": "knifeSlice",
+        "gain": 0.95,
+        "speed": 1.37,
+        "delay": 0
+      },
+      {
+        "source": "drawKnife3",
+        "gain": 0.12,
+        "speed": 1.25,
+        "delay": 0.005
+      }
+    ]
+  },
+  {
+    "name": "Parry",
+    "duration": 0.34,
+    "rms": 0.0947,
+    "peak": 0.78,
+    "layers": [
+      {
+        "source": "impactMetal_heavy_001",
+        "gain": 0.9,
+        "speed": 1.17,
+        "delay": 0
+      },
+      {
+        "source": "impactMetal_light_000",
+        "gain": 0.48,
+        "speed": 1.08,
+        "delay": 0.003
+      },
+      {
+        "source": "drawKnife3",
+        "gain": 0.18,
+        "speed": 1.3,
+        "delay": 0.005
+      },
+      {
+        "source": "impactPunch_heavy_001",
+        "gain": 0.18,
+        "speed": 1.25,
+        "delay": 0
+      }
+    ]
+  }
+]

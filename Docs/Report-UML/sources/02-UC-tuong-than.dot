@@ -1,0 +1,34 @@
+digraph UML { graph [rankdir=LR, bgcolor="white", fontname="Arial", fontsize=19, label="Hình 2. Use Case chi tiết — tượng thần", labelloc=t, pad="0.28", nodesep="0.45", ranksep="0.85", splines=polyline, outputorder=edgesfirst, ordering=out]; node [fontname="Arial", fontsize=13, color="#263442"]; edge [fontname="Arial", fontsize=10, color="#526170", arrowsize=.7];
+player [shape=plaintext, width=1.5, height=1.7, fixedsize=true, labelloc=b, label="Người chơi"];
+subgraph cluster_system { label="Hệ thống game NONAME"; fontsize=15; color="#758493"; margin=24;
+"shrine" [shape=ellipse, style=filled, fillcolor=white, margin="0.22,0.16", label="UC10 · Thao tác tại tượng thần"];
+"pray" [shape=ellipse, style=filled, fillcolor=white, margin="0.22,0.16", label="Cầu nguyện"];
+"upgrade" [shape=ellipse, style=filled, fillcolor=white, margin="0.22,0.16", label="Nâng chỉ số"];
+"seed" [shape=ellipse, style=filled, fillcolor=white, margin="0.22,0.16", label="Hiến tế Hạt sinh mệnh"];
+"purify" [shape=ellipse, style=filled, fillcolor=white, margin="0.22,0.16", label="Thanh tẩy Ăn hồn"];
+"travel" [shape=ellipse, style=filled, fillcolor=white, margin="0.22,0.16", label="Du hành giữa các tượng"];
+"restore" [shape=ellipse, style=filled, fillcolor=white, margin="0.22,0.16", label="Hồi phục người chơi / bình máu"];
+"respawn" [shape=ellipse, style=filled, fillcolor=white, margin="0.22,0.16", label="Đặt lại quái thường"];
+"payexp" [shape=ellipse, style=filled, fillcolor=white, margin="0.22,0.16", label="Thanh toán EXP nâng cấp"];
+"payseed" [shape=ellipse, style=filled, fillcolor=white, margin="0.22,0.16", label="Tiêu hao hạt, tăng sức chứa bình"];
+"payincense" [shape=ellipse, style=filled, fillcolor=white, margin="0.22,0.16", label="Tiêu hao Hương thanh hồn"];
+"unlocked" [shape=ellipse, style=filled, fillcolor=white, margin="0.22,0.16", label="Kiểm tra tượng đích đã mở"];
+}
+"player" -> "shrine" [dir=none];
+"pray" -> "shrine" [style=dashed, arrowhead=vee, constraint=false, xlabel="«extend»"];
+"upgrade" -> "shrine" [style=dashed, arrowhead=vee, constraint=false, xlabel="«extend»"];
+"seed" -> "shrine" [style=dashed, arrowhead=vee, constraint=false, xlabel="«extend»"];
+"purify" -> "shrine" [style=dashed, arrowhead=vee, constraint=false, xlabel="«extend»"];
+"travel" -> "shrine" [style=dashed, arrowhead=vee, constraint=false, xlabel="«extend»"];
+"pray" -> "restore" [style=dashed, arrowhead=vee, label="«include»"];
+"pray" -> "respawn" [style=dashed, arrowhead=vee, label="«include»"];
+"upgrade" -> "payexp" [style=dashed, arrowhead=vee, label="«include»"];
+"seed" -> "payseed" [style=dashed, arrowhead=vee, label="«include»"];
+"purify" -> "payincense" [style=dashed, arrowhead=vee, label="«include»"];
+"travel" -> "unlocked" [style=dashed, arrowhead=vee, label="«include»"];
+"shrine" -> "pray" [style=invis, weight=8];
+"shrine" -> "upgrade" [style=invis, weight=8];
+"shrine" -> "seed" [style=invis, weight=8];
+"shrine" -> "purify" [style=invis, weight=8];
+"shrine" -> "travel" [style=invis, weight=8];
+}

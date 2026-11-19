@@ -1,0 +1,1529 @@
+{
+  "name": "UML",
+  "directed": true,
+  "strict": false,
+  "_draw_": [
+    {
+      "op": "c",
+      "grad": "none",
+      "color": "#fffffe00"
+    },
+    {
+      "op": "C",
+      "grad": "none",
+      "color": "#ffffff"
+    },
+    {
+      "op": "P",
+      "points": [
+        [
+          -20.16,
+          -20.16
+        ],
+        [
+          -20.16,
+          1151.96
+        ],
+        [
+          619.48,
+          1151.96
+        ],
+        [
+          619.48,
+          -20.16
+        ]
+      ]
+    }
+  ],
+  "_ldraw_": [
+    {
+      "op": "F",
+      "size": 19,
+      "face": "Arial"
+    },
+    {
+      "op": "c",
+      "grad": "none",
+      "color": "#000000"
+    },
+    {
+      "op": "T",
+      "pt": [
+        299.66,
+        1110.7
+      ],
+      "align": "c",
+      "width": 360.1,
+      "text": "Hình 1. Use Case tổng quan — NONAME"
+    }
+  ],
+  "bb": "0,0,599.32,1131.8",
+  "bgcolor": "white",
+  "fontname": "Arial",
+  "fontsize": "19",
+  "label": "Hình 1. Use Case tổng quan — NONAME",
+  "labelloc": "t",
+  "lheight": "0.32",
+  "lp": "299.66,1116.4",
+  "lwidth": "5.00",
+  "nodesep": "0.45",
+  "ordering": "out",
+  "outputorder": "edgesfirst",
+  "pad": "0.28",
+  "rankdir": "LR",
+  "ranksep": "0.85",
+  "splines": "polyline",
+  "xdotversion": "1.7",
+  "_subgraph_cnt": 2,
+  "objects": [
+    {
+      "name": "cluster_system",
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#758493"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#ffffff"
+        },
+        {
+          "op": "P",
+          "points": [
+            [
+              145,
+              8
+            ],
+            [
+              145,
+              1093
+            ],
+            [
+              591.32,
+              1093
+            ],
+            [
+              591.32,
+              8
+            ]
+          ]
+        }
+      ],
+      "_ldraw_": [
+        {
+          "op": "F",
+          "size": 15,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            368.16,
+            1075.5
+          ],
+          "align": "c",
+          "width": 180.89,
+          "text": "Hệ thống game NONAME"
+        }
+      ],
+      "bb": "145,8,591.32,1093",
+      "bgcolor": "white",
+      "color": "#758493",
+      "fontname": "Arial",
+      "fontsize": "15",
+      "label": "Hệ thống game NONAME",
+      "labelloc": "t",
+      "lheight": "0.25",
+      "lp": "368.16,1080",
+      "lwidth": "2.51",
+      "margin": "24",
+      "nodesep": "0.45",
+      "ordering": "out",
+      "outputorder": "edgesfirst",
+      "pad": "0.28",
+      "rankdir": "LR",
+      "ranksep": "0.85",
+      "splines": "polyline",
+      "_gvid": 0,
+      "subgraphs": [
+        1
+      ],
+      "nodes": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "name": "%1",
+      "bgcolor": "white",
+      "color": "#758493",
+      "fontname": "Arial",
+      "fontsize": "15",
+      "label": "Hệ thống game NONAME",
+      "labelloc": "t",
+      "margin": "24",
+      "nodesep": "0.45",
+      "ordering": "out",
+      "outputorder": "edgesfirst",
+      "pad": "0.28",
+      "rank": "same",
+      "rankdir": "LR",
+      "ranksep": "0.85",
+      "splines": "polyline",
+      "_gvid": 1,
+      "nodes": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "_gvid": 2,
+      "name": "player",
+      "_ldraw_": [
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            54,
+            479.7
+          ],
+          "align": "c",
+          "width": 65.02,
+          "text": "Người chơi"
+        }
+      ],
+      "color": "#263442",
+      "fixedsize": "true",
+      "fontname": "Arial",
+      "fontsize": "13",
+      "height": "1.7",
+      "label": "Người chơi",
+      "labelloc": "b",
+      "pos": "54,537",
+      "shape": "plaintext",
+      "width": "1.5"
+    },
+    {
+      "_gvid": 3,
+      "name": "u12",
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#ffffff"
+        },
+        {
+          "op": "E",
+          "rect": [
+            368.16,
+            59,
+            192.01,
+            27.32
+          ]
+        }
+      ],
+      "_ldraw_": [
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            368.16,
+            55.1
+          ],
+          "align": "c",
+          "width": 239.86,
+          "text": "UC12 · Tạm dừng / trở về menu / thoát"
+        }
+      ],
+      "color": "#263442",
+      "fillcolor": "white",
+      "fontname": "Arial",
+      "fontsize": "13",
+      "height": "0.75896",
+      "label": "UC12 · Tạm dừng / trở về menu / thoát",
+      "margin": "0.22,0.16",
+      "pos": "368.16,59",
+      "shape": "ellipse",
+      "style": "filled",
+      "width": "5.3335"
+    },
+    {
+      "_gvid": 4,
+      "name": "u11",
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#ffffff"
+        },
+        {
+          "op": "E",
+          "rect": [
+            368.16,
+            146,
+            163.41,
+            27.32
+          ]
+        }
+      ],
+      "_ldraw_": [
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            368.16,
+            142.1
+          ],
+          "align": "c",
+          "width": 199.41,
+          "text": "UC11 · Thu hồi Soul / vàng đã rơi"
+        }
+      ],
+      "color": "#263442",
+      "fillcolor": "white",
+      "fontname": "Arial",
+      "fontsize": "13",
+      "height": "0.75896",
+      "label": "UC11 · Thu hồi Soul / vàng đã rơi",
+      "margin": "0.22,0.16",
+      "pos": "368.16,146",
+      "shape": "ellipse",
+      "style": "filled",
+      "width": "4.5391"
+    },
+    {
+      "_gvid": 5,
+      "name": "u10",
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#ffffff"
+        },
+        {
+          "op": "E",
+          "rect": [
+            368.16,
+            233,
+            157.79,
+            27.32
+          ]
+        }
+      ],
+      "_ldraw_": [
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            368.16,
+            229.1
+          ],
+          "align": "c",
+          "width": 191.47,
+          "text": "UC10 · Thao tác tại tượng thần"
+        }
+      ],
+      "color": "#263442",
+      "fillcolor": "white",
+      "fontname": "Arial",
+      "fontsize": "13",
+      "height": "0.75896",
+      "label": "UC10 · Thao tác tại tượng thần",
+      "margin": "0.22,0.16",
+      "pos": "368.16,233",
+      "shape": "ellipse",
+      "style": "filled",
+      "width": "4.3831"
+    },
+    {
+      "_gvid": 6,
+      "name": "u9",
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#ffffff"
+        },
+        {
+          "op": "E",
+          "rect": [
+            368.16,
+            320,
+            140.92,
+            27.32
+          ]
+        }
+      ],
+      "_ldraw_": [
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            368.16,
+            316.1
+          ],
+          "align": "c",
+          "width": 167.61,
+          "text": "UC09 · Mua và bán tại NPC"
+        }
+      ],
+      "color": "#263442",
+      "fillcolor": "white",
+      "fontname": "Arial",
+      "fontsize": "13",
+      "height": "0.75896",
+      "label": "UC09 · Mua và bán tại NPC",
+      "margin": "0.22,0.16",
+      "pos": "368.16,320",
+      "shape": "ellipse",
+      "style": "filled",
+      "width": "3.9144"
+    },
+    {
+      "_gvid": 7,
+      "name": "u8",
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#ffffff"
+        },
+        {
+          "op": "E",
+          "rect": [
+            368.16,
+            407,
+            196.6,
+            27.32
+          ]
+        }
+      ],
+      "_ldraw_": [
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            368.16,
+            403.1
+          ],
+          "align": "c",
+          "width": 246.36,
+          "text": "UC08 · Nhận / thực hiện / trả nhiệm vụ"
+        }
+      ],
+      "color": "#263442",
+      "fillcolor": "white",
+      "fontname": "Arial",
+      "fontsize": "13",
+      "height": "0.75896",
+      "label": "UC08 · Nhận / thực hiện / trả nhiệm vụ",
+      "margin": "0.22,0.16",
+      "pos": "368.16,407",
+      "shape": "ellipse",
+      "style": "filled",
+      "width": "5.4612"
+    },
+    {
+      "_gvid": 8,
+      "name": "u7",
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#ffffff"
+        },
+        {
+          "op": "E",
+          "rect": [
+            368.16,
+            494,
+            182.29,
+            27.32
+          ]
+        }
+      ],
+      "_ldraw_": [
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            368.16,
+            490.1
+          ],
+          "align": "c",
+          "width": 226.12,
+          "text": "UC07 · Hội thoại và chọn câu trả lời"
+        }
+      ],
+      "color": "#263442",
+      "fillcolor": "white",
+      "fontname": "Arial",
+      "fontsize": "13",
+      "height": "0.75896",
+      "label": "UC07 · Hội thoại và chọn câu trả lời",
+      "margin": "0.22,0.16",
+      "pos": "368.16,494",
+      "shape": "ellipse",
+      "style": "filled",
+      "width": "5.0637"
+    },
+    {
+      "_gvid": 9,
+      "name": "u6",
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#ffffff"
+        },
+        {
+          "op": "E",
+          "rect": [
+            368.16,
+            581,
+            199.16,
+            27.32
+          ]
+        }
+      ],
+      "_ldraw_": [
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            368.16,
+            577.1
+          ],
+          "align": "c",
+          "width": 249.98,
+          "text": "UC06 · Quản lý túi đồ và dùng vật phẩm"
+        }
+      ],
+      "color": "#263442",
+      "fillcolor": "white",
+      "fontname": "Arial",
+      "fontsize": "13",
+      "height": "0.75896",
+      "label": "UC06 · Quản lý túi đồ và dùng vật phẩm",
+      "margin": "0.22,0.16",
+      "pos": "368.16,581",
+      "shape": "ellipse",
+      "style": "filled",
+      "width": "5.5323"
+    },
+    {
+      "_gvid": 10,
+      "name": "u5",
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#ffffff"
+        },
+        {
+          "op": "E",
+          "rect": [
+            368.16,
+            668,
+            166.98,
+            27.32
+          ]
+        }
+      ],
+      "_ldraw_": [
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            368.16,
+            664.1
+          ],
+          "align": "c",
+          "width": 204.47,
+          "text": "UC05 · Chiến đấu với quái / boss"
+        }
+      ],
+      "color": "#263442",
+      "fillcolor": "white",
+      "fontname": "Arial",
+      "fontsize": "13",
+      "height": "0.75896",
+      "label": "UC05 · Chiến đấu với quái / boss",
+      "margin": "0.22,0.16",
+      "pos": "368.16,668",
+      "shape": "ellipse",
+      "style": "filled",
+      "width": "4.6384"
+    },
+    {
+      "_gvid": 11,
+      "name": "u4",
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#ffffff"
+        },
+        {
+          "op": "E",
+          "rect": [
+            368.16,
+            755,
+            191.5,
+            27.32
+          ]
+        }
+      ],
+      "_ldraw_": [
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            368.16,
+            751.1
+          ],
+          "align": "c",
+          "width": 239.14,
+          "text": "UC04 · Di chuyển và khám phá khu vực"
+        }
+      ],
+      "color": "#263442",
+      "fillcolor": "white",
+      "fontname": "Arial",
+      "fontsize": "13",
+      "height": "0.75896",
+      "label": "UC04 · Di chuyển và khám phá khu vực",
+      "margin": "0.22,0.16",
+      "pos": "368.16,755",
+      "shape": "ellipse",
+      "style": "filled",
+      "width": "5.3194"
+    },
+    {
+      "_gvid": 12,
+      "name": "u3",
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#ffffff"
+        },
+        {
+          "op": "E",
+          "rect": [
+            368.16,
+            842,
+            186.91,
+            27.32
+          ]
+        }
+      ],
+      "_ldraw_": [
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            368.16,
+            838.1
+          ],
+          "align": "c",
+          "width": 232.65,
+          "text": "UC03 · Điều chỉnh cài đặt / gán phím"
+        }
+      ],
+      "color": "#263442",
+      "fillcolor": "white",
+      "fontname": "Arial",
+      "fontsize": "13",
+      "height": "0.75896",
+      "label": "UC03 · Điều chỉnh cài đặt / gán phím",
+      "margin": "0.22,0.16",
+      "pos": "368.16,842",
+      "shape": "ellipse",
+      "style": "filled",
+      "width": "5.1919"
+    },
+    {
+      "_gvid": 13,
+      "name": "u2",
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#ffffff"
+        },
+        {
+          "op": "E",
+          "rect": [
+            368.16,
+            929,
+            164.93,
+            27.32
+          ]
+        }
+      ],
+      "_ldraw_": [
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            368.16,
+            925.1
+          ],
+          "align": "c",
+          "width": 201.56,
+          "text": "UC02 · Tiếp tục tiến trình đã lưu"
+        }
+      ],
+      "color": "#263442",
+      "fillcolor": "white",
+      "fontname": "Arial",
+      "fontsize": "13",
+      "height": "0.75896",
+      "label": "UC02 · Tiếp tục tiến trình đã lưu",
+      "margin": "0.22,0.16",
+      "pos": "368.16,929",
+      "shape": "ellipse",
+      "style": "filled",
+      "width": "4.5813"
+    },
+    {
+      "_gvid": 14,
+      "name": "u1",
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#ffffff"
+        },
+        {
+          "op": "E",
+          "rect": [
+            368.16,
+            1016,
+            159.32,
+            27.32
+          ]
+        }
+      ],
+      "_ldraw_": [
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            368.16,
+            1012.1
+          ],
+          "align": "c",
+          "width": 193.63,
+          "text": "UC01 · Bắt đầu hành trình mới"
+        }
+      ],
+      "color": "#263442",
+      "fillcolor": "white",
+      "fontname": "Arial",
+      "fontsize": "13",
+      "height": "0.75896",
+      "label": "UC01 · Bắt đầu hành trình mới",
+      "margin": "0.22,0.16",
+      "pos": "368.16,1016",
+      "shape": "ellipse",
+      "style": "filled",
+      "width": "4.4255"
+    }
+  ],
+  "edges": [
+    {
+      "_gvid": 0,
+      "tail": 2,
+      "head": 3,
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "b",
+          "points": [
+            [
+              67.61,
+              476.2
+            ],
+            [
+              92.38,
+              356.75
+            ],
+            [
+              145,
+              103
+            ],
+            [
+              145,
+              103
+            ],
+            [
+              145,
+              103
+            ],
+            [
+              199.25,
+              92.26
+            ],
+            [
+              254.13,
+              81.39
+            ]
+          ]
+        }
+      ],
+      "arrowsize": ".7",
+      "color": "#526170",
+      "dir": "none",
+      "fontname": "Arial",
+      "fontsize": "10",
+      "pos": "67.609,476.2 92.378,356.75 145,103 145,103 145,103 199.25,92.256 254.13,81.387"
+    },
+    {
+      "_gvid": 1,
+      "tail": 2,
+      "head": 4,
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "b",
+          "points": [
+            [
+              70.78,
+              476.16
+            ],
+            [
+              96.59,
+              376.64
+            ],
+            [
+              145,
+              190
+            ],
+            [
+              145,
+              190
+            ],
+            [
+              145,
+              190
+            ],
+            [
+              203.84,
+              178.35
+            ],
+            [
+              260.96,
+              167.03
+            ]
+          ]
+        }
+      ],
+      "arrowsize": ".7",
+      "color": "#526170",
+      "dir": "none",
+      "fontname": "Arial",
+      "fontsize": "10",
+      "pos": "70.78,476.16 96.591,376.64 145,190 145,190 145,190 203.84,178.35 260.96,167.03"
+    },
+    {
+      "_gvid": 2,
+      "tail": 2,
+      "head": 5,
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "b",
+          "points": [
+            [
+              76.1,
+              476.04
+            ],
+            [
+              102.7,
+              399.19
+            ],
+            [
+              145,
+              277
+            ],
+            [
+              145,
+              277
+            ],
+            [
+              145,
+              277
+            ],
+            [
+              204.96,
+              265.12
+            ],
+            [
+              262.59,
+              253.71
+            ]
+          ]
+        }
+      ],
+      "arrowsize": ".7",
+      "color": "#526170",
+      "dir": "none",
+      "fontname": "Arial",
+      "fontsize": "10",
+      "pos": "76.101,476.04 102.7,399.19 145,277 145,277 145,277 204.96,265.12 262.59,253.71"
+    },
+    {
+      "_gvid": 3,
+      "tail": 2,
+      "head": 6,
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "b",
+          "points": [
+            [
+              86.73,
+              476.01
+            ],
+            [
+              112.64,
+              426.2
+            ],
+            [
+              145,
+              364
+            ],
+            [
+              145,
+              364
+            ],
+            [
+              145,
+              364
+            ],
+            [
+              208.86,
+              351.35
+            ],
+            [
+              268.1,
+              339.62
+            ]
+          ]
+        }
+      ],
+      "arrowsize": ".7",
+      "color": "#526170",
+      "dir": "none",
+      "fontname": "Arial",
+      "fontsize": "10",
+      "pos": "86.731,476.01 112.64,426.2 145,364 145,364 145,364 208.86,351.35 268.1,339.62"
+    },
+    {
+      "_gvid": 4,
+      "tail": 2,
+      "head": 7,
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "b",
+          "points": [
+            [
+              107.87,
+              486.48
+            ],
+            [
+              127.46,
+              467.76
+            ],
+            [
+              145,
+              451
+            ],
+            [
+              145,
+              451
+            ],
+            [
+              145,
+              451
+            ],
+            [
+              198.6,
+              440.38
+            ],
+            [
+              253.15,
+              429.58
+            ]
+          ]
+        }
+      ],
+      "arrowsize": ".7",
+      "color": "#526170",
+      "dir": "none",
+      "fontname": "Arial",
+      "fontsize": "10",
+      "pos": "107.87,486.48 127.46,467.76 145,451 145,451 145,451 198.6,440.38 253.15,429.58"
+    },
+    {
+      "_gvid": 5,
+      "tail": 2,
+      "head": 8,
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "b",
+          "points": [
+            [
+              107.95,
+              529.71
+            ],
+            [
+              142.22,
+              524.99
+            ],
+            [
+              188.49,
+              518.61
+            ],
+            [
+              232.46,
+              512.56
+            ]
+          ]
+        }
+      ],
+      "arrowsize": ".7",
+      "color": "#526170",
+      "dir": "none",
+      "fontname": "Arial",
+      "fontsize": "10",
+      "pos": "107.95,529.71 142.22,524.99 188.49,518.61 232.46,512.56"
+    },
+    {
+      "_gvid": 6,
+      "tail": 2,
+      "head": 9,
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "b",
+          "points": [
+            [
+              107.95,
+              544.46
+            ],
+            [
+              140.92,
+              549.11
+            ],
+            [
+              184.99,
+              555.32
+            ],
+            [
+              227.43,
+              561.3
+            ]
+          ]
+        }
+      ],
+      "arrowsize": ".7",
+      "color": "#526170",
+      "dir": "none",
+      "fontname": "Arial",
+      "fontsize": "10",
+      "pos": "107.95,544.46 140.92,549.11 184.99,555.32 227.43,561.3"
+    },
+    {
+      "_gvid": 7,
+      "tail": 2,
+      "head": 10,
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "b",
+          "points": [
+            [
+              107.87,
+              588.11
+            ],
+            [
+              127.46,
+              607.05
+            ],
+            [
+              145,
+              624
+            ],
+            [
+              145,
+              624
+            ],
+            [
+              145,
+              624
+            ],
+            [
+              203.17,
+              635.52
+            ],
+            [
+              259.99,
+              646.77
+            ]
+          ]
+        }
+      ],
+      "arrowsize": ".7",
+      "color": "#526170",
+      "dir": "none",
+      "fontname": "Arial",
+      "fontsize": "10",
+      "pos": "107.87,588.11 127.46,607.05 145,624 145,624 145,624 203.17,635.52 259.99,646.77"
+    },
+    {
+      "_gvid": 8,
+      "tail": 2,
+      "head": 11,
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "b",
+          "points": [
+            [
+              86.48,
+              597.86
+            ],
+            [
+              112.43,
+              648.03
+            ],
+            [
+              145,
+              711
+            ],
+            [
+              145,
+              711
+            ],
+            [
+              145,
+              711
+            ],
+            [
+              199.46,
+              721.79
+            ],
+            [
+              254.45,
+              732.68
+            ]
+          ]
+        }
+      ],
+      "arrowsize": ".7",
+      "color": "#526170",
+      "dir": "none",
+      "fontname": "Arial",
+      "fontsize": "10",
+      "pos": "86.478,597.86 112.43,648.03 145,711 145,711 145,711 199.46,721.79 254.45,732.68"
+    },
+    {
+      "_gvid": 9,
+      "tail": 2,
+      "head": 12,
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "b",
+          "points": [
+            [
+              76.1,
+              598.19
+            ],
+            [
+              102.7,
+              675.34
+            ],
+            [
+              145,
+              798
+            ],
+            [
+              145,
+              798
+            ],
+            [
+              145,
+              798
+            ],
+            [
+              200.11,
+              808.91
+            ],
+            [
+              255.43,
+              819.87
+            ]
+          ]
+        }
+      ],
+      "arrowsize": ".7",
+      "color": "#526170",
+      "dir": "none",
+      "fontname": "Arial",
+      "fontsize": "10",
+      "pos": "76.101,598.19 102.7,675.34 145,798 145,798 145,798 200.11,808.91 255.43,819.87"
+    },
+    {
+      "_gvid": 10,
+      "tail": 2,
+      "head": 13,
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "b",
+          "points": [
+            [
+              70.78,
+              598.02
+            ],
+            [
+              96.59,
+              697.82
+            ],
+            [
+              145,
+              885
+            ],
+            [
+              145,
+              885
+            ],
+            [
+              145,
+              885
+            ],
+            [
+              203.62,
+              896.61
+            ],
+            [
+              260.64,
+              907.9
+            ]
+          ]
+        }
+      ],
+      "arrowsize": ".7",
+      "color": "#526170",
+      "dir": "none",
+      "fontname": "Arial",
+      "fontsize": "10",
+      "pos": "70.78,598.02 96.591,697.82 145,885 145,885 145,885 203.62,896.61 260.64,907.9"
+    },
+    {
+      "_gvid": 11,
+      "tail": 2,
+      "head": 14,
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "b",
+          "points": [
+            [
+              67.61,
+              597.94
+            ],
+            [
+              92.38,
+              717.66
+            ],
+            [
+              145,
+              972
+            ],
+            [
+              145,
+              972
+            ],
+            [
+              145,
+              972
+            ],
+            [
+              204.74,
+              983.83
+            ],
+            [
+              262.26,
+              995.22
+            ]
+          ]
+        }
+      ],
+      "arrowsize": ".7",
+      "color": "#526170",
+      "dir": "none",
+      "fontname": "Arial",
+      "fontsize": "10",
+      "pos": "67.609,597.94 92.378,717.66 145,972 145,972 145,972 204.74,983.83 262.26,995.22"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "generated": [
+    {
+      "name": "Hit1",
+      "duration": 0.26,
+      "peak": 0.68,
+      "rms": 0.1284
+    },
+    {
+      "name": "HeavyHit1",
+      "duration": 0.34,
+      "peak": 0.68,
+      "rms": 0.1231
+    },
+    {
+      "name": "Swing1",
+      "duration": 0.155,
+      "peak": 0.68,
+      "rms": 0.0991
+    },
+    {
+      "name": "HeavySwing1",
+      "duration": 0.205,
+      "peak": 0.68,
+      "rms": 0.1189
+    },
+    {
+      "name": "Hit2",
+      "duration": 0.26,
+      "peak": 0.68,
+      "rms": 0.1307
+    },
+    {
+      "name": "HeavyHit2",
+      "duration": 0.34,
+      "peak": 0.68,
+      "rms": 0.1224
+    },
+    {
+      "name": "Swing2",
+      "duration": 0.164,
+      "peak": 0.68,
+      "rms": 0.1362
+    },
+    {
+      "name": "HeavySwing2",
+      "duration": 0.214,
+      "peak": 0.68,
+      "rms": 0.1064
+    },
+    {
+      "name": "Hit3",
+      "duration": 0.26,
+      "peak": 0.68,
+      "rms": 0.1282
+    },
+    {
+      "name": "HeavyHit3",
+      "duration": 0.34,
+      "peak": 0.68,
+      "rms": 0.1221
+    },
+    {
+      "name": "Swing3",
+      "duration": 0.173,
+      "peak": 0.68,
+      "rms": 0.0886
+    },
+    {
+      "name": "HeavySwing3",
+      "duration": 0.223,
+      "peak": 0.68,
+      "rms": 0.1426
+    },
+    {
+      "name": "Parry",
+      "duration": 0.43,
+      "peak": 0.68,
+      "rms": 0.0838
+    }
+  ],
+  "referenceMeasurements": [
+    {
+      "name": "HeavyHit1",
+      "duration": 0.36,
+      "rms": 0.0807,
+      "centroidHz": 2919
+    },
+    {
+      "name": "HeavyHit2",
+      "duration": 0.36,
+      "rms": 0.077,
+      "centroidHz": 3597
+    },
+    {
+      "name": "HeavyHit3",
+      "duration": 0.36,
+      "rms": 0.0742,
+      "centroidHz": 3046
+    },
+    {
+      "name": "HeavySwing",
+      "duration": 0.25,
+      "rms": 0.0947,
+      "centroidHz": 1035
+    },
+    {
+      "name": "LightHit1",
+      "duration": 0.28,
+      "rms": 0.0743,
+      "centroidHz": 3812
+    },
+    {
+      "name": "LightHit2",
+      "duration": 0.28,
+      "rms": 0.0859,
+      "centroidHz": 3164
+    },
+    {
+      "name": "LightHit3",
+      "duration": 0.28,
+      "rms": 0.0932,
+      "centroidHz": 3210
+    },
+    {
+      "name": "Parry",
+      "duration": 0.42,
+      "rms": 0.0496,
+      "centroidHz": 5260
+    },
+    {
+      "name": "SwordSwing",
+      "duration": 0.2,
+      "rms": 0.1059,
+      "centroidHz": 1035
+    }
+  ],
+  "method": "Fresh seeded noise and independently chosen modal frequencies; source PCM never mixed, copied or resynthesized."
+}

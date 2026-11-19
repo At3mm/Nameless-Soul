@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: PB_Weather_Noon
+  m_EditorClassIdentifier: Unity.2D.Tilemap.Extras::UnityEngine.Tilemaps.AnimatedTile
+  m_AnimatedSprites:
+  - {fileID: 21300000, guid: fa7b1ce88491cdf4eb463532b73b004e, type: 3}
+  - {fileID: 21300000, guid: 8dca75ac2f8cd86458a2c1841d18e300, type: 3}
+  - {fileID: 21300000, guid: 3081593e466fbdb439ba5fe89f06da50, type: 3}
+  - {fileID: 21300000, guid: accdac7d7274daf4182731e35b544218, type: 3}
+  - {fileID: 21300000, guid: e54982a7c4df03347b80d94182818b85, type: 3}
+  - {fileID: 21300000, guid: acb1a025e5b1cd24f83fc3b7662b561a, type: 3}
+  - {fileID: 21300000, guid: 57fc69159d9b8cd478f8c0c1565d0c49, type: 3}
+  - {fileID: 21300000, guid: 40bf3d0f5aa2ae94ba4ba4c1fcb9d366, type: 3}
+  - {fileID: 21300000, guid: d8eda781e350d934280c027627120d2e, type: 3}
+  - {fileID: 21300000, guid: 84fd89af5a38f56439d9663620345708, type: 3}
+  m_MinSpeed: 10
+  m_MaxSpeed: 10
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
+  m_TileAnimationFlags: 8

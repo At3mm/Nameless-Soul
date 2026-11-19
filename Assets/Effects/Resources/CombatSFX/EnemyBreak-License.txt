@@ -1,0 +1,12 @@
+Enemy Break sound
+Title: glass-shattering_04.ogg
+Creator: C_Rogers
+Source: https://freesound.org/people/C_Rogers/sounds/203372/
+License: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)
+Project file: EnemyBreak.mp3
+Downloaded public high-quality MP3 preview: https://cdn.freesound.org/previews/203/203372_3569783-hq.mp3
+The sound page specifies CC0, including commercial use. Attribution retained here for provenance.
+
+Plays once on entering EnemyBreak, through the shared CombatSFX pool and master volume.
+Additional hits while already broken do not replay it. Configure enemyBreakVolume
+in Assets/Effects/Resources/DefaultCombatAudio.asset.

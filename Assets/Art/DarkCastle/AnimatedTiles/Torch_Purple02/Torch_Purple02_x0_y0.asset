@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d15c6f35eafdc4418a7fec8084e5079, type: 3}
+  m_Name: Torch_Purple02_x0_y0
+  m_EditorClassIdentifier: Assembly-CSharp::PixelMapAnimatedTile
+  frames:
+  - {fileID: -657011130, guid: ba6bea726fb808541bea96606225ff78, type: 3}
+  - {fileID: -2049360396, guid: ba6bea726fb808541bea96606225ff78, type: 3}
+  - {fileID: 1651608229, guid: ba6bea726fb808541bea96606225ff78, type: 3}
+  - {fileID: -45715672, guid: ba6bea726fb808541bea96606225ff78, type: 3}
+  - {fileID: 1833144080, guid: ba6bea726fb808541bea96606225ff78, type: 3}
+  - {fileID: 1620693559, guid: ba6bea726fb808541bea96606225ff78, type: 3}
+  - {fileID: -2052912986, guid: ba6bea726fb808541bea96606225ff78, type: 3}
+  - {fileID: -1686509951, guid: ba6bea726fb808541bea96606225ff78, type: 3}
+  colliderType: 0

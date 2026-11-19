@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe29a484502668408d93ee442fd5a05, type: 3}
+  m_Name: OrcRiderMemory
+  m_EditorClassIdentifier: Assembly-CSharp::BossItemDefinition
+  itemId: orc-rider-memory
+  displayName: "K\xFD \u1EE9c: K\u1EF5 s\u0129 Orc"
+  description: "C\xF3 v\u1EBB h\u1EAFn kh\xF4ng thu\u1ED9c v\u1EC1 th\u1EBF gi\u1EDBi
+    n\xE0y. T\u1EEB m\u1ED9t ph\xE9p tri\u1EC7u h\u1ED3i, hay m\u1ED9t c\u1ED5ng
+    d\u1ECBch chuy\u1EC3n n\xE0o \u0111\xF3? Ch\u1EB3ng ai bi\u1EBFt \u0111\u01B0\u1EE3c
+    c\u1EA3. Nh\u01B0ng linh h\u1ED3n \u1EA5y khi bi\u1EBFn m\u1EA5t d\u1EA7n l\u1EA1i
+    c\xF3 ch\xFAt s\u1EF1 bi\u1EBFt \u01A1n v\xE0 thanh th\u1EA3n. C\xF3 l\u1EBD
+    n\xF3 \u0111\xE3 ch\u1ECBu \u0111\u1EF1ng \u0111\u1EE7 r\u1ED3i, v\xE0 c\xE1i
+    ch\u1EBFt c\xF3 l\u1EBD kh\xF4ng \u0111au \u0111\u1EDBn \u0111\u1EBFn th\u1EBF. "
+  icon: {fileID: -748762442261034265, guid: 98c5527def3c35f468215c6b6135ba68, type: 3}
+  category: 1
+  rarity: 3
+  roles: 4
+  maxStack: 1
+  consumable: 0
+  useCooldown: 1
+  buyable: 0
+  sellable: 0
+  buyPrice: 30
+  sellPrice: 10
+  effects: []
+  showAsQuestItem: 0

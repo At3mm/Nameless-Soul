@@ -1,0 +1,74 @@
+[
+  {
+    "name": "LightHit1",
+    "source": "ES_Weapons, Sword, Light, One Handed, Attack, Hit Flesh, Impact - Epidemic Sound.wav",
+    "start": 18.15467,
+    "duration": 0.28,
+    "rate": 24000,
+    "peak": 0.68
+  },
+  {
+    "name": "LightHit2",
+    "source": "ES_Weapons, Sword, Light, One Handed, Attack, Hit Flesh, Impact - Epidemic Sound.wav",
+    "start": 2.14842,
+    "duration": 0.28,
+    "rate": 24000,
+    "peak": 0.68
+  },
+  {
+    "name": "LightHit3",
+    "source": "ES_Weapons, Sword, Light, One Handed, Attack, Hit Flesh, Impact - Epidemic Sound.wav",
+    "start": 12.148,
+    "duration": 0.28,
+    "rate": 24000,
+    "peak": 0.68
+  },
+  {
+    "name": "HeavyHit1",
+    "source": "ES_Weapons, Sword, Heavy, Two Handed, Attack, Hit Flesh, Impact - Epidemic Sound.wav",
+    "start": 4.2695,
+    "duration": 0.36,
+    "rate": 24000,
+    "peak": 0.68
+  },
+  {
+    "name": "HeavyHit2",
+    "source": "ES_Weapons, Sword, Heavy, Two Handed, Attack, Hit Flesh, Impact - Epidemic Sound.wav",
+    "start": 10.27108,
+    "duration": 0.36,
+    "rate": 24000,
+    "peak": 0.68
+  },
+  {
+    "name": "HeavyHit3",
+    "source": "ES_Weapons, Sword, Heavy, Two Handed, Attack, Hit Flesh, Impact - Epidemic Sound.wav",
+    "start": 2.28275,
+    "duration": 0.36,
+    "rate": 24000,
+    "peak": 0.68
+  },
+  {
+    "name": "Parry",
+    "source": "ES_Weapons, Sword, Hit Sword, Block, Parry, Impact, Ringing - Epidemic Sound.wav",
+    "start": 0,
+    "duration": 0.42,
+    "rate": 24000,
+    "peak": 0.68
+  },
+  {
+    "name": "SwordSwing",
+    "source": "ES_Swooshes, Swish, Sword Swing, Airy Heavy - Epidemic Sound.wav",
+    "start": 1.10404,
+    "duration": 0.2,
+    "rate": 24000,
+    "peak": 0.68
+  },
+  {
+    "name": "HeavySwing",
+    "source": "ES_Swooshes, Swish, Sword Swing, Airy Heavy - Epidemic Sound.wav",
+    "start": 1.08404,
+    "duration": 0.25,
+    "rate": 24000,
+    "peak": 0.68
+  }
+]

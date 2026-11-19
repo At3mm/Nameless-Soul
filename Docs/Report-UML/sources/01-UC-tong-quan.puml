@@ -1,0 +1,38 @@
+@startuml
+skinparam backgroundColor white
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam classAttributeIconSize 0
+title Hình 1. Use Case tổng quan — NONAME
+left to right direction
+actor "Người chơi" as player
+rectangle "Hệ thống game NONAME" {
+usecase "UC01 · Bắt đầu hành trình mới" as u1
+usecase "UC02 · Tiếp tục tiến trình đã lưu" as u2
+usecase "UC03 · Điều chỉnh cài đặt / gán phím" as u3
+usecase "UC04 · Di chuyển và khám phá khu vực" as u4
+usecase "UC05 · Chiến đấu với quái / boss" as u5
+usecase "UC06 · Quản lý túi đồ và dùng vật phẩm" as u6
+usecase "UC07 · Hội thoại và chọn câu trả lời" as u7
+usecase "UC08 · Nhận / thực hiện / trả nhiệm vụ" as u8
+usecase "UC09 · Mua và bán tại NPC" as u9
+usecase "UC10 · Thao tác tại tượng thần" as u10
+usecase "UC11 · Thu hồi Soul / vàng đã rơi" as u11
+usecase "UC12 · Tạm dừng / trở về menu / thoát" as u12
+}
+player -- u1
+player -- u2
+player -- u3
+player -- u4
+player -- u5
+player -- u6
+player -- u7
+player -- u8
+player -- u9
+player -- u10
+player -- u11
+player -- u12
+legend bottom
+NPC và quái thuộc bên trong hệ thống, không được coi là tác nhân ngoài. Không có đăng nhập hoặc multiplayer trong phạm vi code đã đọc.
+endlegend
+@enduml

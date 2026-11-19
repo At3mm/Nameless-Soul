@@ -1,0 +1,30 @@
+digraph UML { graph [rankdir=LR, bgcolor="white", fontname="Arial", fontsize=19, label="Hình 1. Use Case tổng quan — NONAME", labelloc=t, pad="0.28", nodesep="0.45", ranksep="0.85", splines=polyline, outputorder=edgesfirst, ordering=out]; node [fontname="Arial", fontsize=13, color="#263442"]; edge [fontname="Arial", fontsize=10, color="#526170", arrowsize=.7];
+player [shape=plaintext, width=1.5, height=1.7, fixedsize=true, labelloc=b, label="Người chơi"];
+subgraph cluster_system { label="Hệ thống game NONAME"; fontsize=15; color="#758493"; margin=24;
+"u12" [shape=ellipse, style=filled, fillcolor=white, margin="0.22,0.16", label="UC12 · Tạm dừng / trở về menu / thoát"];
+"u11" [shape=ellipse, style=filled, fillcolor=white, margin="0.22,0.16", label="UC11 · Thu hồi Soul / vàng đã rơi"];
+"u10" [shape=ellipse, style=filled, fillcolor=white, margin="0.22,0.16", label="UC10 · Thao tác tại tượng thần"];
+"u9" [shape=ellipse, style=filled, fillcolor=white, margin="0.22,0.16", label="UC09 · Mua và bán tại NPC"];
+"u8" [shape=ellipse, style=filled, fillcolor=white, margin="0.22,0.16", label="UC08 · Nhận / thực hiện / trả nhiệm vụ"];
+"u7" [shape=ellipse, style=filled, fillcolor=white, margin="0.22,0.16", label="UC07 · Hội thoại và chọn câu trả lời"];
+"u6" [shape=ellipse, style=filled, fillcolor=white, margin="0.22,0.16", label="UC06 · Quản lý túi đồ và dùng vật phẩm"];
+"u5" [shape=ellipse, style=filled, fillcolor=white, margin="0.22,0.16", label="UC05 · Chiến đấu với quái / boss"];
+"u4" [shape=ellipse, style=filled, fillcolor=white, margin="0.22,0.16", label="UC04 · Di chuyển và khám phá khu vực"];
+"u3" [shape=ellipse, style=filled, fillcolor=white, margin="0.22,0.16", label="UC03 · Điều chỉnh cài đặt / gán phím"];
+"u2" [shape=ellipse, style=filled, fillcolor=white, margin="0.22,0.16", label="UC02 · Tiếp tục tiến trình đã lưu"];
+"u1" [shape=ellipse, style=filled, fillcolor=white, margin="0.22,0.16", label="UC01 · Bắt đầu hành trình mới"];
+{rank=same; "u12";"u11";"u10";"u9";"u8";"u7";"u6";"u5";"u4";"u3";"u2";"u1";}
+}
+"player" -> "u12" [dir=none];
+"player" -> "u11" [dir=none];
+"player" -> "u10" [dir=none];
+"player" -> "u9" [dir=none];
+"player" -> "u8" [dir=none];
+"player" -> "u7" [dir=none];
+"player" -> "u6" [dir=none];
+"player" -> "u5" [dir=none];
+"player" -> "u4" [dir=none];
+"player" -> "u3" [dir=none];
+"player" -> "u2" [dir=none];
+"player" -> "u1" [dir=none];
+}

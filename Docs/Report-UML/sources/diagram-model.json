@@ -1,0 +1,1685 @@
+[
+  {
+    "id": "01-UC-tong-quan",
+    "title": "Hình 1. Use Case tổng quan — NONAME",
+    "type": "uc",
+    "subtitle": "Phạm vi: chức năng người chơi trong bản game hiện tại.",
+    "nodes": [
+      {
+        "id": "player",
+        "name": "Người chơi",
+        "kind": "actor",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      },
+      {
+        "id": "u1",
+        "name": "UC01 · Bắt đầu hành trình mới",
+        "kind": "uc",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      },
+      {
+        "id": "u2",
+        "name": "UC02 · Tiếp tục tiến trình đã lưu",
+        "kind": "uc",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      },
+      {
+        "id": "u3",
+        "name": "UC03 · Điều chỉnh cài đặt / gán phím",
+        "kind": "uc",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      },
+      {
+        "id": "u4",
+        "name": "UC04 · Di chuyển và khám phá khu vực",
+        "kind": "uc",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      },
+      {
+        "id": "u5",
+        "name": "UC05 · Chiến đấu với quái / boss",
+        "kind": "uc",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      },
+      {
+        "id": "u6",
+        "name": "UC06 · Quản lý túi đồ và dùng vật phẩm",
+        "kind": "uc",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      },
+      {
+        "id": "u7",
+        "name": "UC07 · Hội thoại và chọn câu trả lời",
+        "kind": "uc",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      },
+      {
+        "id": "u8",
+        "name": "UC08 · Nhận / thực hiện / trả nhiệm vụ",
+        "kind": "uc",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      },
+      {
+        "id": "u9",
+        "name": "UC09 · Mua và bán tại NPC",
+        "kind": "uc",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      },
+      {
+        "id": "u10",
+        "name": "UC10 · Thao tác tại tượng thần",
+        "kind": "uc",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      },
+      {
+        "id": "u11",
+        "name": "UC11 · Thu hồi Soul / vàng đã rơi",
+        "kind": "uc",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      },
+      {
+        "id": "u12",
+        "name": "UC12 · Tạm dừng / trở về menu / thoát",
+        "kind": "uc",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      }
+    ],
+    "edges": [
+      {
+        "a": "player",
+        "b": "u1",
+        "kind": "association",
+        "label": "",
+        "mult": ""
+      },
+      {
+        "a": "player",
+        "b": "u2",
+        "kind": "association",
+        "label": "",
+        "mult": ""
+      },
+      {
+        "a": "player",
+        "b": "u3",
+        "kind": "association",
+        "label": "",
+        "mult": ""
+      },
+      {
+        "a": "player",
+        "b": "u4",
+        "kind": "association",
+        "label": "",
+        "mult": ""
+      },
+      {
+        "a": "player",
+        "b": "u5",
+        "kind": "association",
+        "label": "",
+        "mult": ""
+      },
+      {
+        "a": "player",
+        "b": "u6",
+        "kind": "association",
+        "label": "",
+        "mult": ""
+      },
+      {
+        "a": "player",
+        "b": "u7",
+        "kind": "association",
+        "label": "",
+        "mult": ""
+      },
+      {
+        "a": "player",
+        "b": "u8",
+        "kind": "association",
+        "label": "",
+        "mult": ""
+      },
+      {
+        "a": "player",
+        "b": "u9",
+        "kind": "association",
+        "label": "",
+        "mult": ""
+      },
+      {
+        "a": "player",
+        "b": "u10",
+        "kind": "association",
+        "label": "",
+        "mult": ""
+      },
+      {
+        "a": "player",
+        "b": "u11",
+        "kind": "association",
+        "label": "",
+        "mult": ""
+      },
+      {
+        "a": "player",
+        "b": "u12",
+        "kind": "association",
+        "label": "",
+        "mult": ""
+      }
+    ],
+    "note": "NPC và quái thuộc bên trong hệ thống, không được coi là tác nhân ngoài. Không có đăng nhập hoặc multiplayer trong phạm vi code đã đọc."
+  },
+  {
+    "id": "02-UC-tuong-than",
+    "title": "Hình 2. Use Case chi tiết — tượng thần",
+    "type": "uc",
+    "subtitle": "Các mục tùy chọn mở rộng thao tác tại tượng; không phải tất cả đều chạy mỗi lần tương tác.",
+    "nodes": [
+      {
+        "id": "player",
+        "name": "Người chơi",
+        "kind": "actor",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      },
+      {
+        "id": "shrine",
+        "name": "UC10 · Thao tác tại tượng thần",
+        "kind": "uc",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      },
+      {
+        "id": "pray",
+        "name": "Cầu nguyện",
+        "kind": "uc",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      },
+      {
+        "id": "upgrade",
+        "name": "Nâng chỉ số",
+        "kind": "uc",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      },
+      {
+        "id": "seed",
+        "name": "Hiến tế Hạt sinh mệnh",
+        "kind": "uc",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      },
+      {
+        "id": "purify",
+        "name": "Thanh tẩy Ăn hồn",
+        "kind": "uc",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      },
+      {
+        "id": "travel",
+        "name": "Du hành giữa các tượng",
+        "kind": "uc",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      },
+      {
+        "id": "restore",
+        "name": "Hồi phục người chơi / bình máu",
+        "kind": "uc",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      },
+      {
+        "id": "respawn",
+        "name": "Đặt lại quái thường",
+        "kind": "uc",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      },
+      {
+        "id": "payexp",
+        "name": "Thanh toán EXP nâng cấp",
+        "kind": "uc",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      },
+      {
+        "id": "payseed",
+        "name": "Tiêu hao hạt, tăng sức chứa bình",
+        "kind": "uc",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      },
+      {
+        "id": "payincense",
+        "name": "Tiêu hao Hương thanh hồn",
+        "kind": "uc",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      },
+      {
+        "id": "unlocked",
+        "name": "Kiểm tra tượng đích đã mở",
+        "kind": "uc",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      }
+    ],
+    "edges": [
+      {
+        "a": "player",
+        "b": "shrine",
+        "kind": "association",
+        "label": "",
+        "mult": ""
+      },
+      {
+        "a": "pray",
+        "b": "shrine",
+        "kind": "extend",
+        "label": "«extend»",
+        "mult": ""
+      },
+      {
+        "a": "upgrade",
+        "b": "shrine",
+        "kind": "extend",
+        "label": "«extend»",
+        "mult": ""
+      },
+      {
+        "a": "seed",
+        "b": "shrine",
+        "kind": "extend",
+        "label": "«extend»",
+        "mult": ""
+      },
+      {
+        "a": "purify",
+        "b": "shrine",
+        "kind": "extend",
+        "label": "«extend»",
+        "mult": ""
+      },
+      {
+        "a": "travel",
+        "b": "shrine",
+        "kind": "extend",
+        "label": "«extend»",
+        "mult": ""
+      },
+      {
+        "a": "pray",
+        "b": "restore",
+        "kind": "include",
+        "label": "«include»",
+        "mult": ""
+      },
+      {
+        "a": "pray",
+        "b": "respawn",
+        "kind": "include",
+        "label": "«include»",
+        "mult": ""
+      },
+      {
+        "a": "upgrade",
+        "b": "payexp",
+        "kind": "include",
+        "label": "«include»",
+        "mult": ""
+      },
+      {
+        "a": "seed",
+        "b": "payseed",
+        "kind": "include",
+        "label": "«include»",
+        "mult": ""
+      },
+      {
+        "a": "purify",
+        "b": "payincense",
+        "kind": "include",
+        "label": "«include»",
+        "mult": ""
+      },
+      {
+        "a": "travel",
+        "b": "unlocked",
+        "kind": "include",
+        "label": "«include»",
+        "mult": ""
+      }
+    ],
+    "ordering": [
+      [
+        "shrine",
+        "pray"
+      ],
+      [
+        "shrine",
+        "upgrade"
+      ],
+      [
+        "shrine",
+        "seed"
+      ],
+      [
+        "shrine",
+        "purify"
+      ],
+      [
+        "shrine",
+        "travel"
+      ]
+    ],
+    "note": "Điều kiện: người chơi còn sống, đủ gần và không giao tranh. Bình máu khởi đầu 3, tối đa 10. Thanh tẩy yêu cầu đang nhiễm và có vật phẩm."
+  },
+  {
+    "id": "03-UC-nhiem-vu-hoi-thoai",
+    "title": "Hình 3. Use Case chi tiết — hội thoại và nhiệm vụ",
+    "type": "uc",
+    "subtitle": "Nhận nhiệm vụ theo cấu hình hội thoại; đủ mục tiêu rồi quay lại đúng NPC sẽ tự trả và nhận thưởng.",
+    "nodes": [
+      {
+        "id": "player",
+        "name": "Người chơi",
+        "kind": "actor",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      },
+      {
+        "id": "talk",
+        "name": "UC07 · Hội thoại / chọn câu trả lời",
+        "kind": "uc",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      },
+      {
+        "id": "accept",
+        "name": "Nhận nhiệm vụ",
+        "kind": "uc",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      },
+      {
+        "id": "report",
+        "name": "Trở lại NPC để tự trả nhiệm vụ",
+        "kind": "uc",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      },
+      {
+        "id": "shop",
+        "name": "Mở cửa hàng NPC",
+        "kind": "uc",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      },
+      {
+        "id": "kill",
+        "name": "UC05 · Hạ boss yêu cầu",
+        "kind": "uc",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      },
+      {
+        "id": "checkavailable",
+        "name": "Kiểm tra điều kiện mở nhiệm vụ",
+        "kind": "uc",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      },
+      {
+        "id": "checkready",
+        "name": "Kiểm tra mục tiêu đã đạt",
+        "kind": "uc",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      },
+      {
+        "id": "reward",
+        "name": "Nhận phần thưởng nhiệm vụ",
+        "kind": "uc",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      },
+      {
+        "id": "progress",
+        "name": "Ghi nhận hạ boss / tiến độ",
+        "kind": "uc",
+        "fields": [],
+        "methods": [],
+        "source": ""
+      }
+    ],
+    "edges": [
+      {
+        "a": "player",
+        "b": "talk",
+        "kind": "association",
+        "label": "",
+        "mult": ""
+      },
+      {
+        "a": "player",
+        "b": "kill",
+        "kind": "association",
+        "label": "",
+        "mult": ""
+      },
+      {
+        "a": "accept",
+        "b": "talk",
+        "kind": "extend",
+        "label": "«extend»",
+        "mult": ""
+      },
+      {
+        "a": "report",
+        "b": "talk",
+        "kind": "extend",
+        "label": "«extend»",
+        "mult": ""
+      },
+      {
+        "a": "shop",
+        "b": "talk",
+        "kind": "extend",
+        "label": "«extend»",
+        "mult": ""
+      },
+      {
+        "a": "accept",
+        "b": "checkavailable",
+        "kind": "include",
+        "label": "«include»",
+        "mult": ""
+      },
+      {
+        "a": "report",
+        "b": "checkready",
+        "kind": "include",
+        "label": "«include»",
+        "mult": ""
+      },
+      {
+        "a": "report",
+        "b": "reward",
+        "kind": "include",
+        "label": "«include»",
+        "mult": ""
+      },
+      {
+        "a": "kill",
+        "b": "progress",
+        "kind": "include",
+        "label": "«include»",
+        "mult": ""
+      }
+    ],
+    "ordering": [
+      [
+        "talk",
+        "accept"
+      ],
+      [
+        "talk",
+        "report"
+      ],
+      [
+        "talk",
+        "shop"
+      ]
+    ],
+    "note": "Chuỗi nhiệm vụ sử dụng prerequisites. Tiến trình: Locked → Available → Active → ReadyToReport → Completed; phần thưởng chỉ được trả khi TurnIn thành công."
+  },
+  {
+    "id": "04-class-chien-dau",
+    "title": "Hình 4. Class Diagram — điều khiển và chiến đấu",
+    "type": "class",
+    "nodes": [
+      {
+        "id": "controller",
+        "name": "PlayerController",
+        "kind": "MonoBehaviour",
+        "fields": [
+          "+moveSpeed: float",
+          "+IsSprinting: bool"
+        ],
+        "methods": [
+          "+StopSprinting()",
+          "+DelayStaminaRecovery()"
+        ],
+        "source": "Assets/Scripts/Player/PlayerController.cs"
+      },
+      {
+        "id": "dash",
+        "name": "PlayerDash",
+        "kind": "MonoBehaviour",
+        "fields": [
+          "+dashDuration: float",
+          "+dashStaminaCost: float"
+        ],
+        "methods": [
+          "+TryDash(inputDirection)",
+          "+CancelDash()"
+        ],
+        "source": "Assets/Scripts/Player/PlayerDash.cs"
+      },
+      {
+        "id": "pc",
+        "name": "PlayerCombat",
+        "kind": "MonoBehaviour",
+        "fields": [
+          "+normalAttackSkillName: string",
+          "+skill2SkillName: string"
+        ],
+        "methods": [],
+        "source": "Assets/Scripts/Player/PlayerCombat.cs"
+      },
+      {
+        "id": "parry",
+        "name": "CharacterParry",
+        "kind": "MonoBehaviour",
+        "fields": [
+          "+isParrying: bool"
+        ],
+        "methods": [
+          "+EnableParryWindow()",
+          "+ExecuteParry(attacker)"
+        ],
+        "source": "Assets/Scripts/Combat/CharacterParry.cs"
+      },
+      {
+        "id": "stats",
+        "name": "CharacterStats",
+        "kind": "MonoBehaviour",
+        "fields": [
+          "+maxHP / currentHP: float",
+          "+maxStamina / currentStamina: float",
+          "+ATK / DEF / STR: float"
+        ],
+        "methods": [
+          "+AddPosture(amount)"
+        ],
+        "source": "Assets/Scripts/Core/CharacterStats.cs"
+      },
+      {
+        "id": "health",
+        "name": "CharacterHealth",
+        "kind": "MonoBehaviour",
+        "fields": [
+          "+isDead: bool",
+          "+{static} AnyDied: event"
+        ],
+        "methods": [
+          "+TakeDamage(...)",
+          "+Heal(amount)"
+        ],
+        "source": "Assets/Scripts/Core/CharacterHealth.cs"
+      },
+      {
+        "id": "mgr",
+        "name": "SkillDamageManager",
+        "kind": "MonoBehaviour",
+        "fields": [
+          "+skills: List<SkillData>",
+          "+targetLayer: LayerMask"
+        ],
+        "methods": [
+          "+MarkSkillUsed(skillName)",
+          "+ExecuteHit(skillName)"
+        ],
+        "source": "Assets/Scripts/Combat/SkillDamageManager.cs"
+      },
+      {
+        "id": "skill",
+        "name": "SkillData",
+        "kind": "Serializable",
+        "fields": [
+          "+skillName: string",
+          "+damageMultiplier: float",
+          "+cooldownTime: float",
+          "+attackRange: float"
+        ],
+        "methods": [],
+        "source": "Assets/Scripts/Combat/SkillData.cs"
+      },
+      {
+        "id": "ai",
+        "name": "EnemyBehavior",
+        "kind": "MonoBehaviour",
+        "fields": [
+          "+currentState: OrcState"
+        ],
+        "methods": [
+          "+IsInCombatWith(target)"
+        ],
+        "source": "Assets/Scripts/Enemies/Shared/EnemyBehavior.cs"
+      },
+      {
+        "id": "aware",
+        "name": "EnemyAwareness",
+        "kind": "MonoBehaviour",
+        "fields": [
+          "+maxChaseDistance: float"
+        ],
+        "methods": [
+          "+HasLineOfSight(target)",
+          "+MaxAlert()"
+        ],
+        "source": "Assets/Scripts/Enemies/Shared/EnemyAwareness.cs"
+      },
+      {
+        "id": "ec",
+        "name": "EnemyCombat",
+        "kind": "MonoBehaviour",
+        "fields": [
+          "+skillManager: SkillDamageManager"
+        ],
+        "methods": [
+          "+TriggerAttack(...)",
+          "+TriggerSkill(...)",
+          "#ShouldLunge(skill): bool"
+        ],
+        "source": "Assets/Scripts/Enemies/Shared/EnemyCombat.cs"
+      },
+      {
+        "id": "break",
+        "name": "EnemyBreak",
+        "kind": "MonoBehaviour",
+        "fields": [
+          "+recoveryDelay: float",
+          "+IsBroken / Ratio"
+        ],
+        "methods": [
+          "+ReceiveHit(staminaDamage)",
+          "+ClearBreak()"
+        ],
+        "source": "Assets/Scripts/Enemies/Shared/EnemyBreak.cs"
+      },
+      {
+        "id": "phase",
+        "name": "BossPhaseController",
+        "kind": "MonoBehaviour",
+        "fields": [
+          "+phase1Skills / phase2Skills",
+          "+IsTransitioning: bool"
+        ],
+        "methods": [
+          "+AllowsSkill(skill)",
+          "+EvaluatePhase()"
+        ],
+        "source": "Assets/Scripts/Enemies/Bosses/BossPhaseController.cs"
+      },
+      {
+        "id": "director",
+        "name": "BossMovesetDirector",
+        "kind": "MonoBehaviour",
+        "fields": [
+          "+combos: List<Combo>",
+          "+ObservedMove: PlayerMove"
+        ],
+        "methods": [
+          "+SelectOpening(...)",
+          "+OnSkillStarted(...)"
+        ],
+        "source": "Assets/Scripts/Enemies/Bosses/BossMovesetDirector.cs"
+      },
+      {
+        "id": "SlimeCombat",
+        "name": "SlimeCombat",
+        "kind": "EnemyCombat subclass",
+        "fields": [],
+        "methods": [],
+        "source": "Assets/Scripts/Enemies/Archetypes/SlimeCombat.cs"
+      },
+      {
+        "id": "WerebearCombat",
+        "name": "WerebearCombat",
+        "kind": "EnemyCombat subclass",
+        "fields": [],
+        "methods": [],
+        "source": "Assets/Scripts/Enemies/Archetypes/WerebearCombat.cs"
+      },
+      {
+        "id": "WerewolfCombat",
+        "name": "WerewolfCombat",
+        "kind": "EnemyCombat subclass",
+        "fields": [],
+        "methods": [],
+        "source": "Assets/Scripts/Enemies/Archetypes/WerewolfCombat.cs"
+      },
+      {
+        "id": "OrcRiderCombat",
+        "name": "OrcRiderCombat",
+        "kind": "EnemyCombat subclass",
+        "fields": [],
+        "methods": [],
+        "source": "Assets/Scripts/Enemies/Archetypes/OrcRiderCombat.cs"
+      },
+      {
+        "id": "NecromancerCombat",
+        "name": "NecromancerCombat",
+        "kind": "EnemyCombat subclass",
+        "fields": [],
+        "methods": [],
+        "source": "Assets/Scripts/Enemies/Archetypes/NecromancerCombat.cs"
+      },
+      {
+        "id": "BlackKnightCombat",
+        "name": "BlackKnightCombat",
+        "kind": "EnemyCombat subclass",
+        "fields": [],
+        "methods": [],
+        "source": "Assets/Scripts/Enemies/Archetypes/BlackKnightCombat.cs"
+      },
+      {
+        "id": "BlackKnightBossCombat",
+        "name": "BlackKnightBossCombat",
+        "kind": "EnemyCombat subclass",
+        "fields": [],
+        "methods": [],
+        "source": "Assets/Scripts/Enemies/Archetypes/BlackKnightBossCombat.cs"
+      }
+    ],
+    "edges": [
+      {
+        "a": "controller",
+        "b": "dash",
+        "kind": "association",
+        "label": "điều khiển dash",
+        "mult": ""
+      },
+      {
+        "a": "dash",
+        "b": "stats",
+        "kind": "association",
+        "label": "tiêu hao stamina",
+        "mult": ""
+      },
+      {
+        "a": "pc",
+        "b": "mgr",
+        "kind": "association",
+        "label": "gọi kỹ năng",
+        "mult": ""
+      },
+      {
+        "a": "parry",
+        "b": "break",
+        "kind": "dependency",
+        "label": "đỡ đòn → sát thương choáng",
+        "mult": ""
+      },
+      {
+        "a": "health",
+        "b": "stats",
+        "kind": "association",
+        "label": "đọc / cập nhật HP",
+        "mult": ""
+      },
+      {
+        "a": "health",
+        "b": "break",
+        "kind": "association",
+        "label": "chuyển sát thương choáng",
+        "mult": ""
+      },
+      {
+        "a": "mgr",
+        "b": "skill",
+        "kind": "composition",
+        "label": "skills",
+        "mult": "0..*"
+      },
+      {
+        "a": "mgr",
+        "b": "stats",
+        "kind": "association",
+        "label": "tính sát thương",
+        "mult": ""
+      },
+      {
+        "a": "mgr",
+        "b": "health",
+        "kind": "dependency",
+        "label": "gây sát thương mục tiêu",
+        "mult": ""
+      },
+      {
+        "a": "ai",
+        "b": "aware",
+        "kind": "association",
+        "label": "nhận biết / LOS",
+        "mult": ""
+      },
+      {
+        "a": "ai",
+        "b": "ec",
+        "kind": "association",
+        "label": "ra lệnh tấn công",
+        "mult": ""
+      },
+      {
+        "a": "ec",
+        "b": "mgr",
+        "kind": "association",
+        "label": "thực thi kỹ năng",
+        "mult": ""
+      },
+      {
+        "a": "ec",
+        "b": "phase",
+        "kind": "dependency",
+        "label": "lọc chiêu theo phase",
+        "mult": ""
+      },
+      {
+        "a": "ec",
+        "b": "director",
+        "kind": "dependency",
+        "label": "chọn đòn / combo",
+        "mult": ""
+      },
+      {
+        "a": "break",
+        "b": "stats",
+        "kind": "association",
+        "label": "hồi thanh choáng",
+        "mult": ""
+      },
+      {
+        "a": "SlimeCombat",
+        "b": "ec",
+        "kind": "inheritance",
+        "label": "",
+        "mult": ""
+      },
+      {
+        "a": "WerebearCombat",
+        "b": "ec",
+        "kind": "inheritance",
+        "label": "",
+        "mult": ""
+      },
+      {
+        "a": "WerewolfCombat",
+        "b": "ec",
+        "kind": "inheritance",
+        "label": "",
+        "mult": ""
+      },
+      {
+        "a": "OrcRiderCombat",
+        "b": "ec",
+        "kind": "inheritance",
+        "label": "",
+        "mult": ""
+      },
+      {
+        "a": "NecromancerCombat",
+        "b": "ec",
+        "kind": "inheritance",
+        "label": "",
+        "mult": ""
+      },
+      {
+        "a": "BlackKnightCombat",
+        "b": "ec",
+        "kind": "inheritance",
+        "label": "",
+        "mult": ""
+      },
+      {
+        "a": "BlackKnightBossCombat",
+        "b": "ec",
+        "kind": "inheritance",
+        "label": "",
+        "mult": ""
+      }
+    ],
+    "note": "Các component cùng gắn trên GameObject được nối bằng tham chiếu, không phải kế thừa. Skeleton / Armor Skeleton / Greatsword Skeleton dùng EnemyCombat chung; không có lớp C# riêng tương ứng tên prefab."
+  },
+  {
+    "id": "05-class-hoi-thoai-nhiem-vu",
+    "title": "Hình 5. Class Diagram — tương tác, hội thoại và nhiệm vụ",
+    "type": "class",
+    "nodes": [
+      {
+        "id": "interactor",
+        "name": "World.PlayerInteractor",
+        "kind": "MonoBehaviour",
+        "fields": [
+          "+Target: WorldInteractable",
+          "+CanInteract / IsInCombat"
+        ],
+        "methods": [
+          "+TryInteract()",
+          "+ShowNotice(text)"
+        ],
+        "source": "Assets/Scripts/World/Interaction/PlayerInteractor.cs"
+      },
+      {
+        "id": "base",
+        "name": "World.WorldInteractable",
+        "kind": "abstract MonoBehaviour",
+        "fields": [
+          "+interactionRadius: float",
+          "+interactionLabel: string"
+        ],
+        "methods": [
+          "+TryInteract(player)",
+          "#Interact(player): bool {abstract}"
+        ],
+        "source": "Assets/Scripts/World/Interaction/WorldInteractable.cs"
+      },
+      {
+        "id": "npc",
+        "name": "World.NpcInteractable",
+        "kind": "MonoBehaviour",
+        "fields": [
+          "+dialogue: DialogueDefinition",
+          "+CurrentNodeId: string"
+        ],
+        "methods": [
+          "+Open(player)",
+          "+Choose(index)"
+        ],
+        "source": "Assets/Scripts/NPCs/NpcInteractable.cs"
+      },
+      {
+        "id": "shop",
+        "name": "World.NpcShop",
+        "kind": "MonoBehaviour",
+        "fields": [
+          "+Quantity: int"
+        ],
+        "methods": [
+          "+Open(...)",
+          "+Trade(action, quantity)"
+        ],
+        "source": "Assets/Scripts/NPCs/NpcShop.cs"
+      },
+      {
+        "id": "dialogue",
+        "name": "DialogueDefinition",
+        "kind": "ScriptableObject",
+        "fields": [
+          "+startNodeId: string",
+          "+nodes: List<Node>"
+        ],
+        "methods": [
+          "+Find(id): Node"
+        ],
+        "source": "Assets/Scripts/NPCs/DialogueDefinition.cs"
+      },
+      {
+        "id": "node",
+        "name": "DialogueDefinition.Node",
+        "kind": "Serializable",
+        "fields": [
+          "+id / speaker / text: string",
+          "+nextNodeId: string"
+        ],
+        "methods": [],
+        "source": "Assets/Scripts/NPCs/DialogueDefinition.cs"
+      },
+      {
+        "id": "choice",
+        "name": "DialogueDefinition.Choice",
+        "kind": "Serializable",
+        "fields": [
+          "+action: DialogueAction",
+          "+quest: QuestDefinition",
+          "+conditionQuest: QuestDefinition",
+          "+requiredStatus: QuestStatus"
+        ],
+        "methods": [],
+        "source": "Assets/Scripts/NPCs/DialogueDefinition.cs"
+      },
+      {
+        "id": "qs",
+        "name": "QuestService",
+        "kind": "static service",
+        "fields": [
+          "+{static} Changed: event"
+        ],
+        "methods": [
+          "+{static} Accept(quest)",
+          "+{static} TurnIn(quest)",
+          "+{static} Status(quest)",
+          "+{static} OwnedItems()"
+        ],
+        "source": "Assets/Scripts/Quests/QuestService.cs"
+      },
+      {
+        "id": "qd",
+        "name": "QuestDefinition",
+        "kind": "ScriptableObject",
+        "fields": [
+          "+questId / title: string",
+          "+prerequisites: List<QuestDefinition>",
+          "+objectives / consumables / items"
+        ],
+        "methods": [],
+        "source": "Assets/Scripts/Quests/QuestDefinition.cs"
+      },
+      {
+        "id": "objective",
+        "name": "QuestDefinition.BossObjective",
+        "kind": "Serializable",
+        "fields": [
+          "+bossId / encounterId: string",
+          "+count: int"
+        ],
+        "methods": [],
+        "source": "Assets/Scripts/Quests/QuestDefinition.cs"
+      },
+      {
+        "id": "reward",
+        "name": "QuestDefinition.ItemReward",
+        "kind": "Serializable",
+        "fields": [
+          "+item: QuestItemDefinition",
+          "+count: int"
+        ],
+        "methods": [],
+        "source": "Assets/Scripts/Quests/QuestDefinition.cs"
+      },
+      {
+        "id": "qi",
+        "name": "QuestItemDefinition",
+        "kind": "ScriptableObject",
+        "fields": [
+          "+itemId / displayName: string",
+          "+icon: Sprite"
+        ],
+        "methods": [
+          "+{static} Find(id)"
+        ],
+        "source": "Assets/Scripts/Items/QuestItemDefinition.cs"
+      },
+      {
+        "id": "gate",
+        "name": "World.QuestBossEncounter",
+        "kind": "MonoBehaviour",
+        "fields": [
+          "+requiredQuest: QuestDefinition",
+          "+conversation: NpcInteractable",
+          "+CurrentStage: Stage"
+        ],
+        "methods": [
+          "+RefreshQuestState()"
+        ],
+        "source": "Assets/Scripts/Quests/QuestBossEncounter.cs"
+      },
+      {
+        "id": "eco",
+        "name": "GameEconomy",
+        "kind": "static service",
+        "fields": [],
+        "methods": [
+          "+{static} TryGrantQuestReward(...)",
+          "+{static} BuyConsumable(...)",
+          "+{static} SellConsumable(...)"
+        ],
+        "source": "Assets/Scripts/Economy/GameEconomy.cs"
+      }
+    ],
+    "edges": [
+      {
+        "a": "interactor",
+        "b": "base",
+        "kind": "association",
+        "label": "chọn đối tượng",
+        "mult": "0..1"
+      },
+      {
+        "a": "npc",
+        "b": "base",
+        "kind": "inheritance",
+        "label": "",
+        "mult": ""
+      },
+      {
+        "a": "npc",
+        "b": "dialogue",
+        "kind": "association",
+        "label": "kịch bản",
+        "mult": "0..1"
+      },
+      {
+        "a": "dialogue",
+        "b": "node",
+        "kind": "composition",
+        "label": "nodes",
+        "mult": "0..*"
+      },
+      {
+        "a": "node",
+        "b": "choice",
+        "kind": "composition",
+        "label": "choices",
+        "mult": "0..*"
+      },
+      {
+        "a": "choice",
+        "b": "qd",
+        "kind": "association",
+        "label": "quest / điều kiện",
+        "mult": "0..1"
+      },
+      {
+        "a": "npc",
+        "b": "qs",
+        "kind": "dependency",
+        "label": "Accept / TryAutoTurnIn",
+        "mult": ""
+      },
+      {
+        "a": "npc",
+        "b": "shop",
+        "kind": "association",
+        "label": "cửa hàng tùy chọn",
+        "mult": "0..1"
+      },
+      {
+        "a": "shop",
+        "b": "eco",
+        "kind": "dependency",
+        "label": "mua / bán",
+        "mult": ""
+      },
+      {
+        "a": "qs",
+        "b": "qd",
+        "kind": "dependency",
+        "label": "đọc định nghĩa",
+        "mult": ""
+      },
+      {
+        "a": "qs",
+        "b": "eco",
+        "kind": "dependency",
+        "label": "trả thưởng có receipt",
+        "mult": ""
+      },
+      {
+        "a": "qd",
+        "b": "objective",
+        "kind": "composition",
+        "label": "objectives",
+        "mult": "1..*"
+      },
+      {
+        "a": "qd",
+        "b": "reward",
+        "kind": "composition",
+        "label": "items",
+        "mult": "0..*"
+      },
+      {
+        "a": "reward",
+        "b": "qi",
+        "kind": "association",
+        "label": "tham chiếu asset",
+        "mult": "1"
+      },
+      {
+        "a": "gate",
+        "b": "qd",
+        "kind": "association",
+        "label": "requiredQuest",
+        "mult": "1"
+      },
+      {
+        "a": "gate",
+        "b": "npc",
+        "kind": "association",
+        "label": "conversation",
+        "mult": "0..1"
+      },
+      {
+        "a": "gate",
+        "b": "qs",
+        "kind": "dependency",
+        "label": "nghe Changed",
+        "mult": ""
+      }
+    ],
+    "note": "NpcInteractable là partial class: thuộc tính và lựa chọn hội thoại còn nằm trong NpcDialogueChoices.cs. Black Knight chỉ chuyển thành boss sau khi hoàn thành nhiệm vụ và chọn giao chiến ở cuối hội thoại."
+  },
+  {
+    "id": "06-class-checkpoint-luu-game",
+    "title": "Hình 6. Class Diagram — checkpoint, kinh tế và lưu game",
+    "type": "class",
+    "nodes": [
+      {
+        "id": "cp",
+        "name": "World.CheckpointInteractable",
+        "kind": "WorldInteractable subclass",
+        "fields": [
+          "+checkpointId: string",
+          "+RespawnPosition: Vector3"
+        ],
+        "methods": [
+          "#Interact(player)"
+        ],
+        "source": "Assets/Scripts/World/CheckpointS/CheckpointInteractable.cs"
+      },
+      {
+        "id": "menu",
+        "name": "World.CheckpointMenu",
+        "kind": "MonoBehaviour",
+        "fields": [
+          "+checkpointName: string",
+          "+CurrentSection: int"
+        ],
+        "methods": [
+          "+Pray()",
+          "+TravelToSelected()"
+        ],
+        "source": "Assets/Scripts/World/CheckpointS/CheckpointMenu.cs"
+      },
+      {
+        "id": "service",
+        "name": "World.CheckpointService",
+        "kind": "singleton MonoBehaviour",
+        "fields": [
+          "-{static} instance: CheckpointService",
+          "+{static} SavedChanged: event"
+        ],
+        "methods": [
+          "+{static} Save(...)",
+          "+{static} TravelTo(...)",
+          "+{static} ReturnToLastShrine(...)"
+        ],
+        "source": "Assets/Scripts/World/CheckpointS/CheckpointService.cs"
+      },
+      {
+        "id": "record",
+        "name": "CheckpointService.Record",
+        "kind": "Serializable",
+        "fields": [
+          "+scenePath / checkpointId: string",
+          "+returnScenePath / returnCheckpointId",
+          "+x / y / z: float"
+        ],
+        "methods": [],
+        "source": "Assets/Scripts/World/CheckpointS/CheckpointService.cs"
+      },
+      {
+        "id": "fade",
+        "name": "World.ScreenFader",
+        "kind": "singleton MonoBehaviour",
+        "fields": [],
+        "methods": [
+          "+FadeOut(...) / FadeIn(...)",
+          "+TransitionToScene(...)"
+        ],
+        "source": "Assets/Scripts/World/SceneFlow/ScreenFader.cs"
+      },
+      {
+        "id": "respawn",
+        "name": "World.NormalEnemyRespawns",
+        "kind": "static service",
+        "fields": [],
+        "methods": [
+          "+{static} Register(...)",
+          "+{static} ResetNormals(scene)"
+        ],
+        "source": "Assets/Scripts/Enemies/Shared/NormalEnemyRespawns.cs"
+      },
+      {
+        "id": "eco",
+        "name": "GameEconomy",
+        "kind": "static service",
+        "fields": [
+          "+{static} Gold / Experience / LifeSeeds",
+          "+{static} Changed: event"
+        ],
+        "methods": [
+          "+{static} TryUpgrade(stat)",
+          "+{static} SacrificeLifeSeed(potion)",
+          "+{static} PurifySoulConsumption()"
+        ],
+        "source": "Assets/Scripts/Economy/GameEconomy.cs"
+      },
+      {
+        "id": "settings",
+        "name": "EconomySettings",
+        "kind": "ScriptableObject",
+        "fields": [],
+        "methods": [
+          "+UpgradeCost(purchaseCount)",
+          "+Rewards(type, ...)"
+        ],
+        "source": "Assets/Scripts/Economy/EconomySettings.cs"
+      },
+      {
+        "id": "prog",
+        "name": "PlayerProgression",
+        "kind": "MonoBehaviour",
+        "fields": [],
+        "methods": [
+          "+GrantGold(amount)",
+          "+GrantExperience(amount)"
+        ],
+        "source": "Assets/Scripts/Player/PlayerProgression.cs"
+      },
+      {
+        "id": "potion",
+        "name": "PlayerHealthPotion",
+        "kind": "MonoBehaviour",
+        "fields": [
+          "+StartingCapacity = 3",
+          "+MaximumCapacity = 10",
+          "+Charges: int"
+        ],
+        "methods": [
+          "+TryUse()",
+          "+ResetForRest()"
+        ],
+        "source": "Assets/Scripts/Player/PlayerHealthPotion.cs"
+      },
+      {
+        "id": "items",
+        "name": "PlayerConsumables",
+        "kind": "MonoBehaviour",
+        "fields": [
+          "+Selected: ConsumableKind"
+        ],
+        "methods": [
+          "+TryUse(kind)",
+          "+Equip(kind)"
+        ],
+        "source": "Assets/Scripts/Player/PlayerConsumables.cs"
+      },
+      {
+        "id": "catalog",
+        "name": "ConsumableCatalog",
+        "kind": "ScriptableObject",
+        "fields": [
+          "+items: Item[]"
+        ],
+        "methods": [
+          "+Find(kind): Item"
+        ],
+        "source": "Assets/Scripts/Items/ConsumableCatalog.cs"
+      },
+      {
+        "id": "soul",
+        "name": "SoulConsumption",
+        "kind": "static service",
+        "fields": [
+          "+{static} Active / NextChancePercent"
+        ],
+        "methods": [
+          "+{static} OutgoingMultiplier(...)",
+          "+{static} IncomingMultiplier(...)"
+        ],
+        "source": "Assets/Scripts/Combat/Status/SoulConsumption.cs"
+      },
+      {
+        "id": "drops",
+        "name": "World.PlayerDeathDrops",
+        "kind": "static service",
+        "fields": [],
+        "methods": [
+          "+{static} OnDeath(player)",
+          "+{static} Refresh()"
+        ],
+        "source": "Assets/Scripts/Player/DeathDrops/PlayerDeathDrops.cs"
+      },
+      {
+        "id": "pickup",
+        "name": "World.PlayerDeathDropPickup",
+        "kind": "WorldInteractable subclass",
+        "fields": [
+          "+DropId: string"
+        ],
+        "methods": [
+          "#Interact(player)"
+        ],
+        "source": "Assets/Scripts/Player/DeathDrops/PlayerDeathDropPickup.cs"
+      },
+      {
+        "id": "defeat",
+        "name": "EnemyDefeatState",
+        "kind": "static service",
+        "fields": [],
+        "methods": [
+          "+{static} WasDefeated(id)"
+        ],
+        "source": "Assets/Scripts/Enemies/Shared/EnemyDefeatState.cs"
+      },
+      {
+        "id": "bossinv",
+        "name": "BossItemInventory",
+        "kind": "static service",
+        "fields": [],
+        "methods": [
+          "+{static} TryGrant(...)",
+          "+{static} OwnedItems()"
+        ],
+        "source": "Assets/Scripts/Items/BossItemInventory.cs"
+      },
+      {
+        "id": "prefs",
+        "name": "UnityEngine.PlayerPrefs",
+        "kind": "Unity API",
+        "fields": [],
+        "methods": [
+          "+{static} GetString(...)",
+          "+{static} SetString(...) / Save()"
+        ],
+        "source": ""
+      }
+    ],
+    "edges": [
+      {
+        "a": "cp",
+        "b": "menu",
+        "kind": "association",
+        "label": "mở menu",
+        "mult": ""
+      },
+      {
+        "a": "cp",
+        "b": "service",
+        "kind": "dependency",
+        "label": "lưu / mở tượng",
+        "mult": ""
+      },
+      {
+        "a": "menu",
+        "b": "service",
+        "kind": "dependency",
+        "label": "du hành / ghi nhớ tượng",
+        "mult": ""
+      },
+      {
+        "a": "service",
+        "b": "record",
+        "kind": "association",
+        "label": "pending / fallback",
+        "mult": ""
+      },
+      {
+        "a": "service",
+        "b": "fade",
+        "kind": "dependency",
+        "label": "chuyển cảnh / fade",
+        "mult": ""
+      },
+      {
+        "a": "menu",
+        "b": "respawn",
+        "kind": "dependency",
+        "label": "cầu nguyện",
+        "mult": ""
+      },
+      {
+        "a": "menu",
+        "b": "eco",
+        "kind": "dependency",
+        "label": "nâng cấp / hiến tế / thanh tẩy",
+        "mult": ""
+      },
+      {
+        "a": "menu",
+        "b": "potion",
+        "kind": "dependency",
+        "label": "hồi bình máu",
+        "mult": ""
+      },
+      {
+        "a": "eco",
+        "b": "settings",
+        "kind": "association",
+        "label": "đọc giá / thưởng",
+        "mult": ""
+      },
+      {
+        "a": "prog",
+        "b": "eco",
+        "kind": "dependency",
+        "label": "nghe Changed",
+        "mult": ""
+      },
+      {
+        "a": "items",
+        "b": "catalog",
+        "kind": "association",
+        "label": "đọc hiệu ứng / icon",
+        "mult": ""
+      },
+      {
+        "a": "items",
+        "b": "eco",
+        "kind": "dependency",
+        "label": "quản lý ô dùng nhanh",
+        "mult": ""
+      },
+      {
+        "a": "items",
+        "b": "service",
+        "kind": "dependency",
+        "label": "Bùa hồi quy",
+        "mult": ""
+      },
+      {
+        "a": "soul",
+        "b": "eco",
+        "kind": "dependency",
+        "label": "trạng thái nhiễm / thưởng",
+        "mult": ""
+      },
+      {
+        "a": "drops",
+        "b": "eco",
+        "kind": "dependency",
+        "label": "ghi khoản rơi 50%",
+        "mult": ""
+      },
+      {
+        "a": "drops",
+        "b": "pickup",
+        "kind": "dependency",
+        "label": "tạo điểm thu hồi",
+        "mult": ""
+      },
+      {
+        "a": "pickup",
+        "b": "eco",
+        "kind": "dependency",
+        "label": "thu hồi khoản rơi",
+        "mult": ""
+      },
+      {
+        "a": "eco",
+        "b": "prefs",
+        "kind": "dependency",
+        "label": "JSON / PlayerPrefs",
+        "mult": ""
+      },
+      {
+        "a": "service",
+        "b": "prefs",
+        "kind": "dependency",
+        "label": "JSON / PlayerPrefs",
+        "mult": ""
+      },
+      {
+        "a": "defeat",
+        "b": "prefs",
+        "kind": "dependency",
+        "label": "JSON / PlayerPrefs",
+        "mult": ""
+      },
+      {
+        "a": "bossinv",
+        "b": "prefs",
+        "kind": "dependency",
+        "label": "JSON / PlayerPrefs",
+        "mult": ""
+      }
+    ],
+    "note": "QuestService và GameControls cũng lưu PlayerPrefs (lược bớt khỏi hình này). Chưa có cơ sở dữ liệu SQL/server; definition ScriptableObject và dữ liệu tiến trình JSON là hai nhóm khác nhau."
+  }
+]

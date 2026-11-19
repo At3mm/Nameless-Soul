@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - EnemyNormal
+  - EnemyElite
+  - EnemyBoss
   layers:
   - Default
   - TransparentFX
@@ -25,9 +28,9 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
+  - Layer 1
+  - Layer 2
+  - Layer 3
   - 
   - 
   - 
@@ -40,6 +43,39 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 1000
+    locked: 0
+  - name: GroundDetails
+    uniqueID: 1010
+    locked: 0
+  - name: GroundObstacles
+    uniqueID: 1012
+    locked: 0
+  - name: Water
+    uniqueID: 1015
+    locked: 0
+  - name: Lava
+    uniqueID: 1731854221
+    locked: 0
+  - name: Obstacles
+    uniqueID: 1020
+    locked: 0
+  - name: Characters
+    uniqueID: 1030
+    locked: 0
+  - name: Overhead
+    uniqueID: 1040
+    locked: 0
+  - name: Layer 1
+    uniqueID: 2425651459
+    locked: 0
+  - name: Layer 2
+    uniqueID: 4250941897
+    locked: 0
+  - name: Layer 3
+    uniqueID: 4189426099
     locked: 0
   m_RenderingLayers:
   - Default

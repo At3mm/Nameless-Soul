@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c765b7b37d158d14a81b1c21ecaafbdc, type: 3}
+  m_Name: DefaultDashEffect
+  m_EditorClassIdentifier: Assembly-CSharp::DashEffectAsset
+  frames:
+  - {fileID: 21300000, guid: d9a8adaa650df1e4c96d2ad5093e7c84, type: 3}
+  - {fileID: 21300000, guid: 67afd04b2e1676049a1e29163ef9ba53, type: 3}
+  - {fileID: 21300000, guid: 09d0e7a7b4f9f47459fa4379170c1969, type: 3}
+  material: {fileID: 2100000, guid: 34c588effdbe5274b8e54a3717b67170, type: 2}
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  emissionSpacing: 0.28
+  emissionInterval: 0.055
+  offset: {x: 0, y: 0.04}
+  scale: 1

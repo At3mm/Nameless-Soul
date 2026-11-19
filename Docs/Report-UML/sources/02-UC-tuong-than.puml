@@ -1,0 +1,38 @@
+@startuml
+skinparam backgroundColor white
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam classAttributeIconSize 0
+title Hình 2. Use Case chi tiết — tượng thần
+left to right direction
+actor "Người chơi" as player
+rectangle "Hệ thống game NONAME" {
+usecase "UC10 · Thao tác tại tượng thần" as shrine
+usecase "Cầu nguyện" as pray
+usecase "Nâng chỉ số" as upgrade
+usecase "Hiến tế Hạt sinh mệnh" as seed
+usecase "Thanh tẩy Ăn hồn" as purify
+usecase "Du hành giữa các tượng" as travel
+usecase "Hồi phục người chơi / bình máu" as restore
+usecase "Đặt lại quái thường" as respawn
+usecase "Thanh toán EXP nâng cấp" as payexp
+usecase "Tiêu hao hạt, tăng sức chứa bình" as payseed
+usecase "Tiêu hao Hương thanh hồn" as payincense
+usecase "Kiểm tra tượng đích đã mở" as unlocked
+}
+player -- shrine
+pray ..> shrine : «extend»
+upgrade ..> shrine : «extend»
+seed ..> shrine : «extend»
+purify ..> shrine : «extend»
+travel ..> shrine : «extend»
+pray ..> restore : «include»
+pray ..> respawn : «include»
+upgrade ..> payexp : «include»
+seed ..> payseed : «include»
+purify ..> payincense : «include»
+travel ..> unlocked : «include»
+legend bottom
+Điều kiện: người chơi còn sống, đủ gần và không giao tranh. Bình máu khởi đầu 3, tối đa 10. Thanh tẩy yêu cầu đang nhiễm và có vật phẩm.
+endlegend
+@enduml

@@ -1,0 +1,2561 @@
+fileFormatVersion: 2
+guid: c96c4e26cf032064db344f0f15db92ce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1727563933764392173
+    second: FG_Dark_Castle_Purple_E_0
+  - first:
+      213: -5694638739320773851
+    second: FG_Dark_Castle_Purple_E_1
+  - first:
+      213: 8779248359815209893
+    second: FG_Dark_Castle_Purple_E_2
+  - first:
+      213: -4737556199545788331
+    second: FG_Dark_Castle_Purple_E_3
+  - first:
+      213: -1905436533503077320
+    second: FG_Dark_Castle_Purple_E_4
+  - first:
+      213: -7717341430465983295
+    second: FG_Dark_Castle_Purple_E_5
+  - first:
+      213: 556056736024286202
+    second: FG_Dark_Castle_Purple_E_6
+  - first:
+      213: 2323008752384984913
+    second: FG_Dark_Castle_Purple_E_7
+  - first:
+      213: 8602815392833512228
+    second: FG_Dark_Castle_Purple_E_8
+  - first:
+      213: 5503110500817345804
+    second: FG_Dark_Castle_Purple_E_9
+  - first:
+      213: -2375262337224792889
+    second: FG_Dark_Castle_Purple_E_10
+  - first:
+      213: -4689395950719750068
+    second: FG_Dark_Castle_Purple_E_11
+  - first:
+      213: -6868863291287570231
+    second: FG_Dark_Castle_Purple_E_12
+  - first:
+      213: -9001912015066450944
+    second: FG_Dark_Castle_Purple_E_13
+  - first:
+      213: 6295698635664980899
+    second: FG_Dark_Castle_Purple_E_14
+  - first:
+      213: -8278403906943837528
+    second: FG_Dark_Castle_Purple_E_15
+  - first:
+      213: -7685632112411845732
+    second: FG_Dark_Castle_Purple_E_16
+  - first:
+      213: 6654196697077984356
+    second: FG_Dark_Castle_Purple_E_17
+  - first:
+      213: 5178187383501343615
+    second: FG_Dark_Castle_Purple_E_18
+  - first:
+      213: 604864808001863051
+    second: FG_Dark_Castle_Purple_E_19
+  - first:
+      213: -1189618120528489179
+    second: FG_Dark_Castle_Purple_E_20
+  - first:
+      213: -182822413998327714
+    second: FG_Dark_Castle_Purple_E_21
+  - first:
+      213: -2752920082165403734
+    second: FG_Dark_Castle_Purple_E_22
+  - first:
+      213: -4600726744190754216
+    second: FG_Dark_Castle_Purple_E_23
+  - first:
+      213: 7629630321315883920
+    second: FG_Dark_Castle_Purple_E_24
+  - first:
+      213: 3653315547544851969
+    second: FG_Dark_Castle_Purple_E_25
+  - first:
+      213: -1377486111354759221
+    second: FG_Dark_Castle_Purple_E_26
+  - first:
+      213: -4398574349999540903
+    second: FG_Dark_Castle_Purple_E_27
+  - first:
+      213: 8288898071616697411
+    second: FG_Dark_Castle_Purple_E_28
+  - first:
+      213: -5470494078005469569
+    second: FG_Dark_Castle_Purple_E_29
+  - first:
+      213: -63842759631291565
+    second: FG_Dark_Castle_Purple_E_30
+  - first:
+      213: -808518098953771065
+    second: FG_Dark_Castle_Purple_E_31
+  - first:
+      213: 3358915358928522627
+    second: FG_Dark_Castle_Purple_E_32
+  - first:
+      213: -3064916393943143759
+    second: FG_Dark_Castle_Purple_E_33
+  - first:
+      213: 8526148800557600869
+    second: FG_Dark_Castle_Purple_E_34
+  - first:
+      213: -2774557914725899581
+    second: FG_Dark_Castle_Purple_E_35
+  - first:
+      213: -4403612898093523474
+    second: FG_Dark_Castle_Purple_E_36
+  - first:
+      213: 1979833645760557806
+    second: FG_Dark_Castle_Purple_E_37
+  - first:
+      213: -1493359196724273553
+    second: FG_Dark_Castle_Purple_E_38
+  - first:
+      213: 3260550325893581531
+    second: FG_Dark_Castle_Purple_E_39
+  - first:
+      213: -127837215782825199
+    second: FG_Dark_Castle_Purple_E_40
+  - first:
+      213: 2468835494450741950
+    second: FG_Dark_Castle_Purple_E_41
+  - first:
+      213: -8421266572586633446
+    second: FG_Dark_Castle_Purple_E_42
+  - first:
+      213: 6121020296485713675
+    second: FG_Dark_Castle_Purple_E_43
+  - first:
+      213: 5088034692403533817
+    second: FG_Dark_Castle_Purple_E_44
+  - first:
+      213: -5745769588138746366
+    second: FG_Dark_Castle_Purple_E_45
+  - first:
+      213: 7377775806943816065
+    second: FG_Dark_Castle_Purple_E_46
+  - first:
+      213: -2136246539592671672
+    second: FG_Dark_Castle_Purple_E_47
+  - first:
+      213: -7746674778999577187
+    second: FG_Dark_Castle_Purple_E_48
+  - first:
+      213: -8319075762529099129
+    second: FG_Dark_Castle_Purple_E_49
+  - first:
+      213: 1420320900134957407
+    second: FG_Dark_Castle_Purple_E_50
+  - first:
+      213: -5420364502451051309
+    second: FG_Dark_Castle_Purple_E_51
+  - first:
+      213: -1044636124166032082
+    second: FG_Dark_Castle_Purple_E_52
+  - first:
+      213: 7816842221498847391
+    second: FG_Dark_Castle_Purple_E_53
+  - first:
+      213: 3370302553873974582
+    second: FG_Dark_Castle_Purple_E_54
+  - first:
+      213: 4576361391366035746
+    second: FG_Dark_Castle_Purple_E_55
+  - first:
+      213: -1116927002618608207
+    second: FG_Dark_Castle_Purple_E_56
+  - first:
+      213: -8938935379127119834
+    second: FG_Dark_Castle_Purple_E_57
+  - first:
+      213: -3760834506912968350
+    second: FG_Dark_Castle_Purple_E_58
+  - first:
+      213: 3040619254425771381
+    second: FG_Dark_Castle_Purple_E_59
+  - first:
+      213: 3669859286233930585
+    second: FG_Dark_Castle_Purple_E_60
+  - first:
+      213: 859913205868737346
+    second: FG_Dark_Castle_Purple_E_61
+  - first:
+      213: 3396475030162556770
+    second: FG_Dark_Castle_Purple_E_62
+  - first:
+      213: 5525072474255229326
+    second: FG_Dark_Castle_Purple_E_63
+  - first:
+      213: 5821523302940154445
+    second: FG_Dark_Castle_Purple_E_64
+  - first:
+      213: 6200220196106009989
+    second: FG_Dark_Castle_Purple_E_65
+  - first:
+      213: 5325989969740192843
+    second: FG_Dark_Castle_Purple_E_66
+  - first:
+      213: -5499601436361460376
+    second: FG_Dark_Castle_Purple_E_67
+  - first:
+      213: 1885391864381971952
+    second: FG_Dark_Castle_Purple_E_68
+  - first:
+      213: -4536484813209887036
+    second: FG_Dark_Castle_Purple_E_69
+  - first:
+      213: 3436036861068072017
+    second: FG_Dark_Castle_Purple_E_70
+  - first:
+      213: 895389188291039087
+    second: FG_Dark_Castle_Purple_E_71
+  - first:
+      213: 1309627551450027538
+    second: FG_Dark_Castle_Purple_E_72
+  - first:
+      213: 1929914495829566649
+    second: FG_Dark_Castle_Purple_E_73
+  - first:
+      213: -3014023498840474209
+    second: FG_Dark_Castle_Purple_E_74
+  - first:
+      213: -8724992194813374231
+    second: FG_Dark_Castle_Purple_E_75
+  - first:
+      213: 5720654242106191502
+    second: FG_Dark_Castle_Purple_E_76
+  - first:
+      213: -2185819560442076711
+    second: FG_Dark_Castle_Purple_E_77
+  - first:
+      213: -8402573878131464073
+    second: FG_Dark_Castle_Purple_E_78
+  - first:
+      213: -3517108487522048531
+    second: FG_Dark_Castle_Purple_E_79
+  - first:
+      213: -7906195668708189006
+    second: FG_Dark_Castle_Purple_E_80
+  - first:
+      213: 8446174568365477247
+    second: FG_Dark_Castle_Purple_E_81
+  - first:
+      213: -8214923073691331929
+    second: FG_Dark_Castle_Purple_E_82
+  - first:
+      213: -990417732744675045
+    second: FG_Dark_Castle_Purple_E_83
+  - first:
+      213: 8338178008388854521
+    second: FG_Dark_Castle_Purple_E_84
+  - first:
+      213: -5255465182862077573
+    second: FG_Dark_Castle_Purple_E_85
+  - first:
+      213: 957836066642621854
+    second: FG_Dark_Castle_Purple_E_86
+  - first:
+      213: -7194017303964712193
+    second: FG_Dark_Castle_Purple_E_87
+  - first:
+      213: -7286990620422453195
+    second: FG_Dark_Castle_Purple_E_88
+  - first:
+      213: -6364572727241908935
+    second: FG_Dark_Castle_Purple_E_89
+  - first:
+      213: -1100696974821485006
+    second: FG_Dark_Castle_Purple_E_90
+  - first:
+      213: 273442720238086262
+    second: FG_Dark_Castle_Purple_E_91
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 479
+        width: 77
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de49dc6ae3a89f710800000000000000
+      internalID: 1727563933764392173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 479
+        width: 77
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5236b92fc3498f0b0800000000000000
+      internalID: -5694638739320773851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_2
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 671
+        width: 98
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a367b96ed726d970800000000000000
+      internalID: 8779248359815209893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_3
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 671
+        width: 62
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558af96bcb1d04eb0800000000000000
+      internalID: -4737556199545788331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_4
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 671
+        width: 74
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8345f7671978e85e0800000000000000
+      internalID: -1905436533503077320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_5
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 191
+        width: 92
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc8ba27bde76e490800000000000000
+      internalID: -7717341430465983295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_6
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 191
+        width: 92
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af3d0b1c7a287b700800000000000000
+      internalID: 556056736024286202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_7
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 383
+        width: 68
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157c708072cfc3020800000000000000
+      internalID: 2323008752384984913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_8
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 575
+        width: 62
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 423aa162507536770800000000000000
+      internalID: 8602815392833512228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_9
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 575
+        width: 74
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d90f008d9fe5c40800000000000000
+      internalID: 5503110500817345804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_10
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 479
+        width: 62
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c42a5d2d7f590fd0800000000000000
+      internalID: -2375262337224792889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_11
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 479
+        width: 74
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40b1327a3bebeeb0800000000000000
+      internalID: -4689395950719750068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 386
+        width: 97
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c87518ba35eca0a0800000000000000
+      internalID: -6868863291287570231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_13
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 407
+        width: 44
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004b4aa67b8c21380800000000000000
+      internalID: -9001912015066450944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_14
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 383
+        width: 62
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3abf8b79d80de5750800000000000000
+      internalID: 6295698635664980899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_15
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 383
+        width: 74
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa186be1833d1d80800000000000000
+      internalID: -8278403906943837528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 239
+        width: 49
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b5b516056275590800000000000000
+      internalID: -7685632112411845732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_17
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 287
+        width: 62
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c29eaf3a4785c50800000000000000
+      internalID: 6654196697077984356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_18
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 287
+        width: 74
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7bc1067dfd9cd740800000000000000
+      internalID: 5178187383501343615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_19
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 203
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8df5129659e46800800000000000000
+      internalID: 604864808001863051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_20
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 191
+        width: 59
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525188b4f90ad7fe0800000000000000
+      internalID: -1189618120528489179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_21
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 191
+        width: 68
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5876acabfb767df0800000000000000
+      internalID: -182822413998327714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_22
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 194
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aafed7755c9abc9d0800000000000000
+      internalID: -2752920082165403734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_23
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 206
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 852eedfd66fe620c0800000000000000
+      internalID: -4600726744190754216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 143
+        width: 49
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b259d8a54e1e960800000000000000
+      internalID: 7629630321315883920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_25
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 194
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10692d7622f23b230800000000000000
+      internalID: 3653315547544851969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 101
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc75aa11eaf22ece0800000000000000
+      internalID: -1377486111354759221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_27
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 101
+        width: 47
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955f12eeeef15f2c0800000000000000
+      internalID: -4398574349999540903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_28
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 128
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344322231e4180370800000000000000
+      internalID: 8288898071616697411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_29
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 113
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e1b96be96e414b0800000000000000
+      internalID: -5470494078005469569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_30
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 113
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b32be295f2d1ff0800000000000000
+      internalID: -63842759631291565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_31
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 128
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7e26d921197c4f0800000000000000
+      internalID: -808518098953771065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_32
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 107
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38dc98ff8b34d9e20800000000000000
+      internalID: 3358915358928522627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_33
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 107
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba6fb047ca3775d0800000000000000
+      internalID: -3064916393943143759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_34
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 98
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 560db5f1927f25670800000000000000
+      internalID: 8526148800557600869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_35
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 98
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2a30cd64ace79d0800000000000000
+      internalID: -2774557914725899581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_36
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 98
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed9ec8866933e2c0800000000000000
+      internalID: -4403612898093523474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_37
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 98
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee2bce11638c97b10800000000000000
+      internalID: 1979833645760557806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_38
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 0
+        width: 137
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6edf2509b5864be0800000000000000
+      internalID: -1493359196724273553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_39
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 95
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdacb2b0f3dcf3d20800000000000000
+      internalID: 3260550325893581531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_40
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 98
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1139034cab4d93ef0800000000000000
+      internalID: -127837215782825199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_41
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 98
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb2cc9f3dc0134220800000000000000
+      internalID: 2468835494450741950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_42
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 83
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a173a168ba6a12b80800000000000000
+      internalID: -8421266572586633446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_43
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 74
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b07bcf2778b32f450800000000000000
+      internalID: 6121020296485713675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_44
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 83
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f7939d58945c9640800000000000000
+      internalID: 5088034692403533817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_45
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e5fb1800de240b0800000000000000
+      internalID: -5745769588138746366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_46
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 74
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1896b5dd100236660800000000000000
+      internalID: 7377775806943816065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_47
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 83
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84edbee27178a52e0800000000000000
+      internalID: -2136246539592671672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_48
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 83
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d95a04705584e7490800000000000000
+      internalID: -7746674778999577187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_49
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 80
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78224ea9ba4bc8c80800000000000000
+      internalID: -8319075762529099129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_50
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 53
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f517b9f555ef5b310800000000000000
+      internalID: 1420320900134957407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_51
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 53
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4a44e043ff6c4b0800000000000000
+      internalID: -5420364502451051309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_52
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 0
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25fa83daf4b081f0800000000000000
+      internalID: -1044636124166032082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_53
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 68
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90d6b5c5900b7c60800000000000000
+      internalID: 7816842221498847391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_54
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 62
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 635004de058b5ce20800000000000000
+      internalID: 3370302553873974582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_55
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 71
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2295f285070828f30800000000000000
+      internalID: 4576361391366035746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_56
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 65
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b540e01fc0ef70f0800000000000000
+      internalID: -1116927002618608207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_57
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 71
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620d4f812a582f380800000000000000
+      internalID: -8938935379127119834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_58
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 71
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261db6411f4decbc0800000000000000
+      internalID: -3760834506912968350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_59
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 59
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57dd24d1a13723a20800000000000000
+      internalID: 3040619254425771381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_60
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 53
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b54abb395fde230800000000000000
+      internalID: 3669859286233930585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_61
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 59
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243397531860feb00800000000000000
+      internalID: 859913205868737346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_62
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 59
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 267c25d6b04b22f20800000000000000
+      internalID: 3396475030162556770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_63
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 56
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81854a64200dac40800000000000000
+      internalID: 5525072474255229326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_64
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 56
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a186ba9943ac050800000000000000
+      internalID: 5821523302940154445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_65
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 56
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58df91e0b6b9b0650800000000000000
+      internalID: 6200220196106009989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_66
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c58afb8a7b9e940800000000000000
+      internalID: 5325989969740192843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_67
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 32
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 865727bb1ad7da3b0800000000000000
+      internalID: -5499601436361460376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_68
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 2
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd16e259e14a2a10800000000000000
+      internalID: 1885391864381971952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_69
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 5
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce9ba3091b2b01c0800000000000000
+      internalID: -4536484813209887036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_70
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 32
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1545c1bf1514faf20800000000000000
+      internalID: 3436036861068072017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_71
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 14
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f00d709bf0d6c00800000000000000
+      internalID: 895389188291039087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_72
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 32
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2165e30c15bbc2210800000000000000
+      internalID: 1309627551450027538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_73
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 5
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b46cc2420f68ca10800000000000000
+      internalID: 1929914495829566649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_74
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9dfee6c8990c26d0800000000000000
+      internalID: -3014023498840474209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_75
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 8
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0d71863d99ae680800000000000000
+      internalID: -8724992194813374231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_76
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 2
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e229f49b8d36f40800000000000000
+      internalID: 5720654242106191502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_77
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 23
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1efb4d0b86aa1e0800000000000000
+      internalID: -2185819560442076711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_78
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 2
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7786ffa939f046b80800000000000000
+      internalID: -8402573878131464073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_79
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 23
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5acbc0778b03fc0800000000000000
+      internalID: -3517108487522048531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_80
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 26
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bc9ae99dec874290800000000000000
+      internalID: -7906195668708189006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_81
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 2
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7dcc5a2507d63570800000000000000
+      internalID: 8446174568365477247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_82
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 5
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2d77f2dfabefd80800000000000000
+      internalID: -8214923073691331929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_83
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 2
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11818cc1545142f0800000000000000
+      internalID: -990417732744675045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_84
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 26
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2edf798b827b370800000000000000
+      internalID: 8338178008388854521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_85
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 26
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b719216c246d017b0800000000000000
+      internalID: -5255465182862077573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_86
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 2
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e957a49e3daea4d00800000000000000
+      internalID: 957836066642621854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_87
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 14
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff28b29a067b92c90800000000000000
+      internalID: -7194017303964712193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_88
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 0
+        width: 80
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 538cd1c83a86fda90800000000000000
+      internalID: -7286990620422453195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_89
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 2
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d5b9553de7ca7a0800000000000000
+      internalID: -6364572727241908935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_90
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 5
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2361b62eee989b0f0800000000000000
+      internalID: -1100696974821485006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG_Dark_Castle_Purple_E_91
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 5
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678253e84b67bc300800000000000000
+      internalID: 273442720238086262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FG_Dark_Castle_Purple_E_0: 1727563933764392173
+      FG_Dark_Castle_Purple_E_1: -5694638739320773851
+      FG_Dark_Castle_Purple_E_10: -2375262337224792889
+      FG_Dark_Castle_Purple_E_11: -4689395950719750068
+      FG_Dark_Castle_Purple_E_12: -6868863291287570231
+      FG_Dark_Castle_Purple_E_13: -9001912015066450944
+      FG_Dark_Castle_Purple_E_14: 6295698635664980899
+      FG_Dark_Castle_Purple_E_15: -8278403906943837528
+      FG_Dark_Castle_Purple_E_16: -7685632112411845732
+      FG_Dark_Castle_Purple_E_17: 6654196697077984356
+      FG_Dark_Castle_Purple_E_18: 5178187383501343615
+      FG_Dark_Castle_Purple_E_19: 604864808001863051
+      FG_Dark_Castle_Purple_E_2: 8779248359815209893
+      FG_Dark_Castle_Purple_E_20: -1189618120528489179
+      FG_Dark_Castle_Purple_E_21: -182822413998327714
+      FG_Dark_Castle_Purple_E_22: -2752920082165403734
+      FG_Dark_Castle_Purple_E_23: -4600726744190754216
+      FG_Dark_Castle_Purple_E_24: 7629630321315883920
+      FG_Dark_Castle_Purple_E_25: 3653315547544851969
+      FG_Dark_Castle_Purple_E_26: -1377486111354759221
+      FG_Dark_Castle_Purple_E_27: -4398574349999540903
+      FG_Dark_Castle_Purple_E_28: 8288898071616697411
+      FG_Dark_Castle_Purple_E_29: -5470494078005469569
+      FG_Dark_Castle_Purple_E_3: -4737556199545788331
+      FG_Dark_Castle_Purple_E_30: -63842759631291565
+      FG_Dark_Castle_Purple_E_31: -808518098953771065
+      FG_Dark_Castle_Purple_E_32: 3358915358928522627
+      FG_Dark_Castle_Purple_E_33: -3064916393943143759
+      FG_Dark_Castle_Purple_E_34: 8526148800557600869
+      FG_Dark_Castle_Purple_E_35: -2774557914725899581
+      FG_Dark_Castle_Purple_E_36: -4403612898093523474
+      FG_Dark_Castle_Purple_E_37: 1979833645760557806
+      FG_Dark_Castle_Purple_E_38: -1493359196724273553
+      FG_Dark_Castle_Purple_E_39: 3260550325893581531
+      FG_Dark_Castle_Purple_E_4: -1905436533503077320
+      FG_Dark_Castle_Purple_E_40: -127837215782825199
+      FG_Dark_Castle_Purple_E_41: 2468835494450741950
+      FG_Dark_Castle_Purple_E_42: -8421266572586633446
+      FG_Dark_Castle_Purple_E_43: 6121020296485713675
+      FG_Dark_Castle_Purple_E_44: 5088034692403533817
+      FG_Dark_Castle_Purple_E_45: -5745769588138746366
+      FG_Dark_Castle_Purple_E_46: 7377775806943816065
+      FG_Dark_Castle_Purple_E_47: -2136246539592671672
+      FG_Dark_Castle_Purple_E_48: -7746674778999577187
+      FG_Dark_Castle_Purple_E_49: -8319075762529099129
+      FG_Dark_Castle_Purple_E_5: -7717341430465983295
+      FG_Dark_Castle_Purple_E_50: 1420320900134957407
+      FG_Dark_Castle_Purple_E_51: -5420364502451051309
+      FG_Dark_Castle_Purple_E_52: -1044636124166032082
+      FG_Dark_Castle_Purple_E_53: 7816842221498847391
+      FG_Dark_Castle_Purple_E_54: 3370302553873974582
+      FG_Dark_Castle_Purple_E_55: 4576361391366035746
+      FG_Dark_Castle_Purple_E_56: -1116927002618608207
+      FG_Dark_Castle_Purple_E_57: -8938935379127119834
+      FG_Dark_Castle_Purple_E_58: -3760834506912968350
+      FG_Dark_Castle_Purple_E_59: 3040619254425771381
+      FG_Dark_Castle_Purple_E_6: 556056736024286202
+      FG_Dark_Castle_Purple_E_60: 3669859286233930585
+      FG_Dark_Castle_Purple_E_61: 859913205868737346
+      FG_Dark_Castle_Purple_E_62: 3396475030162556770
+      FG_Dark_Castle_Purple_E_63: 5525072474255229326
+      FG_Dark_Castle_Purple_E_64: 5821523302940154445
+      FG_Dark_Castle_Purple_E_65: 6200220196106009989
+      FG_Dark_Castle_Purple_E_66: 5325989969740192843
+      FG_Dark_Castle_Purple_E_67: -5499601436361460376
+      FG_Dark_Castle_Purple_E_68: 1885391864381971952
+      FG_Dark_Castle_Purple_E_69: -4536484813209887036
+      FG_Dark_Castle_Purple_E_7: 2323008752384984913
+      FG_Dark_Castle_Purple_E_70: 3436036861068072017
+      FG_Dark_Castle_Purple_E_71: 895389188291039087
+      FG_Dark_Castle_Purple_E_72: 1309627551450027538
+      FG_Dark_Castle_Purple_E_73: 1929914495829566649
+      FG_Dark_Castle_Purple_E_74: -3014023498840474209
+      FG_Dark_Castle_Purple_E_75: -8724992194813374231
+      FG_Dark_Castle_Purple_E_76: 5720654242106191502
+      FG_Dark_Castle_Purple_E_77: -2185819560442076711
+      FG_Dark_Castle_Purple_E_78: -8402573878131464073
+      FG_Dark_Castle_Purple_E_79: -3517108487522048531
+      FG_Dark_Castle_Purple_E_8: 8602815392833512228
+      FG_Dark_Castle_Purple_E_80: -7906195668708189006
+      FG_Dark_Castle_Purple_E_81: 8446174568365477247
+      FG_Dark_Castle_Purple_E_82: -8214923073691331929
+      FG_Dark_Castle_Purple_E_83: -990417732744675045
+      FG_Dark_Castle_Purple_E_84: 8338178008388854521
+      FG_Dark_Castle_Purple_E_85: -5255465182862077573
+      FG_Dark_Castle_Purple_E_86: 957836066642621854
+      FG_Dark_Castle_Purple_E_87: -7194017303964712193
+      FG_Dark_Castle_Purple_E_88: -7286990620422453195
+      FG_Dark_Castle_Purple_E_89: -6364572727241908935
+      FG_Dark_Castle_Purple_E_9: 5503110500817345804
+      FG_Dark_Castle_Purple_E_90: -1100696974821485006
+      FG_Dark_Castle_Purple_E_91: 273442720238086262
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

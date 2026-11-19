@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6857c924cd9e74438419d923e15327b, type: 3}
+  m_Name: PriestConversation
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueDefinition
+  autoAcceptQuest: {fileID: 11400000, guid: cc264f697565ede4db93d147a118d1e6, type: 2}
+  autoAcceptedStartNodeId: offer
+  autoTurnInQuests:
+  - {fileID: 11400000, guid: cc264f697565ede4db93d147a118d1e6, type: 2}
+  entryRules:
+  - encounterId: 
+    mustBeDefeated: 1
+    quest: {fileID: 11400000, guid: cc264f697565ede4db93d147a118d1e6, type: 2}
+    requiredStatus: 2
+    onlyBeforeCompletionDialogueSeen: 0
+    startNodeId: offer_4
+  - encounterId: 
+    mustBeDefeated: 1
+    quest: {fileID: 11400000, guid: cc264f697565ede4db93d147a118d1e6, type: 2}
+    requiredStatus: 4
+    onlyBeforeCompletionDialogueSeen: 1
+    startNodeId: report
+  startNodeId: start
+  nodes:
+  - id: start
+    speaker: 
+    text: "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
+    textQuest: {fileID: 0}
+    completeQuestWithoutReward: {fileID: 0}
+    acknowledgeQuestCompletion: {fileID: 0}
+    nextNodeId: 
+    choices:
+    - text: "Mua b\xE1n v\u1EADt ph\u1EA9m"
+      nextNodeId: 
+      action: 3
+      quest: {fileID: 0}
+      conditionQuest: {fileID: 11400000, guid: cc264f697565ede4db93d147a118d1e6, type: 2}
+      requiredStatus: 4
+    - text: "R\u1EDDi \u0111i"
+      nextNodeId: 
+      action: 4
+      quest: {fileID: 0}
+      conditionQuest: {fileID: 0}
+      requiredStatus: 0
+  - id: offer
+    speaker: 
+    text: "Ng\u01B0\u1EDDi ch\u1EAFc h\u1EB3n l\xE0 v\u1ECB ki\u1EBFm s\u0129 c\xF2n
+      s\xF3t l\u1EA1i c\u1EE7a \u0110\u1EBF ch\u1EBF."
+    textQuest: {fileID: 11400000, guid: cc264f697565ede4db93d147a118d1e6, type: 2}
+    completeQuestWithoutReward: {fileID: 0}
+    acknowledgeQuestCompletion: {fileID: 0}
+    nextNodeId: offer_1
+    choices: []
+  - id: offer_1
+    speaker: 
+    text: "\u1EDE v\xF9ng \u0111\u1EA5t n\xE0y, \u0111\u1EE9c tin c\u1EE7a Th\u1EA7n
+      s\u1EBD lu\xF4n ch\u1EDF che, soi \u0111\u01B0\u1EDDng cho d\xE2n ch\xFAng. "
+    textQuest: {fileID: 11400000, guid: cc264f697565ede4db93d147a118d1e6, type: 2}
+    completeQuestWithoutReward: {fileID: 0}
+    acknowledgeQuestCompletion: {fileID: 0}
+    nextNodeId: offer_2
+    choices: []
+  - id: report
+    speaker: 
+    text: "Ng\xE0i th\u1EF1c s\u1EF1 l\xE0 ng\u01B0\u1EDDi \u0111\u01B0\u1EE3c N\u1EEF
+      Th\u1EA7n l\u1EF1a ch\u1ECDn. Ta \u0111\xE3 s\u1EE3 ng\xE0i l\xE0nh \xEDt d\u1EEF
+      nhi\u1EC1u."
+    textQuest: {fileID: 11400000, guid: cc264f697565ede4db93d147a118d1e6, type: 2}
+    completeQuestWithoutReward: {fileID: 0}
+    acknowledgeQuestCompletion: {fileID: 0}
+    nextNodeId: rewarded
+    choices: []
+  - id: rewarded
+    speaker: 
+    text: "Ta \u0111\xE3 thanh t\u1EA9y linh h\u1ED3n n\xE0y \u0111\u1EBFn n\u01A1i
+      an ngh\u1EC9. T\u1EEB gi\u1EDD, \u0111\u1EE9c tin s\u1EBD ch\u1EEFa l\xE0nh
+      cho ng\xE0i. "
+    textQuest: {fileID: 0}
+    completeQuestWithoutReward: {fileID: 0}
+    acknowledgeQuestCompletion: {fileID: 0}
+    nextNodeId: reward_2
+    choices: []
+  - id: offer_2
+    speaker: 
+    text: "Nh\u01B0ng ma v\u1EADt qu\xE1 nhi\u1EC1u, v\xF9ng \u0111\u1EA5t n\xE0y
+      l\xE2u d\u1EA7n c\u0169ng s\u1EBD b\u1ECB \xF4 u\u1EBF m\u1EA5t. "
+    textQuest: {fileID: 0}
+    completeQuestWithoutReward: {fileID: 0}
+    acknowledgeQuestCompletion: {fileID: 0}
+    nextNodeId: offer_3
+    choices: []
+  - id: offer_3
+    speaker: 
+    text: "Ph\xEDa d\u01B0\u1EDBi kia c\xF3 m\u1ED9t k\u1EBB \u0111\xE3 b\u1ECB tha
+      h\xF3a. Th\u01B0\u1EDDng linh h\u1ED3n b\xF3ng t\u1ED1i ph\u1EA3i \u0111\u01B0\u1EE3c
+      ki\u1EC3m so\xE1t. N\u1EBFu \u0111\u01B0\u1EE3c, mong ng\xE0i c\xF3 th\u1EC3
+      gi\xFAp t\xF4i thu th\u1EADp linh h\u1ED3n c\u1EE7a ch\xFAng.  "
+    textQuest: {fileID: 0}
+    completeQuestWithoutReward: {fileID: 0}
+    acknowledgeQuestCompletion: {fileID: 0}
+    nextNodeId: offer_4
+    choices: []
+  - id: offer_4
+    speaker: 
+    text: "C\u1EA7u cho N\u1EEF Th\u1EA7n soi \u0111\u01B0\u1EDDng cho ng\xE0i."
+    textQuest: {fileID: 0}
+    completeQuestWithoutReward: {fileID: 0}
+    acknowledgeQuestCompletion: {fileID: 0}
+    nextNodeId: 
+    choices: []
+  - id: reward_2
+    speaker: 
+    text: "M\u1ED7i khi ng\xE0i \u0111\xE1nh b\u1EA1i \u0111\u01B0\u1EE3c m\u1ED9t
+      linh h\u1ED3n m\u1EA1nh m\u1EBD, h\xE3y c\u1EA7u nguy\u1EC7n ch\xFAng tr\u01B0\u1EDBc
+      N\u1EEF Th\u1EA7n. Ch\u1EAFc ch\u1EAFn Ng\u01B0\u1EDDi s\u1EBD gi\xFAp \u0111\u1EE1
+      ng\xE0i trong th\u1EDDi gian t\u1EDBi. "
+    textQuest: {fileID: 0}
+    completeQuestWithoutReward: {fileID: 0}
+    acknowledgeQuestCompletion: {fileID: 0}
+    nextNodeId: reward_3
+    choices: []
+  - id: reward_3
+    speaker: 
+    text: "Ta c\u0169ng c\xF3 m\u1ED9t s\u1ED1 d\u01B0\u1EE3c ph\u1EA9m gi\xFAp ng\xE0i
+      trong th\u1EDDi gian t\u1EDBi. N\u1EBFu c\u1EA7n, h\xE3y c\u1EE9 t\xECm ta. "
+    textQuest: {fileID: 0}
+    completeQuestWithoutReward: {fileID: 0}
+    acknowledgeQuestCompletion: {fileID: 0}
+    nextNodeId: reward_4
+    choices: []
+  - id: reward_4
+    speaker: 
+    text: "C\u1EA7u cho chuy\u1EBFn \u0111i c\u1EE7a ng\xE0i \u0111\u01B0\u1EE3c
+      th\xE0nh c\xF4ng"
+    textQuest: {fileID: 0}
+    completeQuestWithoutReward: {fileID: 0}
+    acknowledgeQuestCompletion: {fileID: 11400000, guid: cc264f697565ede4db93d147a118d1e6,
+      type: 2}
+    nextNodeId: start
+    choices: []

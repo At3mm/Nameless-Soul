@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfc42fdd34a6cc744a634ad49e405052, type: 3}
+  m_Name: DefaultCombatAudio
+  m_EditorClassIdentifier: Assembly-CSharp::CombatAudioSettings
+  hits:
+  - {fileID: 8300000, guid: e054e01aecf30754990fb52ef19f9e19, type: 3}
+  - {fileID: 8300000, guid: f84b5fe846cf68248812a85026d8d55d, type: 3}
+  - {fileID: 8300000, guid: 7e1cbd6a056240c4da59184a6aec56ff, type: 3}
+  heavyHits:
+  - {fileID: 8300000, guid: 4199587e25e4a1542a515394c7acbbed, type: 3}
+  - {fileID: 8300000, guid: 6dbaf045a8594e4439ba7944af75295d, type: 3}
+  - {fileID: 8300000, guid: a4afe106238dd8c4da5ffbfd9a4eb9c2, type: 3}
+  parry: {fileID: 8300000, guid: 4d6ae2292c6497f499d0570d3aa7d625, type: 3}
+  dash: {fileID: 8300000, guid: 602572df716cdbb4bbbdbbd468324290, type: 3}
+  heal: {fileID: 8300000, guid: 42e285e7cc27f6644b40d03a3654e7dd, type: 3}
+  cleanse: {fileID: 8300000, guid: 908aa575476aabe479dc540107c3a4ed, type: 3}
+  parryReady: {fileID: 8300000, guid: baa4675b44baf794c9d7ced2ea6a8119, type: 3}
+  enemyBreak: {fileID: 8300000, guid: 20195ef91e92f79428539b9ee44e47c1, type: 3}
+  enemyBreakVolume: 1
+  parryReadyVolume: 0.64
+  attackSwing: {fileID: 8300000, guid: e1c379e325eb23a4bb52c207c6339c93, type: 3}
+  skill2Cast: {fileID: 8300000, guid: 9755f6a5adfe8f145beed76cfaf815b7, type: 3}
+  skill2Swing: {fileID: 8300000, guid: 3368c37664c9f7d409f9ecbeb275a2d3, type: 3}
+  attackSwingVariations:
+  - {fileID: 8300000, guid: e1c379e325eb23a4bb52c207c6339c93, type: 3}
+  - {fileID: 8300000, guid: 68f11b0b6831732498eae72ee96bead0, type: 3}
+  skill2SwingVariations:
+  - {fileID: 8300000, guid: 3368c37664c9f7d409f9ecbeb275a2d3, type: 3}
+  - {fileID: 8300000, guid: 0fedd94081759dc46b7abc95f1df125a, type: 3}
+  swingVolume: 0.64
+  skillVolume: 0.65
+  buffs:
+  - {fileID: 8300000, guid: edaba0f2c7b8f4c4f9187f73ad68461f, type: 3}
+  - {fileID: 8300000, guid: fc86f52149bcfcd448bf15da5d7b126d, type: 3}
+  - {fileID: 8300000, guid: fc005e73523b2bd40a762b003a34caa7, type: 3}
+  - {fileID: 8300000, guid: 3c0349498808eff43956502354031a9c, type: 3}
+  - {fileID: 8300000, guid: b9ae4af21d860d14698cdb2ebb193b8a, type: 3}
+  debuffs:
+  - {fileID: 8300000, guid: e38029b580ee2644b9b0e474d5321488, type: 3}
+  - {fileID: 8300000, guid: bdd74bb4931224e49a688c1d665d1e98, type: 3}
+  - {fileID: 8300000, guid: e10923889be893240b04c6f03cacc17c, type: 3}
+  volume: 0.55
+  hitVolume: 0.85
+  parryVolume: 0.85
+  dashVolume: 0.45
+  statusVolume: 0.5
+  enemyVolume: 0.4
+  audibleDistance: 25

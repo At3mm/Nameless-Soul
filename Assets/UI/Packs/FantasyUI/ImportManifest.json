@@ -1,0 +1,22 @@
+[
+  {
+    "source": "fantasy.png",
+    "destination": "SpriteSheets/FantasyUI_Atlas.png",
+    "sha256": "50CECDC03F84F1A17844D56DDFB64C6B481C06D674599E2CD8091688E6ABB3EB"
+  },
+  {
+    "source": "Dragonhpbar.png",
+    "destination": "SpriteSheets/HealthBars/DragonHealthBar_01.png",
+    "sha256": "11B10FAA59C62BD3515A92CAF265999309A49E291B832B8ACB4BDC8AD530AF9C"
+  },
+  {
+    "source": "DragonHpBar2.png",
+    "destination": "SpriteSheets/HealthBars/DragonHealthBar_02.png",
+    "sha256": "F9238F96D27049405AF7DB2A68CCD1B931BA2B13957B86B1781F01D11C3299BE"
+  },
+  {
+    "source": "DragonHpBar3.png",
+    "destination": "SpriteSheets/HealthBars/DragonHealthBar_03.png",
+    "sha256": "78FD2CDC4940DB87CB4EA74E2149F21E76F456386CAD19182E6530E0348214FF"
+  }
+]

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d15c6f35eafdc4418a7fec8084e5079, type: 3}
+  m_Name: LavaPool_x1_y2
+  m_EditorClassIdentifier: Assembly-CSharp::PixelMapAnimatedTile
+  frames:
+  - {fileID: 44018779, guid: e0cbc3499033b554093ce1f7db9da3e1, type: 3}
+  - {fileID: -1015830553, guid: e0cbc3499033b554093ce1f7db9da3e1, type: 3}
+  - {fileID: 364216807, guid: e0cbc3499033b554093ce1f7db9da3e1, type: 3}
+  - {fileID: 3843475, guid: e0cbc3499033b554093ce1f7db9da3e1, type: 3}
+  - {fileID: 191028407, guid: e0cbc3499033b554093ce1f7db9da3e1, type: 3}
+  - {fileID: 1252786239, guid: e0cbc3499033b554093ce1f7db9da3e1, type: 3}
+  - {fileID: 101537573, guid: e0cbc3499033b554093ce1f7db9da3e1, type: 3}
+  - {fileID: 1861361206, guid: e0cbc3499033b554093ce1f7db9da3e1, type: 3}
+  colliderType: 0

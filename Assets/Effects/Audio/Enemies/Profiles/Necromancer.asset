@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 251d10523ceda684995e2ff2a4cb3d2a, type: 3}
+  m_Name: Necromancer
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyAudioProfile
+  attacks:
+  - {fileID: 8300000, guid: e9f554a4ac564030b01d949dd1cb9cd8, type: 3}
+  hurt:
+  - {fileID: 8300000, guid: d58c4456a3c843d5b6996a51ca6c1ffb, type: 3}
+  death:
+  - {fileID: 8300000, guid: aadc7461c5254832ba2ac67bb94bacfa, type: 3}
+  phaseTransition:
+  - {fileID: 8300000, guid: 51f8afd436f04fc29db02d05df91da86, type: 3}
+  replaceDefaultWeaponSwing: 0
+  skills:
+  - skillName: HeavyAttack
+    clips:
+    - {fileID: 8300000, guid: 1eca33d00042426d884d6f0b74d31da1, type: 3}
+  - skillName: Summon
+    clips:
+    - {fileID: 8300000, guid: eb374afab4f041228f7cb2700bbbceb3, type: 3}
+  volume: 0.8
+  pitch: 0.95
+  attackInterval: 0.45
+  hurtInterval: 0.5

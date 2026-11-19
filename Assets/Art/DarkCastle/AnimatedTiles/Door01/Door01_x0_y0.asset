@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d15c6f35eafdc4418a7fec8084e5079, type: 3}
+  m_Name: Door01_x0_y0
+  m_EditorClassIdentifier: Assembly-CSharp::PixelMapAnimatedTile
+  frames:
+  - {fileID: -1554509735, guid: 51c8c16b3875ea64a8181a4edcfac698, type: 3}
+  - {fileID: 270419500, guid: 51c8c16b3875ea64a8181a4edcfac698, type: 3}
+  - {fileID: 1421457273, guid: 51c8c16b3875ea64a8181a4edcfac698, type: 3}
+  - {fileID: 997512548, guid: 51c8c16b3875ea64a8181a4edcfac698, type: 3}
+  - {fileID: 436051830, guid: 51c8c16b3875ea64a8181a4edcfac698, type: 3}
+  - {fileID: -799753643, guid: 51c8c16b3875ea64a8181a4edcfac698, type: 3}
+  - {fileID: 918819326, guid: 51c8c16b3875ea64a8181a4edcfac698, type: 3}
+  - {fileID: -1904448571, guid: 51c8c16b3875ea64a8181a4edcfac698, type: 3}
+  colliderType: 2

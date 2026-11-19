@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d15c6f35eafdc4418a7fec8084e5079, type: 3}
+  m_Name: LavaPool_Purple_x2_y1
+  m_EditorClassIdentifier: Assembly-CSharp::PixelMapAnimatedTile
+  frames:
+  - {fileID: -1213323550, guid: c25c69b0bbffaa14f9d1ade1636ffd8d, type: 3}
+  - {fileID: 822299695, guid: c25c69b0bbffaa14f9d1ade1636ffd8d, type: 3}
+  - {fileID: -916546444, guid: c25c69b0bbffaa14f9d1ade1636ffd8d, type: 3}
+  - {fileID: -68038594, guid: c25c69b0bbffaa14f9d1ade1636ffd8d, type: 3}
+  - {fileID: -1371233429, guid: c25c69b0bbffaa14f9d1ade1636ffd8d, type: 3}
+  - {fileID: -1659203214, guid: c25c69b0bbffaa14f9d1ade1636ffd8d, type: 3}
+  - {fileID: -816168343, guid: c25c69b0bbffaa14f9d1ade1636ffd8d, type: 3}
+  - {fileID: 755411106, guid: c25c69b0bbffaa14f9d1ade1636ffd8d, type: 3}
+  colliderType: 0

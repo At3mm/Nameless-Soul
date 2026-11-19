@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: PB_Chest_Open
+  m_EditorClassIdentifier: Unity.2D.Tilemap.Extras::UnityEngine.Tilemaps.AnimatedTile
+  m_AnimatedSprites:
+  - {fileID: 21300000, guid: 9de314e1bb395af468c98d2d14415373, type: 3}
+  - {fileID: 21300000, guid: 9bb1a7b46937b734d86b09e66019c830, type: 3}
+  - {fileID: 21300000, guid: 6290a5b63f26c2c42be8ffc26628ddb5, type: 3}
+  - {fileID: 21300000, guid: 188bf286f26afc240b680b070716f1a0, type: 3}
+  - {fileID: 21300000, guid: 127e409bf746a7544ad253ed2e213798, type: 3}
+  m_MinSpeed: 12
+  m_MaxSpeed: 12
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
+  m_TileAnimationFlags: 9

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 251d10523ceda684995e2ff2a4cb3d2a, type: 3}
+  m_Name: GreatswordSkeleton
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyAudioProfile
+  attacks:
+  - {fileID: 8300000, guid: cab0cd90dc9a7b445b16bfab342b1d0d, type: 3}
+  - {fileID: 8300000, guid: f8d34f24e81f8674283993792a5a1090, type: 3}
+  hurt:
+  - {fileID: 8300000, guid: 4e2c4819ead96ce499d1e03cc3316de9, type: 3}
+  - {fileID: 8300000, guid: ef614135e17f0154ca49c79a9a6b5d92, type: 3}
+  death:
+  - {fileID: 8300000, guid: 7ac49ac9238f00246b1de690e3c73044, type: 3}
+  phaseTransition:
+  - {fileID: 8300000, guid: 2364b60e3bb290f41a157d86800c2dbd, type: 3}
+  skills: []
+  volume: 0.8
+  pitch: 0.85
+  attackInterval: 0.45
+  hurtInterval: 0.5

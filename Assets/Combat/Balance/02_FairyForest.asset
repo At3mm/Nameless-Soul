@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22c3e26459acd8745b0847568fbb95a5, type: 3}
+  m_Name: 02_FairyForest
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyDamageProfile
+  notes: 'Tier 2. Reference: player 100 HP / 10 DEF, 1 second hit immunity. Enemy
+    critical chance is zero. Spawn area stays fixed during chase.'
+  enemies:
+  - archetypeId: slime
+    attack: 20
+    trueDamage: 1
+    criticalChance: 0
+    criticalMultiplier: 1.5
+    skills:
+    - skillName: NormalAttack
+      damageMultiplier: 0.85
+    - skillName: HeavyAttack
+      damageMultiplier: 1.35
+  - archetypeId: orc
+    attack: 22
+    trueDamage: 1
+    criticalChance: 0
+    criticalMultiplier: 1.5
+    skills:
+    - skillName: NormalAttack
+      damageMultiplier: 1
+    - skillName: HeavyAttack
+      damageMultiplier: 1.4
+  - archetypeId: werewolf
+    attack: 24
+    trueDamage: 1
+    criticalChance: 0
+    criticalMultiplier: 1.5
+    skills:
+    - skillName: NormalAttack
+      damageMultiplier: 1
+    - skillName: TeleportAttack
+      damageMultiplier: 1.25
+  - archetypeId: werebear
+    attack: 29
+    trueDamage: 2
+    criticalChance: 0
+    criticalMultiplier: 1.5
+    skills:
+    - skillName: Skill1
+      damageMultiplier: 0.95
+    - skillName: Skill2
+      damageMultiplier: 0.8
+    - skillName: Skill3
+      damageMultiplier: 1.45
+  - archetypeId: elite-orc
+    attack: 30
+    trueDamage: 2
+    criticalChance: 0
+    criticalMultiplier: 1.5
+    skills:
+    - skillName: Skill1
+      damageMultiplier: 0.95
+    - skillName: Skill2
+      damageMultiplier: 0.75
+    - skillName: Skill3
+      damageMultiplier: 1.4
+  - archetypeId: orc-rider
+    attack: 28
+    trueDamage: 2
+    criticalChance: 0
+    criticalMultiplier: 1.5
+    skills:
+    - skillName: NormalAttack
+      damageMultiplier: 1
+    - skillName: HeavyAttack
+      damageMultiplier: 1.4
+    - skillName: Skill3
+      damageMultiplier: 1.1
+  - archetypeId: necromancer
+    attack: 31
+    trueDamage: 3
+    criticalChance: 0
+    criticalMultiplier: 1.5
+    skills:
+    - skillName: NormalAttack
+      damageMultiplier: 1
+    - skillName: HeavyAttack
+      damageMultiplier: 1.25
+    - skillName: Summon
+      damageMultiplier: 1.5
+  - archetypeId: necromancer-bat
+    attack: 14
+    trueDamage: 1
+    criticalChance: 0
+    criticalMultiplier: 1.5
+    skills:
+    - skillName: NormalAttack
+      damageMultiplier: 1
+    - skillName: HeavyAttack
+      damageMultiplier: 1.4
+  - archetypeId: black-knight
+    attack: 32
+    trueDamage: 2
+    criticalChance: 0
+    criticalMultiplier: 1.5
+    skills:
+    - skillName: NormalAttack
+      damageMultiplier: 1
+    - skillName: Skill2
+      damageMultiplier: 1.3
+    - skillName: Skill3
+      damageMultiplier: 1.5
+  - archetypeId: skeleton
+    attack: 24
+    trueDamage: 0
+    criticalChance: 0
+    criticalMultiplier: 1.5
+    skills:
+    - skillName: NormalAttack
+      damageMultiplier: 1
+    - skillName: HeavyAttack
+      damageMultiplier: 1.25
+  - archetypeId: armor-skeleton
+    attack: 26
+    trueDamage: 0
+    criticalChance: 0
+    criticalMultiplier: 1.5
+    skills:
+    - skillName: NormalAttack
+      damageMultiplier: 1.05
+    - skillName: HeavyAttack
+      damageMultiplier: 0.65
+  - archetypeId: greatsword-skeleton
+    attack: 32
+    trueDamage: 1
+    criticalChance: 0
+    criticalMultiplier: 1.5
+    skills:
+    - skillName: NormalAttack
+      damageMultiplier: 1
+    - skillName: HeavyAttack
+      damageMultiplier: 1.45
+    - skillName: Skill3
+      damageMultiplier: 1.2
+  - archetypeId: demon-c
+    attack: 24
+    trueDamage: 0
+    criticalChance: 0
+    criticalMultiplier: 1.5
+    skills:
+    - skillName: NormalAttack
+      damageMultiplier: 1
+    - skillName: HeavyAttack
+      damageMultiplier: 1.3
+  - archetypeId: flame-golem
+    attack: 28
+    trueDamage: 0
+    criticalChance: 0
+    criticalMultiplier: 1.5
+    skills:
+    - skillName: NormalAttack
+      damageMultiplier: 1
+    - skillName: HeavyAttack
+      damageMultiplier: 1.35
+    - skillName: Skill3
+      damageMultiplier: 1.2
+  - archetypeId: lava-slime
+    attack: 22
+    trueDamage: 0
+    criticalChance: 0
+    criticalMultiplier: 1.5
+    skills:
+    - skillName: NormalAttack
+      damageMultiplier: 1
+    - skillName: HeavyAttack
+      damageMultiplier: 1.25
+  - archetypeId: minotaur
+    attack: 35
+    trueDamage: 2
+    criticalChance: 0
+    criticalMultiplier: 1.5
+    skills:
+    - skillName: NormalAttack
+      damageMultiplier: 1.15
+    - skillName: HeavyAttack
+      damageMultiplier: 1.25
+    - skillName: Skill3
+      damageMultiplier: 1.45

@@ -1,0 +1,23 @@
+main: 4 styled buttons
+main-settings: 7 styled buttons
+bindings-main: 23 styled buttons
+Rebind capture/cancel passed
+inventory: 27 styled buttons
+quest-items: 21 styled buttons
+relics: 21 styled buttons
+quests: 6 styled buttons
+settings: 7 styled buttons
+bindings: 23 styled buttons
+dialogue: 5 styled buttons
+shop: 9 styled buttons
+shop-sell: 9 styled buttons
+shop-confirm: 13 styled buttons
+shrine: 9 styled buttons
+upgrades: 15 styled buttons
+travel: 18 styled buttons
+travel-current: 18 styled buttons
+pause: 21 styled buttons
+Prefab click and disabled guards passed
+PASS
+
+Dynamic price labels contrast passed

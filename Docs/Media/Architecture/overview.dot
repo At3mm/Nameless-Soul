@@ -1,0 +1,32 @@
+digraph G {
+graph [rankdir=TB, bgcolor=white, pad=.15, nodesep=.3, ranksep=.5, fontname="Arial",splines=polyline];
+node [shape=box, style="rounded,filled", fillcolor="#eef4f7", color="#536674", fontname="Arial", fontsize=12, margin=".15,.1"];
+edge [fontname="Arial", fontsize=10, color="#536674", arrowsize=.7];
+player [label="NGƯỜI CHƠI VÀ TƯƠNG TÁC
+Input actions · Menu và HUD
+Điều khiển và chọn tương tác"];
+combat [label="CHIẾN ĐẤU VÀ AI
+Sát thương · AI · Break
+Phase và kỹ năng boss"];
+quest [label="HỘI THOẠI VÀ NHIỆM VỤ
+Lựa chọn · Mục tiêu
+Trả nhiệm vụ tại NPC"];
+economy [label="KINH TẾ VÀ VẬT PHẨM
+Vàng · EXP · Túi đồ
+Thưởng có biên nhận"];
+checkpoint [label="CHECKPOINT VÀ DU HÀNH
+Điểm hồi sinh · Tượng mở
+Cầu nguyện và đổi scene"];
+storage [label="LƯU TIẾN TRÌNH CỤC BỘ
+Dữ liệu do từng dịch vụ quản lý
+JsonUtility → JSON → PlayerPrefs",fillcolor="#f5f0e5"];
+{rank=same;combat;quest;}
+{rank=same;checkpoint;economy;}
+player -> combat [label="điều khiển"];
+player -> quest [label="đối thoại"];
+combat -> quest [label="hạ quái"];
+player -> checkpoint [label="tương tác"];
+quest -> economy [label="thưởng"];
+checkpoint -> economy [label="nâng cấp / lưu"];
+economy -> storage;quest -> storage;checkpoint -> storage;
+}

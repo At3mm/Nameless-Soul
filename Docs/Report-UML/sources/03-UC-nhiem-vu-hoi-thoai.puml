@@ -1,0 +1,32 @@
+@startuml
+skinparam backgroundColor white
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam classAttributeIconSize 0
+title Hình 3. Use Case chi tiết — hội thoại và nhiệm vụ
+left to right direction
+actor "Người chơi" as player
+rectangle "Hệ thống game NONAME" {
+usecase "UC07 · Hội thoại / chọn câu trả lời" as talk
+usecase "Nhận nhiệm vụ" as accept
+usecase "Trở lại NPC để tự trả nhiệm vụ" as report
+usecase "Mở cửa hàng NPC" as shop
+usecase "UC05 · Hạ boss yêu cầu" as kill
+usecase "Kiểm tra điều kiện mở nhiệm vụ" as checkavailable
+usecase "Kiểm tra mục tiêu đã đạt" as checkready
+usecase "Nhận phần thưởng nhiệm vụ" as reward
+usecase "Ghi nhận hạ boss / tiến độ" as progress
+}
+player -- talk
+player -- kill
+accept ..> talk : «extend»
+report ..> talk : «extend»
+shop ..> talk : «extend»
+accept ..> checkavailable : «include»
+report ..> checkready : «include»
+report ..> reward : «include»
+kill ..> progress : «include»
+legend bottom
+Chuỗi nhiệm vụ sử dụng prerequisites. Tiến trình: Locked → Available → Active → ReadyToReport → Completed; phần thưởng chỉ được trả khi TurnIn thành công.
+endlegend
+@enduml

@@ -1,0 +1,1840 @@
+{
+  "palette": "PaperBook_AllIcons",
+  "cellPixels": 16,
+  "groups": [
+    {
+      "category": "Icons",
+      "count": 21,
+      "topRow": 0,
+      "bottomRow": -15
+    },
+    {
+      "category": "Items",
+      "count": 26,
+      "topRow": -18,
+      "bottomRow": -29
+    },
+    {
+      "category": "Equipment",
+      "count": 18,
+      "topRow": -32,
+      "bottomRow": -35
+    },
+    {
+      "category": "Sidetabs",
+      "count": 12,
+      "topRow": -38,
+      "bottomRow": -43
+    },
+    {
+      "category": "Signs",
+      "count": 7,
+      "topRow": -46,
+      "bottomRow": -47
+    },
+    {
+      "category": "Buttons",
+      "count": 12,
+      "topRow": -50,
+      "bottomRow": -52
+    },
+    {
+      "category": "TreasureChest",
+      "count": 5,
+      "topRow": -55,
+      "bottomRow": -58
+    },
+    {
+      "category": "DustBin",
+      "count": 6,
+      "topRow": -61,
+      "bottomRow": -64
+    },
+    {
+      "category": "Highlighter",
+      "count": 5,
+      "topRow": -67,
+      "bottomRow": -68
+    },
+    {
+      "category": "DayAndNightCycle",
+      "count": 16,
+      "topRow": -71,
+      "bottomRow": -83
+    },
+    {
+      "category": "ProgressBars",
+      "count": 65,
+      "topRow": -86,
+      "bottomRow": -108
+    },
+    {
+      "category": "Holders",
+      "count": 27,
+      "topRow": -111,
+      "bottomRow": -130
+    }
+  ],
+  "placements": [
+    {
+      "name": "PBIcon_Icons_Icons_01",
+      "category": "Icons",
+      "x": 0,
+      "y": 0,
+      "width": 8.0,
+      "height": 8.0
+    },
+    {
+      "name": "PBIcon_Icons_Icons_02",
+      "category": "Icons",
+      "x": 2,
+      "y": 0,
+      "width": 8.0,
+      "height": 4.0
+    },
+    {
+      "name": "PBIcon_Icons_Icons_03",
+      "category": "Icons",
+      "x": 4,
+      "y": 0,
+      "width": 8.0,
+      "height": 8.0
+    },
+    {
+      "name": "PBIcon_Icons_Icons_04",
+      "category": "Icons",
+      "x": 6,
+      "y": 0,
+      "width": 10.0,
+      "height": 10.0
+    },
+    {
+      "name": "PBIcon_Icons_Icons_05",
+      "category": "Icons",
+      "x": 8,
+      "y": 0,
+      "width": 9.0,
+      "height": 7.0
+    },
+    {
+      "name": "PBIcon_Icons_Icons_06",
+      "category": "Icons",
+      "x": 10,
+      "y": 0,
+      "width": 7.0,
+      "height": 7.0
+    },
+    {
+      "name": "PBIcon_Icons_Icons_07",
+      "category": "Icons",
+      "x": 12,
+      "y": 0,
+      "width": 7.0,
+      "height": 7.0
+    },
+    {
+      "name": "PBIcon_Icons_Icons_08",
+      "category": "Icons",
+      "x": 14,
+      "y": 0,
+      "width": 7.0,
+      "height": 7.0
+    },
+    {
+      "name": "PBIcon_Icons_Icons_09",
+      "category": "Icons",
+      "x": 16,
+      "y": 0,
+      "width": 7.0,
+      "height": 7.0
+    },
+    {
+      "name": "PBIcon_Icons_Icons_10",
+      "category": "Icons",
+      "x": 18,
+      "y": 0,
+      "width": 12.0,
+      "height": 9.0
+    },
+    {
+      "name": "PBIcon_Icons_Icons_11",
+      "category": "Icons",
+      "x": 20,
+      "y": 0,
+      "width": 10.0,
+      "height": 10.0
+    },
+    {
+      "name": "PBIcon_Icons_Icons_12",
+      "category": "Icons",
+      "x": 22,
+      "y": 0,
+      "width": 16.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Icons_Icons_13",
+      "category": "Icons",
+      "x": 24,
+      "y": 0,
+      "width": 16.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Icons_Icons_14",
+      "category": "Icons",
+      "x": 26,
+      "y": 0,
+      "width": 16.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Icons_Icons_15",
+      "category": "Icons",
+      "x": 28,
+      "y": 0,
+      "width": 16.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Icons_Icons_16",
+      "category": "Icons",
+      "x": 3,
+      "y": -5,
+      "width": 99.0,
+      "height": 94.0
+    },
+    {
+      "name": "PBIcon_Icons_Icons_17",
+      "category": "Icons",
+      "x": 11,
+      "y": -5,
+      "width": 99.0,
+      "height": 105.0
+    },
+    {
+      "name": "PBIcon_Icons_Icons_18",
+      "category": "Icons",
+      "x": 18,
+      "y": -4,
+      "width": 55.0,
+      "height": 54.0
+    },
+    {
+      "name": "PBIcon_Icons_Icons_19",
+      "category": "Icons",
+      "x": 23,
+      "y": -4,
+      "width": 52.0,
+      "height": 54.0
+    },
+    {
+      "name": "PBIcon_Icons_Icons_20",
+      "category": "Icons",
+      "x": 28,
+      "y": -4,
+      "width": 52.0,
+      "height": 54.0
+    },
+    {
+      "name": "PBIcon_Icons_Icons_21",
+      "category": "Icons",
+      "x": 2,
+      "y": -12,
+      "width": 64.0,
+      "height": 80.0
+    },
+    {
+      "name": "PBIcon_Items_Items_01",
+      "category": "Items",
+      "x": 0,
+      "y": -18,
+      "width": 16.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Items_Items_02",
+      "category": "Items",
+      "x": 2,
+      "y": -18,
+      "width": 14.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Items_Items_03",
+      "category": "Items",
+      "x": 4,
+      "y": -18,
+      "width": 14.0,
+      "height": 14.0
+    },
+    {
+      "name": "PBIcon_Items_Items_04",
+      "category": "Items",
+      "x": 6,
+      "y": -18,
+      "width": 16.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Items_Items_05",
+      "category": "Items",
+      "x": 8,
+      "y": -18,
+      "width": 16.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Items_Items_06",
+      "category": "Items",
+      "x": 10,
+      "y": -18,
+      "width": 16.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Items_Items_07",
+      "category": "Items",
+      "x": 12,
+      "y": -18,
+      "width": 16.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Items_Items_08",
+      "category": "Items",
+      "x": 14,
+      "y": -18,
+      "width": 16.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Items_Items_09",
+      "category": "Items",
+      "x": 16,
+      "y": -18,
+      "width": 16.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Items_Items_10",
+      "category": "Items",
+      "x": 18,
+      "y": -18,
+      "width": 16.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Items_Items_11",
+      "category": "Items",
+      "x": 20,
+      "y": -18,
+      "width": 16.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Items_Items_12",
+      "category": "Items",
+      "x": 22,
+      "y": -18,
+      "width": 16.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Items_Items_13",
+      "category": "Items",
+      "x": 24,
+      "y": -18,
+      "width": 16.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Items_Items_14",
+      "category": "Items",
+      "x": 26,
+      "y": -18,
+      "width": 16.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Items_Items_15",
+      "category": "Items",
+      "x": 29,
+      "y": -19,
+      "width": 46.0,
+      "height": 46.0
+    },
+    {
+      "name": "PBIcon_Items_Items_16",
+      "category": "Items",
+      "x": 1,
+      "y": -23,
+      "width": 48.0,
+      "height": 48.0
+    },
+    {
+      "name": "PBIcon_Items_Items_17",
+      "category": "Items",
+      "x": 5,
+      "y": -23,
+      "width": 48.0,
+      "height": 47.0
+    },
+    {
+      "name": "PBIcon_Items_Items_18",
+      "category": "Items",
+      "x": 9,
+      "y": -23,
+      "width": 38.0,
+      "height": 46.0
+    },
+    {
+      "name": "PBIcon_Items_Items_19",
+      "category": "Items",
+      "x": 13,
+      "y": -23,
+      "width": 38.0,
+      "height": 38.0
+    },
+    {
+      "name": "PBIcon_Items_Items_20",
+      "category": "Items",
+      "x": 17,
+      "y": -23,
+      "width": 48.0,
+      "height": 48.0
+    },
+    {
+      "name": "PBIcon_Items_Items_21",
+      "category": "Items",
+      "x": 21,
+      "y": -23,
+      "width": 48.0,
+      "height": 47.0
+    },
+    {
+      "name": "PBIcon_Items_Items_22",
+      "category": "Items",
+      "x": 25,
+      "y": -23,
+      "width": 48.0,
+      "height": 46.0
+    },
+    {
+      "name": "PBIcon_Items_Items_23",
+      "category": "Items",
+      "x": 29,
+      "y": -23,
+      "width": 48.0,
+      "height": 48.0
+    },
+    {
+      "name": "PBIcon_Items_Items_24",
+      "category": "Items",
+      "x": 1,
+      "y": -27,
+      "width": 48.0,
+      "height": 48.0
+    },
+    {
+      "name": "PBIcon_Items_Items_25",
+      "category": "Items",
+      "x": 5,
+      "y": -27,
+      "width": 48.0,
+      "height": 46.0
+    },
+    {
+      "name": "PBIcon_Items_Items_26",
+      "category": "Items",
+      "x": 9,
+      "y": -27,
+      "width": 48.0,
+      "height": 48.0
+    },
+    {
+      "name": "PBIcon_Equipment_Equipment_01",
+      "category": "Equipment",
+      "x": 0,
+      "y": -32,
+      "width": 12.0,
+      "height": 13.0
+    },
+    {
+      "name": "PBIcon_Equipment_Equipment_02",
+      "category": "Equipment",
+      "x": 2,
+      "y": -32,
+      "width": 16.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Equipment_Equipment_03",
+      "category": "Equipment",
+      "x": 4,
+      "y": -32,
+      "width": 14.0,
+      "height": 15.0
+    },
+    {
+      "name": "PBIcon_Equipment_Equipment_04",
+      "category": "Equipment",
+      "x": 6,
+      "y": -32,
+      "width": 14.0,
+      "height": 14.0
+    },
+    {
+      "name": "PBIcon_Equipment_Equipment_05",
+      "category": "Equipment",
+      "x": 8,
+      "y": -32,
+      "width": 16.0,
+      "height": 14.0
+    },
+    {
+      "name": "PBIcon_Equipment_Equipment_06",
+      "category": "Equipment",
+      "x": 10,
+      "y": -32,
+      "width": 16.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Equipment_Equipment_07",
+      "category": "Equipment",
+      "x": 12,
+      "y": -32,
+      "width": 14.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_Equipment_Equipment_08",
+      "category": "Equipment",
+      "x": 14,
+      "y": -32,
+      "width": 16.0,
+      "height": 15.0
+    },
+    {
+      "name": "PBIcon_Equipment_Equipment_09",
+      "category": "Equipment",
+      "x": 16,
+      "y": -32,
+      "width": 14.0,
+      "height": 15.0
+    },
+    {
+      "name": "PBIcon_Equipment_Equipment_10",
+      "category": "Equipment",
+      "x": 18,
+      "y": -32,
+      "width": 15.0,
+      "height": 15.0
+    },
+    {
+      "name": "PBIcon_Equipment_Equipment_11",
+      "category": "Equipment",
+      "x": 20,
+      "y": -32,
+      "width": 16.0,
+      "height": 14.0
+    },
+    {
+      "name": "PBIcon_Equipment_Equipment_12",
+      "category": "Equipment",
+      "x": 22,
+      "y": -32,
+      "width": 16.0,
+      "height": 15.0
+    },
+    {
+      "name": "PBIcon_Equipment_Equipment_13",
+      "category": "Equipment",
+      "x": 24,
+      "y": -32,
+      "width": 14.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_Equipment_Equipment_14",
+      "category": "Equipment",
+      "x": 26,
+      "y": -32,
+      "width": 16.0,
+      "height": 15.0
+    },
+    {
+      "name": "PBIcon_Equipment_Equipment_15",
+      "category": "Equipment",
+      "x": 28,
+      "y": -32,
+      "width": 14.0,
+      "height": 15.0
+    },
+    {
+      "name": "PBIcon_Equipment_Equipment_16",
+      "category": "Equipment",
+      "x": 30,
+      "y": -32,
+      "width": 15.0,
+      "height": 15.0
+    },
+    {
+      "name": "PBIcon_Equipment_Equipment_17",
+      "category": "Equipment",
+      "x": 0,
+      "y": -34,
+      "width": 16.0,
+      "height": 14.0
+    },
+    {
+      "name": "PBIcon_Equipment_Equipment_18",
+      "category": "Equipment",
+      "x": 2,
+      "y": -34,
+      "width": 16.0,
+      "height": 15.0
+    },
+    {
+      "name": "PBIcon_Sidetabs_Sidetabs_01",
+      "category": "Sidetabs",
+      "x": 0,
+      "y": -39,
+      "width": 7.0,
+      "height": 28.0
+    },
+    {
+      "name": "PBIcon_Sidetabs_Sidetabs_02",
+      "category": "Sidetabs",
+      "x": 3,
+      "y": -39,
+      "width": 45.0,
+      "height": 22.0
+    },
+    {
+      "name": "PBIcon_Sidetabs_Sidetabs_03",
+      "category": "Sidetabs",
+      "x": 7,
+      "y": -39,
+      "width": 37.0,
+      "height": 28.0
+    },
+    {
+      "name": "PBIcon_Sidetabs_Sidetabs_04",
+      "category": "Sidetabs",
+      "x": 11,
+      "y": -39,
+      "width": 33.0,
+      "height": 28.0
+    },
+    {
+      "name": "PBIcon_Sidetabs_Sidetabs_05",
+      "category": "Sidetabs",
+      "x": 15,
+      "y": -39,
+      "width": 43.0,
+      "height": 28.0
+    },
+    {
+      "name": "PBIcon_Sidetabs_Sidetabs_06",
+      "category": "Sidetabs",
+      "x": 19,
+      "y": -39,
+      "width": 20.0,
+      "height": 18.0
+    },
+    {
+      "name": "PBIcon_Sidetabs_Sidetabs_07",
+      "category": "Sidetabs",
+      "x": 22,
+      "y": -39,
+      "width": 20.0,
+      "height": 18.0
+    },
+    {
+      "name": "PBIcon_Sidetabs_Sidetabs_08",
+      "category": "Sidetabs",
+      "x": 25,
+      "y": -39,
+      "width": 20.0,
+      "height": 19.0
+    },
+    {
+      "name": "PBIcon_Sidetabs_Sidetabs_09",
+      "category": "Sidetabs",
+      "x": 28,
+      "y": -39,
+      "width": 20.0,
+      "height": 19.0
+    },
+    {
+      "name": "PBIcon_Sidetabs_Sidetabs_10",
+      "category": "Sidetabs",
+      "x": 31,
+      "y": -39,
+      "width": 18.0,
+      "height": 18.0
+    },
+    {
+      "name": "PBIcon_Sidetabs_Sidetabs_11",
+      "category": "Sidetabs",
+      "x": 1,
+      "y": -42,
+      "width": 18.0,
+      "height": 18.0
+    },
+    {
+      "name": "PBIcon_Sidetabs_Sidetabs_12",
+      "category": "Sidetabs",
+      "x": 4,
+      "y": -41,
+      "width": 20.0,
+      "height": 14.0
+    },
+    {
+      "name": "PBIcon_Signs_Signs_00",
+      "category": "Signs",
+      "x": 0,
+      "y": -46,
+      "width": 16.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Signs_Signs_01",
+      "category": "Signs",
+      "x": 2,
+      "y": -46,
+      "width": 16.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Signs_Signs_02",
+      "category": "Signs",
+      "x": 4,
+      "y": -46,
+      "width": 16.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Signs_Signs_03",
+      "category": "Signs",
+      "x": 6,
+      "y": -46,
+      "width": 16.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Signs_Signs_04",
+      "category": "Signs",
+      "x": 8,
+      "y": -46,
+      "width": 16.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Signs_Signs_05",
+      "category": "Signs",
+      "x": 10,
+      "y": -46,
+      "width": 16.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Signs_Signs_06",
+      "category": "Signs",
+      "x": 12,
+      "y": -46,
+      "width": 16.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Buttons_Buttons_01",
+      "category": "Buttons",
+      "x": 0,
+      "y": -50,
+      "width": 16.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Buttons_Buttons_02",
+      "category": "Buttons",
+      "x": 2,
+      "y": -50,
+      "width": 16.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Buttons_Buttons_03",
+      "category": "Buttons",
+      "x": 4,
+      "y": -50,
+      "width": 12.0,
+      "height": 14.0
+    },
+    {
+      "name": "PBIcon_Buttons_Buttons_04",
+      "category": "Buttons",
+      "x": 6,
+      "y": -50,
+      "width": 12.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_Buttons_Buttons_05",
+      "category": "Buttons",
+      "x": 8,
+      "y": -50,
+      "width": 11.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Buttons_Buttons_06",
+      "category": "Buttons",
+      "x": 10,
+      "y": -50,
+      "width": 16.0,
+      "height": 11.0
+    },
+    {
+      "name": "PBIcon_Buttons_Buttons_07",
+      "category": "Buttons",
+      "x": 12,
+      "y": -50,
+      "width": 9.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_Buttons_Buttons_08",
+      "category": "Buttons",
+      "x": 14,
+      "y": -50,
+      "width": 14.0,
+      "height": 15.0
+    },
+    {
+      "name": "PBIcon_Buttons_Buttons_09",
+      "category": "Buttons",
+      "x": 16,
+      "y": -50,
+      "width": 14.0,
+      "height": 13.0
+    },
+    {
+      "name": "PBIcon_Buttons_Buttons_10",
+      "category": "Buttons",
+      "x": 18,
+      "y": -51,
+      "width": 16.0,
+      "height": 23.0
+    },
+    {
+      "name": "PBIcon_Buttons_Buttons_11",
+      "category": "Buttons",
+      "x": 20,
+      "y": -51,
+      "width": 16.0,
+      "height": 23.0
+    },
+    {
+      "name": "PBIcon_Buttons_Buttons_12",
+      "category": "Buttons",
+      "x": 22,
+      "y": -51,
+      "width": 16.0,
+      "height": 23.0
+    },
+    {
+      "name": "PBIcon_TreasureChest_TreasureChest_01",
+      "category": "TreasureChest",
+      "x": 2,
+      "y": -56,
+      "width": 77.0,
+      "height": 30.0
+    },
+    {
+      "name": "PBIcon_TreasureChest_TreasureChest_02",
+      "category": "TreasureChest",
+      "x": 8,
+      "y": -56,
+      "width": 77.0,
+      "height": 28.0
+    },
+    {
+      "name": "PBIcon_TreasureChest_TreasureChest_03",
+      "category": "TreasureChest",
+      "x": 14,
+      "y": -56,
+      "width": 77.0,
+      "height": 42.0
+    },
+    {
+      "name": "PBIcon_TreasureChest_TreasureChest_04",
+      "category": "TreasureChest",
+      "x": 20,
+      "y": -56,
+      "width": 77.0,
+      "height": 42.0
+    },
+    {
+      "name": "PBIcon_TreasureChest_TreasureChest_05",
+      "category": "TreasureChest",
+      "x": 26,
+      "y": -56,
+      "width": 77.0,
+      "height": 42.0
+    },
+    {
+      "name": "PBIcon_DustBin_DustBin_01",
+      "category": "DustBin",
+      "x": 2,
+      "y": -62,
+      "width": 55.0,
+      "height": 34.0
+    },
+    {
+      "name": "PBIcon_DustBin_DustBin_02",
+      "category": "DustBin",
+      "x": 7,
+      "y": -62,
+      "width": 55.0,
+      "height": 32.0
+    },
+    {
+      "name": "PBIcon_DustBin_DustBin_03",
+      "category": "DustBin",
+      "x": 12,
+      "y": -62,
+      "width": 55.0,
+      "height": 32.0
+    },
+    {
+      "name": "PBIcon_DustBin_DustBin_04",
+      "category": "DustBin",
+      "x": 17,
+      "y": -62,
+      "width": 55.0,
+      "height": 43.0
+    },
+    {
+      "name": "PBIcon_DustBin_DustBin_05",
+      "category": "DustBin",
+      "x": 22,
+      "y": -62,
+      "width": 55.0,
+      "height": 37.0
+    },
+    {
+      "name": "PBIcon_DustBin_DustBin_06",
+      "category": "DustBin",
+      "x": 27,
+      "y": -62,
+      "width": 55.0,
+      "height": 36.0
+    },
+    {
+      "name": "PBIcon_Highlighter_Highlighter_01",
+      "category": "Highlighter",
+      "x": 0,
+      "y": -67,
+      "width": 9.0,
+      "height": 9.0
+    },
+    {
+      "name": "PBIcon_Highlighter_Highlighter_02",
+      "category": "Highlighter",
+      "x": 2,
+      "y": -67,
+      "width": 9.0,
+      "height": 9.0
+    },
+    {
+      "name": "PBIcon_Highlighter_Highlighter_03",
+      "category": "Highlighter",
+      "x": 4,
+      "y": -67,
+      "width": 9.0,
+      "height": 9.0
+    },
+    {
+      "name": "PBIcon_Highlighter_Highlighter_04",
+      "category": "Highlighter",
+      "x": 6,
+      "y": -67,
+      "width": 9.0,
+      "height": 9.0
+    },
+    {
+      "name": "PBIcon_Highlighter_Highlighter_05",
+      "category": "Highlighter",
+      "x": 8,
+      "y": -67,
+      "width": 12.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_DayAndNightCycle_DayAndNightCycle_01",
+      "category": "DayAndNightCycle",
+      "x": 2,
+      "y": -73,
+      "width": 77.0,
+      "height": 77.0
+    },
+    {
+      "name": "PBIcon_DayAndNightCycle_DayAndNightCycle_02",
+      "category": "DayAndNightCycle",
+      "x": 8,
+      "y": -73,
+      "width": 61.0,
+      "height": 61.0
+    },
+    {
+      "name": "PBIcon_DayAndNightCycle_DayAndNightCycle_03",
+      "category": "DayAndNightCycle",
+      "x": 13,
+      "y": -73,
+      "width": 61.0,
+      "height": 61.0
+    },
+    {
+      "name": "PBIcon_DayAndNightCycle_DayAndNightCycle_04",
+      "category": "DayAndNightCycle",
+      "x": 18,
+      "y": -73,
+      "width": 61.0,
+      "height": 61.0
+    },
+    {
+      "name": "PBIcon_DayAndNightCycle_DayAndNightCycle_05",
+      "category": "DayAndNightCycle",
+      "x": 23,
+      "y": -73,
+      "width": 61.0,
+      "height": 61.0
+    },
+    {
+      "name": "PBIcon_DayAndNightCycle_DayAndNightCycle_06",
+      "category": "DayAndNightCycle",
+      "x": 28,
+      "y": -73,
+      "width": 61.0,
+      "height": 61.0
+    },
+    {
+      "name": "PBIcon_DayAndNightCycle_DayAndNightCycle_07",
+      "category": "DayAndNightCycle",
+      "x": 1,
+      "y": -78,
+      "width": 25.0,
+      "height": 25.0
+    },
+    {
+      "name": "PBIcon_DayAndNightCycle_DayAndNightCycle_08",
+      "category": "DayAndNightCycle",
+      "x": 4,
+      "y": -78,
+      "width": 37.0,
+      "height": 37.0
+    },
+    {
+      "name": "PBIcon_DayAndNightCycle_DayAndNightCycle_09",
+      "category": "DayAndNightCycle",
+      "x": 8,
+      "y": -78,
+      "width": 25.0,
+      "height": 25.0
+    },
+    {
+      "name": "PBIcon_DayAndNightCycle_DayAndNightCycle_10",
+      "category": "DayAndNightCycle",
+      "x": 11,
+      "y": -78,
+      "width": 43.0,
+      "height": 33.0
+    },
+    {
+      "name": "PBIcon_DayAndNightCycle_DayAndNightCycle_11",
+      "category": "DayAndNightCycle",
+      "x": 15,
+      "y": -78,
+      "width": 25.0,
+      "height": 25.0
+    },
+    {
+      "name": "PBIcon_DayAndNightCycle_DayAndNightCycle_12",
+      "category": "DayAndNightCycle",
+      "x": 19,
+      "y": -78,
+      "width": 66.0,
+      "height": 20.0
+    },
+    {
+      "name": "PBIcon_DayAndNightCycle_DayAndNightCycle_13",
+      "category": "DayAndNightCycle",
+      "x": 25,
+      "y": -78,
+      "width": 66.0,
+      "height": 20.0
+    },
+    {
+      "name": "PBIcon_DayAndNightCycle_DayAndNightCycle_14",
+      "category": "DayAndNightCycle",
+      "x": 2,
+      "y": -82,
+      "width": 66.0,
+      "height": 20.0
+    },
+    {
+      "name": "PBIcon_DayAndNightCycle_DayAndNightCycle_15",
+      "category": "DayAndNightCycle",
+      "x": 8,
+      "y": -82,
+      "width": 66.0,
+      "height": 20.0
+    },
+    {
+      "name": "PBIcon_DayAndNightCycle_DayAndNightCycle_16",
+      "category": "DayAndNightCycle",
+      "x": 14,
+      "y": -82,
+      "width": 66.0,
+      "height": 20.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_Hearts_01",
+      "category": "ProgressBars",
+      "x": 4,
+      "y": -90,
+      "width": 141.0,
+      "height": 141.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_Hearts_02",
+      "category": "ProgressBars",
+      "x": 14,
+      "y": -90,
+      "width": 141.0,
+      "height": 141.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_MiddleHeart_Empty_Empty_01",
+      "category": "ProgressBars",
+      "x": 21,
+      "y": -87,
+      "width": 23.0,
+      "height": 20.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_MiddleHeart_Empty_Empty_02",
+      "category": "ProgressBars",
+      "x": 24,
+      "y": -87,
+      "width": 23.0,
+      "height": 20.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_MiddleHeart_idle_idle_01",
+      "category": "ProgressBars",
+      "x": 27,
+      "y": -87,
+      "width": 23.0,
+      "height": 20.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_MiddleHeart_Recover_Recover_01",
+      "category": "ProgressBars",
+      "x": 30,
+      "y": -87,
+      "width": 23.0,
+      "height": 20.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_MiddleHeart_Recover_Recover_02",
+      "category": "ProgressBars",
+      "x": 1,
+      "y": -97,
+      "width": 23.0,
+      "height": 20.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_MiddleHeart_Recover_Recover_03",
+      "category": "ProgressBars",
+      "x": 4,
+      "y": -97,
+      "width": 23.0,
+      "height": 20.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_MiddleHeart_Recover_Recover_04",
+      "category": "ProgressBars",
+      "x": 7,
+      "y": -97,
+      "width": 23.0,
+      "height": 20.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_MiddleHeart_Recover_Recover_05",
+      "category": "ProgressBars",
+      "x": 10,
+      "y": -97,
+      "width": 23.0,
+      "height": 20.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_MiddleHeart_Recover_Recover_06",
+      "category": "ProgressBars",
+      "x": 13,
+      "y": -97,
+      "width": 23.0,
+      "height": 20.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_MiddleHeart_Shine_Shine_01",
+      "category": "ProgressBars",
+      "x": 16,
+      "y": -97,
+      "width": 23.0,
+      "height": 20.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_MiddleHeart_Shine_Shine_02",
+      "category": "ProgressBars",
+      "x": 19,
+      "y": -97,
+      "width": 23.0,
+      "height": 20.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_MiddleHeart_Shine_Shine_03",
+      "category": "ProgressBars",
+      "x": 22,
+      "y": -97,
+      "width": 23.0,
+      "height": 20.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_MiddleHeart_Shine_Shine_04",
+      "category": "ProgressBars",
+      "x": 25,
+      "y": -97,
+      "width": 23.0,
+      "height": 20.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_MiddleHeart_Shine_Shine_05",
+      "category": "ProgressBars",
+      "x": 28,
+      "y": -97,
+      "width": 23.0,
+      "height": 20.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_MiddleHeart_Shine_Shine_06",
+      "category": "ProgressBars",
+      "x": 31,
+      "y": -97,
+      "width": 23.0,
+      "height": 20.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_Small_Red_Empty_Empty_01",
+      "category": "ProgressBars",
+      "x": 0,
+      "y": -99,
+      "width": 13.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_Small_Red_Empty_Empty_02",
+      "category": "ProgressBars",
+      "x": 2,
+      "y": -99,
+      "width": 13.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_Small_Red_idle_idle_01",
+      "category": "ProgressBars",
+      "x": 4,
+      "y": -99,
+      "width": 13.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_Small_Red_Recover_Recover_01",
+      "category": "ProgressBars",
+      "x": 6,
+      "y": -99,
+      "width": 13.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_Small_Red_Recover_Recover_02",
+      "category": "ProgressBars",
+      "x": 8,
+      "y": -99,
+      "width": 13.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_Small_Red_Recover_Recover_03",
+      "category": "ProgressBars",
+      "x": 10,
+      "y": -99,
+      "width": 13.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_Small_Red_Recover_Recover_04",
+      "category": "ProgressBars",
+      "x": 12,
+      "y": -99,
+      "width": 13.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_Small_Red_Recover_Recover_05",
+      "category": "ProgressBars",
+      "x": 14,
+      "y": -99,
+      "width": 13.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_Small_Red_Recover_Recover_06",
+      "category": "ProgressBars",
+      "x": 16,
+      "y": -99,
+      "width": 13.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_Small_Red_Shine_Shine_01",
+      "category": "ProgressBars",
+      "x": 18,
+      "y": -99,
+      "width": 13.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_Small_Red_Shine_Shine_02",
+      "category": "ProgressBars",
+      "x": 20,
+      "y": -99,
+      "width": 13.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_Small_Red_Shine_Shine_03",
+      "category": "ProgressBars",
+      "x": 22,
+      "y": -99,
+      "width": 13.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_Small_Red_Shine_Shine_04",
+      "category": "ProgressBars",
+      "x": 24,
+      "y": -99,
+      "width": 13.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_Small_Red_Shine_Shine_05",
+      "category": "ProgressBars",
+      "x": 26,
+      "y": -99,
+      "width": 13.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_Small_Red_Shine_Shine_06",
+      "category": "ProgressBars",
+      "x": 28,
+      "y": -99,
+      "width": 13.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_Small_Yellow_Empty_Empty_01",
+      "category": "ProgressBars",
+      "x": 30,
+      "y": -99,
+      "width": 13.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_Small_Yellow_Empty_Empty_02",
+      "category": "ProgressBars",
+      "x": 0,
+      "y": -101,
+      "width": 13.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_Small_Yellow_idle_idle_01",
+      "category": "ProgressBars",
+      "x": 2,
+      "y": -101,
+      "width": 13.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_Small_Yellow_Recover_Recover_01",
+      "category": "ProgressBars",
+      "x": 4,
+      "y": -101,
+      "width": 13.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_Small_Yellow_Recover_Recover_02",
+      "category": "ProgressBars",
+      "x": 6,
+      "y": -101,
+      "width": 13.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_Small_Yellow_Recover_Recover_03",
+      "category": "ProgressBars",
+      "x": 8,
+      "y": -101,
+      "width": 13.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_Small_Yellow_Recover_Recover_04",
+      "category": "ProgressBars",
+      "x": 10,
+      "y": -101,
+      "width": 13.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_Small_Yellow_Recover_Recover_05",
+      "category": "ProgressBars",
+      "x": 12,
+      "y": -101,
+      "width": 13.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_Small_Yellow_Recover_Recover_06",
+      "category": "ProgressBars",
+      "x": 14,
+      "y": -101,
+      "width": 13.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_Small_Yellow_Shine_Shine_01",
+      "category": "ProgressBars",
+      "x": 16,
+      "y": -101,
+      "width": 13.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_Small_Yellow_Shine_Shine_02",
+      "category": "ProgressBars",
+      "x": 18,
+      "y": -101,
+      "width": 13.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_Small_Yellow_Shine_Shine_03",
+      "category": "ProgressBars",
+      "x": 20,
+      "y": -101,
+      "width": 13.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_Small_Yellow_Shine_Shine_04",
+      "category": "ProgressBars",
+      "x": 22,
+      "y": -101,
+      "width": 13.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_Small_Yellow_Shine_Shine_05",
+      "category": "ProgressBars",
+      "x": 24,
+      "y": -101,
+      "width": 13.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_Hearts_Small_Yellow_Shine_Shine_06",
+      "category": "ProgressBars",
+      "x": 26,
+      "y": -101,
+      "width": 13.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_ProgressBars_01",
+      "category": "ProgressBars",
+      "x": 29,
+      "y": -102,
+      "width": 48.0,
+      "height": 20.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_ProgressBars_02",
+      "category": "ProgressBars",
+      "x": 1,
+      "y": -105,
+      "width": 44.0,
+      "height": 20.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_ProgressBars_03",
+      "category": "ProgressBars",
+      "x": 5,
+      "y": -105,
+      "width": 48.0,
+      "height": 20.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_ProgressBars_04",
+      "category": "ProgressBars",
+      "x": 9,
+      "y": -105,
+      "width": 48.0,
+      "height": 20.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_ProgressBars_05",
+      "category": "ProgressBars",
+      "x": 13,
+      "y": -105,
+      "width": 44.0,
+      "height": 20.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_ProgressBars_06",
+      "category": "ProgressBars",
+      "x": 17,
+      "y": -105,
+      "width": 48.0,
+      "height": 20.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_ProgressBars_07",
+      "category": "ProgressBars",
+      "x": 21,
+      "y": -105,
+      "width": 48.0,
+      "height": 20.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_ProgressBars_08",
+      "category": "ProgressBars",
+      "x": 25,
+      "y": -105,
+      "width": 44.0,
+      "height": 20.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_ProgressBars_09",
+      "category": "ProgressBars",
+      "x": 29,
+      "y": -105,
+      "width": 48.0,
+      "height": 20.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_ProgressBars_10",
+      "category": "ProgressBars",
+      "x": 1,
+      "y": -107,
+      "width": 32.0,
+      "height": 13.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_ProgressBars_11",
+      "category": "ProgressBars",
+      "x": 4,
+      "y": -107,
+      "width": 42.0,
+      "height": 13.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_ProgressBars_12",
+      "category": "ProgressBars",
+      "x": 8,
+      "y": -107,
+      "width": 35.0,
+      "height": 13.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_ProgressBars_13",
+      "category": "ProgressBars",
+      "x": 12,
+      "y": -107,
+      "width": 32.0,
+      "height": 13.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_ProgressBars_14",
+      "category": "ProgressBars",
+      "x": 15,
+      "y": -107,
+      "width": 42.0,
+      "height": 13.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_ProgressBars_15",
+      "category": "ProgressBars",
+      "x": 19,
+      "y": -107,
+      "width": 35.0,
+      "height": 13.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_ProgressBars_16",
+      "category": "ProgressBars",
+      "x": 23,
+      "y": -107,
+      "width": 32.0,
+      "height": 13.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_ProgressBars_17",
+      "category": "ProgressBars",
+      "x": 26,
+      "y": -107,
+      "width": 42.0,
+      "height": 13.0
+    },
+    {
+      "name": "PBIcon_ProgressBars_ProgressBars_18",
+      "category": "ProgressBars",
+      "x": 30,
+      "y": -107,
+      "width": 35.0,
+      "height": 13.0
+    },
+    {
+      "name": "PBIcon_Holders_Holders_01",
+      "category": "Holders",
+      "x": 6,
+      "y": -117,
+      "width": 182.0,
+      "height": 182.0
+    },
+    {
+      "name": "PBIcon_Holders_Holders_02",
+      "category": "Holders",
+      "x": 16,
+      "y": -114,
+      "width": 111.0,
+      "height": 111.0
+    },
+    {
+      "name": "PBIcon_Holders_Holders_03",
+      "category": "Holders",
+      "x": 23,
+      "y": -113,
+      "width": 77.0,
+      "height": 78.0
+    },
+    {
+      "name": "PBIcon_Holders_Holders_04",
+      "category": "Holders",
+      "x": 28,
+      "y": -112,
+      "width": 36.0,
+      "height": 36.0
+    },
+    {
+      "name": "PBIcon_Holders_Holders_05",
+      "category": "Holders",
+      "x": 1,
+      "y": -125,
+      "width": 36.0,
+      "height": 36.0
+    },
+    {
+      "name": "PBIcon_Holders_Holders_06",
+      "category": "Holders",
+      "x": 5,
+      "y": -125,
+      "width": 32.0,
+      "height": 32.0
+    },
+    {
+      "name": "PBIcon_Holders_Holders_07",
+      "category": "Holders",
+      "x": 8,
+      "y": -125,
+      "width": 32.0,
+      "height": 32.0
+    },
+    {
+      "name": "PBIcon_Holders_Holders_08",
+      "category": "Holders",
+      "x": 11,
+      "y": -125,
+      "width": 32.0,
+      "height": 32.0
+    },
+    {
+      "name": "PBIcon_Holders_Holders_09",
+      "category": "Holders",
+      "x": 13,
+      "y": -124,
+      "width": 16.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Holders_Holders_10",
+      "category": "Holders",
+      "x": 15,
+      "y": -124,
+      "width": 12.0,
+      "height": 12.0
+    },
+    {
+      "name": "PBIcon_Holders_Holders_11",
+      "category": "Holders",
+      "x": 17,
+      "y": -124,
+      "width": 16.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Holders_Holders_12",
+      "category": "Holders",
+      "x": 19,
+      "y": -124,
+      "width": 14.0,
+      "height": 5.0
+    },
+    {
+      "name": "PBIcon_Holders_Holders_13",
+      "category": "Holders",
+      "x": 21,
+      "y": -124,
+      "width": 16.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Holders_Holders_14",
+      "category": "Holders",
+      "x": 23,
+      "y": -124,
+      "width": 5.0,
+      "height": 14.0
+    },
+    {
+      "name": "PBIcon_Holders_Holders_15",
+      "category": "Holders",
+      "x": 25,
+      "y": -124,
+      "width": 16.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Holders_Holders_16",
+      "category": "Holders",
+      "x": 27,
+      "y": -124,
+      "width": 14.0,
+      "height": 5.0
+    },
+    {
+      "name": "PBIcon_Holders_Holders_17",
+      "category": "Holders",
+      "x": 29,
+      "y": -124,
+      "width": 16.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Holders_Holders_18",
+      "category": "Holders",
+      "x": 31,
+      "y": -124,
+      "width": 5.0,
+      "height": 14.0
+    },
+    {
+      "name": "PBIcon_Holders_Holders_19",
+      "category": "Holders",
+      "x": 1,
+      "y": -129,
+      "width": 32.0,
+      "height": 25.0
+    },
+    {
+      "name": "PBIcon_Holders_Holders_20",
+      "category": "Holders",
+      "x": 4,
+      "y": -129,
+      "width": 32.0,
+      "height": 25.0
+    },
+    {
+      "name": "PBIcon_Holders_Holders_21",
+      "category": "Holders",
+      "x": 7,
+      "y": -129,
+      "width": 32.0,
+      "height": 25.0
+    },
+    {
+      "name": "PBIcon_Holders_Holders_22",
+      "category": "Holders",
+      "x": 9,
+      "y": -128,
+      "width": 7.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Holders_Holders_23",
+      "category": "Holders",
+      "x": 11,
+      "y": -128,
+      "width": 7.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Holders_Holders_24",
+      "category": "Holders",
+      "x": 13,
+      "y": -128,
+      "width": 7.0,
+      "height": 16.0
+    },
+    {
+      "name": "PBIcon_Holders_Holders_25",
+      "category": "Holders",
+      "x": 15,
+      "y": -129,
+      "width": 7.0,
+      "height": 28.0
+    },
+    {
+      "name": "PBIcon_Holders_Holders_26",
+      "category": "Holders",
+      "x": 19,
+      "y": -128,
+      "width": 69.0,
+      "height": 10.0
+    },
+    {
+      "name": "PBIcon_Holders_Holders_27",
+      "category": "Holders",
+      "x": 24,
+      "y": -128,
+      "width": 44.0,
+      "height": 3.0
+    }
+  ]
+}

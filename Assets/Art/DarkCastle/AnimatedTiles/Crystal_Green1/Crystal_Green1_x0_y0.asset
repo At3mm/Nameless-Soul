@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d15c6f35eafdc4418a7fec8084e5079, type: 3}
+  m_Name: Crystal_Green1_x0_y0
+  m_EditorClassIdentifier: Assembly-CSharp::PixelMapAnimatedTile
+  frames:
+  - {fileID: -8805236, guid: 742dabfa544b79a4fa81148af9992bd8, type: 3}
+  - {fileID: -341150269, guid: 742dabfa544b79a4fa81148af9992bd8, type: 3}
+  - {fileID: 1868369035, guid: 742dabfa544b79a4fa81148af9992bd8, type: 3}
+  - {fileID: 1309640174, guid: 742dabfa544b79a4fa81148af9992bd8, type: 3}
+  - {fileID: -1140063664, guid: 742dabfa544b79a4fa81148af9992bd8, type: 3}
+  - {fileID: 2083134091, guid: 742dabfa544b79a4fa81148af9992bd8, type: 3}
+  - {fileID: -980121025, guid: 742dabfa544b79a4fa81148af9992bd8, type: 3}
+  - {fileID: 1783381092, guid: 742dabfa544b79a4fa81148af9992bd8, type: 3}
+  colliderType: 0

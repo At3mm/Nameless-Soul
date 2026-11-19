@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 144c5e5f283b7684f99a1890b7dfa056, type: 3}
+  m_Name: DefaultEconomy
+  m_EditorClassIdentifier: Assembly-CSharp::EconomySettings
+  firstUpgradeCost: 100
+  linearCostIncrease: 50
+  quadraticCostIncrease: 10
+  healthPerPurchase: 10
+  staminaPerPurchase: 5
+  attackPerPurchase: 1
+  defensePerPurchase: 0.5
+  normalGold: 10
+  normalExperience: 25
+  eliteGold: 50
+  eliteExperience: 150
+  bossGold: 250
+  bossExperience: 1000

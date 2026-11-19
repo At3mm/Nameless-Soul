@@ -1,0 +1,7 @@
+Generated with the built-in imagegen tool from the existing FantasyUI red glass potion.
+Redraw only the potion, retaining its cork, narrow neck and round bottle silhouette.
+Use bright scarlet liquid, ruby shadows, coral highlights, pale cyan-white glass
+and a warm light-brown cork. Crisp dark burgundy outline, low-resolution pixel art
+with hard square clusters. Single upright centered bottle, transparent background,
+no frame, no text, no additional objects. Portrait 3:4 composition, readable at
+24x32 logical pixels.

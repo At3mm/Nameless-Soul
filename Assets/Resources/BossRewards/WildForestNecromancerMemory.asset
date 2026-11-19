@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe29a484502668408d93ee442fd5a05, type: 3}
+  m_Name: WildForestNecromancerMemory
+  m_EditorClassIdentifier: Assembly-CSharp::BossItemDefinition
+  itemId: wild-forest-necromancer-memory
+  displayName: "K\xFD \u1EE9c: K\u1EBB g\u1ECDi h\u1ED3n (v\u1EE1 v\u1EE5n)"
+  description: "M\u1ED9t n\u1ED7i khi\u1EBFp s\u1EE3 c\u1EE7a c\u1EA3 l\xE3nh \u0111\u1ECBa.
+    Kh\xF4ng bi\u1EBFt h\u1EAFn \u0111\xE3 t\u1ED3n t\u1EA1i t\u1EEB bao gi\u1EDD,
+    ch\u1EC9 bi\u1EBFt r\u1EB1ng h\u1EAFn \u0111\xE3 t\xE0n ph\xE1 m\u1ECDi th\u1EE9
+    trong m\u1EAFt, gieo r\u1EAFc c\xE1i ch\u1EBFt kh\u1EAFp n\u01A1i v\xE0 khi\u1EBFn
+    N\u1EEF Th\u1EA7n c\u0169ng kh\xF4ng th\u1EC3 l\xE0m g\xEC h\u01A1n \u0111\u01B0\u1EE3c.
+    Linh h\u1ED3n \u1EA5y qu\xE1 m\u1EA1nh m\u1EBD, v\xE0 c\xF3 v\u1EBB nh\u01B0
+    t\xE0n d\u01B0 c\u1EE7a h\u1EAFn v\u1EABn c\xF2n t\u1ED3n t\u1EA1i \u0111\xE2u
+    \u0111\xF3 ngo\xE0i kia. "
+  icon: {fileID: -5642678626652864498, guid: a22dedea63ffb32469382b1a5bc8ea59, type: 3}
+  category: 2
+  rarity: 3
+  roles: 4
+  maxStack: 1
+  consumable: 0
+  useCooldown: 1
+  buyable: 0
+  sellable: 0
+  buyPrice: 30
+  sellPrice: 10
+  effects: []
+  showAsQuestItem: 0

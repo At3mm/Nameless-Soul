@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Hit1",
+    "source": "GOREStab_SwordStabGore_HoveAud_SwordCombat_01.wav",
+    "start": 0.19348,
+    "duration": 0.34
+  },
+  {
+    "name": "HeavyHit1",
+    "source": "WEAPSwrd_SwordStabwRing_HoveAud_SwordCombat_01.wav",
+    "start": 0.19348,
+    "duration": 0.43
+  },
+  {
+    "name": "Hit2",
+    "source": "GOREStab_SwordStabGore_HoveAud_SwordCombat_11.wav",
+    "start": 0.19884,
+    "duration": 0.34
+  },
+  {
+    "name": "HeavyHit2",
+    "source": "WEAPSwrd_SwordStabwRing_HoveAud_SwordCombat_11.wav",
+    "start": 0.19884,
+    "duration": 0.43
+  },
+  {
+    "name": "Hit3",
+    "source": "GOREStab_SwordStabGore_HoveAud_SwordCombat_17.wav",
+    "start": 0.1982,
+    "duration": 0.34
+  },
+  {
+    "name": "HeavyHit3",
+    "source": "WEAPSwrd_SwordStabwRing_HoveAud_SwordCombat_17.wav",
+    "start": 0.1982,
+    "duration": 0.43
+  },
+  {
+    "name": "Parry",
+    "source": "WEAPSwrd_BaseMetal_HoveAud_SwordCombat_03.wav",
+    "start": 0.13921,
+    "duration": 0.43
+  },
+  {
+    "name": "ParryReady",
+    "source": "WHSH_Whoosh_HoveAud_SwordCombat_07.wav",
+    "start": 0.17384,
+    "duration": 0.13
+  },
+  {
+    "name": "Swing1",
+    "source": "WHSH_Whoosh_HoveAud_SwordCombat_07.wav",
+    "start": 0.17384,
+    "duration": 0.22
+  },
+  {
+    "name": "HeavySwing1",
+    "source": "WHSH_Whoosh_HoveAud_SwordCombat_07.wav",
+    "start": 0.17384,
+    "duration": 0.27
+  },
+  {
+    "name": "Swing2",
+    "source": "WHSH_Whoosh_HoveAud_SwordCombat_26.wav",
+    "start": 0.18696,
+    "duration": 0.22
+  },
+  {
+    "name": "HeavySwing2",
+    "source": "WHSH_Whoosh_HoveAud_SwordCombat_26.wav",
+    "start": 0.18696,
+    "duration": 0.27
+  }
+]

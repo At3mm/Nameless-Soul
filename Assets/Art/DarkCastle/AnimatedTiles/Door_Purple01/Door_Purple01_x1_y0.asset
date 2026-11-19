@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d15c6f35eafdc4418a7fec8084e5079, type: 3}
+  m_Name: Door_Purple01_x1_y0
+  m_EditorClassIdentifier: Assembly-CSharp::PixelMapAnimatedTile
+  frames:
+  - {fileID: -1871075356, guid: 74c724e21e11c4c479c2ab3ffeaf3cfb, type: 3}
+  - {fileID: 2134704787, guid: 74c724e21e11c4c479c2ab3ffeaf3cfb, type: 3}
+  - {fileID: 794396852, guid: 74c724e21e11c4c479c2ab3ffeaf3cfb, type: 3}
+  - {fileID: -599889348, guid: 74c724e21e11c4c479c2ab3ffeaf3cfb, type: 3}
+  - {fileID: 2037063053, guid: 74c724e21e11c4c479c2ab3ffeaf3cfb, type: 3}
+  - {fileID: 1686244982, guid: 74c724e21e11c4c479c2ab3ffeaf3cfb, type: 3}
+  - {fileID: -1879137361, guid: 74c724e21e11c4c479c2ab3ffeaf3cfb, type: 3}
+  - {fileID: 1752198270, guid: 74c724e21e11c4c479c2ab3ffeaf3cfb, type: 3}
+  colliderType: 2

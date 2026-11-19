@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d15c6f35eafdc4418a7fec8084e5079, type: 3}
+  m_Name: Crystal_Red2_x0_y0
+  m_EditorClassIdentifier: Assembly-CSharp::PixelMapAnimatedTile
+  frames:
+  - {fileID: 1467751380, guid: d0332dc40ac19734e9ff5d5ccf1c3a04, type: 3}
+  - {fileID: 203222481, guid: d0332dc40ac19734e9ff5d5ccf1c3a04, type: 3}
+  - {fileID: -611744542, guid: d0332dc40ac19734e9ff5d5ccf1c3a04, type: 3}
+  - {fileID: 1962082804, guid: d0332dc40ac19734e9ff5d5ccf1c3a04, type: 3}
+  - {fileID: 834302768, guid: d0332dc40ac19734e9ff5d5ccf1c3a04, type: 3}
+  - {fileID: 425269453, guid: d0332dc40ac19734e9ff5d5ccf1c3a04, type: 3}
+  - {fileID: 1107243163, guid: d0332dc40ac19734e9ff5d5ccf1c3a04, type: 3}
+  - {fileID: -148126737, guid: d0332dc40ac19734e9ff5d5ccf1c3a04, type: 3}
+  colliderType: 0

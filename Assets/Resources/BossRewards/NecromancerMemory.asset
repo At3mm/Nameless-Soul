@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe29a484502668408d93ee442fd5a05, type: 3}
+  m_Name: NecromancerMemory
+  m_EditorClassIdentifier: Assembly-CSharp::BossItemDefinition
+  itemId: necromancer-memory
+  displayName: "T\xE0n d\u01B0: K\u1EBB g\u1ECDi h\u1ED3n"
+  description: "T\xE0 thu\u1EADt \u0111\xE3 d\u1EA7n bi\u1EBFn m\u1EA5t, nh\u01B0ng
+    v\xF9ng \u0111\u1EA5t n\xE0y v\u1EABn ch\u01B0a th\u1EC3 y\xEAn b\xECnh \u0111\u01B0\u1EE3c.
+    B\xEAn d\u01B0\u1EDBi hang \u0111\u1ED9ng, \u1EA9n s\xE2u trong ng\xF4i \u0111\u1EC1n
+    \u1EA9n, t\xEAn k\u1ECB s\u0129 n\u0103m x\u01B0a sa ng\xE3 \u0111ang d\u1EA7n
+    tr\u1ED7i d\u1EADy..."
+  icon: {fileID: -5101877987559722994, guid: 0425f081108b71142a475e007e9144f7, type: 3}
+  category: 2
+  rarity: 3
+  roles: 4
+  maxStack: 1
+  consumable: 0
+  useCooldown: 1
+  buyable: 0
+  sellable: 0
+  buyPrice: 30
+  sellPrice: 10
+  effects: []
+  showAsQuestItem: 0

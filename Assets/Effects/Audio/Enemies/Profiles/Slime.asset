@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 251d10523ceda684995e2ff2a4cb3d2a, type: 3}
+  m_Name: Slime
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyAudioProfile
+  attacks:
+  - {fileID: 8300000, guid: 408afb8aa8134631ae14e90fa28efa60, type: 3}
+  hurt:
+  - {fileID: 8300000, guid: 39c103d77ae34dc692954755bf57c6d0, type: 3}
+  death:
+  - {fileID: 8300000, guid: 5dfa2572937b48228220c91631971920, type: 3}
+  phaseTransition:
+  - {fileID: 8300000, guid: 983080577de94d339a2b81a779444e6c, type: 3}
+  replaceDefaultWeaponSwing: 0
+  skills: []
+  volume: 0.75
+  pitch: 1
+  attackInterval: 0.45
+  hurtInterval: 0.5

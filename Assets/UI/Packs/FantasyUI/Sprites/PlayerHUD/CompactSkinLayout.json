@@ -1,0 +1,23 @@
+{
+  "source": "SpriteSheets/FantasyUI_Atlas.png",
+  "staminaFillTop": 9,
+  "note": "Corrected fill origin: native x=108 (local 26). Original baked red/blue fills fully removed. Runtime rounded gradient mesh supplies live bars.",
+  "fillRectTopLeft": {
+    "x": 26,
+    "y": 3,
+    "height": 3,
+    "width": 49
+  },
+  "frameTopLeft": {
+    "x": 82,
+    "y": 68,
+    "height": 25,
+    "width": 77
+  },
+  "portraitTopLeft": {
+    "x": 82,
+    "y": 68,
+    "height": 25,
+    "width": 25
+  }
+}

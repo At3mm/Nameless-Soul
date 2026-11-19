@@ -105,3 +105,17 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Local Unity MCP executables
+/Tools/UnityMCP/*.exe
+
+# Local recovery copies and generated editor schemas
+/Backups/
+/UIElementsSchema/
+/Assets/AI Toolkit/
+/Assets/AI Toolkit.meta
+*.slnx
+
+# Graduation reports are archived separately by the project owner
+/Docs/*.docx
+/Docs/*.pdf

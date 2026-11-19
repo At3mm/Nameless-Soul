@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-17",
+  "engine": "Unity 6000.3.9f1",
+  "diagrams": [
+    {
+      "id": "01-UC-tong-quan",
+      "title": "Hình 1. Use Case tổng quan — NONAME",
+      "nodes": 13,
+      "edges": 12,
+      "png": [
+        2840,
+        5200
+      ],
+      "note": "NPC và quái thuộc bên trong hệ thống, không được coi là tác nhân ngoài. Không có đăng nhập hoặc multiplayer trong phạm vi code đã đọc."
+    },
+    {
+      "id": "02-UC-tuong-than",
+      "title": "Hình 2. Use Case chi tiết — tượng thần",
+      "nodes": 13,
+      "edges": 12,
+      "png": [
+        4400,
+        2183
+      ],
+      "note": "Điều kiện: người chơi còn sống, đủ gần và không giao tranh. Bình máu khởi đầu 3, tối đa 10. Thanh tẩy yêu cầu đang nhiễm và có vật phẩm."
+    },
+    {
+      "id": "03-UC-nhiem-vu-hoi-thoai",
+      "title": "Hình 3. Use Case chi tiết — hội thoại và nhiệm vụ",
+      "nodes": 10,
+      "edges": 9,
+      "png": [
+        4400,
+        1430
+      ],
+      "note": "Chuỗi nhiệm vụ sử dụng prerequisites. Tiến trình: Locked → Available → Active → ReadyToReport → Completed; phần thưởng chỉ được trả khi TurnIn thành công."
+    },
+    {
+      "id": "04-class-chien-dau",
+      "title": "Hình 4. Class Diagram — điều khiển và chiến đấu",
+      "nodes": 21,
+      "edges": 22,
+      "png": [
+        4400,
+        2436
+      ],
+      "note": "Các component cùng gắn trên GameObject được nối bằng tham chiếu, không phải kế thừa. Skeleton / Armor Skeleton / Greatsword Skeleton dùng EnemyCombat chung; không có lớp C# riêng tương ứng tên prefab."
+    },
+    {
+      "id": "05-class-hoi-thoai-nhiem-vu",
+      "title": "Hình 5. Class Diagram — tương tác, hội thoại và nhiệm vụ",
+      "nodes": 14,
+      "edges": 17,
+      "png": [
+        4400,
+        3890
+      ],
+      "note": "NpcInteractable là partial class: thuộc tính và lựa chọn hội thoại còn nằm trong NpcDialogueChoices.cs. Black Knight chỉ chuyển thành boss sau khi hoàn thành nhiệm vụ và chọn giao chiến ở cuối hội thoại."
+    },
+    {
+      "id": "06-class-checkpoint-luu-game",
+      "title": "Hình 6. Class Diagram — checkpoint, kinh tế và lưu game",
+      "nodes": 18,
+      "edges": 21,
+      "png": [
+        4400,
+        1804
+      ],
+      "note": "QuestService và GameControls cũng lưu PlayerPrefs (lược bớt khỏi hình này). Chưa có cơ sở dữ liệu SQL/server; definition ScriptableObject và dữ liệu tiến trình JSON là hai nhóm khác nhau."
+    }
+  ]
+}

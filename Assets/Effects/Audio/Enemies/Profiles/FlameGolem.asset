@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 251d10523ceda684995e2ff2a4cb3d2a, type: 3}
+  m_Name: FlameGolem
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyAudioProfile
+  attacks:
+  - {fileID: 8300000, guid: 8cf96ea00cd74abaadc2b4b17a52ed17, type: 3}
+  - {fileID: 8300000, guid: a9a0fb005b364811b7f27e1a0173f001, type: 3}
+  hurt:
+  - {fileID: 8300000, guid: 59b25f1eee5aa06459940bc58d8db9b5, type: 3}
+  death:
+  - {fileID: 8300000, guid: 527e9c65a79fcb0449b073d5bed3df6a, type: 3}
+  phaseTransition:
+  - {fileID: 8300000, guid: a9a0fb005b364811b7f27e1a0173f001, type: 3}
+  replaceDefaultWeaponSwing: 0
+  skills: []
+  volume: 0.9
+  pitch: 0.75
+  attackInterval: 0.45
+  hurtInterval: 0.5

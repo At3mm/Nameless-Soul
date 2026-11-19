@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: PB_Weather_Lightning2
+  m_EditorClassIdentifier: Unity.2D.Tilemap.Extras::UnityEngine.Tilemaps.AnimatedTile
+  m_AnimatedSprites:
+  - {fileID: 21300000, guid: b76cc8fc7c9da2f43992bbab911c3824, type: 3}
+  - {fileID: 21300000, guid: f3925756f4da0e54797a65e38f2e0195, type: 3}
+  - {fileID: 21300000, guid: 6e4377fc4274dce46b710cb8c8653654, type: 3}
+  - {fileID: 21300000, guid: fd8db36c66961b44ea9ce96070da4635, type: 3}
+  - {fileID: 21300000, guid: adaae9c8b2950ed49b2061a4f406478b, type: 3}
+  - {fileID: 21300000, guid: 0ea15c67b53fb6943b16badcca6bc4de, type: 3}
+  - {fileID: 21300000, guid: 927239f168be601478ec0f1cbac1f36f, type: 3}
+  - {fileID: 21300000, guid: d5c79962d4a2d224ca5040c9e45d04fd, type: 3}
+  - {fileID: 21300000, guid: ef90d1c9adb127445ac27fe62a4e7b5d, type: 3}
+  - {fileID: 21300000, guid: 7787ab4896b5ef5418227547e45ece65, type: 3}
+  m_MinSpeed: 10
+  m_MaxSpeed: 10
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
+  m_TileAnimationFlags: 8

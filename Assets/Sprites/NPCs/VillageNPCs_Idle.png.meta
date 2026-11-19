@@ -1,0 +1,961 @@
+fileFormatVersion: 2
+guid: 56b33a7848f10504a9d86fcd21f9cb47
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3292481443085522967
+    second: VillageNPCs_Idle_0
+  - first:
+      213: -9127642398808218333
+    second: VillageNPCs_Idle_1
+  - first:
+      213: -5028818067542926065
+    second: VillageNPCs_Idle_2
+  - first:
+      213: 5944305200401168401
+    second: VillageNPCs_Idle_3
+  - first:
+      213: 9035019206681896503
+    second: VillageNPCs_Idle_4
+  - first:
+      213: -3563809320942581067
+    second: VillageNPCs_Idle_5
+  - first:
+      213: 4848486280577976154
+    second: VillageNPCs_Idle_6
+  - first:
+      213: -5607664440468036437
+    second: VillageNPCs_Idle_7
+  - first:
+      213: 1116131236571389538
+    second: VillageNPCs_Idle_8
+  - first:
+      213: -7079752113033320886
+    second: VillageNPCs_Idle_9
+  - first:
+      213: -9131746171145273283
+    second: VillageNPCs_Idle_10
+  - first:
+      213: -285967938911316654
+    second: VillageNPCs_Idle_11
+  - first:
+      213: -4819615510911486235
+    second: VillageNPCs_Idle_12
+  - first:
+      213: 7570576517594942374
+    second: VillageNPCs_Idle_13
+  - first:
+      213: 692244563757127983
+    second: VillageNPCs_Idle_14
+  - first:
+      213: -8799404483954805857
+    second: VillageNPCs_Idle_15
+  - first:
+      213: -7414476563558006239
+    second: VillageNPCs_Idle_16
+  - first:
+      213: -3377613106039820555
+    second: VillageNPCs_Idle_17
+  - first:
+      213: -5820825180395899537
+    second: VillageNPCs_Idle_18
+  - first:
+      213: 1041895869381843933
+    second: VillageNPCs_Idle_19
+  - first:
+      213: 3860194973475684921
+    second: VillageNPCs_Idle_20
+  - first:
+      213: 7654214060591826212
+    second: VillageNPCs_Idle_21
+  - first:
+      213: 5984632194185075745
+    second: VillageNPCs_Idle_22
+  - first:
+      213: -7859779962391752725
+    second: VillageNPCs_Idle_23
+  - first:
+      213: 9127855029238066297
+    second: VillageNPCs_Idle_24
+  - first:
+      213: -1983605374695012596
+    second: VillageNPCs_Idle_25
+  - first:
+      213: -6308627494614251425
+    second: VillageNPCs_Idle_26
+  - first:
+      213: 2514898015525265936
+    second: VillageNPCs_Idle_27
+  - first:
+      213: -4624135036073644149
+    second: VillageNPCs_Idle_28
+  - first:
+      213: -2047466136749242574
+    second: VillageNPCs_Idle_29
+  - first:
+      213: -5827335138958253095
+    second: VillageNPCs_Idle_30
+  - first:
+      213: -1202268752345590295
+    second: VillageNPCs_Idle_31
+  - first:
+      213: 3406099304503754961
+    second: VillageNPCs_Idle_32
+  - first:
+      213: 4012567006979979859
+    second: VillageNPCs_Idle_33
+  - first:
+      213: 3790823669168922102
+    second: VillageNPCs_Idle_34
+  - first:
+      213: 213148305913739933
+    second: VillageNPCs_Idle_35
+  - first:
+      213: 6057834302886785517
+    second: VillageNPCs_Idle_36
+  - first:
+      213: 7130903705294905994
+    second: VillageNPCs_Idle_37
+  - first:
+      213: -7020426112666436490
+    second: VillageNPCs_Idle_38
+  - first:
+      213: 5592368903857747952
+    second: VillageNPCs_Idle_39
+  - first:
+      213: -8078083275216733002
+    second: VillageNPCs_Idle_40
+  - first:
+      213: -2413517053029243079
+    second: VillageNPCs_Idle_41
+  - first:
+      213: 3332543704116743764
+    second: Merchant_Idle_0
+  - first:
+      213: -4212066465098359639
+    second: Merchant_Idle_1
+  - first:
+      213: 1127223326750693045
+    second: Merchant_Idle_2
+  - first:
+      213: 5636351527703041401
+    second: Merchant_Idle_3
+  - first:
+      213: -2665039471655013456
+    second: Merchant_Idle_4
+  - first:
+      213: 3513055181145052764
+    second: Merchant_Idle_5
+  - first:
+      213: -6865291167340088577
+    second: VillagerFarmer_Idle_0
+  - first:
+      213: -7737797886239995197
+    second: VillagerFarmer_Idle_1
+  - first:
+      213: -4084735471323977691
+    second: VillagerFarmer_Idle_2
+  - first:
+      213: -4639325856248327510
+    second: VillagerFarmer_Idle_3
+  - first:
+      213: -5806872758656853635
+    second: VillagerFarmer_Idle_4
+  - first:
+      213: -4450204858883710594
+    second: VillagerFarmer_Idle_5
+  - first:
+      213: -4829176310358823727
+    second: VillagerWoman_Idle_0
+  - first:
+      213: -456683299634353541
+    second: VillagerWoman_Idle_1
+  - first:
+      213: -5128005923489046263
+    second: VillagerWoman_Idle_2
+  - first:
+      213: -8098623463443546126
+    second: VillagerWoman_Idle_3
+  - first:
+      213: 1602424378259731396
+    second: VillagerWoman_Idle_4
+  - first:
+      213: -2535590514601594605
+    second: VillagerWoman_Idle_5
+  - first:
+      213: -8061046096102892997
+    second: VillagerElder_Idle_0
+  - first:
+      213: -1797291234704005789
+    second: VillagerElder_Idle_1
+  - first:
+      213: -7524676370792527951
+    second: VillagerElder_Idle_2
+  - first:
+      213: -5366760740338108848
+    second: VillagerElder_Idle_3
+  - first:
+      213: 4806198874872963003
+    second: VillagerElder_Idle_4
+  - first:
+      213: 7826982565986351499
+    second: VillagerElder_Idle_5
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Merchant_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 770
+        width: 92
+        height: 151
+      alignment: 9
+      pivot: {x: 0.5, y: 0.013245033}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ec752a7d29f3e20800000000000000
+      internalID: 3332543704116743764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Merchant_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 770
+        width: 92
+        height: 153
+      alignment: 9
+      pivot: {x: 0.5, y: 0.013071896}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac1a71dddbbb85c0800000000000000
+      internalID: -4212066465098359639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Merchant_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 770
+        width: 91
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.013157895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b65285b4a3b4af00800000000000000
+      internalID: 1127223326750693045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Merchant_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 770
+        width: 91
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.013157895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97558fd0ad7583e40800000000000000
+      internalID: 5636351527703041401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Merchant_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 770
+        width: 91
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.012820513}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3bb9378b0e30bd0800000000000000
+      internalID: -2665039471655013456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Merchant_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 770
+        width: 93
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.013157895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c561f740311e0c030800000000000000
+      internalID: 3513055181145052764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagerFarmer_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 542
+        width: 105
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.013157895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff23113ae0699b0a0800000000000000
+      internalID: -6865291167340088577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagerFarmer_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 542
+        width: 107
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.013157895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ca85eea1d1dd9490800000000000000
+      internalID: -7737797886239995197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagerFarmer_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 542
+        width: 107
+        height: 153
+      alignment: 9
+      pivot: {x: 0.5, y: 0.013071896}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528eb4e0bba1057c0800000000000000
+      internalID: -4084735471323977691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagerFarmer_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 542
+        width: 105
+        height: 157
+      alignment: 9
+      pivot: {x: 0.5, y: 0.012738854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa29805c6bdcd9fb0800000000000000
+      internalID: -4639325856248327510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagerFarmer_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 542
+        width: 106
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5, y: 0.012987013}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d799d5cfdf7d96fa0800000000000000
+      internalID: -5806872758656853635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagerFarmer_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 542
+        width: 105
+        height: 158
+      alignment: 9
+      pivot: {x: 0.5, y: 0.012658228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71e4805242bd32c0800000000000000
+      internalID: -4450204858883710594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagerWoman_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 308
+        width: 88
+        height: 161
+      alignment: 9
+      pivot: {x: 0.5, y: 0.0124223605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dca4575bb15bfcb0800000000000000
+      internalID: -4829176310358823727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagerWoman_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 308
+        width: 90
+        height: 163
+      alignment: 9
+      pivot: {x: 0.5, y: 0.012269938}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ae07665f889a9f0800000000000000
+      internalID: -456683299634353541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagerWoman_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 308
+        width: 89
+        height: 161
+      alignment: 9
+      pivot: {x: 0.5, y: 0.0124223605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 901265c28c9a5d8b0800000000000000
+      internalID: -5128005923489046263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagerWoman_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 308
+        width: 89
+        height: 161
+      alignment: 9
+      pivot: {x: 0.5, y: 0.0124223605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ffbdcb4ed8eb9f80800000000000000
+      internalID: -8098623463443546126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagerWoman_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 308
+        width: 90
+        height: 161
+      alignment: 9
+      pivot: {x: 0.5, y: 0.0124223605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3f8956b74fc3610800000000000000
+      internalID: 1602424378259731396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagerWoman_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 308
+        width: 89
+        height: 161
+      alignment: 9
+      pivot: {x: 0.5, y: 0.0124223605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31172517cd5cfccd0800000000000000
+      internalID: -2535590514601594605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagerElder_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 87
+        width: 93
+        height: 150
+      alignment: 9
+      pivot: {x: 0.5, y: 0.013333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3adcbbe849612090800000000000000
+      internalID: -8061046096102892997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagerElder_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 87
+        width: 94
+        height: 150
+      alignment: 9
+      pivot: {x: 0.5, y: 0.013333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3656b8df42dbe07e0800000000000000
+      internalID: -1797291234704005789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagerElder_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 87
+        width: 95
+        height: 150
+      alignment: 9
+      pivot: {x: 0.5, y: 0.013333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7c22d45baf29790800000000000000
+      internalID: -7524676370792527951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagerElder_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 87
+        width: 95
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.013157895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05672ad7a8f6585b0800000000000000
+      internalID: -5366760740338108848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagerElder_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 87
+        width: 94
+        height: 150
+      alignment: 9
+      pivot: {x: 0.5, y: 0.013333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf5fa0996c03b240800000000000000
+      internalID: 4806198874872963003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagerElder_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 87
+        width: 94
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.013157895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b89bac4bc270f9c60800000000000000
+      internalID: 7826982565986351499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Merchant_Idle_0: 3332543704116743764
+      Merchant_Idle_1: -4212066465098359639
+      Merchant_Idle_2: 1127223326750693045
+      Merchant_Idle_3: 5636351527703041401
+      Merchant_Idle_4: -2665039471655013456
+      Merchant_Idle_5: 3513055181145052764
+      VillageNPCs_Idle_0: -3292481443085522967
+      VillageNPCs_Idle_1: -9127642398808218333
+      VillageNPCs_Idle_10: -9131746171145273283
+      VillageNPCs_Idle_11: -285967938911316654
+      VillageNPCs_Idle_12: -4819615510911486235
+      VillageNPCs_Idle_13: 7570576517594942374
+      VillageNPCs_Idle_14: 692244563757127983
+      VillageNPCs_Idle_15: -8799404483954805857
+      VillageNPCs_Idle_16: -7414476563558006239
+      VillageNPCs_Idle_17: -3377613106039820555
+      VillageNPCs_Idle_18: -5820825180395899537
+      VillageNPCs_Idle_19: 1041895869381843933
+      VillageNPCs_Idle_2: -5028818067542926065
+      VillageNPCs_Idle_20: 3860194973475684921
+      VillageNPCs_Idle_21: 7654214060591826212
+      VillageNPCs_Idle_22: 5984632194185075745
+      VillageNPCs_Idle_23: -7859779962391752725
+      VillageNPCs_Idle_24: 9127855029238066297
+      VillageNPCs_Idle_25: -1983605374695012596
+      VillageNPCs_Idle_26: -6308627494614251425
+      VillageNPCs_Idle_27: 2514898015525265936
+      VillageNPCs_Idle_28: -4624135036073644149
+      VillageNPCs_Idle_29: -2047466136749242574
+      VillageNPCs_Idle_3: 5944305200401168401
+      VillageNPCs_Idle_30: -5827335138958253095
+      VillageNPCs_Idle_31: -1202268752345590295
+      VillageNPCs_Idle_32: 3406099304503754961
+      VillageNPCs_Idle_33: 4012567006979979859
+      VillageNPCs_Idle_34: 3790823669168922102
+      VillageNPCs_Idle_35: 213148305913739933
+      VillageNPCs_Idle_36: 6057834302886785517
+      VillageNPCs_Idle_37: 7130903705294905994
+      VillageNPCs_Idle_38: -7020426112666436490
+      VillageNPCs_Idle_39: 5592368903857747952
+      VillageNPCs_Idle_4: 9035019206681896503
+      VillageNPCs_Idle_40: -8078083275216733002
+      VillageNPCs_Idle_41: -2413517053029243079
+      VillageNPCs_Idle_5: -3563809320942581067
+      VillageNPCs_Idle_6: 4848486280577976154
+      VillageNPCs_Idle_7: -5607664440468036437
+      VillageNPCs_Idle_8: 1116131236571389538
+      VillageNPCs_Idle_9: -7079752113033320886
+      VillagerElder_Idle_0: -8061046096102892997
+      VillagerElder_Idle_1: -1797291234704005789
+      VillagerElder_Idle_2: -7524676370792527951
+      VillagerElder_Idle_3: -5366760740338108848
+      VillagerElder_Idle_4: 4806198874872963003
+      VillagerElder_Idle_5: 7826982565986351499
+      VillagerFarmer_Idle_0: -6865291167340088577
+      VillagerFarmer_Idle_1: -7737797886239995197
+      VillagerFarmer_Idle_2: -4084735471323977691
+      VillagerFarmer_Idle_3: -4639325856248327510
+      VillagerFarmer_Idle_4: -5806872758656853635
+      VillagerFarmer_Idle_5: -4450204858883710594
+      VillagerWoman_Idle_0: -4829176310358823727
+      VillagerWoman_Idle_1: -456683299634353541
+      VillagerWoman_Idle_2: -5128005923489046263
+      VillagerWoman_Idle_3: -8098623463443546126
+      VillagerWoman_Idle_4: 1602424378259731396
+      VillagerWoman_Idle_5: -2535590514601594605
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

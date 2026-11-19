@@ -1,0 +1,7057 @@
+fileFormatVersion: 2
+guid: 65df22e0ab0451e45ac32f1a2e991de7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5936040322276833197
+    second: PaperBook_Icons_Atlas_0
+  - first:
+      213: 4411467527425901177
+    second: PaperBook_Icons_Atlas_1
+  - first:
+      213: -7633786953718757070
+    second: PaperBook_Icons_Atlas_2
+  - first:
+      213: -4053007453289024305
+    second: PaperBook_Icons_Atlas_3
+  - first:
+      213: 5717483985584187378
+    second: PaperBook_Icons_Atlas_4
+  - first:
+      213: -2988219081452262632
+    second: PaperBook_Icons_Atlas_5
+  - first:
+      213: -3554224686501662856
+    second: PaperBook_Icons_Atlas_6
+  - first:
+      213: 6153703290230607777
+    second: PaperBook_Icons_Atlas_7
+  - first:
+      213: 3262520878459565853
+    second: PaperBook_Icons_Atlas_8
+  - first:
+      213: -4015834291216275065
+    second: PaperBook_Icons_Atlas_9
+  - first:
+      213: 6360117145795475878
+    second: PaperBook_Icons_Atlas_10
+  - first:
+      213: 598105216044383560
+    second: PaperBook_Icons_Atlas_11
+  - first:
+      213: 7695630066730604057
+    second: PaperBook_Icons_Atlas_12
+  - first:
+      213: -7832920935343533104
+    second: PaperBook_Icons_Atlas_13
+  - first:
+      213: -5534381480697829320
+    second: PaperBook_Icons_Atlas_14
+  - first:
+      213: 6631480370595256906
+    second: PaperBook_Icons_Atlas_15
+  - first:
+      213: 8575030665730026867
+    second: PaperBook_Icons_Atlas_16
+  - first:
+      213: -1633671794955898451
+    second: PaperBook_Icons_Atlas_17
+  - first:
+      213: -8540170947480706655
+    second: PaperBook_Icons_Atlas_18
+  - first:
+      213: -1591010745707024647
+    second: PaperBook_Icons_Atlas_19
+  - first:
+      213: 844811704387465219
+    second: PaperBook_Icons_Atlas_20
+  - first:
+      213: -2708631663239047921
+    second: PaperBook_Icons_Atlas_21
+  - first:
+      213: -2123204841796303988
+    second: PaperBook_Icons_Atlas_22
+  - first:
+      213: -4193353897059649586
+    second: PaperBook_Icons_Atlas_23
+  - first:
+      213: 5391838100461624283
+    second: PaperBook_Icons_Atlas_24
+  - first:
+      213: -2679374530309611482
+    second: PaperBook_Icons_Atlas_25
+  - first:
+      213: 228332957776277104
+    second: PaperBook_Icons_Atlas_26
+  - first:
+      213: 7548596167659261287
+    second: PaperBook_Icons_Atlas_27
+  - first:
+      213: 3352645859773260634
+    second: PaperBook_Icons_Atlas_28
+  - first:
+      213: 4320787999919397742
+    second: PaperBook_Icons_Atlas_29
+  - first:
+      213: 4451238865748177299
+    second: PaperBook_Icons_Atlas_30
+  - first:
+      213: -4385791960751303012
+    second: PaperBook_Icons_Atlas_31
+  - first:
+      213: 6317207365210431289
+    second: PaperBook_Icons_Atlas_32
+  - first:
+      213: -1300456814786481529
+    second: PaperBook_Icons_Atlas_33
+  - first:
+      213: -1309545217139061067
+    second: PaperBook_Icons_Atlas_34
+  - first:
+      213: -6048757030927416777
+    second: PaperBook_Icons_Atlas_35
+  - first:
+      213: 1187019939069657842
+    second: PaperBook_Icons_Atlas_36
+  - first:
+      213: -5030115991242683936
+    second: PaperBook_Icons_Atlas_37
+  - first:
+      213: -84117375043075471
+    second: PaperBook_Icons_Atlas_38
+  - first:
+      213: -4932030566301220851
+    second: PaperBook_Icons_Atlas_39
+  - first:
+      213: 4012601783805744647
+    second: PaperBook_Icons_Atlas_40
+  - first:
+      213: -4783830281948315490
+    second: PaperBook_Icons_Atlas_41
+  - first:
+      213: -1473548649187477052
+    second: PaperBook_Icons_Atlas_42
+  - first:
+      213: -5677806495838950334
+    second: PaperBook_Icons_Atlas_43
+  - first:
+      213: 6611663988927194440
+    second: PaperBook_Icons_Atlas_44
+  - first:
+      213: -7757944100835624144
+    second: PaperBook_Icons_Atlas_45
+  - first:
+      213: -3467315164683623889
+    second: PaperBook_Icons_Atlas_46
+  - first:
+      213: 8692079806337187256
+    second: PaperBook_Icons_Atlas_47
+  - first:
+      213: -6428290058145581939
+    second: PaperBook_Icons_Atlas_48
+  - first:
+      213: -3685260955189725864
+    second: PaperBook_Icons_Atlas_49
+  - first:
+      213: 2194561847130049114
+    second: PaperBook_Icons_Atlas_50
+  - first:
+      213: 3318976665800607658
+    second: PaperBook_Icons_Atlas_51
+  - first:
+      213: -8644627298681896955
+    second: PaperBook_Icons_Atlas_52
+  - first:
+      213: 8279420642332453777
+    second: PaperBook_Icons_Atlas_53
+  - first:
+      213: 6147380691571589214
+    second: PaperBook_Icons_Atlas_54
+  - first:
+      213: -8465944914535277560
+    second: PaperBook_Icons_Atlas_55
+  - first:
+      213: -3520490766861292548
+    second: PaperBook_Icons_Atlas_56
+  - first:
+      213: -3508998365665520038
+    second: PaperBook_Icons_Atlas_57
+  - first:
+      213: 4823230178350662626
+    second: PaperBook_Icons_Atlas_58
+  - first:
+      213: -5010301722276699258
+    second: PaperBook_Icons_Atlas_59
+  - first:
+      213: -2806086065467636994
+    second: PaperBook_Icons_Atlas_60
+  - first:
+      213: -2385176982436853322
+    second: PaperBook_Icons_Atlas_61
+  - first:
+      213: -5812785656442696875
+    second: PaperBook_Icons_Atlas_62
+  - first:
+      213: -1708049697353010925
+    second: PaperBook_Icons_Atlas_63
+  - first:
+      213: 1421638679163553295
+    second: PaperBook_Icons_Atlas_64
+  - first:
+      213: 3923384475460388239
+    second: PaperBook_Icons_Atlas_65
+  - first:
+      213: -5916265971986778698
+    second: PaperBook_Icons_Atlas_66
+  - first:
+      213: -4572498667461467142
+    second: PaperBook_Icons_Atlas_67
+  - first:
+      213: 1450335571738342252
+    second: PaperBook_Icons_Atlas_68
+  - first:
+      213: -6400372032739244473
+    second: PaperBook_Icons_Atlas_69
+  - first:
+      213: -426925570814440000
+    second: PaperBook_Icons_Atlas_70
+  - first:
+      213: -8824953927483431723
+    second: PaperBook_Icons_Atlas_71
+  - first:
+      213: -7801505844369667841
+    second: PaperBook_Icons_Atlas_72
+  - first:
+      213: -7864286420627056330
+    second: PaperBook_Icons_Atlas_73
+  - first:
+      213: 8261437076222849052
+    second: PaperBook_Icons_Atlas_74
+  - first:
+      213: 6269869322126737877
+    second: PaperBook_Icons_Atlas_75
+  - first:
+      213: 1052974806923740278
+    second: PaperBook_Icons_Atlas_76
+  - first:
+      213: 5971946905833968387
+    second: PaperBook_Icons_Atlas_77
+  - first:
+      213: -4763177892286290250
+    second: PaperBook_Icons_Atlas_78
+  - first:
+      213: -8661090731515053707
+    second: PaperBook_Icons_Atlas_79
+  - first:
+      213: 7956117957032196843
+    second: PaperBook_Icons_Atlas_80
+  - first:
+      213: -7077745142330463146
+    second: PaperBook_Icons_Atlas_81
+  - first:
+      213: 3030065810982285630
+    second: PaperBook_Icons_Atlas_82
+  - first:
+      213: 8094357255054605536
+    second: PaperBook_Icons_Atlas_83
+  - first:
+      213: -5425030098501614983
+    second: PaperBook_Icons_Atlas_84
+  - first:
+      213: -8309699597784644452
+    second: PaperBook_Icons_Atlas_85
+  - first:
+      213: 8833761128060357615
+    second: PaperBook_Icons_Atlas_86
+  - first:
+      213: 1910957630247840179
+    second: PaperBook_Icons_Atlas_87
+  - first:
+      213: -1080347314706807095
+    second: PaperBook_Icons_Atlas_88
+  - first:
+      213: 7110385745603623655
+    second: PaperBook_Icons_Atlas_89
+  - first:
+      213: -682426464832232112
+    second: PaperBook_Icons_Atlas_90
+  - first:
+      213: -4020492838620962837
+    second: PaperBook_Icons_Atlas_91
+  - first:
+      213: 1359134185045763766
+    second: PaperBook_Icons_Atlas_92
+  - first:
+      213: 1965893224159037468
+    second: PaperBook_Icons_Atlas_93
+  - first:
+      213: 2402140441721669948
+    second: PaperBook_Icons_Atlas_94
+  - first:
+      213: 7772073915940782789
+    second: PaperBook_Icons_Atlas_95
+  - first:
+      213: -4817049757538115376
+    second: PaperBook_Icons_Atlas_96
+  - first:
+      213: -5897952368325347533
+    second: PaperBook_Icons_Atlas_97
+  - first:
+      213: -770497781387574762
+    second: PaperBook_Icons_Atlas_98
+  - first:
+      213: 7205074528264325134
+    second: PaperBook_Icons_Atlas_99
+  - first:
+      213: 5862209469576924317
+    second: PaperBook_Icons_Atlas_100
+  - first:
+      213: 658476033088740702
+    second: PaperBook_Icons_Atlas_101
+  - first:
+      213: 4646568684976030303
+    second: PaperBook_Icons_Atlas_102
+  - first:
+      213: -823194360089761233
+    second: PaperBook_Icons_Atlas_103
+  - first:
+      213: 6878055005615594041
+    second: PaperBook_Icons_Atlas_104
+  - first:
+      213: -4872525727558797451
+    second: PaperBook_Icons_Atlas_105
+  - first:
+      213: -7883552395376756121
+    second: PaperBook_Icons_Atlas_106
+  - first:
+      213: 7563116354015710589
+    second: PaperBook_Icons_Atlas_107
+  - first:
+      213: 8647519648566452565
+    second: PaperBook_Icons_Atlas_108
+  - first:
+      213: 5379877982903118989
+    second: PaperBook_Icons_Atlas_109
+  - first:
+      213: -2976394778098568688
+    second: PaperBook_Icons_Atlas_110
+  - first:
+      213: -2154285193798657617
+    second: PaperBook_Icons_Atlas_111
+  - first:
+      213: 2189602036112260770
+    second: PaperBook_Icons_Atlas_112
+  - first:
+      213: 2847595008069657580
+    second: PaperBook_Icons_Atlas_113
+  - first:
+      213: 5890611857836684493
+    second: PaperBook_Icons_Atlas_114
+  - first:
+      213: 8272482779749734072
+    second: PaperBook_Icons_Atlas_115
+  - first:
+      213: -7060106477061655579
+    second: PaperBook_Icons_Atlas_116
+  - first:
+      213: -5270959723263396163
+    second: PaperBook_Icons_Atlas_117
+  - first:
+      213: 8712705974966147696
+    second: PaperBook_Icons_Atlas_118
+  - first:
+      213: -453246673133023953
+    second: PaperBook_Icons_Atlas_119
+  - first:
+      213: 1891118071143831850
+    second: PaperBook_Icons_Atlas_120
+  - first:
+      213: -4774926777355852300
+    second: PaperBook_Icons_Atlas_121
+  - first:
+      213: -2779823376588430966
+    second: PaperBook_Icons_Atlas_122
+  - first:
+      213: -449824190314830326
+    second: PaperBook_Icons_Atlas_123
+  - first:
+      213: 4242837461059354680
+    second: PaperBook_Icons_Atlas_124
+  - first:
+      213: -9194893818345820202
+    second: PaperBook_Icons_Atlas_125
+  - first:
+      213: 2634618191180293010
+    second: PaperBook_Icons_Atlas_126
+  - first:
+      213: 1129318871564824439
+    second: PaperBook_Icons_Atlas_127
+  - first:
+      213: -6382642874235867065
+    second: PaperBook_Icons_Atlas_128
+  - first:
+      213: -2436367858522562046
+    second: PaperBook_Icons_Atlas_129
+  - first:
+      213: 2040768075935191118
+    second: PaperBook_Icons_Atlas_130
+  - first:
+      213: 5331273492727640333
+    second: PaperBook_Icons_Atlas_131
+  - first:
+      213: 6204613335213115880
+    second: PaperBook_Icons_Atlas_132
+  - first:
+      213: 9013570862125883020
+    second: PaperBook_Icons_Atlas_133
+  - first:
+      213: 5371548427281892652
+    second: PaperBook_Icons_Atlas_134
+  - first:
+      213: 113825745954122445
+    second: PaperBook_Icons_Atlas_135
+  - first:
+      213: -3641883075205499335
+    second: PaperBook_Icons_Atlas_136
+  - first:
+      213: -8633391237375879900
+    second: PaperBook_Icons_Atlas_137
+  - first:
+      213: 5722836785458837649
+    second: PaperBook_Icons_Atlas_138
+  - first:
+      213: -260873472785138300
+    second: PaperBook_Icons_Atlas_139
+  - first:
+      213: -470873008241051955
+    second: PaperBook_Icons_Atlas_140
+  - first:
+      213: 783422473337867900
+    second: PaperBook_Icons_Atlas_141
+  - first:
+      213: 5415973610354017716
+    second: PaperBook_Icons_Atlas_142
+  - first:
+      213: -4062098923095761192
+    second: PaperBook_Icons_Atlas_143
+  - first:
+      213: -3388591271416267581
+    second: PaperBook_Icons_Atlas_144
+  - first:
+      213: 347162416668658849
+    second: PaperBook_Icons_Atlas_145
+  - first:
+      213: -1413474619774017975
+    second: PaperBook_Icons_Atlas_146
+  - first:
+      213: -4929274910721090506
+    second: PaperBook_Icons_Atlas_147
+  - first:
+      213: 2358871882352163808
+    second: PaperBook_Icons_Atlas_148
+  - first:
+      213: 7581458835062545613
+    second: PaperBook_Icons_Atlas_149
+  - first:
+      213: -8146205482150229791
+    second: PaperBook_Icons_Atlas_150
+  - first:
+      213: 3573892620942362984
+    second: PaperBook_Icons_Atlas_151
+  - first:
+      213: -4130797250220806392
+    second: PaperBook_Icons_Atlas_152
+  - first:
+      213: -7778814171521824626
+    second: PaperBook_Icons_Atlas_153
+  - first:
+      213: 2205026245567169332
+    second: PaperBook_Icons_Atlas_154
+  - first:
+      213: 2781386503437195222
+    second: PaperBook_Icons_Atlas_155
+  - first:
+      213: 1722234945190871034
+    second: PaperBook_Icons_Atlas_156
+  - first:
+      213: -95479075542939762
+    second: PaperBook_Icons_Atlas_157
+  - first:
+      213: 6918470426279914881
+    second: PaperBook_Icons_Atlas_158
+  - first:
+      213: 6358320266359035470
+    second: PaperBook_Icons_Atlas_159
+  - first:
+      213: -4962866043479648445
+    second: PaperBook_Icons_Atlas_160
+  - first:
+      213: 6488898406999145736
+    second: PaperBook_Icons_Atlas_161
+  - first:
+      213: -1827051874953448707
+    second: PaperBook_Icons_Atlas_162
+  - first:
+      213: 7489119955079690514
+    second: PaperBook_Icons_Atlas_163
+  - first:
+      213: 2508887014990535076
+    second: PaperBook_Icons_Atlas_164
+  - first:
+      213: 315839257369952337
+    second: PaperBook_Icons_Atlas_165
+  - first:
+      213: -8583631629191774934
+    second: PaperBook_Icons_Atlas_166
+  - first:
+      213: 8482925290792264327
+    second: PaperBook_Icons_Atlas_167
+  - first:
+      213: 1202078907764653437
+    second: PaperBook_Icons_Atlas_168
+  - first:
+      213: 517408264712812779
+    second: PaperBook_Icons_Atlas_169
+  - first:
+      213: -796492185656371244
+    second: PaperBook_Icons_Atlas_170
+  - first:
+      213: -1878284943597144251
+    second: PaperBook_Icons_Atlas_171
+  - first:
+      213: -7290251734814461672
+    second: PaperBook_Icons_Atlas_172
+  - first:
+      213: -1466837717465089281
+    second: PaperBook_Icons_Atlas_173
+  - first:
+      213: 1728972810696265220
+    second: PaperBook_Icons_Atlas_174
+  - first:
+      213: 9048754014603074184
+    second: PaperBook_Icons_Atlas_175
+  - first:
+      213: 8536244448618412620
+    second: PaperBook_Icons_Atlas_176
+  - first:
+      213: -8240286757017546698
+    second: PaperBook_Icons_Atlas_177
+  - first:
+      213: 4224597840492234533
+    second: PaperBook_Icons_Atlas_178
+  - first:
+      213: -7378710191668073857
+    second: PaperBook_Icons_Atlas_179
+  - first:
+      213: -7251661526988167819
+    second: PaperBook_Icons_Atlas_180
+  - first:
+      213: 876708100983633728
+    second: PaperBook_Icons_Atlas_181
+  - first:
+      213: 7298738490371622388
+    second: PaperBook_Icons_Atlas_182
+  - first:
+      213: -8737048283155181958
+    second: PaperBook_Icons_Atlas_183
+  - first:
+      213: 4080137635261301384
+    second: PaperBook_Icons_Atlas_184
+  - first:
+      213: -314151773490507464
+    second: PaperBook_Icons_Atlas_185
+  - first:
+      213: -4715870442534184127
+    second: PaperBook_Icons_Atlas_186
+  - first:
+      213: 8863208768404905264
+    second: PaperBook_Icons_Atlas_187
+  - first:
+      213: 214161505330483262
+    second: PaperBook_Icons_Atlas_188
+  - first:
+      213: 8692006957118138473
+    second: PaperBook_Icons_Atlas_189
+  - first:
+      213: -4246204737141832131
+    second: PaperBook_Icons_Atlas_190
+  - first:
+      213: 675402137657802636
+    second: PaperBook_Icons_Atlas_191
+  - first:
+      213: 6814034452583266149
+    second: PaperBook_Icons_Atlas_192
+  - first:
+      213: -1038616212423862184
+    second: PaperBook_Icons_Atlas_193
+  - first:
+      213: -4554838722062110295
+    second: PaperBook_Icons_Atlas_194
+  - first:
+      213: -3461558963195541560
+    second: PaperBook_Icons_Atlas_195
+  - first:
+      213: 1658385815065194088
+    second: PaperBook_Icons_Atlas_196
+  - first:
+      213: 8577616807946633693
+    second: PaperBook_Icons_Atlas_197
+  - first:
+      213: 3486071516885700979
+    second: PaperBook_Icons_Atlas_198
+  - first:
+      213: 4823406419263956653
+    second: PaperBook_Icons_Atlas_199
+  - first:
+      213: -7792518758992932321
+    second: PaperBook_Icons_Atlas_200
+  - first:
+      213: 7841984664239945648
+    second: PaperBook_Icons_Atlas_201
+  - first:
+      213: 8857913048985706306
+    second: PaperBook_Icons_Atlas_202
+  - first:
+      213: -6447320915989683650
+    second: PaperBook_Icons_Atlas_203
+  - first:
+      213: 7005931787275904071
+    second: PaperBook_Icons_Atlas_204
+  - first:
+      213: 3349901758190725164
+    second: PaperBook_Icons_Atlas_205
+  - first:
+      213: 1408815036857339352
+    second: PaperBook_Icons_Atlas_206
+  - first:
+      213: 4486627156878991355
+    second: PaperBook_Icons_Atlas_207
+  - first:
+      213: 452374103276229888
+    second: PaperBook_Icons_Atlas_208
+  - first:
+      213: -6313298065853837674
+    second: PaperBook_Icons_Atlas_209
+  - first:
+      213: 8862660286934675463
+    second: PaperBook_Icons_Atlas_210
+  - first:
+      213: -6420589644288079077
+    second: PaperBook_Icons_Atlas_211
+  - first:
+      213: -7524433640352084158
+    second: PaperBook_Icons_Atlas_212
+  - first:
+      213: 191300187965646736
+    second: PaperBook_Icons_Atlas_213
+  - first:
+      213: 603666390792954290
+    second: PaperBook_Icons_Atlas_214
+  - first:
+      213: -4715780055765937430
+    second: PaperBook_Icons_Atlas_215
+  - first:
+      213: 3203731173413742071
+    second: PaperBook_Icons_Atlas_216
+  - first:
+      213: 7100098752847819933
+    second: PaperBook_Icons_Atlas_217
+  - first:
+      213: -4318276883944410101
+    second: PaperBook_Icons_Atlas_218
+  - first:
+      213: 9220253213939494102
+    second: PaperBook_Icons_Atlas_219
+  - first:
+      213: -7356548773792162
+    second: PaperBook_Icons_Atlas_220
+  - first:
+      213: -5436486549853006285
+    second: PaperBook_Icons_Atlas_221
+  - first:
+      213: -5565293052349461038
+    second: PaperBook_Icons_Atlas_222
+  - first:
+      213: 29417867645952859
+    second: PaperBook_Icons_Atlas_223
+  - first:
+      213: 2153891995582691494
+    second: PaperBook_Icons_Atlas_224
+  - first:
+      213: -4433487335052792522
+    second: PaperBook_Icons_Atlas_225
+  - first:
+      213: -8384356751523759832
+    second: PaperBook_Icons_Atlas_226
+  - first:
+      213: -1430197940051179212
+    second: PaperBook_Icons_Atlas_227
+  - first:
+      213: -7004812048165163300
+    second: PaperBook_Icons_Atlas_228
+  - first:
+      213: -8048332352652312866
+    second: PaperBook_Icons_Atlas_229
+  - first:
+      213: 9176807603843350894
+    second: PaperBook_Icons_Atlas_230
+  - first:
+      213: 8497682242525677844
+    second: PaperBook_Icons_Atlas_231
+  - first:
+      213: 1885612355271516854
+    second: PaperBook_Icons_Atlas_232
+  - first:
+      213: 2405017072141674092
+    second: PaperBook_Icons_Atlas_233
+  - first:
+      213: 921782403619817771
+    second: PaperBook_Icons_Atlas_234
+  - first:
+      213: -6020749714183262679
+    second: PaperBook_Icons_Atlas_235
+  - first:
+      213: -4238278943218472140
+    second: PaperBook_Icons_Atlas_236
+  - first:
+      213: -5201186454764730733
+    second: PaperBook_Icons_Atlas_237
+  - first:
+      213: 3381284751990180932
+    second: PaperBook_Icons_Atlas_238
+  - first:
+      213: -2431606273628908878
+    second: PaperBook_Icons_Atlas_239
+  - first:
+      213: 3651171644112503374
+    second: PaperBook_Icons_Atlas_240
+  - first:
+      213: 2820629917814880832
+    second: PaperBook_Icons_Atlas_241
+  - first:
+      213: 746606702202083064
+    second: PaperBook_Icons_Atlas_242
+  - first:
+      213: 7453836693338702186
+    second: PaperBook_Icons_Atlas_243
+  - first:
+      213: 1737838533662581126
+    second: PaperBook_Icons_Atlas_244
+  - first:
+      213: 3859496101980482568
+    second: PaperBook_Icons_Atlas_245
+  - first:
+      213: 3157680163468385124
+    second: PaperBook_Icons_Atlas_246
+  - first:
+      213: 8305817706587450013
+    second: PaperBook_Icons_Atlas_247
+  - first:
+      213: 4176690822057347504
+    second: PaperBook_Icons_Atlas_248
+  - first:
+      213: 7201507804974201085
+    second: PaperBook_Icons_Atlas_249
+  - first:
+      213: 5580202495925880181
+    second: PaperBook_Icons_Atlas_250
+  - first:
+      213: -1626559851944423650
+    second: PaperBook_Icons_Atlas_251
+  - first:
+      213: 1297227216378606966
+    second: PaperBook_Icons_Atlas_252
+  - first:
+      213: -1296373343031528633
+    second: PaperBook_Icons_Atlas_253
+  - first:
+      213: -3504124165084588259
+    second: PaperBook_Icons_Atlas_254
+  - first:
+      213: -6359494500569139545
+    second: PaperBook_Icons_Atlas_255
+  - first:
+      213: 5634390426464865381
+    second: PaperBook_Icons_Atlas_256
+  - first:
+      213: -1354534824643483512
+    second: PaperBook_Icons_Atlas_257
+  - first:
+      213: 4437563193069715391
+    second: PaperBook_Icons_Atlas_258
+  - first:
+      213: 6153419599747025690
+    second: PaperBook_Icons_Atlas_259
+  - first:
+      213: 2905274482406225980
+    second: PaperBook_Icons_Atlas_260
+  - first:
+      213: -7670792225536097464
+    second: PaperBook_Icons_Atlas_261
+  - first:
+      213: 6324553014367995073
+    second: PaperBook_Icons_Atlas_262
+  - first:
+      213: 8811075726866457152
+    second: PaperBook_Icons_Atlas_263
+  - first:
+      213: 3338218288428006543
+    second: PaperBook_Icons_Atlas_264
+  - first:
+      213: -6432984231933785182
+    second: PaperBook_Icons_Atlas_265
+  - first:
+      213: 1234027697651181345
+    second: PaperBook_Icons_Atlas_266
+  - first:
+      213: 1305617118097463873
+    second: PaperBook_Icons_Atlas_267
+  - first:
+      213: -4680291172359704444
+    second: PaperBook_Icons_Atlas_268
+  - first:
+      213: -3855997513799510154
+    second: PaperBook_Icons_Atlas_269
+  - first:
+      213: -2484714682551997599
+    second: PaperBook_Icons_Atlas_270
+  - first:
+      213: -3013685512246012351
+    second: PaperBook_Icons_Atlas_271
+  - first:
+      213: -3108153525306724812
+    second: PaperBook_Icons_Atlas_272
+  - first:
+      213: -2162796155853228329
+    second: PaperBook_Icons_Atlas_273
+  - first:
+      213: -5220852809453386449
+    second: PaperBook_Icons_Atlas_274
+  - first:
+      213: 5260228072899540448
+    second: PaperBook_Icons_Atlas_275
+  - first:
+      213: -3681003347534718372
+    second: PaperBook_Icons_Atlas_276
+  - first:
+      213: -8111367549087961650
+    second: PaperBook_Icons_Atlas_277
+  - first:
+      213: 2007704470314181475
+    second: PaperBook_Icons_Atlas_278
+  - first:
+      213: 8396669514762102045
+    second: PaperBook_Icons_Atlas_279
+  - first:
+      213: -7780461963601846823
+    second: PaperBook_Icons_Atlas_280
+  - first:
+      213: -2302836521766131831
+    second: PaperBook_Icons_Atlas_281
+  - first:
+      213: -1908438129979316655
+    second: PaperBook_Icons_Atlas_282
+  - first:
+      213: -2298812665117831964
+    second: PaperBook_Icons_Atlas_283
+  - first:
+      213: -4389649051973504939
+    second: PaperBook_Icons_Atlas_284
+  - first:
+      213: -9056125702171347704
+    second: PaperBook_Icons_Atlas_285
+  - first:
+      213: 8546164533939174758
+    second: PaperBook_Icons_Atlas_286
+  - first:
+      213: 5843821480464856089
+    second: PaperBook_Icons_Atlas_287
+  - first:
+      213: 431580891261204435
+    second: PaperBook_Icons_Atlas_288
+  - first:
+      213: -5797546773540958000
+    second: PaperBook_Icons_Atlas_289
+  - first:
+      213: 6555679575307846293
+    second: PaperBook_Icons_Atlas_290
+  - first:
+      213: 8457381838726070506
+    second: PaperBook_Icons_Atlas_291
+  - first:
+      213: -7810764474361407308
+    second: PBIcon_Buttons_Buttons_01
+  - first:
+      213: -7238995863910670624
+    second: PBIcon_Buttons_Buttons_02
+  - first:
+      213: 3611087584469927334
+    second: PBIcon_Buttons_Buttons_03
+  - first:
+      213: -7244327109031755788
+    second: PBIcon_Buttons_Buttons_04
+  - first:
+      213: 3752537122646481521
+    second: PBIcon_Buttons_Buttons_05
+  - first:
+      213: -7856780445770955368
+    second: PBIcon_Buttons_Buttons_06
+  - first:
+      213: 6299403221987765790
+    second: PBIcon_Buttons_Buttons_07
+  - first:
+      213: -5342769756017422895
+    second: PBIcon_Buttons_Buttons_08
+  - first:
+      213: 1877953846479853980
+    second: PBIcon_Buttons_Buttons_09
+  - first:
+      213: -2677112609192477383
+    second: PBIcon_Buttons_Buttons_10
+  - first:
+      213: 1291195932868360866
+    second: PBIcon_Buttons_Buttons_11
+  - first:
+      213: 5216060906749233584
+    second: PBIcon_Buttons_Buttons_12
+  - first:
+      213: 6810838619732221366
+    second: PBIcon_DayAndNightCycle_DayAndNightCycle_01
+  - first:
+      213: 5658729214369480549
+    second: PBIcon_DayAndNightCycle_DayAndNightCycle_02
+  - first:
+      213: -584648920362495588
+    second: PBIcon_DayAndNightCycle_DayAndNightCycle_03
+  - first:
+      213: -5758399972554624630
+    second: PBIcon_DayAndNightCycle_DayAndNightCycle_04
+  - first:
+      213: 2438042487159492646
+    second: PBIcon_DayAndNightCycle_DayAndNightCycle_05
+  - first:
+      213: -139021279519029968
+    second: PBIcon_DayAndNightCycle_DayAndNightCycle_06
+  - first:
+      213: 6351465044287140864
+    second: PBIcon_DayAndNightCycle_DayAndNightCycle_07
+  - first:
+      213: -7219978852675070291
+    second: PBIcon_DayAndNightCycle_DayAndNightCycle_08
+  - first:
+      213: -8850995581084274655
+    second: PBIcon_DayAndNightCycle_DayAndNightCycle_09
+  - first:
+      213: 5043422952499365161
+    second: PBIcon_DayAndNightCycle_DayAndNightCycle_10
+  - first:
+      213: -4059000606490542898
+    second: PBIcon_DayAndNightCycle_DayAndNightCycle_11
+  - first:
+      213: -8910387165899918237
+    second: PBIcon_DayAndNightCycle_DayAndNightCycle_12
+  - first:
+      213: -7006736014340558400
+    second: PBIcon_DayAndNightCycle_DayAndNightCycle_13
+  - first:
+      213: -9105381644077383952
+    second: PBIcon_DayAndNightCycle_DayAndNightCycle_14
+  - first:
+      213: 2654761255244741324
+    second: PBIcon_DayAndNightCycle_DayAndNightCycle_15
+  - first:
+      213: -7624756227980231209
+    second: PBIcon_DayAndNightCycle_DayAndNightCycle_16
+  - first:
+      213: -1679313435724368019
+    second: PBIcon_DustBin_DustBin_01
+  - first:
+      213: 1923099512264903230
+    second: PBIcon_DustBin_DustBin_02
+  - first:
+      213: 4672196843810278986
+    second: PBIcon_DustBin_DustBin_03
+  - first:
+      213: -5166803689465977202
+    second: PBIcon_DustBin_DustBin_04
+  - first:
+      213: 1134859673662568633
+    second: PBIcon_DustBin_DustBin_05
+  - first:
+      213: 7729235273359484178
+    second: PBIcon_DustBin_DustBin_06
+  - first:
+      213: -2881284514143743962
+    second: PBIcon_Equipment_Equipment_01
+  - first:
+      213: -868344737149941547
+    second: PBIcon_Equipment_Equipment_02
+  - first:
+      213: 2660852974651541154
+    second: PBIcon_Equipment_Equipment_03
+  - first:
+      213: -393131197669896458
+    second: PBIcon_Equipment_Equipment_04
+  - first:
+      213: 561692254733044425
+    second: PBIcon_Equipment_Equipment_05
+  - first:
+      213: 2589328943218442468
+    second: PBIcon_Equipment_Equipment_06
+  - first:
+      213: -8466619393042039029
+    second: PBIcon_Equipment_Equipment_07
+  - first:
+      213: -8085340820864579874
+    second: PBIcon_Equipment_Equipment_08
+  - first:
+      213: 105231789782227272
+    second: PBIcon_Equipment_Equipment_09
+  - first:
+      213: 1618044515208379487
+    second: PBIcon_Equipment_Equipment_10
+  - first:
+      213: 2518567083695573083
+    second: PBIcon_Equipment_Equipment_11
+  - first:
+      213: -6752014910598444885
+    second: PBIcon_Equipment_Equipment_12
+  - first:
+      213: 5541384138110418656
+    second: PBIcon_Equipment_Equipment_13
+  - first:
+      213: -765869382385560536
+    second: PBIcon_Equipment_Equipment_14
+  - first:
+      213: -4906325219485823812
+    second: PBIcon_Equipment_Equipment_15
+  - first:
+      213: -3125386406617865367
+    second: PBIcon_Equipment_Equipment_16
+  - first:
+      213: -806978516733792516
+    second: PBIcon_Equipment_Equipment_17
+  - first:
+      213: -6535642781061476752
+    second: PBIcon_Equipment_Equipment_18
+  - first:
+      213: 6475909663989612006
+    second: PBIcon_Highlighter_Highlighter_01
+  - first:
+      213: -4031668645646731889
+    second: PBIcon_Highlighter_Highlighter_02
+  - first:
+      213: -7818391754560517894
+    second: PBIcon_Highlighter_Highlighter_03
+  - first:
+      213: 6082995399171454934
+    second: PBIcon_Highlighter_Highlighter_04
+  - first:
+      213: -8218162328732281829
+    second: PBIcon_Highlighter_Highlighter_05
+  - first:
+      213: 1509801803789730476
+    second: PBIcon_Holders_Holders_01
+  - first:
+      213: -5718364924182061588
+    second: PBIcon_Holders_Holders_02
+  - first:
+      213: 4811841006870879188
+    second: PBIcon_Holders_Holders_03
+  - first:
+      213: 1567665818308582669
+    second: PBIcon_Holders_Holders_04
+  - first:
+      213: -2908855669528802070
+    second: PBIcon_Holders_Holders_05
+  - first:
+      213: -4110060660327374438
+    second: PBIcon_Holders_Holders_06
+  - first:
+      213: -191074385787042253
+    second: PBIcon_Holders_Holders_07
+  - first:
+      213: 4168793398460844668
+    second: PBIcon_Holders_Holders_08
+  - first:
+      213: 718779431334646606
+    second: PBIcon_Holders_Holders_09
+  - first:
+      213: -3190814575820991242
+    second: PBIcon_Holders_Holders_10
+  - first:
+      213: -2453934986015096509
+    second: PBIcon_Holders_Holders_11
+  - first:
+      213: -7026314985379992640
+    second: PBIcon_Holders_Holders_12
+  - first:
+      213: 8130546833261972545
+    second: PBIcon_Holders_Holders_13
+  - first:
+      213: 3951940123573008438
+    second: PBIcon_Holders_Holders_14
+  - first:
+      213: 2405567503144539274
+    second: PBIcon_Holders_Holders_15
+  - first:
+      213: -4554161510600344569
+    second: PBIcon_Holders_Holders_16
+  - first:
+      213: -594010843311559427
+    second: PBIcon_Holders_Holders_17
+  - first:
+      213: 3320359908301367769
+    second: PBIcon_Holders_Holders_18
+  - first:
+      213: 5929168753217140007
+    second: PBIcon_Holders_Holders_19
+  - first:
+      213: -7167974648263688404
+    second: PBIcon_Holders_Holders_20
+  - first:
+      213: 8838027784082196850
+    second: PBIcon_Holders_Holders_21
+  - first:
+      213: -1794052782564860650
+    second: PBIcon_Holders_Holders_22
+  - first:
+      213: -5992921860867989459
+    second: PBIcon_Holders_Holders_23
+  - first:
+      213: -4016269518872110099
+    second: PBIcon_Holders_Holders_24
+  - first:
+      213: 8662040107657455852
+    second: PBIcon_Holders_Holders_25
+  - first:
+      213: 6815791446176821368
+    second: PBIcon_Holders_Holders_26
+  - first:
+      213: 9105643292103895314
+    second: PBIcon_Holders_Holders_27
+  - first:
+      213: 4922012552139816976
+    second: PBIcon_Icons_Icons_01
+  - first:
+      213: -7085429833303364915
+    second: PBIcon_Icons_Icons_02
+  - first:
+      213: -4576960827188866688
+    second: PBIcon_Icons_Icons_03
+  - first:
+      213: -2960694329810893386
+    second: PBIcon_Icons_Icons_04
+  - first:
+      213: -8045938925070546674
+    second: PBIcon_Icons_Icons_05
+  - first:
+      213: -5200820204324991835
+    second: PBIcon_Icons_Icons_06
+  - first:
+      213: -5717825718975851903
+    second: PBIcon_Icons_Icons_07
+  - first:
+      213: -3639342351869734903
+    second: PBIcon_Icons_Icons_08
+  - first:
+      213: 549554214962630538
+    second: PBIcon_Icons_Icons_09
+  - first:
+      213: 6380166776868409238
+    second: PBIcon_Icons_Icons_10
+  - first:
+      213: 677714705208184700
+    second: PBIcon_Icons_Icons_11
+  - first:
+      213: -3244263818582770915
+    second: PBIcon_Icons_Icons_12
+  - first:
+      213: 724602999943430649
+    second: PBIcon_Icons_Icons_13
+  - first:
+      213: 8353291872563888835
+    second: PBIcon_Icons_Icons_14
+  - first:
+      213: 8498031674871351646
+    second: PBIcon_Icons_Icons_15
+  - first:
+      213: -810011542405972818
+    second: PBIcon_Icons_Icons_16
+  - first:
+      213: -3028883412377335557
+    second: PBIcon_Icons_Icons_17
+  - first:
+      213: 7186396224046241774
+    second: PBIcon_Icons_Icons_18
+  - first:
+      213: -7367307901248558629
+    second: PBIcon_Icons_Icons_19
+  - first:
+      213: -4926244924465576194
+    second: PBIcon_Icons_Icons_20
+  - first:
+      213: -1279275961025783455
+    second: PBIcon_Icons_Icons_21
+  - first:
+      213: -5742763937551118848
+    second: PBIcon_Items_Items_01
+  - first:
+      213: 7463473904051917082
+    second: PBIcon_Items_Items_02
+  - first:
+      213: 8683749862075785829
+    second: PBIcon_Items_Items_03
+  - first:
+      213: -5609245578590540632
+    second: PBIcon_Items_Items_04
+  - first:
+      213: -7859824719799503559
+    second: PBIcon_Items_Items_05
+  - first:
+      213: 6040818541256848072
+    second: PBIcon_Items_Items_06
+  - first:
+      213: -3895808907186221535
+    second: PBIcon_Items_Items_07
+  - first:
+      213: -6968958626208846707
+    second: PBIcon_Items_Items_08
+  - first:
+      213: -7833853476910593839
+    second: PBIcon_Items_Items_09
+  - first:
+      213: -1634029395291187342
+    second: PBIcon_Items_Items_10
+  - first:
+      213: 1684159076220895856
+    second: PBIcon_Items_Items_11
+  - first:
+      213: 1519198207820368674
+    second: PBIcon_Items_Items_12
+  - first:
+      213: 1399782064415699802
+    second: PBIcon_Items_Items_13
+  - first:
+      213: 582022112065766867
+    second: PBIcon_Items_Items_14
+  - first:
+      213: 1177569724614778552
+    second: PBIcon_Items_Items_15
+  - first:
+      213: 1331408723543942794
+    second: PBIcon_Items_Items_16
+  - first:
+      213: -8837021318787001979
+    second: PBIcon_Items_Items_17
+  - first:
+      213: -108695355885421995
+    second: PBIcon_Items_Items_18
+  - first:
+      213: 954843475863146310
+    second: PBIcon_Items_Items_19
+  - first:
+      213: -4215971359001928631
+    second: PBIcon_Items_Items_20
+  - first:
+      213: 2701713762307963823
+    second: PBIcon_Items_Items_21
+  - first:
+      213: 3036984234316512384
+    second: PBIcon_Items_Items_22
+  - first:
+      213: -2636197444942777691
+    second: PBIcon_Items_Items_23
+  - first:
+      213: 656511449028744996
+    second: PBIcon_Items_Items_24
+  - first:
+      213: 6493465798384113092
+    second: PBIcon_Items_Items_25
+  - first:
+      213: 3909613047184691463
+    second: PBIcon_Items_Items_26
+  - first:
+      213: 7820163483459577181
+    second: PBIcon_ProgressBars_Hearts_Hearts_01
+  - first:
+      213: 4838000115637408730
+    second: PBIcon_ProgressBars_Hearts_Hearts_02
+  - first:
+      213: -4761617609508097499
+    second: PBIcon_ProgressBars_Hearts_MiddleHeart_Empty_Empty_01
+  - first:
+      213: 3220513227739062741
+    second: PBIcon_ProgressBars_Hearts_MiddleHeart_Empty_Empty_02
+  - first:
+      213: 1029124205475247296
+    second: PBIcon_ProgressBars_Hearts_MiddleHeart_idle_idle_01
+  - first:
+      213: 9047729955228763565
+    second: PBIcon_ProgressBars_Hearts_MiddleHeart_Recover_Recover_01
+  - first:
+      213: -4673320173490036424
+    second: PBIcon_ProgressBars_Hearts_MiddleHeart_Recover_Recover_02
+  - first:
+      213: 3032307568094935418
+    second: PBIcon_ProgressBars_Hearts_MiddleHeart_Recover_Recover_03
+  - first:
+      213: 54123739212659183
+    second: PBIcon_ProgressBars_Hearts_MiddleHeart_Recover_Recover_04
+  - first:
+      213: 306719051585838100
+    second: PBIcon_ProgressBars_Hearts_MiddleHeart_Recover_Recover_05
+  - first:
+      213: -143595888453548513
+    second: PBIcon_ProgressBars_Hearts_MiddleHeart_Recover_Recover_06
+  - first:
+      213: -5442340203408493556
+    second: PBIcon_ProgressBars_Hearts_MiddleHeart_Shine_Shine_01
+  - first:
+      213: -6525105480839756342
+    second: PBIcon_ProgressBars_Hearts_MiddleHeart_Shine_Shine_02
+  - first:
+      213: -6419865113874417962
+    second: PBIcon_ProgressBars_Hearts_MiddleHeart_Shine_Shine_03
+  - first:
+      213: 6074976232090014967
+    second: PBIcon_ProgressBars_Hearts_MiddleHeart_Shine_Shine_04
+  - first:
+      213: -7280853035748583826
+    second: PBIcon_ProgressBars_Hearts_MiddleHeart_Shine_Shine_05
+  - first:
+      213: 6301558829646369076
+    second: PBIcon_ProgressBars_Hearts_MiddleHeart_Shine_Shine_06
+  - first:
+      213: 3204582365772510643
+    second: PBIcon_ProgressBars_Hearts_Small_Red_Empty_Empty_01
+  - first:
+      213: 5559498593801641977
+    second: PBIcon_ProgressBars_Hearts_Small_Red_Empty_Empty_02
+  - first:
+      213: -4270838826490066515
+    second: PBIcon_ProgressBars_Hearts_Small_Red_idle_idle_01
+  - first:
+      213: 7551202235832354941
+    second: PBIcon_ProgressBars_Hearts_Small_Red_Recover_Recover_01
+  - first:
+      213: -2705384336998413201
+    second: PBIcon_ProgressBars_Hearts_Small_Red_Recover_Recover_02
+  - first:
+      213: -2996550392044721896
+    second: PBIcon_ProgressBars_Hearts_Small_Red_Recover_Recover_03
+  - first:
+      213: 5326772127907497170
+    second: PBIcon_ProgressBars_Hearts_Small_Red_Recover_Recover_04
+  - first:
+      213: -4670424174808434186
+    second: PBIcon_ProgressBars_Hearts_Small_Red_Recover_Recover_05
+  - first:
+      213: 7937677833457864006
+    second: PBIcon_ProgressBars_Hearts_Small_Red_Recover_Recover_06
+  - first:
+      213: -2031057652972064458
+    second: PBIcon_ProgressBars_Hearts_Small_Red_Shine_Shine_01
+  - first:
+      213: -3185298120200627819
+    second: PBIcon_ProgressBars_Hearts_Small_Red_Shine_Shine_02
+  - first:
+      213: 5890254038991399621
+    second: PBIcon_ProgressBars_Hearts_Small_Red_Shine_Shine_03
+  - first:
+      213: -5716914959022781360
+    second: PBIcon_ProgressBars_Hearts_Small_Red_Shine_Shine_04
+  - first:
+      213: -3869297932728632319
+    second: PBIcon_ProgressBars_Hearts_Small_Red_Shine_Shine_05
+  - first:
+      213: -5644625545082845079
+    second: PBIcon_ProgressBars_Hearts_Small_Red_Shine_Shine_06
+  - first:
+      213: -5475631546672098870
+    second: PBIcon_ProgressBars_Hearts_Small_Yellow_Empty_Empty_01
+  - first:
+      213: 2593621878938435914
+    second: PBIcon_ProgressBars_Hearts_Small_Yellow_Empty_Empty_02
+  - first:
+      213: 3799524678032417230
+    second: PBIcon_ProgressBars_Hearts_Small_Yellow_idle_idle_01
+  - first:
+      213: 3873164117592953137
+    second: PBIcon_ProgressBars_Hearts_Small_Yellow_Recover_Recover_01
+  - first:
+      213: 1848878176249734857
+    second: PBIcon_ProgressBars_Hearts_Small_Yellow_Recover_Recover_02
+  - first:
+      213: -531256034496514402
+    second: PBIcon_ProgressBars_Hearts_Small_Yellow_Recover_Recover_03
+  - first:
+      213: 2153610043369477325
+    second: PBIcon_ProgressBars_Hearts_Small_Yellow_Recover_Recover_04
+  - first:
+      213: 3114933897459595365
+    second: PBIcon_ProgressBars_Hearts_Small_Yellow_Recover_Recover_05
+  - first:
+      213: -782178177001193730
+    second: PBIcon_ProgressBars_Hearts_Small_Yellow_Recover_Recover_06
+  - first:
+      213: 9208162593121559356
+    second: PBIcon_ProgressBars_Hearts_Small_Yellow_Shine_Shine_01
+  - first:
+      213: 4664686253399113003
+    second: PBIcon_ProgressBars_Hearts_Small_Yellow_Shine_Shine_02
+  - first:
+      213: -5822233548610452066
+    second: PBIcon_ProgressBars_Hearts_Small_Yellow_Shine_Shine_03
+  - first:
+      213: 9049933880084292898
+    second: PBIcon_ProgressBars_Hearts_Small_Yellow_Shine_Shine_04
+  - first:
+      213: 6431213698799206022
+    second: PBIcon_ProgressBars_Hearts_Small_Yellow_Shine_Shine_05
+  - first:
+      213: -6547698270081397791
+    second: PBIcon_ProgressBars_Hearts_Small_Yellow_Shine_Shine_06
+  - first:
+      213: 3961468920119553438
+    second: PBIcon_ProgressBars_ProgressBars_01
+  - first:
+      213: 3193328301619209503
+    second: PBIcon_ProgressBars_ProgressBars_02
+  - first:
+      213: -6248494991296089876
+    second: PBIcon_ProgressBars_ProgressBars_03
+  - first:
+      213: -7310638658563892066
+    second: PBIcon_ProgressBars_ProgressBars_04
+  - first:
+      213: 7422172235110736837
+    second: PBIcon_ProgressBars_ProgressBars_05
+  - first:
+      213: 2815820655286585543
+    second: PBIcon_ProgressBars_ProgressBars_06
+  - first:
+      213: 6722513647792085229
+    second: PBIcon_ProgressBars_ProgressBars_07
+  - first:
+      213: 7558274148763733988
+    second: PBIcon_ProgressBars_ProgressBars_08
+  - first:
+      213: -1199214911856335784
+    second: PBIcon_ProgressBars_ProgressBars_09
+  - first:
+      213: 8655242328412505252
+    second: PBIcon_ProgressBars_ProgressBars_10
+  - first:
+      213: 2538593542097849355
+    second: PBIcon_ProgressBars_ProgressBars_11
+  - first:
+      213: -449668052590255840
+    second: PBIcon_ProgressBars_ProgressBars_12
+  - first:
+      213: -1906703522917950099
+    second: PBIcon_ProgressBars_ProgressBars_13
+  - first:
+      213: -3624111708065782855
+    second: PBIcon_ProgressBars_ProgressBars_14
+  - first:
+      213: 8113859257482089651
+    second: PBIcon_ProgressBars_ProgressBars_15
+  - first:
+      213: -7940819421096877178
+    second: PBIcon_ProgressBars_ProgressBars_16
+  - first:
+      213: 5356131239019690349
+    second: PBIcon_ProgressBars_ProgressBars_17
+  - first:
+      213: 7062694078453333323
+    second: PBIcon_ProgressBars_ProgressBars_18
+  - first:
+      213: 4484921226358770658
+    second: PBIcon_Sidetabs_Sidetabs_01
+  - first:
+      213: 3234982111054945801
+    second: PBIcon_Sidetabs_Sidetabs_02
+  - first:
+      213: -5552867273356944720
+    second: PBIcon_Sidetabs_Sidetabs_03
+  - first:
+      213: 8613656219181112928
+    second: PBIcon_Sidetabs_Sidetabs_04
+  - first:
+      213: 7225550020899991819
+    second: PBIcon_Sidetabs_Sidetabs_05
+  - first:
+      213: 3633920728549979052
+    second: PBIcon_Sidetabs_Sidetabs_06
+  - first:
+      213: -1105992910300196607
+    second: PBIcon_Sidetabs_Sidetabs_07
+  - first:
+      213: 5095321398333764711
+    second: PBIcon_Sidetabs_Sidetabs_08
+  - first:
+      213: 9117296385629967884
+    second: PBIcon_Sidetabs_Sidetabs_09
+  - first:
+      213: -5092405061951583217
+    second: PBIcon_Sidetabs_Sidetabs_10
+  - first:
+      213: 5249411623523158209
+    second: PBIcon_Sidetabs_Sidetabs_11
+  - first:
+      213: -2390947583241861202
+    second: PBIcon_Sidetabs_Sidetabs_12
+  - first:
+      213: -4332881734515324319
+    second: PBIcon_Signs_Signs_00
+  - first:
+      213: 7086774616881327596
+    second: PBIcon_Signs_Signs_01
+  - first:
+      213: 4020672838174219135
+    second: PBIcon_Signs_Signs_02
+  - first:
+      213: 192851507248692170
+    second: PBIcon_Signs_Signs_03
+  - first:
+      213: 3621424274606605012
+    second: PBIcon_Signs_Signs_04
+  - first:
+      213: 3060908756135936405
+    second: PBIcon_Signs_Signs_05
+  - first:
+      213: -2791184865249863041
+    second: PBIcon_Signs_Signs_06
+  - first:
+      213: -2519645743129602259
+    second: PBIcon_TreasureChest_TreasureChest_01
+  - first:
+      213: -7447193033432488915
+    second: PBIcon_TreasureChest_TreasureChest_02
+  - first:
+      213: -7486740466216990978
+    second: PBIcon_TreasureChest_TreasureChest_03
+  - first:
+      213: -6663094275801432518
+    second: PBIcon_TreasureChest_TreasureChest_04
+  - first:
+      213: 4860485550697708504
+    second: PBIcon_TreasureChest_TreasureChest_05
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PBIcon_Buttons_Buttons_01
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 172
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8927108179a9390800000000000000
+      internalID: -7810764474361407308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Buttons_Buttons_02
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 172
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee15199d9be98b90800000000000000
+      internalID: -7238995863910670624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Buttons_Buttons_03
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 152
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5472596092d1230800000000000000
+      internalID: 3611087584469927334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Buttons_Buttons_04
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 136
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fffd6d50eaf67b90800000000000000
+      internalID: -7244327109031755788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Buttons_Buttons_05
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 150
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a5fc991a0b31430800000000000000
+      internalID: 3752537122646481521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Buttons_Buttons_06
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 137
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8954693cfcb17f290800000000000000
+      internalID: -7856780445770955368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Buttons_Buttons_07
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 136
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e288fcad9fb6750800000000000000
+      internalID: 6299403221987765790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Buttons_Buttons_08
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 151
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd81efc63baad5b0800000000000000
+      internalID: -5342769756017422895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Buttons_Buttons_09
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 135
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c999204d215df0a10800000000000000
+      internalID: 1877953846479853980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Buttons_Buttons_10
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 195
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93dfc51144cf8dad0800000000000000
+      internalID: -2677112609192477383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Buttons_Buttons_11
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 195
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aa3c022cdf3be110800000000000000
+      internalID: 1291195932868360866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Buttons_Buttons_12
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 195
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b9079142cb236840800000000000000
+      internalID: 5216060906749233584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_DayAndNightCycle_DayAndNightCycle_01
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 433
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd96a7a3a5f48e50800000000000000
+      internalID: 6810838619732221366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_DayAndNightCycle_DayAndNightCycle_02
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 265
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56f3e9e3d38d78e40800000000000000
+      internalID: 5658729214369480549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_DayAndNightCycle_DayAndNightCycle_03
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 265
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c915a7f87e8e2e7f0800000000000000
+      internalID: -584648920362495588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_DayAndNightCycle_DayAndNightCycle_04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 265
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a813349fbbd0610b0800000000000000
+      internalID: -5758399972554624630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_DayAndNightCycle_DayAndNightCycle_05
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 265
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620937a89baa5d120800000000000000
+      internalID: 2438042487159492646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_DayAndNightCycle_DayAndNightCycle_06
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 265
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0354c0202e8121ef0800000000000000
+      internalID: -139021279519029968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_DayAndNightCycle_DayAndNightCycle_07
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 193
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004bb086ecfe42850800000000000000
+      internalID: 6351465044287140864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_DayAndNightCycle_DayAndNightCycle_08
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 226
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da658709c7b7dcb90800000000000000
+      internalID: -7219978852675070291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_DayAndNightCycle_DayAndNightCycle_09
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 193
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1207be0e962fa2580800000000000000
+      internalID: -8850995581084274655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_DayAndNightCycle_DayAndNightCycle_10
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 230
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 925c6cf3476ddf540800000000000000
+      internalID: 5043422952499365161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_DayAndNightCycle_DayAndNightCycle_11
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 193
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc390334788ba7c0800000000000000
+      internalID: -4059000606490542898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_DayAndNightCycle_DayAndNightCycle_12
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 198
+        width: 66
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 364f555f412f75480800000000000000
+      internalID: -8910387165899918237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_DayAndNightCycle_DayAndNightCycle_13
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 198
+        width: 66
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c17b4ed7b213ce90800000000000000
+      internalID: -7006736014340558400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_DayAndNightCycle_DayAndNightCycle_14
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 198
+        width: 66
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0feb76813af23a180800000000000000
+      internalID: -9105381644077383952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_DayAndNightCycle_DayAndNightCycle_15
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 198
+        width: 66
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca355ecb4b97d420800000000000000
+      internalID: 2654761255244741324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_DayAndNightCycle_DayAndNightCycle_16
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 198
+        width: 66
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd7a4cbb9c6f2690800000000000000
+      internalID: -7624756227980231209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_DustBin_DustBin_01
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 229
+        width: 55
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d67bb1dd351e1b8e0800000000000000
+      internalID: -1679313435724368019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_DustBin_DustBin_02
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 231
+        width: 55
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ac64041d830ba10800000000000000
+      internalID: 1923099512264903230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_DustBin_DustBin_03
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 231
+        width: 55
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e430c664af6d040800000000000000
+      internalID: 4672196843810278986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_DustBin_DustBin_04
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 220
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e86e3395b63db48b0800000000000000
+      internalID: -5166803689465977202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_DustBin_DustBin_05
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 226
+        width: 55
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b8b2964cd4dfbf00800000000000000
+      internalID: 1134859673662568633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_DustBin_DustBin_06
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 227
+        width: 55
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215e206a782c34b60800000000000000
+      internalID: 7729235273359484178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Equipment_Equipment_01
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 135
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620d0a5000f9308d0800000000000000
+      internalID: -2881284514143743962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Equipment_Equipment_02
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 172
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8099fef0503f3f0800000000000000
+      internalID: -868344737149941547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Equipment_Equipment_03
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 151
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a685a1ceaf3de420800000000000000
+      internalID: 2660852974651541154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Equipment_Equipment_04
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 152
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe03c432415b8af0800000000000000
+      internalID: -393131197669896458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Equipment_Equipment_05
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 152
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca837431288bc700800000000000000
+      internalID: 561692254733044425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Equipment_Equipment_06
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 172
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e04c2b74f42fe320800000000000000
+      internalID: 2589328943218442468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Equipment_Equipment_07
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 136
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0fbb452586808a80800000000000000
+      internalID: -8466619393042039029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Equipment_Equipment_08
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 151
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6c6648c591bcf80800000000000000
+      internalID: -8085340820864579874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Equipment_Equipment_09
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 151
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8495c0951cbd57100800000000000000
+      internalID: 105231789782227272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Equipment_Equipment_10
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 151
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5cb3cfe9e2747610800000000000000
+      internalID: 1618044515208379487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Equipment_Equipment_11
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 152
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b588aae2b6fb3f220800000000000000
+      internalID: 2518567083695573083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Equipment_Equipment_12
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 151
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba883a766360c42a0800000000000000
+      internalID: -6752014910598444885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Equipment_Equipment_13
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 136
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee3e0c9383f6ec40800000000000000
+      internalID: 5541384138110418656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Equipment_Equipment_14
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 151
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8249f8ebad51f55f0800000000000000
+      internalID: -765869382385560536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Equipment_Equipment_15
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 151
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbcc10c253b39ebb0800000000000000
+      internalID: -4906325219485823812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Equipment_Equipment_16
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 151
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96325b74f9560a4d0800000000000000
+      internalID: -3125386406617865367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Equipment_Equipment_17
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 152
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfee5b880590dc4f0800000000000000
+      internalID: -806978516733792516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Equipment_Equipment_18
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 151
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e0cf7948bbc45a0800000000000000
+      internalID: -6535642781061476752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Highlighter_Highlighter_01
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 139
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6edbe9f478d0fd950800000000000000
+      internalID: 6475909663989612006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Highlighter_Highlighter_02
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 139
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f85752c3ab2ac08c0800000000000000
+      internalID: -4031668645646731889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Highlighter_Highlighter_03
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 139
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8c3927f1e7f7390800000000000000
+      internalID: -7818391754560517894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Highlighter_Highlighter_04
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 139
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d733f126142b6450800000000000000
+      internalID: 6082995399171454934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Highlighter_Highlighter_05
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 136
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b145a6957e833fd80800000000000000
+      internalID: -8218162328732281829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Holders_Holders_01
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 328
+        width: 182
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca28124cdb4e3f410800000000000000
+      internalID: 1509801803789730476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Holders_Holders_02
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 399
+        width: 111
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced131e066944a0b0800000000000000
+      internalID: -5718364924182061588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Holders_Holders_03
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 432
+        width: 77
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db523ac6e717c240800000000000000
+      internalID: 4811841006870879188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Holders_Holders_04
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 227
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d1ec281c771c510800000000000000
+      internalID: 1567665818308582669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Holders_Holders_05
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 227
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeccada2e2ba1a7d0800000000000000
+      internalID: -2908855669528802070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Holders_Holders_06
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 231
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9121effa9126f6c0800000000000000
+      internalID: -4110060660327374438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Holders_Holders_07
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 231
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 336cc75cbda295df0800000000000000
+      internalID: -191074385787042253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Holders_Holders_08
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 231
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a804932878ad930800000000000000
+      internalID: 4168793398460844668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Holders_Holders_09
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 172
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e431f84a51e99f900800000000000000
+      internalID: 718779431334646606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Holders_Holders_10
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 136
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f41d088c03f7b3d0800000000000000
+      internalID: -3190814575820991242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Holders_Holders_11
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 172
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 341caa8b12fd1fdd0800000000000000
+      internalID: -2453934986015096509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Holders_Holders_12
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 143
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cbeb607fb38d7e90800000000000000
+      internalID: -7026314985379992640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Holders_Holders_13
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 172
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14cc142744185d070800000000000000
+      internalID: 8130546833261972545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Holders_Holders_14
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 152
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638be27aa9c18d630800000000000000
+      internalID: 3951940123573008438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Holders_Holders_15
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 172
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a84572c16ea426120800000000000000
+      internalID: 2405567503144539274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Holders_Holders_16
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 143
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70cf8ee2c3e5cc0c0800000000000000
+      internalID: -4554161510600344569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Holders_Holders_17
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 172
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc2fa30946a1c7f0800000000000000
+      internalID: -594010843311559427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Holders_Holders_18
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 152
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d960cc9eb9441e20800000000000000
+      internalID: 3320359908301367769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Holders_Holders_19
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 193
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7257ad42193a84250800000000000000
+      internalID: 5929168753217140007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Holders_Holders_20
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 193
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2fbc33f80d368c90800000000000000
+      internalID: -7167974648263688404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Holders_Holders_21
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 193
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2798049917bf6aa70800000000000000
+      internalID: 8838027784082196850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Holders_Holders_22
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 150
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d9be2ef7e3a17e0800000000000000
+      internalID: -1794052782564860650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Holders_Holders_23
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 150
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d206a44c15dd4dca0800000000000000
+      internalID: -5992921860867989459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Holders_Holders_24
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 150
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb1665d6285348c0800000000000000
+      internalID: -4016269518872110099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Holders_Holders_25
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 190
+        width: 7
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8eb1f959fb53870800000000000000
+      internalID: 8662040107657455852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Holders_Holders_26
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 138
+        width: 69
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 870f38c653e869e50800000000000000
+      internalID: 6815791446176821368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Holders_Holders_27
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 145
+        width: 44
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2196545945ebd5e70800000000000000
+      internalID: 9105643292103895314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Icons_Icons_01
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 140
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 010ce4696508e4440800000000000000
+      internalID: 4922012552139816976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Icons_Icons_02
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 144
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca6ff85b1f7bad90800000000000000
+      internalID: -7085429833303364915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Icons_Icons_03
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 140
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0819780a06e5b70c0800000000000000
+      internalID: -4576960827188866688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Icons_Icons_04
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 138
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b5cb17813089e6d0800000000000000
+      internalID: -2960694329810893386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Icons_Icons_05
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 141
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e098ea64d25175090800000000000000
+      internalID: -8045938925070546674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Icons_Icons_06
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 141
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5acc88c4499f2d7b0800000000000000
+      internalID: -5200820204324991835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Icons_Icons_07
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 141
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1821adc8dc336a0b0800000000000000
+      internalID: -5717825718975851903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Icons_Icons_08
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 141
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90015ccb9657e7dc0800000000000000
+      internalID: -3639342351869734903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Icons_Icons_09
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 141
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f8aa795a860a700800000000000000
+      internalID: 549554214962630538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Icons_Icons_10
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 139
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f8df641e7ea8850800000000000000
+      internalID: 6380166776868409238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Icons_Icons_11
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 138
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f0ef60fe9b76900800000000000000
+      internalID: 677714705208184700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Icons_Icons_12
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 172
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1bb8bfee3f0af2d0800000000000000
+      internalID: -3244263818582770915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Icons_Icons_13
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 172
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f18fced69e4e0a00800000000000000
+      internalID: 724602999943430649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Icons_Icons_14
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 172
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2045153badce370800000000000000
+      internalID: 8353291872563888835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Icons_Icons_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5989b6a8c21fe570800000000000000
+      internalID: 8498031674871351646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Icons_Icons_16
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 416
+        width: 99
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eacfce63bc242c4f0800000000000000
+      internalID: -810011542405972818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Icons_Icons_17
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 405
+        width: 99
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf80d2b859e37f5d0800000000000000
+      internalID: -3028883412377335557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Icons_Icons_18
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 272
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee71c756a453bb360800000000000000
+      internalID: 7186396224046241774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Icons_Icons_19
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 272
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9a62b5f7012c990800000000000000
+      internalID: -7367307901248558629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Icons_Icons_20
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 272
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef688a0775672abb0800000000000000
+      internalID: -4926244924465576194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Icons_Icons_21
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 430
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1699c559a491f3ee0800000000000000
+      internalID: -1279275961025783455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Items_Items_01
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e875110aa9d40b0800000000000000
+      internalID: -5742763937551118848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Items_Items_02
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 150
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a119969f8f5939760800000000000000
+      internalID: 7463473904051917082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Items_Items_03
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 152
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 562ef57bd70e28870800000000000000
+      internalID: 8683749862075785829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Items_Items_04
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac2e268dd4f722b0800000000000000
+      internalID: -5609245578590540632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Items_Items_05
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 935348b7f0b4ce290800000000000000
+      internalID: -7859824719799503559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Items_Items_06
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c23538257c45d350800000000000000
+      internalID: 6040818541256848072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Items_Items_07
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12ecc56907e4fe9c0800000000000000
+      internalID: -3895808907186221535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Items_Items_08
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c6d667d09494f90800000000000000
+      internalID: -6968958626208846707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Items_Items_09
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d8094ea4cf884390800000000000000
+      internalID: -7833853476910593839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Items_Items_10
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2775f152ce2c259e0800000000000000
+      internalID: -1634029395291187342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Items_Items_11
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 072856bb1c55f5710800000000000000
+      internalID: 1684159076220895856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Items_Items_12
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b0b8098b6451510800000000000000
+      internalID: 1519198207820368674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Items_Items_13
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53f5780f560d6310800000000000000
+      internalID: 1399782064415699802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Items_Items_14
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d54a19f602c31800800000000000000
+      internalID: 582022112065766867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Items_Items_15
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 280
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be1bedec61975010800000000000000
+      internalID: 1177569724614778552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Items_Items_16
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 278
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8661b11e2d1a7210800000000000000
+      internalID: 1331408723543942794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Items_Items_17
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 279
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581952d5ee79c5580800000000000000
+      internalID: -8837021318787001979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Items_Items_18
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 280
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55af6b35626dd7ef0800000000000000
+      internalID: -108695355885421995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Items_Items_19
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 225
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f0ce21519404d00800000000000000
+      internalID: 954843475863146310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Items_Items_20
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 278
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c187bd26cdd75c0800000000000000
+      internalID: -4215971359001928631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Items_Items_21
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 279
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fab762f3a5a6e7520800000000000000
+      internalID: 2701713762307963823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Items_Items_22
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 280
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08cb5ea0219852a20800000000000000
+      internalID: 3036984234316512384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Items_Items_23
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 278
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a2b46814685a6bd0800000000000000
+      internalID: -2636197444942777691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Items_Items_24
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 278
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 427d55e3fa56c1900800000000000000
+      internalID: 656511449028744996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Items_Items_25
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 280
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c555d16dbc6d1a50800000000000000
+      internalID: 6493465798384113092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Items_Items_26
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 278
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7011da63a5cb14630800000000000000
+      internalID: 3909613047184691463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_Hearts_01
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 369
+        width: 141
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d55e615514dc68c60800000000000000
+      internalID: 7820163483459577181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_Hearts_02
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 369
+        width: 141
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad3dddbe877042340800000000000000
+      internalID: 4838000115637408730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_MiddleHeart_Empty_Empty_01
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 168
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 522760523065bedb0800000000000000
+      internalID: -4761617609508097499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_MiddleHeart_Empty_Empty_02
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 168
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d165d5b7bf81bc20800000000000000
+      internalID: 3220513227739062741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_MiddleHeart_idle_idle_01
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 168
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4bb19230f284e00800000000000000
+      internalID: 1029124205475247296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_MiddleHeart_Recover_Recover_01
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 168
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da54215157eff8d70800000000000000
+      internalID: 9047729955228763565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_MiddleHeart_Recover_Recover_02
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 168
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831a5710018052fb0800000000000000
+      internalID: -4673320173490036424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_MiddleHeart_Recover_Recover_03
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 168
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79f606daabe41a20800000000000000
+      internalID: 3032307568094935418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_MiddleHeart_Recover_Recover_04
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 168
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9bfa9014940c000800000000000000
+      internalID: 54123739212659183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_MiddleHeart_Recover_Recover_05
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 168
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c5e933a5fa14400800000000000000
+      internalID: 306719051585838100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_MiddleHeart_Recover_Recover_06
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 168
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f16058ddc48d10ef0800000000000000
+      internalID: -143595888453548513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_MiddleHeart_Shine_Shine_01
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 168
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0472057b6ce874b0800000000000000
+      internalID: -5442340203408493556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_MiddleHeart_Shine_Shine_02
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 168
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac5879cf22b2275a0800000000000000
+      internalID: -6525105480839756342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_MiddleHeart_Shine_Shine_03
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 168
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d6b79d51be08e6a0800000000000000
+      internalID: -6419865113874417962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_MiddleHeart_Shine_Shine_04
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 168
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f49aac42b6ae4450800000000000000
+      internalID: 6074976232090014967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_MiddleHeart_Shine_Shine_05
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 168
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6691665db635fa90800000000000000
+      internalID: -7280853035748583826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_MiddleHeart_Shine_Shine_06
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 168
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4315c445e52a37750800000000000000
+      internalID: 6301558829646369076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_Small_Red_Empty_Empty_01
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 136
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5f95ddea6f87c20800000000000000
+      internalID: 3204582365772510643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_Small_Red_Empty_Empty_02
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 136
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ff94dcf38e472d40800000000000000
+      internalID: 5559498593801641977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_Small_Red_idle_idle_01
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 136
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da90d1617beeab4c0800000000000000
+      internalID: -4270838826490066515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_Small_Red_Recover_Recover_01
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 136
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d784cedec624bc860800000000000000
+      internalID: 7551202235832354941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_Small_Red_Recover_Recover_02
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 136
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ccd4c774b847ad0800000000000000
+      internalID: -2705384336998413201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_Small_Red_Recover_Recover_03
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 136
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819ed9a7b4d1a66d0800000000000000
+      internalID: -2996550392044721896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_Small_Red_Recover_Recover_04
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 136
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4c063270f7ce940800000000000000
+      internalID: 5326772127907497170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_Small_Red_Recover_Recover_05
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 136
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f9752e35f15f2fb0800000000000000
+      internalID: -4670424174808434186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_Small_Red_Recover_Recover_06
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 136
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d8fb41feb482e60800000000000000
+      internalID: 7937677833457864006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_Small_Red_Shine_Shine_01
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 136
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 631f24c53db30d3e0800000000000000
+      internalID: -2031057652972064458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_Small_Red_Shine_Shine_02
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 136
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599d8b17c3c8bc3d0800000000000000
+      internalID: -3185298120200627819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_Small_Red_Shine_Shine_03
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 136
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ca64ee27d26eb150800000000000000
+      internalID: 5890254038991399621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_Small_Red_Shine_Shine_04
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 136
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05c8450622079a0b0800000000000000
+      internalID: -5716914959022781360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_Small_Red_Shine_Shine_05
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 136
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c7e85d70e7d4ac0800000000000000
+      internalID: -3869297932728632319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_Small_Red_Shine_Shine_06
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 136
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 968cd3729f24aa1b0800000000000000
+      internalID: -5644625545082845079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_Small_Yellow_Empty_Empty_01
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 136
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac1dfa39e16a204b0800000000000000
+      internalID: -5475631546672098870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_Small_Yellow_Empty_Empty_02
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 136
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a418ec77b556ef320800000000000000
+      internalID: 2593621878938435914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_Small_Yellow_idle_idle_01
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 136
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1e37d509f9ab430800000000000000
+      internalID: 3799524678032417230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_Small_Yellow_Recover_Recover_01
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 136
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 131dae97e3e30c530800000000000000
+      internalID: 3873164117592953137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_Small_Yellow_Recover_Recover_02
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 136
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c66650d7e888a910800000000000000
+      internalID: 1848878176249734857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_Small_Yellow_Recover_Recover_03
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 136
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e967d0b837990a8f0800000000000000
+      internalID: -531256034496514402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_Small_Yellow_Recover_Recover_04
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 136
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc450c39ce823ed10800000000000000
+      internalID: 2153610043369477325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_Small_Yellow_Recover_Recover_05
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 136
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568f6e840e77a3b20800000000000000
+      internalID: 3114933897459595365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_Small_Yellow_Recover_Recover_06
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 136
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efef7c897152525f0800000000000000
+      internalID: -782178177001193730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_Small_Yellow_Shine_Shine_01
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 136
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c33ec0d6717f9cf70800000000000000
+      internalID: 9208162593121559356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_Small_Yellow_Shine_Shine_02
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 136
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2d7082de6b4cb040800000000000000
+      internalID: 4664686253399113003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_Small_Yellow_Shine_Shine_03
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 136
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9546bf5f65433fa0800000000000000
+      internalID: -5822233548610452066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_Small_Yellow_Shine_Shine_04
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 136
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22562335ae2d79d70800000000000000
+      internalID: 9049933880084292898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_Small_Yellow_Shine_Shine_05
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 136
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e7d87f8c2404950800000000000000
+      internalID: 6431213698799206022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_Hearts_Small_Yellow_Shine_Shine_06
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 136
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ebcb535d17e125a0800000000000000
+      internalID: -6547698270081397791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_ProgressBars_01
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 198
+        width: 48
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9de97c7ef6f9f630800000000000000
+      internalID: 3961468920119553438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_ProgressBars_02
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 168
+        width: 44
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f15e63ddb2bf05c20800000000000000
+      internalID: 3193328301619209503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_ProgressBars_03
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 198
+        width: 48
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce03dfe49e2e849a0800000000000000
+      internalID: -6248494991296089876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_ProgressBars_04
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 198
+        width: 48
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c9f0b9fd46b8a90800000000000000
+      internalID: -7310638658563892066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_ProgressBars_05
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 168
+        width: 44
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3ea8fc25ad00760800000000000000
+      internalID: 7422172235110736837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_ProgressBars_06
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 168
+        width: 48
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8809597fdc31720800000000000000
+      internalID: 2815820655286585543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_ProgressBars_07
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 168
+        width: 48
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de8dc569b8a2b4d50800000000000000
+      internalID: 6722513647792085229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_ProgressBars_08
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 168
+        width: 44
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef8418fa4264e860800000000000000
+      internalID: 7558274148763733988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_ProgressBars_09
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 168
+        width: 48
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854a37134688b5fe0800000000000000
+      internalID: -1199214911856335784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_ProgressBars_10
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 153
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4c3fd4a099d1870800000000000000
+      internalID: 8655242328412505252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_ProgressBars_11
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 153
+        width: 42
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0cc7d16065ea3320800000000000000
+      internalID: 2538593542097849355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_ProgressBars_12
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 153
+        width: 35
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0212482e94572c9f0800000000000000
+      internalID: -449668052590255840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_ProgressBars_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 135
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d5d708f370a85e0800000000000000
+      internalID: -1906703522917950099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_ProgressBars_14
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 153
+        width: 42
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3a7665a9194bdc0800000000000000
+      internalID: -3624111708065782855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_ProgressBars_15
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 153
+        width: 35
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b41cbf61083a9070800000000000000
+      internalID: 8113859257482089651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_ProgressBars_16
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 135
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6836ffb0fca8cc190800000000000000
+      internalID: -7940819421096877178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_ProgressBars_17
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 153
+        width: 42
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d693420ebfcc45a40800000000000000
+      internalID: 5356131239019690349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_ProgressBars_ProgressBars_18
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 153
+        width: 35
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d377738dab30260800000000000000
+      internalID: 7062694078453333323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Sidetabs_Sidetabs_01
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 190
+        width: 7
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eb49bed714ad3e30800000000000000
+      internalID: 4484921226358770658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Sidetabs_Sidetabs_02
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 196
+        width: 45
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e5c202717f4ec20800000000000000
+      internalID: 3234982111054945801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Sidetabs_Sidetabs_03
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 190
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0badaae92a040f2b0800000000000000
+      internalID: -5552867273356944720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Sidetabs_Sidetabs_04
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 190
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06edf99b1bad98770800000000000000
+      internalID: 8613656219181112928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Sidetabs_Sidetabs_05
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 190
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b017f8e167f464460800000000000000
+      internalID: 7225550020899991819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Sidetabs_Sidetabs_06
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 170
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3762736a74e6230800000000000000
+      internalID: 3633920728549979052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Sidetabs_Sidetabs_07
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 170
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101d471de49b6a0f0800000000000000
+      internalID: -1105992910300196607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Sidetabs_Sidetabs_08
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 169
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764712cc0d736b640800000000000000
+      internalID: 5095321398333764711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Sidetabs_Sidetabs_09
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 169
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c065d69d1c4278e70800000000000000
+      internalID: 9117296385629967884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Sidetabs_Sidetabs_10
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 170
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c89fda3942459b0800000000000000
+      internalID: -5092405061951583217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Sidetabs_Sidetabs_11
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 170
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c887eb1f08a9d840800000000000000
+      internalID: 5249411623523158209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Sidetabs_Sidetabs_12
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 152
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea74a4047d5a1ded0800000000000000
+      internalID: -2390947583241861202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Signs_Signs_00
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a8f60e4038ed3c0800000000000000
+      internalID: -4332881734515324319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Signs_Signs_01
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced677a77f7495260800000000000000
+      internalID: 7086774616881327596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Signs_Signs_02
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b9f65d4ac4cc730800000000000000
+      internalID: 4020672838174219135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Signs_Signs_03
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acbf4ff8c652da200800000000000000
+      internalID: 192851507248692170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Signs_Signs_04
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d247ecc032e14230800000000000000
+      internalID: 3621424274606605012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Signs_Signs_05
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5918d5bdb488a7a20800000000000000
+      internalID: 3060908756135936405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_Signs_Signs_06
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ad5544728b349d0800000000000000
+      internalID: -2791184865249863041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_TreasureChest_TreasureChest_01
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 233
+        width: 77
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d275fe8db8b680dd0800000000000000
+      internalID: -2519645743129602259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_TreasureChest_TreasureChest_02
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 190
+        width: 77
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d242e7c946146a890800000000000000
+      internalID: -7447193033432488915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_TreasureChest_TreasureChest_03
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 221
+        width: 77
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef608916631c91890800000000000000
+      internalID: -7486740466216990978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_TreasureChest_TreasureChest_04
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 221
+        width: 77
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ebae90f0fe783a0800000000000000
+      internalID: -6663094275801432518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBIcon_TreasureChest_TreasureChest_05
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 221
+        width: 77
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db714d3bd9e37340800000000000000
+      internalID: 4860485550697708504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PBIcon_Buttons_Buttons_01: -7810764474361407308
+      PBIcon_Buttons_Buttons_02: -7238995863910670624
+      PBIcon_Buttons_Buttons_03: 3611087584469927334
+      PBIcon_Buttons_Buttons_04: -7244327109031755788
+      PBIcon_Buttons_Buttons_05: 3752537122646481521
+      PBIcon_Buttons_Buttons_06: -7856780445770955368
+      PBIcon_Buttons_Buttons_07: 6299403221987765790
+      PBIcon_Buttons_Buttons_08: -5342769756017422895
+      PBIcon_Buttons_Buttons_09: 1877953846479853980
+      PBIcon_Buttons_Buttons_10: -2677112609192477383
+      PBIcon_Buttons_Buttons_11: 1291195932868360866
+      PBIcon_Buttons_Buttons_12: 5216060906749233584
+      PBIcon_DayAndNightCycle_DayAndNightCycle_01: 6810838619732221366
+      PBIcon_DayAndNightCycle_DayAndNightCycle_02: 5658729214369480549
+      PBIcon_DayAndNightCycle_DayAndNightCycle_03: -584648920362495588
+      PBIcon_DayAndNightCycle_DayAndNightCycle_04: -5758399972554624630
+      PBIcon_DayAndNightCycle_DayAndNightCycle_05: 2438042487159492646
+      PBIcon_DayAndNightCycle_DayAndNightCycle_06: -139021279519029968
+      PBIcon_DayAndNightCycle_DayAndNightCycle_07: 6351465044287140864
+      PBIcon_DayAndNightCycle_DayAndNightCycle_08: -7219978852675070291
+      PBIcon_DayAndNightCycle_DayAndNightCycle_09: -8850995581084274655
+      PBIcon_DayAndNightCycle_DayAndNightCycle_10: 5043422952499365161
+      PBIcon_DayAndNightCycle_DayAndNightCycle_11: -4059000606490542898
+      PBIcon_DayAndNightCycle_DayAndNightCycle_12: -8910387165899918237
+      PBIcon_DayAndNightCycle_DayAndNightCycle_13: -7006736014340558400
+      PBIcon_DayAndNightCycle_DayAndNightCycle_14: -9105381644077383952
+      PBIcon_DayAndNightCycle_DayAndNightCycle_15: 2654761255244741324
+      PBIcon_DayAndNightCycle_DayAndNightCycle_16: -7624756227980231209
+      PBIcon_DustBin_DustBin_01: -1679313435724368019
+      PBIcon_DustBin_DustBin_02: 1923099512264903230
+      PBIcon_DustBin_DustBin_03: 4672196843810278986
+      PBIcon_DustBin_DustBin_04: -5166803689465977202
+      PBIcon_DustBin_DustBin_05: 1134859673662568633
+      PBIcon_DustBin_DustBin_06: 7729235273359484178
+      PBIcon_Equipment_Equipment_01: -2881284514143743962
+      PBIcon_Equipment_Equipment_02: -868344737149941547
+      PBIcon_Equipment_Equipment_03: 2660852974651541154
+      PBIcon_Equipment_Equipment_04: -393131197669896458
+      PBIcon_Equipment_Equipment_05: 561692254733044425
+      PBIcon_Equipment_Equipment_06: 2589328943218442468
+      PBIcon_Equipment_Equipment_07: -8466619393042039029
+      PBIcon_Equipment_Equipment_08: -8085340820864579874
+      PBIcon_Equipment_Equipment_09: 105231789782227272
+      PBIcon_Equipment_Equipment_10: 1618044515208379487
+      PBIcon_Equipment_Equipment_11: 2518567083695573083
+      PBIcon_Equipment_Equipment_12: -6752014910598444885
+      PBIcon_Equipment_Equipment_13: 5541384138110418656
+      PBIcon_Equipment_Equipment_14: -765869382385560536
+      PBIcon_Equipment_Equipment_15: -4906325219485823812
+      PBIcon_Equipment_Equipment_16: -3125386406617865367
+      PBIcon_Equipment_Equipment_17: -806978516733792516
+      PBIcon_Equipment_Equipment_18: -6535642781061476752
+      PBIcon_Highlighter_Highlighter_01: 6475909663989612006
+      PBIcon_Highlighter_Highlighter_02: -4031668645646731889
+      PBIcon_Highlighter_Highlighter_03: -7818391754560517894
+      PBIcon_Highlighter_Highlighter_04: 6082995399171454934
+      PBIcon_Highlighter_Highlighter_05: -8218162328732281829
+      PBIcon_Holders_Holders_01: 1509801803789730476
+      PBIcon_Holders_Holders_02: -5718364924182061588
+      PBIcon_Holders_Holders_03: 4811841006870879188
+      PBIcon_Holders_Holders_04: 1567665818308582669
+      PBIcon_Holders_Holders_05: -2908855669528802070
+      PBIcon_Holders_Holders_06: -4110060660327374438
+      PBIcon_Holders_Holders_07: -191074385787042253
+      PBIcon_Holders_Holders_08: 4168793398460844668
+      PBIcon_Holders_Holders_09: 718779431334646606
+      PBIcon_Holders_Holders_10: -3190814575820991242
+      PBIcon_Holders_Holders_11: -2453934986015096509
+      PBIcon_Holders_Holders_12: -7026314985379992640
+      PBIcon_Holders_Holders_13: 8130546833261972545
+      PBIcon_Holders_Holders_14: 3951940123573008438
+      PBIcon_Holders_Holders_15: 2405567503144539274
+      PBIcon_Holders_Holders_16: -4554161510600344569
+      PBIcon_Holders_Holders_17: -594010843311559427
+      PBIcon_Holders_Holders_18: 3320359908301367769
+      PBIcon_Holders_Holders_19: 5929168753217140007
+      PBIcon_Holders_Holders_20: -7167974648263688404
+      PBIcon_Holders_Holders_21: 8838027784082196850
+      PBIcon_Holders_Holders_22: -1794052782564860650
+      PBIcon_Holders_Holders_23: -5992921860867989459
+      PBIcon_Holders_Holders_24: -4016269518872110099
+      PBIcon_Holders_Holders_25: 8662040107657455852
+      PBIcon_Holders_Holders_26: 6815791446176821368
+      PBIcon_Holders_Holders_27: 9105643292103895314
+      PBIcon_Icons_Icons_01: 4922012552139816976
+      PBIcon_Icons_Icons_02: -7085429833303364915
+      PBIcon_Icons_Icons_03: -4576960827188866688
+      PBIcon_Icons_Icons_04: -2960694329810893386
+      PBIcon_Icons_Icons_05: -8045938925070546674
+      PBIcon_Icons_Icons_06: -5200820204324991835
+      PBIcon_Icons_Icons_07: -5717825718975851903
+      PBIcon_Icons_Icons_08: -3639342351869734903
+      PBIcon_Icons_Icons_09: 549554214962630538
+      PBIcon_Icons_Icons_10: 6380166776868409238
+      PBIcon_Icons_Icons_11: 677714705208184700
+      PBIcon_Icons_Icons_12: -3244263818582770915
+      PBIcon_Icons_Icons_13: 724602999943430649
+      PBIcon_Icons_Icons_14: 8353291872563888835
+      PBIcon_Icons_Icons_15: 8498031674871351646
+      PBIcon_Icons_Icons_16: -810011542405972818
+      PBIcon_Icons_Icons_17: -3028883412377335557
+      PBIcon_Icons_Icons_18: 7186396224046241774
+      PBIcon_Icons_Icons_19: -7367307901248558629
+      PBIcon_Icons_Icons_20: -4926244924465576194
+      PBIcon_Icons_Icons_21: -1279275961025783455
+      PBIcon_Items_Items_01: -5742763937551118848
+      PBIcon_Items_Items_02: 7463473904051917082
+      PBIcon_Items_Items_03: 8683749862075785829
+      PBIcon_Items_Items_04: -5609245578590540632
+      PBIcon_Items_Items_05: -7859824719799503559
+      PBIcon_Items_Items_06: 6040818541256848072
+      PBIcon_Items_Items_07: -3895808907186221535
+      PBIcon_Items_Items_08: -6968958626208846707
+      PBIcon_Items_Items_09: -7833853476910593839
+      PBIcon_Items_Items_10: -1634029395291187342
+      PBIcon_Items_Items_11: 1684159076220895856
+      PBIcon_Items_Items_12: 1519198207820368674
+      PBIcon_Items_Items_13: 1399782064415699802
+      PBIcon_Items_Items_14: 582022112065766867
+      PBIcon_Items_Items_15: 1177569724614778552
+      PBIcon_Items_Items_16: 1331408723543942794
+      PBIcon_Items_Items_17: -8837021318787001979
+      PBIcon_Items_Items_18: -108695355885421995
+      PBIcon_Items_Items_19: 954843475863146310
+      PBIcon_Items_Items_20: -4215971359001928631
+      PBIcon_Items_Items_21: 2701713762307963823
+      PBIcon_Items_Items_22: 3036984234316512384
+      PBIcon_Items_Items_23: -2636197444942777691
+      PBIcon_Items_Items_24: 656511449028744996
+      PBIcon_Items_Items_25: 6493465798384113092
+      PBIcon_Items_Items_26: 3909613047184691463
+      PBIcon_ProgressBars_Hearts_Hearts_01: 7820163483459577181
+      PBIcon_ProgressBars_Hearts_Hearts_02: 4838000115637408730
+      PBIcon_ProgressBars_Hearts_MiddleHeart_Empty_Empty_01: -4761617609508097499
+      PBIcon_ProgressBars_Hearts_MiddleHeart_Empty_Empty_02: 3220513227739062741
+      PBIcon_ProgressBars_Hearts_MiddleHeart_Recover_Recover_01: 9047729955228763565
+      PBIcon_ProgressBars_Hearts_MiddleHeart_Recover_Recover_02: -4673320173490036424
+      PBIcon_ProgressBars_Hearts_MiddleHeart_Recover_Recover_03: 3032307568094935418
+      PBIcon_ProgressBars_Hearts_MiddleHeart_Recover_Recover_04: 54123739212659183
+      PBIcon_ProgressBars_Hearts_MiddleHeart_Recover_Recover_05: 306719051585838100
+      PBIcon_ProgressBars_Hearts_MiddleHeart_Recover_Recover_06: -143595888453548513
+      PBIcon_ProgressBars_Hearts_MiddleHeart_Shine_Shine_01: -5442340203408493556
+      PBIcon_ProgressBars_Hearts_MiddleHeart_Shine_Shine_02: -6525105480839756342
+      PBIcon_ProgressBars_Hearts_MiddleHeart_Shine_Shine_03: -6419865113874417962
+      PBIcon_ProgressBars_Hearts_MiddleHeart_Shine_Shine_04: 6074976232090014967
+      PBIcon_ProgressBars_Hearts_MiddleHeart_Shine_Shine_05: -7280853035748583826
+      PBIcon_ProgressBars_Hearts_MiddleHeart_Shine_Shine_06: 6301558829646369076
+      PBIcon_ProgressBars_Hearts_MiddleHeart_idle_idle_01: 1029124205475247296
+      PBIcon_ProgressBars_Hearts_Small_Red_Empty_Empty_01: 3204582365772510643
+      PBIcon_ProgressBars_Hearts_Small_Red_Empty_Empty_02: 5559498593801641977
+      PBIcon_ProgressBars_Hearts_Small_Red_Recover_Recover_01: 7551202235832354941
+      PBIcon_ProgressBars_Hearts_Small_Red_Recover_Recover_02: -2705384336998413201
+      PBIcon_ProgressBars_Hearts_Small_Red_Recover_Recover_03: -2996550392044721896
+      PBIcon_ProgressBars_Hearts_Small_Red_Recover_Recover_04: 5326772127907497170
+      PBIcon_ProgressBars_Hearts_Small_Red_Recover_Recover_05: -4670424174808434186
+      PBIcon_ProgressBars_Hearts_Small_Red_Recover_Recover_06: 7937677833457864006
+      PBIcon_ProgressBars_Hearts_Small_Red_Shine_Shine_01: -2031057652972064458
+      PBIcon_ProgressBars_Hearts_Small_Red_Shine_Shine_02: -3185298120200627819
+      PBIcon_ProgressBars_Hearts_Small_Red_Shine_Shine_03: 5890254038991399621
+      PBIcon_ProgressBars_Hearts_Small_Red_Shine_Shine_04: -5716914959022781360
+      PBIcon_ProgressBars_Hearts_Small_Red_Shine_Shine_05: -3869297932728632319
+      PBIcon_ProgressBars_Hearts_Small_Red_Shine_Shine_06: -5644625545082845079
+      PBIcon_ProgressBars_Hearts_Small_Red_idle_idle_01: -4270838826490066515
+      PBIcon_ProgressBars_Hearts_Small_Yellow_Empty_Empty_01: -5475631546672098870
+      PBIcon_ProgressBars_Hearts_Small_Yellow_Empty_Empty_02: 2593621878938435914
+      PBIcon_ProgressBars_Hearts_Small_Yellow_Recover_Recover_01: 3873164117592953137
+      PBIcon_ProgressBars_Hearts_Small_Yellow_Recover_Recover_02: 1848878176249734857
+      PBIcon_ProgressBars_Hearts_Small_Yellow_Recover_Recover_03: -531256034496514402
+      PBIcon_ProgressBars_Hearts_Small_Yellow_Recover_Recover_04: 2153610043369477325
+      PBIcon_ProgressBars_Hearts_Small_Yellow_Recover_Recover_05: 3114933897459595365
+      PBIcon_ProgressBars_Hearts_Small_Yellow_Recover_Recover_06: -782178177001193730
+      PBIcon_ProgressBars_Hearts_Small_Yellow_Shine_Shine_01: 9208162593121559356
+      PBIcon_ProgressBars_Hearts_Small_Yellow_Shine_Shine_02: 4664686253399113003
+      PBIcon_ProgressBars_Hearts_Small_Yellow_Shine_Shine_03: -5822233548610452066
+      PBIcon_ProgressBars_Hearts_Small_Yellow_Shine_Shine_04: 9049933880084292898
+      PBIcon_ProgressBars_Hearts_Small_Yellow_Shine_Shine_05: 6431213698799206022
+      PBIcon_ProgressBars_Hearts_Small_Yellow_Shine_Shine_06: -6547698270081397791
+      PBIcon_ProgressBars_Hearts_Small_Yellow_idle_idle_01: 3799524678032417230
+      PBIcon_ProgressBars_ProgressBars_01: 3961468920119553438
+      PBIcon_ProgressBars_ProgressBars_02: 3193328301619209503
+      PBIcon_ProgressBars_ProgressBars_03: -6248494991296089876
+      PBIcon_ProgressBars_ProgressBars_04: -7310638658563892066
+      PBIcon_ProgressBars_ProgressBars_05: 7422172235110736837
+      PBIcon_ProgressBars_ProgressBars_06: 2815820655286585543
+      PBIcon_ProgressBars_ProgressBars_07: 6722513647792085229
+      PBIcon_ProgressBars_ProgressBars_08: 7558274148763733988
+      PBIcon_ProgressBars_ProgressBars_09: -1199214911856335784
+      PBIcon_ProgressBars_ProgressBars_10: 8655242328412505252
+      PBIcon_ProgressBars_ProgressBars_11: 2538593542097849355
+      PBIcon_ProgressBars_ProgressBars_12: -449668052590255840
+      PBIcon_ProgressBars_ProgressBars_13: -1906703522917950099
+      PBIcon_ProgressBars_ProgressBars_14: -3624111708065782855
+      PBIcon_ProgressBars_ProgressBars_15: 8113859257482089651
+      PBIcon_ProgressBars_ProgressBars_16: -7940819421096877178
+      PBIcon_ProgressBars_ProgressBars_17: 5356131239019690349
+      PBIcon_ProgressBars_ProgressBars_18: 7062694078453333323
+      PBIcon_Sidetabs_Sidetabs_01: 4484921226358770658
+      PBIcon_Sidetabs_Sidetabs_02: 3234982111054945801
+      PBIcon_Sidetabs_Sidetabs_03: -5552867273356944720
+      PBIcon_Sidetabs_Sidetabs_04: 8613656219181112928
+      PBIcon_Sidetabs_Sidetabs_05: 7225550020899991819
+      PBIcon_Sidetabs_Sidetabs_06: 3633920728549979052
+      PBIcon_Sidetabs_Sidetabs_07: -1105992910300196607
+      PBIcon_Sidetabs_Sidetabs_08: 5095321398333764711
+      PBIcon_Sidetabs_Sidetabs_09: 9117296385629967884
+      PBIcon_Sidetabs_Sidetabs_10: -5092405061951583217
+      PBIcon_Sidetabs_Sidetabs_11: 5249411623523158209
+      PBIcon_Sidetabs_Sidetabs_12: -2390947583241861202
+      PBIcon_Signs_Signs_00: -4332881734515324319
+      PBIcon_Signs_Signs_01: 7086774616881327596
+      PBIcon_Signs_Signs_02: 4020672838174219135
+      PBIcon_Signs_Signs_03: 192851507248692170
+      PBIcon_Signs_Signs_04: 3621424274606605012
+      PBIcon_Signs_Signs_05: 3060908756135936405
+      PBIcon_Signs_Signs_06: -2791184865249863041
+      PBIcon_TreasureChest_TreasureChest_01: -2519645743129602259
+      PBIcon_TreasureChest_TreasureChest_02: -7447193033432488915
+      PBIcon_TreasureChest_TreasureChest_03: -7486740466216990978
+      PBIcon_TreasureChest_TreasureChest_04: -6663094275801432518
+      PBIcon_TreasureChest_TreasureChest_05: 4860485550697708504
+      PaperBook_Icons_Atlas_0: -5936040322276833197
+      PaperBook_Icons_Atlas_1: 4411467527425901177
+      PaperBook_Icons_Atlas_10: 6360117145795475878
+      PaperBook_Icons_Atlas_100: 5862209469576924317
+      PaperBook_Icons_Atlas_101: 658476033088740702
+      PaperBook_Icons_Atlas_102: 4646568684976030303
+      PaperBook_Icons_Atlas_103: -823194360089761233
+      PaperBook_Icons_Atlas_104: 6878055005615594041
+      PaperBook_Icons_Atlas_105: -4872525727558797451
+      PaperBook_Icons_Atlas_106: -7883552395376756121
+      PaperBook_Icons_Atlas_107: 7563116354015710589
+      PaperBook_Icons_Atlas_108: 8647519648566452565
+      PaperBook_Icons_Atlas_109: 5379877982903118989
+      PaperBook_Icons_Atlas_11: 598105216044383560
+      PaperBook_Icons_Atlas_110: -2976394778098568688
+      PaperBook_Icons_Atlas_111: -2154285193798657617
+      PaperBook_Icons_Atlas_112: 2189602036112260770
+      PaperBook_Icons_Atlas_113: 2847595008069657580
+      PaperBook_Icons_Atlas_114: 5890611857836684493
+      PaperBook_Icons_Atlas_115: 8272482779749734072
+      PaperBook_Icons_Atlas_116: -7060106477061655579
+      PaperBook_Icons_Atlas_117: -5270959723263396163
+      PaperBook_Icons_Atlas_118: 8712705974966147696
+      PaperBook_Icons_Atlas_119: -453246673133023953
+      PaperBook_Icons_Atlas_12: 7695630066730604057
+      PaperBook_Icons_Atlas_120: 1891118071143831850
+      PaperBook_Icons_Atlas_121: -4774926777355852300
+      PaperBook_Icons_Atlas_122: -2779823376588430966
+      PaperBook_Icons_Atlas_123: -449824190314830326
+      PaperBook_Icons_Atlas_124: 4242837461059354680
+      PaperBook_Icons_Atlas_125: -9194893818345820202
+      PaperBook_Icons_Atlas_126: 2634618191180293010
+      PaperBook_Icons_Atlas_127: 1129318871564824439
+      PaperBook_Icons_Atlas_128: -6382642874235867065
+      PaperBook_Icons_Atlas_129: -2436367858522562046
+      PaperBook_Icons_Atlas_13: -7832920935343533104
+      PaperBook_Icons_Atlas_130: 2040768075935191118
+      PaperBook_Icons_Atlas_131: 5331273492727640333
+      PaperBook_Icons_Atlas_132: 6204613335213115880
+      PaperBook_Icons_Atlas_133: 9013570862125883020
+      PaperBook_Icons_Atlas_134: 5371548427281892652
+      PaperBook_Icons_Atlas_135: 113825745954122445
+      PaperBook_Icons_Atlas_136: -3641883075205499335
+      PaperBook_Icons_Atlas_137: -8633391237375879900
+      PaperBook_Icons_Atlas_138: 5722836785458837649
+      PaperBook_Icons_Atlas_139: -260873472785138300
+      PaperBook_Icons_Atlas_14: -5534381480697829320
+      PaperBook_Icons_Atlas_140: -470873008241051955
+      PaperBook_Icons_Atlas_141: 783422473337867900
+      PaperBook_Icons_Atlas_142: 5415973610354017716
+      PaperBook_Icons_Atlas_143: -4062098923095761192
+      PaperBook_Icons_Atlas_144: -3388591271416267581
+      PaperBook_Icons_Atlas_145: 347162416668658849
+      PaperBook_Icons_Atlas_146: -1413474619774017975
+      PaperBook_Icons_Atlas_147: -4929274910721090506
+      PaperBook_Icons_Atlas_148: 2358871882352163808
+      PaperBook_Icons_Atlas_149: 7581458835062545613
+      PaperBook_Icons_Atlas_15: 6631480370595256906
+      PaperBook_Icons_Atlas_150: -8146205482150229791
+      PaperBook_Icons_Atlas_151: 3573892620942362984
+      PaperBook_Icons_Atlas_152: -4130797250220806392
+      PaperBook_Icons_Atlas_153: -7778814171521824626
+      PaperBook_Icons_Atlas_154: 2205026245567169332
+      PaperBook_Icons_Atlas_155: 2781386503437195222
+      PaperBook_Icons_Atlas_156: 1722234945190871034
+      PaperBook_Icons_Atlas_157: -95479075542939762
+      PaperBook_Icons_Atlas_158: 6918470426279914881
+      PaperBook_Icons_Atlas_159: 6358320266359035470
+      PaperBook_Icons_Atlas_16: 8575030665730026867
+      PaperBook_Icons_Atlas_160: -4962866043479648445
+      PaperBook_Icons_Atlas_161: 6488898406999145736
+      PaperBook_Icons_Atlas_162: -1827051874953448707
+      PaperBook_Icons_Atlas_163: 7489119955079690514
+      PaperBook_Icons_Atlas_164: 2508887014990535076
+      PaperBook_Icons_Atlas_165: 315839257369952337
+      PaperBook_Icons_Atlas_166: -8583631629191774934
+      PaperBook_Icons_Atlas_167: 8482925290792264327
+      PaperBook_Icons_Atlas_168: 1202078907764653437
+      PaperBook_Icons_Atlas_169: 517408264712812779
+      PaperBook_Icons_Atlas_17: -1633671794955898451
+      PaperBook_Icons_Atlas_170: -796492185656371244
+      PaperBook_Icons_Atlas_171: -1878284943597144251
+      PaperBook_Icons_Atlas_172: -7290251734814461672
+      PaperBook_Icons_Atlas_173: -1466837717465089281
+      PaperBook_Icons_Atlas_174: 1728972810696265220
+      PaperBook_Icons_Atlas_175: 9048754014603074184
+      PaperBook_Icons_Atlas_176: 8536244448618412620
+      PaperBook_Icons_Atlas_177: -8240286757017546698
+      PaperBook_Icons_Atlas_178: 4224597840492234533
+      PaperBook_Icons_Atlas_179: -7378710191668073857
+      PaperBook_Icons_Atlas_18: -8540170947480706655
+      PaperBook_Icons_Atlas_180: -7251661526988167819
+      PaperBook_Icons_Atlas_181: 876708100983633728
+      PaperBook_Icons_Atlas_182: 7298738490371622388
+      PaperBook_Icons_Atlas_183: -8737048283155181958
+      PaperBook_Icons_Atlas_184: 4080137635261301384
+      PaperBook_Icons_Atlas_185: -314151773490507464
+      PaperBook_Icons_Atlas_186: -4715870442534184127
+      PaperBook_Icons_Atlas_187: 8863208768404905264
+      PaperBook_Icons_Atlas_188: 214161505330483262
+      PaperBook_Icons_Atlas_189: 8692006957118138473
+      PaperBook_Icons_Atlas_19: -1591010745707024647
+      PaperBook_Icons_Atlas_190: -4246204737141832131
+      PaperBook_Icons_Atlas_191: 675402137657802636
+      PaperBook_Icons_Atlas_192: 6814034452583266149
+      PaperBook_Icons_Atlas_193: -1038616212423862184
+      PaperBook_Icons_Atlas_194: -4554838722062110295
+      PaperBook_Icons_Atlas_195: -3461558963195541560
+      PaperBook_Icons_Atlas_196: 1658385815065194088
+      PaperBook_Icons_Atlas_197: 8577616807946633693
+      PaperBook_Icons_Atlas_198: 3486071516885700979
+      PaperBook_Icons_Atlas_199: 4823406419263956653
+      PaperBook_Icons_Atlas_2: -7633786953718757070
+      PaperBook_Icons_Atlas_20: 844811704387465219
+      PaperBook_Icons_Atlas_200: -7792518758992932321
+      PaperBook_Icons_Atlas_201: 7841984664239945648
+      PaperBook_Icons_Atlas_202: 8857913048985706306
+      PaperBook_Icons_Atlas_203: -6447320915989683650
+      PaperBook_Icons_Atlas_204: 7005931787275904071
+      PaperBook_Icons_Atlas_205: 3349901758190725164
+      PaperBook_Icons_Atlas_206: 1408815036857339352
+      PaperBook_Icons_Atlas_207: 4486627156878991355
+      PaperBook_Icons_Atlas_208: 452374103276229888
+      PaperBook_Icons_Atlas_209: -6313298065853837674
+      PaperBook_Icons_Atlas_21: -2708631663239047921
+      PaperBook_Icons_Atlas_210: 8862660286934675463
+      PaperBook_Icons_Atlas_211: -6420589644288079077
+      PaperBook_Icons_Atlas_212: -7524433640352084158
+      PaperBook_Icons_Atlas_213: 191300187965646736
+      PaperBook_Icons_Atlas_214: 603666390792954290
+      PaperBook_Icons_Atlas_215: -4715780055765937430
+      PaperBook_Icons_Atlas_216: 3203731173413742071
+      PaperBook_Icons_Atlas_217: 7100098752847819933
+      PaperBook_Icons_Atlas_218: -4318276883944410101
+      PaperBook_Icons_Atlas_219: 9220253213939494102
+      PaperBook_Icons_Atlas_22: -2123204841796303988
+      PaperBook_Icons_Atlas_220: -7356548773792162
+      PaperBook_Icons_Atlas_221: -5436486549853006285
+      PaperBook_Icons_Atlas_222: -5565293052349461038
+      PaperBook_Icons_Atlas_223: 29417867645952859
+      PaperBook_Icons_Atlas_224: 2153891995582691494
+      PaperBook_Icons_Atlas_225: -4433487335052792522
+      PaperBook_Icons_Atlas_226: -8384356751523759832
+      PaperBook_Icons_Atlas_227: -1430197940051179212
+      PaperBook_Icons_Atlas_228: -7004812048165163300
+      PaperBook_Icons_Atlas_229: -8048332352652312866
+      PaperBook_Icons_Atlas_23: -4193353897059649586
+      PaperBook_Icons_Atlas_230: 9176807603843350894
+      PaperBook_Icons_Atlas_231: 8497682242525677844
+      PaperBook_Icons_Atlas_232: 1885612355271516854
+      PaperBook_Icons_Atlas_233: 2405017072141674092
+      PaperBook_Icons_Atlas_234: 921782403619817771
+      PaperBook_Icons_Atlas_235: -6020749714183262679
+      PaperBook_Icons_Atlas_236: -4238278943218472140
+      PaperBook_Icons_Atlas_237: -5201186454764730733
+      PaperBook_Icons_Atlas_238: 3381284751990180932
+      PaperBook_Icons_Atlas_239: -2431606273628908878
+      PaperBook_Icons_Atlas_24: 5391838100461624283
+      PaperBook_Icons_Atlas_240: 3651171644112503374
+      PaperBook_Icons_Atlas_241: 2820629917814880832
+      PaperBook_Icons_Atlas_242: 746606702202083064
+      PaperBook_Icons_Atlas_243: 7453836693338702186
+      PaperBook_Icons_Atlas_244: 1737838533662581126
+      PaperBook_Icons_Atlas_245: 3859496101980482568
+      PaperBook_Icons_Atlas_246: 3157680163468385124
+      PaperBook_Icons_Atlas_247: 8305817706587450013
+      PaperBook_Icons_Atlas_248: 4176690822057347504
+      PaperBook_Icons_Atlas_249: 7201507804974201085
+      PaperBook_Icons_Atlas_25: -2679374530309611482
+      PaperBook_Icons_Atlas_250: 5580202495925880181
+      PaperBook_Icons_Atlas_251: -1626559851944423650
+      PaperBook_Icons_Atlas_252: 1297227216378606966
+      PaperBook_Icons_Atlas_253: -1296373343031528633
+      PaperBook_Icons_Atlas_254: -3504124165084588259
+      PaperBook_Icons_Atlas_255: -6359494500569139545
+      PaperBook_Icons_Atlas_256: 5634390426464865381
+      PaperBook_Icons_Atlas_257: -1354534824643483512
+      PaperBook_Icons_Atlas_258: 4437563193069715391
+      PaperBook_Icons_Atlas_259: 6153419599747025690
+      PaperBook_Icons_Atlas_26: 228332957776277104
+      PaperBook_Icons_Atlas_260: 2905274482406225980
+      PaperBook_Icons_Atlas_261: -7670792225536097464
+      PaperBook_Icons_Atlas_262: 6324553014367995073
+      PaperBook_Icons_Atlas_263: 8811075726866457152
+      PaperBook_Icons_Atlas_264: 3338218288428006543
+      PaperBook_Icons_Atlas_265: -6432984231933785182
+      PaperBook_Icons_Atlas_266: 1234027697651181345
+      PaperBook_Icons_Atlas_267: 1305617118097463873
+      PaperBook_Icons_Atlas_268: -4680291172359704444
+      PaperBook_Icons_Atlas_269: -3855997513799510154
+      PaperBook_Icons_Atlas_27: 7548596167659261287
+      PaperBook_Icons_Atlas_270: -2484714682551997599
+      PaperBook_Icons_Atlas_271: -3013685512246012351
+      PaperBook_Icons_Atlas_272: -3108153525306724812
+      PaperBook_Icons_Atlas_273: -2162796155853228329
+      PaperBook_Icons_Atlas_274: -5220852809453386449
+      PaperBook_Icons_Atlas_275: 5260228072899540448
+      PaperBook_Icons_Atlas_276: -3681003347534718372
+      PaperBook_Icons_Atlas_277: -8111367549087961650
+      PaperBook_Icons_Atlas_278: 2007704470314181475
+      PaperBook_Icons_Atlas_279: 8396669514762102045
+      PaperBook_Icons_Atlas_28: 3352645859773260634
+      PaperBook_Icons_Atlas_280: -7780461963601846823
+      PaperBook_Icons_Atlas_281: -2302836521766131831
+      PaperBook_Icons_Atlas_282: -1908438129979316655
+      PaperBook_Icons_Atlas_283: -2298812665117831964
+      PaperBook_Icons_Atlas_284: -4389649051973504939
+      PaperBook_Icons_Atlas_285: -9056125702171347704
+      PaperBook_Icons_Atlas_286: 8546164533939174758
+      PaperBook_Icons_Atlas_287: 5843821480464856089
+      PaperBook_Icons_Atlas_288: 431580891261204435
+      PaperBook_Icons_Atlas_289: -5797546773540958000
+      PaperBook_Icons_Atlas_29: 4320787999919397742
+      PaperBook_Icons_Atlas_290: 6555679575307846293
+      PaperBook_Icons_Atlas_291: 8457381838726070506
+      PaperBook_Icons_Atlas_3: -4053007453289024305
+      PaperBook_Icons_Atlas_30: 4451238865748177299
+      PaperBook_Icons_Atlas_31: -4385791960751303012
+      PaperBook_Icons_Atlas_32: 6317207365210431289
+      PaperBook_Icons_Atlas_33: -1300456814786481529
+      PaperBook_Icons_Atlas_34: -1309545217139061067
+      PaperBook_Icons_Atlas_35: -6048757030927416777
+      PaperBook_Icons_Atlas_36: 1187019939069657842
+      PaperBook_Icons_Atlas_37: -5030115991242683936
+      PaperBook_Icons_Atlas_38: -84117375043075471
+      PaperBook_Icons_Atlas_39: -4932030566301220851
+      PaperBook_Icons_Atlas_4: 5717483985584187378
+      PaperBook_Icons_Atlas_40: 4012601783805744647
+      PaperBook_Icons_Atlas_41: -4783830281948315490
+      PaperBook_Icons_Atlas_42: -1473548649187477052
+      PaperBook_Icons_Atlas_43: -5677806495838950334
+      PaperBook_Icons_Atlas_44: 6611663988927194440
+      PaperBook_Icons_Atlas_45: -7757944100835624144
+      PaperBook_Icons_Atlas_46: -3467315164683623889
+      PaperBook_Icons_Atlas_47: 8692079806337187256
+      PaperBook_Icons_Atlas_48: -6428290058145581939
+      PaperBook_Icons_Atlas_49: -3685260955189725864
+      PaperBook_Icons_Atlas_5: -2988219081452262632
+      PaperBook_Icons_Atlas_50: 2194561847130049114
+      PaperBook_Icons_Atlas_51: 3318976665800607658
+      PaperBook_Icons_Atlas_52: -8644627298681896955
+      PaperBook_Icons_Atlas_53: 8279420642332453777
+      PaperBook_Icons_Atlas_54: 6147380691571589214
+      PaperBook_Icons_Atlas_55: -8465944914535277560
+      PaperBook_Icons_Atlas_56: -3520490766861292548
+      PaperBook_Icons_Atlas_57: -3508998365665520038
+      PaperBook_Icons_Atlas_58: 4823230178350662626
+      PaperBook_Icons_Atlas_59: -5010301722276699258
+      PaperBook_Icons_Atlas_6: -3554224686501662856
+      PaperBook_Icons_Atlas_60: -2806086065467636994
+      PaperBook_Icons_Atlas_61: -2385176982436853322
+      PaperBook_Icons_Atlas_62: -5812785656442696875
+      PaperBook_Icons_Atlas_63: -1708049697353010925
+      PaperBook_Icons_Atlas_64: 1421638679163553295
+      PaperBook_Icons_Atlas_65: 3923384475460388239
+      PaperBook_Icons_Atlas_66: -5916265971986778698
+      PaperBook_Icons_Atlas_67: -4572498667461467142
+      PaperBook_Icons_Atlas_68: 1450335571738342252
+      PaperBook_Icons_Atlas_69: -6400372032739244473
+      PaperBook_Icons_Atlas_7: 6153703290230607777
+      PaperBook_Icons_Atlas_70: -426925570814440000
+      PaperBook_Icons_Atlas_71: -8824953927483431723
+      PaperBook_Icons_Atlas_72: -7801505844369667841
+      PaperBook_Icons_Atlas_73: -7864286420627056330
+      PaperBook_Icons_Atlas_74: 8261437076222849052
+      PaperBook_Icons_Atlas_75: 6269869322126737877
+      PaperBook_Icons_Atlas_76: 1052974806923740278
+      PaperBook_Icons_Atlas_77: 5971946905833968387
+      PaperBook_Icons_Atlas_78: -4763177892286290250
+      PaperBook_Icons_Atlas_79: -8661090731515053707
+      PaperBook_Icons_Atlas_8: 3262520878459565853
+      PaperBook_Icons_Atlas_80: 7956117957032196843
+      PaperBook_Icons_Atlas_81: -7077745142330463146
+      PaperBook_Icons_Atlas_82: 3030065810982285630
+      PaperBook_Icons_Atlas_83: 8094357255054605536
+      PaperBook_Icons_Atlas_84: -5425030098501614983
+      PaperBook_Icons_Atlas_85: -8309699597784644452
+      PaperBook_Icons_Atlas_86: 8833761128060357615
+      PaperBook_Icons_Atlas_87: 1910957630247840179
+      PaperBook_Icons_Atlas_88: -1080347314706807095
+      PaperBook_Icons_Atlas_89: 7110385745603623655
+      PaperBook_Icons_Atlas_9: -4015834291216275065
+      PaperBook_Icons_Atlas_90: -682426464832232112
+      PaperBook_Icons_Atlas_91: -4020492838620962837
+      PaperBook_Icons_Atlas_92: 1359134185045763766
+      PaperBook_Icons_Atlas_93: 1965893224159037468
+      PaperBook_Icons_Atlas_94: 2402140441721669948
+      PaperBook_Icons_Atlas_95: 7772073915940782789
+      PaperBook_Icons_Atlas_96: -4817049757538115376
+      PaperBook_Icons_Atlas_97: -5897952368325347533
+      PaperBook_Icons_Atlas_98: -770497781387574762
+      PaperBook_Icons_Atlas_99: 7205074528264325134
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

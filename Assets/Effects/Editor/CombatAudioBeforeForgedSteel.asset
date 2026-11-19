@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfc42fdd34a6cc744a634ad49e405052, type: 3}
+  m_Name: CombatAudioBeforeForgedSteel
+  m_EditorClassIdentifier: Assembly-CSharp::CombatAudioSettings
+  hits:
+  - {fileID: 8300000, guid: e691c879b8ddc9a45aac923585d3b1b4, type: 3}
+  - {fileID: 8300000, guid: 4fdc8f956d48bb342bcf97ea931e0f44, type: 3}
+  - {fileID: 8300000, guid: 12553409b6d303e49ae2ebbaaaefccc2, type: 3}
+  parry: {fileID: 8300000, guid: 112b28d5150b9044c9e7aca8428fc94f, type: 3}
+  dash: {fileID: 8300000, guid: 602572df716cdbb4bbbdbbd468324290, type: 3}
+  heal: {fileID: 8300000, guid: 8dcde60719b3ba846a1c7c4fe47620d7, type: 3}
+  cleanse: {fileID: 8300000, guid: 2c5a707825cf59845a72d388878f3d02, type: 3}
+  attackSwing: {fileID: 8300000, guid: bc13110b62e9a7348a265d857742cdf7, type: 3}
+  skill2Cast: {fileID: 8300000, guid: 9755f6a5adfe8f145beed76cfaf815b7, type: 3}
+  skill2Swing: {fileID: 8300000, guid: 990fdc085c55a78458cb387a2929a4f5, type: 3}
+  attackSwingVariations:
+  - {fileID: 8300000, guid: bc13110b62e9a7348a265d857742cdf7, type: 3}
+  - {fileID: 8300000, guid: 3a98e12bf11dc98479a111a1ac9f1db3, type: 3}
+  - {fileID: 8300000, guid: ca745a80e33108048ac4500f51f401c7, type: 3}
+  skill2SwingVariations:
+  - {fileID: 8300000, guid: 990fdc085c55a78458cb387a2929a4f5, type: 3}
+  - {fileID: 8300000, guid: 8246d636346dddc46bf708c6ad504f56, type: 3}
+  - {fileID: 8300000, guid: 80368df0bf04d304ca168075a14c4587, type: 3}
+  swingVolume: 0.45
+  skillVolume: 0.65
+  buffs:
+  - {fileID: 8300000, guid: fc70f24a06948e4438d3313ea5fd5fb0, type: 3}
+  - {fileID: 8300000, guid: 8852f945b26256041bd5dad9ff887e11, type: 3}
+  - {fileID: 8300000, guid: 69ebff2e484aac84ebd0a27077f8fd83, type: 3}
+  - {fileID: 8300000, guid: 854e003dc225433499eed3a841e5d573, type: 3}
+  - {fileID: 8300000, guid: 6144b24734ef0904b8993b09272e6c87, type: 3}
+  debuffs:
+  - {fileID: 8300000, guid: addc0eccd4a1a09428aa02caf667c97d, type: 3}
+  - {fileID: 8300000, guid: 5fbbd501ed9e30f42866c7128e81b60e, type: 3}
+  - {fileID: 8300000, guid: 6c9fac4dce5e16545871c6e093128026, type: 3}
+  volume: 0.55
+  hitVolume: 0.75
+  parryVolume: 0.85
+  dashVolume: 0.45
+  statusVolume: 0.5
+  audibleDistance: 25

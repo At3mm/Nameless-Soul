@@ -1,0 +1,110 @@
+@startuml
+skinparam backgroundColor white
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam classAttributeIconSize 0
+title Hình 5. Class Diagram — tương tác, hội thoại và nhiệm vụ
+class "World.PlayerInteractor" as interactor <<MonoBehaviour>> {
++Target: WorldInteractable
++CanInteract / IsInCombat
+--
++TryInteract()
++ShowNotice(text)
+}
+abstract class "World.WorldInteractable" as base <<abstract MonoBehaviour>> {
++interactionRadius: float
++interactionLabel: string
+--
++TryInteract(player)
+#Interact(player): bool {abstract}
+}
+class "World.NpcInteractable" as npc <<MonoBehaviour>> {
++dialogue: DialogueDefinition
++CurrentNodeId: string
+--
++Open(player)
++Choose(index)
+}
+class "World.NpcShop" as shop <<MonoBehaviour>> {
++Quantity: int
+--
++Open(...)
++Trade(action, quantity)
+}
+class "DialogueDefinition" as dialogue <<ScriptableObject>> {
++startNodeId: string
++nodes: List<Node>
+--
++Find(id): Node
+}
+class "DialogueDefinition.Node" as node <<Serializable>> {
++id / speaker / text: string
++nextNodeId: string
+}
+class "DialogueDefinition.Choice" as choice <<Serializable>> {
++action: DialogueAction
++quest: QuestDefinition
++conditionQuest: QuestDefinition
++requiredStatus: QuestStatus
+}
+class "QuestService" as qs <<static service>> {
++{static} Changed: event
+--
++{static} Accept(quest)
++{static} TurnIn(quest)
++{static} Status(quest)
++{static} OwnedItems()
+}
+class "QuestDefinition" as qd <<ScriptableObject>> {
++questId / title: string
++prerequisites: List<QuestDefinition>
++objectives / consumables / items
+}
+class "QuestDefinition.BossObjective" as objective <<Serializable>> {
++bossId / encounterId: string
++count: int
+}
+class "QuestDefinition.ItemReward" as reward <<Serializable>> {
++item: QuestItemDefinition
++count: int
+}
+class "QuestItemDefinition" as qi <<ScriptableObject>> {
++itemId / displayName: string
++icon: Sprite
+--
++{static} Find(id)
+}
+class "World.QuestBossEncounter" as gate <<MonoBehaviour>> {
++requiredQuest: QuestDefinition
++conversation: NpcInteractable
++CurrentStage: Stage
+--
++RefreshQuestState()
+}
+class "GameEconomy" as eco <<static service>> {
+--
++{static} TryGrantQuestReward(...)
++{static} BuyConsumable(...)
++{static} SellConsumable(...)
+}
+interactor --> "0..1" base : chọn đối tượng
+npc --|> base
+npc --> "0..1" dialogue : kịch bản
+dialogue *-- "0..*" node : nodes
+node *-- "0..*" choice : choices
+choice --> "0..1" qd : quest / điều kiện
+npc ..> qs : Accept / TryAutoTurnIn
+npc --> "0..1" shop : cửa hàng tùy chọn
+shop ..> eco : mua / bán
+qs ..> qd : đọc định nghĩa
+qs ..> eco : trả thưởng có receipt
+qd *-- "1..*" objective : objectives
+qd *-- "0..*" reward : items
+reward --> "1" qi : tham chiếu asset
+gate --> "1" qd : requiredQuest
+gate --> "0..1" npc : conversation
+gate ..> qs : nghe Changed
+legend bottom
+NpcInteractable là partial class: thuộc tính và lựa chọn hội thoại còn nằm trong NpcDialogueChoices.cs. Black Knight chỉ chuyển thành boss sau khi hoàn thành nhiệm vụ và chọn giao chiến ở cuối hội thoại.
+endlegend
+@enduml

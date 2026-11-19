@@ -1,0 +1,5777 @@
+{
+  "name": "UML",
+  "directed": true,
+  "strict": false,
+  "_draw_": [
+    {
+      "op": "c",
+      "grad": "none",
+      "color": "#fffffe00"
+    },
+    {
+      "op": "C",
+      "grad": "none",
+      "color": "#ffffff"
+    },
+    {
+      "op": "P",
+      "points": [
+        [
+          -20.16,
+          -20.16
+        ],
+        [
+          -20.16,
+          1033.36
+        ],
+        [
+          1171.93,
+          1033.36
+        ],
+        [
+          1171.93,
+          -20.16
+        ]
+      ]
+    }
+  ],
+  "_ldraw_": [
+    {
+      "op": "F",
+      "size": 19,
+      "face": "Arial"
+    },
+    {
+      "op": "c",
+      "grad": "none",
+      "color": "#000000"
+    },
+    {
+      "op": "T",
+      "pt": [
+        575.89,
+        992.1
+      ],
+      "align": "c",
+      "width": 512.12,
+      "text": "Hình 5. Class Diagram — tương tác, hội thoại và nhiệm vụ"
+    }
+  ],
+  "bb": "0,0,1151.8,1013.2",
+  "bgcolor": "white",
+  "fontname": "Arial",
+  "fontsize": "19",
+  "label": "Hình 5. Class Diagram — tương tác, hội thoại và nhiệm vụ",
+  "labelloc": "t",
+  "lheight": "0.32",
+  "lp": "575.89,997.8",
+  "lwidth": "7.11",
+  "nodesep": "0.45",
+  "ordering": "out",
+  "outputorder": "edgesfirst",
+  "pad": "0.28",
+  "rankdir": "TB",
+  "ranksep": "0.85",
+  "splines": "polyline",
+  "xdotversion": "1.7",
+  "_subgraph_cnt": 5,
+  "objects": [
+    {
+      "name": "%35",
+      "bgcolor": "white",
+      "fontname": "Arial",
+      "fontsize": "19",
+      "label": "Hình 5. Class Diagram — tương tác, hội thoại và nhiệm vụ",
+      "labelloc": "t",
+      "nodesep": "0.45",
+      "ordering": "out",
+      "outputorder": "edgesfirst",
+      "pad": "0.28",
+      "rank": "same",
+      "rankdir": "TB",
+      "ranksep": "0.85",
+      "splines": "polyline",
+      "_gvid": 0,
+      "nodes": [
+        5,
+        17
+      ]
+    },
+    {
+      "name": "%37",
+      "bgcolor": "white",
+      "fontname": "Arial",
+      "fontsize": "19",
+      "label": "Hình 5. Class Diagram — tương tác, hội thoại và nhiệm vụ",
+      "labelloc": "t",
+      "nodesep": "0.45",
+      "ordering": "out",
+      "outputorder": "edgesfirst",
+      "pad": "0.28",
+      "rank": "same",
+      "rankdir": "TB",
+      "ranksep": "0.85",
+      "splines": "polyline",
+      "_gvid": 1,
+      "nodes": [
+        6,
+        12
+      ]
+    },
+    {
+      "name": "%39",
+      "bgcolor": "white",
+      "fontname": "Arial",
+      "fontsize": "19",
+      "label": "Hình 5. Class Diagram — tương tác, hội thoại và nhiệm vụ",
+      "labelloc": "t",
+      "nodesep": "0.45",
+      "ordering": "out",
+      "outputorder": "edgesfirst",
+      "pad": "0.28",
+      "rank": "same",
+      "rankdir": "TB",
+      "ranksep": "0.85",
+      "splines": "polyline",
+      "_gvid": 2,
+      "nodes": [
+        7,
+        13
+      ]
+    },
+    {
+      "name": "%41",
+      "bgcolor": "white",
+      "fontname": "Arial",
+      "fontsize": "19",
+      "label": "Hình 5. Class Diagram — tương tác, hội thoại và nhiệm vụ",
+      "labelloc": "t",
+      "nodesep": "0.45",
+      "ordering": "out",
+      "outputorder": "edgesfirst",
+      "pad": "0.28",
+      "rank": "same",
+      "rankdir": "TB",
+      "ranksep": "0.85",
+      "splines": "polyline",
+      "_gvid": 3,
+      "nodes": [
+        8,
+        9,
+        14,
+        15
+      ]
+    },
+    {
+      "name": "%43",
+      "bgcolor": "white",
+      "fontname": "Arial",
+      "fontsize": "19",
+      "label": "Hình 5. Class Diagram — tương tác, hội thoại và nhiệm vụ",
+      "labelloc": "t",
+      "nodesep": "0.45",
+      "ordering": "out",
+      "outputorder": "edgesfirst",
+      "pad": "0.28",
+      "rank": "same",
+      "rankdir": "TB",
+      "ranksep": "0.85",
+      "splines": "polyline",
+      "_gvid": 4,
+      "nodes": [
+        10,
+        11,
+        16,
+        18
+      ]
+    },
+    {
+      "_gvid": 5,
+      "name": "interactor",
+      "_ldraw_": [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#fffffe00"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#eef2f5"
+        },
+        {
+          "op": "P",
+          "points": [
+            [
+              247.38,
+              940.4
+            ],
+            [
+              247.38,
+              982.4
+            ],
+            [
+              419.65,
+              982.4
+            ],
+            [
+              419.65,
+              940.4
+            ]
+          ]
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              247.38,
+              940.4
+            ],
+            [
+              247.38,
+              982.4
+            ],
+            [
+              419.65,
+              982.4
+            ],
+            [
+              419.65,
+              940.4
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 11,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            288.88,
+            964.5
+          ],
+          "align": "l",
+          "width": 89.27,
+          "text": "«MonoBehaviour»"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 1
+        },
+        {
+          "op": "T",
+          "pt": [
+            263.8,
+            951.7
+          ],
+          "align": "l",
+          "width": 139.43,
+          "text": "World.PlayerInteractor"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              247.38,
+              891.2
+            ],
+            [
+              247.38,
+              940.4
+            ],
+            [
+              419.65,
+              940.4
+            ],
+            [
+              419.65,
+              891.2
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 0
+        },
+        {
+          "op": "T",
+          "pt": [
+            256.38,
+            918.4
+          ],
+          "align": "l",
+          "width": 154.27,
+          "text": "+Target: WorldInteractable"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            256.38,
+            902.8
+          ],
+          "align": "l",
+          "width": 152.1,
+          "text": "+CanInteract / IsInCombat"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              247.38,
+              842
+            ],
+            [
+              247.38,
+              891.2
+            ],
+            [
+              419.65,
+              891.2
+            ],
+            [
+              419.65,
+              842
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            256.38,
+            869.2
+          ],
+          "align": "l",
+          "width": 78.37,
+          "text": "+TryInteract()"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            256.38,
+            853.6
+          ],
+          "align": "l",
+          "width": 106.57,
+          "text": "+ShowNotice(text)"
+        }
+      ],
+      "color": "#263442",
+      "fontname": "Arial",
+      "fontsize": "13",
+      "height": "1.95",
+      "label": "<TABLE BORDER=\"0\" CELLBORDER=\"1\" CELLSPACING=\"0\" CELLPADDING=\"8\"><TR><TD BGCOLOR=\"#eef2f5\"><FONT POINT-SIZE=\"11\">«MonoBehaviour»</FONT><BR/><B>World.PlayerInteractor</B></TD></TR><TR><TD ALIGN=\"LEFT\">+Target: WorldInteractable<BR ALIGN=\"LEFT\"/>+CanInteract / IsInCombat<BR ALIGN=\"LEFT\"/></TD></TR><TR><TD ALIGN=\"LEFT\">+TryInteract()<BR ALIGN=\"LEFT\"/>+ShowNotice(text)<BR ALIGN=\"LEFT\"/></TD></TR></TABLE>",
+      "pos": "333.51,912.2",
+      "shape": "plain",
+      "width": "2.3926"
+    },
+    {
+      "_gvid": 6,
+      "name": "base",
+      "_ldraw_": [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#fffffe00"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#eef2f5"
+        },
+        {
+          "op": "P",
+          "points": [
+            [
+              232.02,
+              718.2
+            ],
+            [
+              232.02,
+              760.2
+            ],
+            [
+              435.01,
+              760.2
+            ],
+            [
+              435.01,
+              718.2
+            ]
+          ]
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              232.02,
+              718.2
+            ],
+            [
+              232.02,
+              760.2
+            ],
+            [
+              435.01,
+              760.2
+            ],
+            [
+              435.01,
+              718.2
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 11,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            267.78,
+            742.3
+          ],
+          "align": "l",
+          "width": 131.46,
+          "text": "«abstract MonoBehaviour»"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 1
+        },
+        {
+          "op": "T",
+          "pt": [
+            258.4,
+            729.5
+          ],
+          "align": "l",
+          "width": 150.23,
+          "text": "World.WorldInteractable"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              232.02,
+              669
+            ],
+            [
+              232.02,
+              718.2
+            ],
+            [
+              435.01,
+              718.2
+            ],
+            [
+              435.01,
+              669
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 0
+        },
+        {
+          "op": "T",
+          "pt": [
+            241.02,
+            696.2
+          ],
+          "align": "l",
+          "width": 139.83,
+          "text": "+interactionRadius: float"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            241.02,
+            680.6
+          ],
+          "align": "l",
+          "width": 138.39,
+          "text": "+interactionLabel: string"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              232.02,
+              619.8
+            ],
+            [
+              232.02,
+              669
+            ],
+            [
+              435.01,
+              669
+            ],
+            [
+              435.01,
+              619.8
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            241.02,
+            647
+          ],
+          "align": "l",
+          "width": 113.78,
+          "text": "+TryInteract(player)"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            241.02,
+            631.4
+          ],
+          "align": "l",
+          "width": 184.99,
+          "text": "#Interact(player): bool {abstract}"
+        }
+      ],
+      "color": "#263442",
+      "fontname": "Arial",
+      "fontsize": "13",
+      "height": "1.95",
+      "label": "<TABLE BORDER=\"0\" CELLBORDER=\"1\" CELLSPACING=\"0\" CELLPADDING=\"8\"><TR><TD BGCOLOR=\"#eef2f5\"><FONT POINT-SIZE=\"11\">«abstract MonoBehaviour»</FONT><BR/><B>World.WorldInteractable</B></TD></TR><TR><TD ALIGN=\"LEFT\">+interactionRadius: float<BR ALIGN=\"LEFT\"/>+interactionLabel: string<BR ALIGN=\"LEFT\"/></TD></TR><TR><TD ALIGN=\"LEFT\">+TryInteract(player)<BR ALIGN=\"LEFT\"/>#Interact(player): bool {abstract}<BR ALIGN=\"LEFT\"/></TD></TR></TABLE>",
+      "pos": "333.51,690",
+      "shape": "plain",
+      "width": "2.8193"
+    },
+    {
+      "_gvid": 7,
+      "name": "npc",
+      "_ldraw_": [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#fffffe00"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#eef2f5"
+        },
+        {
+          "op": "P",
+          "points": [
+            [
+              239.77,
+              496
+            ],
+            [
+              239.77,
+              538
+            ],
+            [
+              427.25,
+              538
+            ],
+            [
+              427.25,
+              496
+            ]
+          ]
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              239.77,
+              496
+            ],
+            [
+              239.77,
+              538
+            ],
+            [
+              427.25,
+              538
+            ],
+            [
+              427.25,
+              496
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 11,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            288.88,
+            520.1
+          ],
+          "align": "l",
+          "width": 89.27,
+          "text": "«MonoBehaviour»"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 1
+        },
+        {
+          "op": "T",
+          "pt": [
+            264.53,
+            507.3
+          ],
+          "align": "l",
+          "width": 137.97,
+          "text": "World.NpcInteractable"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              239.77,
+              446.8
+            ],
+            [
+              239.77,
+              496
+            ],
+            [
+              427.25,
+              496
+            ],
+            [
+              427.25,
+              446.8
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 0
+        },
+        {
+          "op": "T",
+          "pt": [
+            248.77,
+            474
+          ],
+          "align": "l",
+          "width": 169.48,
+          "text": "+dialogue: DialogueDefinition"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            248.77,
+            458.4
+          ],
+          "align": "l",
+          "width": 131.87,
+          "text": "+CurrentNodeId: string"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              239.77,
+              397.6
+            ],
+            [
+              239.77,
+              446.8
+            ],
+            [
+              427.25,
+              446.8
+            ],
+            [
+              427.25,
+              397.6
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            248.77,
+            424.8
+          ],
+          "align": "l",
+          "width": 83.46,
+          "text": "+Open(player)"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            248.77,
+            409.2
+          ],
+          "align": "l",
+          "width": 92.14,
+          "text": "+Choose(index)"
+        }
+      ],
+      "color": "#263442",
+      "fontname": "Arial",
+      "fontsize": "13",
+      "height": "1.95",
+      "label": "<TABLE BORDER=\"0\" CELLBORDER=\"1\" CELLSPACING=\"0\" CELLPADDING=\"8\"><TR><TD BGCOLOR=\"#eef2f5\"><FONT POINT-SIZE=\"11\">«MonoBehaviour»</FONT><BR/><B>World.NpcInteractable</B></TD></TR><TR><TD ALIGN=\"LEFT\">+dialogue: DialogueDefinition<BR ALIGN=\"LEFT\"/>+CurrentNodeId: string<BR ALIGN=\"LEFT\"/></TD></TR><TR><TD ALIGN=\"LEFT\">+Open(player)<BR ALIGN=\"LEFT\"/>+Choose(index)<BR ALIGN=\"LEFT\"/></TD></TR></TABLE>",
+      "pos": "333.51,467.8",
+      "shape": "plain",
+      "width": "2.6039"
+    },
+    {
+      "_gvid": 8,
+      "name": "shop",
+      "_ldraw_": [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#fffffe00"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#eef2f5"
+        },
+        {
+          "op": "P",
+          "points": [
+            [
+              64.68,
+              281.6
+            ],
+            [
+              64.68,
+              323.6
+            ],
+            [
+              220.34,
+              323.6
+            ],
+            [
+              220.34,
+              281.6
+            ]
+          ]
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              64.68,
+              281.6
+            ],
+            [
+              64.68,
+              323.6
+            ],
+            [
+              220.34,
+              323.6
+            ],
+            [
+              220.34,
+              281.6
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 11,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            97.88,
+            305.7
+          ],
+          "align": "l",
+          "width": 89.27,
+          "text": "«MonoBehaviour»"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 1
+        },
+        {
+          "op": "T",
+          "pt": [
+            93.77,
+            292.9
+          ],
+          "align": "l",
+          "width": 97.49,
+          "text": "World.NpcShop"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              64.68,
+              248
+            ],
+            [
+              64.68,
+              281.6
+            ],
+            [
+              220.34,
+              281.6
+            ],
+            [
+              220.34,
+              248
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 0
+        },
+        {
+          "op": "T",
+          "pt": [
+            73.68,
+            259.6
+          ],
+          "align": "l",
+          "width": 76.96,
+          "text": "+Quantity: int"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              64.68,
+              198.8
+            ],
+            [
+              64.68,
+              248
+            ],
+            [
+              220.34,
+              248
+            ],
+            [
+              220.34,
+              198.8
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            73.68,
+            226
+          ],
+          "align": "l",
+          "width": 58.89,
+          "text": "+Open(...)"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            73.68,
+            210.4
+          ],
+          "align": "l",
+          "width": 137.66,
+          "text": "+Trade(action, quantity)"
+        }
+      ],
+      "color": "#263442",
+      "fontname": "Arial",
+      "fontsize": "13",
+      "height": "1.7333",
+      "label": "<TABLE BORDER=\"0\" CELLBORDER=\"1\" CELLSPACING=\"0\" CELLPADDING=\"8\"><TR><TD BGCOLOR=\"#eef2f5\"><FONT POINT-SIZE=\"11\">«MonoBehaviour»</FONT><BR/><B>World.NpcShop</B></TD></TR><TR><TD ALIGN=\"LEFT\">+Quantity: int<BR ALIGN=\"LEFT\"/></TD></TR><TR><TD ALIGN=\"LEFT\">+Open(...)<BR ALIGN=\"LEFT\"/>+Trade(action, quantity)<BR ALIGN=\"LEFT\"/></TD></TR></TABLE>",
+      "pos": "142.51,261.2",
+      "shape": "plain",
+      "width": "2.1619"
+    },
+    {
+      "_gvid": 9,
+      "name": "dialogue",
+      "_ldraw_": [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#fffffe00"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#eef2f5"
+        },
+        {
+          "op": "P",
+          "points": [
+            [
+              266.15,
+              281.6
+            ],
+            [
+              266.15,
+              323.6
+            ],
+            [
+              400.88,
+              323.6
+            ],
+            [
+              400.88,
+              281.6
+            ]
+          ]
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              266.15,
+              281.6
+            ],
+            [
+              266.15,
+              323.6
+            ],
+            [
+              400.88,
+              323.6
+            ],
+            [
+              400.88,
+              281.6
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 11,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            287.05,
+            305.7
+          ],
+          "align": "l",
+          "width": 92.93,
+          "text": "«ScriptableObject»"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 1
+        },
+        {
+          "op": "T",
+          "pt": [
+            276.1,
+            292.9
+          ],
+          "align": "l",
+          "width": 114.83,
+          "text": "DialogueDefinition"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              266.15,
+              232.4
+            ],
+            [
+              266.15,
+              281.6
+            ],
+            [
+              400.88,
+              281.6
+            ],
+            [
+              400.88,
+              232.4
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 0
+        },
+        {
+          "op": "T",
+          "pt": [
+            275.15,
+            259.6
+          ],
+          "align": "l",
+          "width": 113.81,
+          "text": "+startNodeId: string"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            275.15,
+            244
+          ],
+          "align": "l",
+          "width": 116.73,
+          "text": "+nodes: List<Node>"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              266.15,
+              198.8
+            ],
+            [
+              266.15,
+              232.4
+            ],
+            [
+              400.88,
+              232.4
+            ],
+            [
+              400.88,
+              198.8
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            275.15,
+            210.4
+          ],
+          "align": "l",
+          "width": 89.96,
+          "text": "+Find(id): Node"
+        }
+      ],
+      "color": "#263442",
+      "fontname": "Arial",
+      "fontsize": "13",
+      "height": "1.7333",
+      "label": "<TABLE BORDER=\"0\" CELLBORDER=\"1\" CELLSPACING=\"0\" CELLPADDING=\"8\"><TR><TD BGCOLOR=\"#eef2f5\"><FONT POINT-SIZE=\"11\">«ScriptableObject»</FONT><BR/><B>DialogueDefinition</B></TD></TR><TR><TD ALIGN=\"LEFT\">+startNodeId: string<BR ALIGN=\"LEFT\"/>+nodes: List&lt;Node&gt;<BR ALIGN=\"LEFT\"/></TD></TR><TR><TD ALIGN=\"LEFT\">+Find(id): Node<BR ALIGN=\"LEFT\"/></TD></TR></TABLE>",
+      "pos": "333.51,261.2",
+      "shape": "plain",
+      "width": "1.8712"
+    },
+    {
+      "_gvid": 10,
+      "name": "node",
+      "_ldraw_": [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#fffffe00"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#eef2f5"
+        },
+        {
+          "op": "P",
+          "points": [
+            [
+              249.04,
+              66
+            ],
+            [
+              249.04,
+              108
+            ],
+            [
+              417.98,
+              108
+            ],
+            [
+              417.98,
+              66
+            ]
+          ]
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              249.04,
+              66
+            ],
+            [
+              249.04,
+              108
+            ],
+            [
+              417.98,
+              108
+            ],
+            [
+              417.98,
+              66
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 11,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            298.97,
+            90.1
+          ],
+          "align": "l",
+          "width": 69.09,
+          "text": "«Serializable»"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 1
+        },
+        {
+          "op": "T",
+          "pt": [
+            258.04,
+            77.3
+          ],
+          "align": "l",
+          "width": 150.94,
+          "text": "DialogueDefinition.Node"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              249.04,
+              16.8
+            ],
+            [
+              249.04,
+              66
+            ],
+            [
+              417.98,
+              66
+            ],
+            [
+              417.98,
+              16.8
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 0
+        },
+        {
+          "op": "T",
+          "pt": [
+            258.04,
+            44
+          ],
+          "align": "l",
+          "width": 145.6,
+          "text": "+id / speaker / text: string"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            258.04,
+            28.4
+          ],
+          "align": "l",
+          "width": 113.1,
+          "text": "+nextNodeId: string"
+        }
+      ],
+      "color": "#263442",
+      "fontname": "Arial",
+      "fontsize": "13",
+      "height": "1.2667",
+      "label": "<TABLE BORDER=\"0\" CELLBORDER=\"1\" CELLSPACING=\"0\" CELLPADDING=\"8\"><TR><TD BGCOLOR=\"#eef2f5\"><FONT POINT-SIZE=\"11\">«Serializable»</FONT><BR/><B>DialogueDefinition.Node</B></TD></TR><TR><TD ALIGN=\"LEFT\">+id / speaker / text: string<BR ALIGN=\"LEFT\"/>+nextNodeId: string<BR ALIGN=\"LEFT\"/></TD></TR></TABLE>",
+      "pos": "333.51,62.4",
+      "shape": "plain",
+      "width": "2.3464"
+    },
+    {
+      "_gvid": 11,
+      "name": "choice",
+      "_ldraw_": [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#fffffe00"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#eef2f5"
+        },
+        {
+          "op": "P",
+          "points": [
+            [
+              509.3,
+              81.6
+            ],
+            [
+              509.3,
+              123.6
+            ],
+            [
+              717.72,
+              123.6
+            ],
+            [
+              717.72,
+              81.6
+            ]
+          ]
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              509.3,
+              81.6
+            ],
+            [
+              509.3,
+              123.6
+            ],
+            [
+              717.72,
+              123.6
+            ],
+            [
+              717.72,
+              81.6
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 11,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            578.97,
+            105.7
+          ],
+          "align": "l",
+          "width": 69.09,
+          "text": "«Serializable»"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 1
+        },
+        {
+          "op": "T",
+          "pt": [
+            532.62,
+            92.9
+          ],
+          "align": "l",
+          "width": 161.78,
+          "text": "DialogueDefinition.Choice"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              509.3,
+              1.2
+            ],
+            [
+              509.3,
+              81.6
+            ],
+            [
+              717.72,
+              81.6
+            ],
+            [
+              717.72,
+              1.2
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 0
+        },
+        {
+          "op": "T",
+          "pt": [
+            518.3,
+            59.6
+          ],
+          "align": "l",
+          "width": 136.95,
+          "text": "+action: DialogueAction"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            518.3,
+            44
+          ],
+          "align": "l",
+          "width": 135.5,
+          "text": "+quest: QuestDefinition"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            518.3,
+            28.4
+          ],
+          "align": "l",
+          "width": 190.42,
+          "text": "+conditionQuest: QuestDefinition"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            518.3,
+            12.8
+          ],
+          "align": "l",
+          "width": 170.9,
+          "text": "+requiredStatus: QuestStatus"
+        }
+      ],
+      "color": "#263442",
+      "fontname": "Arial",
+      "fontsize": "13",
+      "height": "1.7",
+      "label": "<TABLE BORDER=\"0\" CELLBORDER=\"1\" CELLSPACING=\"0\" CELLPADDING=\"8\"><TR><TD BGCOLOR=\"#eef2f5\"><FONT POINT-SIZE=\"11\">«Serializable»</FONT><BR/><B>DialogueDefinition.Choice</B></TD></TR><TR><TD ALIGN=\"LEFT\">+action: DialogueAction<BR ALIGN=\"LEFT\"/>+quest: QuestDefinition<BR ALIGN=\"LEFT\"/>+conditionQuest: QuestDefinition<BR ALIGN=\"LEFT\"/>+requiredStatus: QuestStatus<BR ALIGN=\"LEFT\"/></TD></TR></TABLE>",
+      "pos": "613.51,62.4",
+      "shape": "plain",
+      "width": "2.8947"
+    },
+    {
+      "_gvid": 12,
+      "name": "qs",
+      "_ldraw_": [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#fffffe00"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#eef2f5"
+        },
+        {
+          "op": "P",
+          "points": [
+            [
+              636.23,
+              726
+            ],
+            [
+              636.23,
+              768
+            ],
+            [
+              794.79,
+              768
+            ],
+            [
+              794.79,
+              726
+            ]
+          ]
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              636.23,
+              726
+            ],
+            [
+              636.23,
+              768
+            ],
+            [
+              794.79,
+              768
+            ],
+            [
+              794.79,
+              726
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 11,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            677.61,
+            750.1
+          ],
+          "align": "l",
+          "width": 75.8,
+          "text": "«static service»"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 1
+        },
+        {
+          "op": "T",
+          "pt": [
+            673.96,
+            737.3
+          ],
+          "align": "l",
+          "width": 83.1,
+          "text": "QuestService"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              636.23,
+              692.4
+            ],
+            [
+              636.23,
+              726
+            ],
+            [
+              794.79,
+              726
+            ],
+            [
+              794.79,
+              692.4
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 0
+        },
+        {
+          "op": "T",
+          "pt": [
+            645.23,
+            704
+          ],
+          "align": "l",
+          "width": 140.56,
+          "text": "+[static] Changed: event"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              636.23,
+              612
+            ],
+            [
+              636.23,
+              692.4
+            ],
+            [
+              794.79,
+              692.4
+            ],
+            [
+              794.79,
+              612
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            645.23,
+            670.4
+          ],
+          "align": "l",
+          "width": 128.97,
+          "text": "+[static] Accept(quest)"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            645.23,
+            654.8
+          ],
+          "align": "l",
+          "width": 126.8,
+          "text": "+[static] TurnIn(quest)"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            645.23,
+            639.2
+          ],
+          "align": "l",
+          "width": 126.08,
+          "text": "+[static] Status(quest)"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            645.23,
+            623.6
+          ],
+          "align": "l",
+          "width": 130.4,
+          "text": "+[static] OwnedItems()"
+        }
+      ],
+      "color": "#263442",
+      "fontname": "Arial",
+      "fontsize": "13",
+      "height": "2.1667",
+      "label": "<TABLE BORDER=\"0\" CELLBORDER=\"1\" CELLSPACING=\"0\" CELLPADDING=\"8\"><TR><TD BGCOLOR=\"#eef2f5\"><FONT POINT-SIZE=\"11\">«static service»</FONT><BR/><B>QuestService</B></TD></TR><TR><TD ALIGN=\"LEFT\">+[static] Changed: event<BR ALIGN=\"LEFT\"/></TD></TR><TR><TD ALIGN=\"LEFT\">+[static] Accept(quest)<BR ALIGN=\"LEFT\"/>+[static] TurnIn(quest)<BR ALIGN=\"LEFT\"/>+[static] Status(quest)<BR ALIGN=\"LEFT\"/>+[static] OwnedItems()<BR ALIGN=\"LEFT\"/></TD></TR></TABLE>",
+      "pos": "715.51,690",
+      "shape": "plain",
+      "width": "2.2023"
+    },
+    {
+      "_gvid": 13,
+      "name": "qd",
+      "_ldraw_": [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#fffffe00"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#eef2f5"
+        },
+        {
+          "op": "P",
+          "points": [
+            [
+              462.74,
+              479.2
+            ],
+            [
+              462.74,
+              521.2
+            ],
+            [
+              694.28,
+              521.2
+            ],
+            [
+              694.28,
+              479.2
+            ]
+          ]
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              462.74,
+              479.2
+            ],
+            [
+              462.74,
+              521.2
+            ],
+            [
+              694.28,
+              521.2
+            ],
+            [
+              694.28,
+              479.2
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 11,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            532.05,
+            503.3
+          ],
+          "align": "l",
+          "width": 92.93,
+          "text": "«ScriptableObject»"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 1
+        },
+        {
+          "op": "T",
+          "pt": [
+            530.12,
+            490.5
+          ],
+          "align": "l",
+          "width": 96.78,
+          "text": "QuestDefinition"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              462.74,
+              414.4
+            ],
+            [
+              462.74,
+              479.2
+            ],
+            [
+              694.28,
+              479.2
+            ],
+            [
+              694.28,
+              414.4
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 0
+        },
+        {
+          "op": "T",
+          "pt": [
+            471.74,
+            457.2
+          ],
+          "align": "l",
+          "width": 120.31,
+          "text": "+questId / title: string"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            471.74,
+            441.6
+          ],
+          "align": "l",
+          "width": 213.54,
+          "text": "+prerequisites: List<QuestDefinition>"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            471.74,
+            426
+          ],
+          "align": "l",
+          "width": 194.73,
+          "text": "+objectives / consumables / items"
+        }
+      ],
+      "color": "#263442",
+      "fontname": "Arial",
+      "fontsize": "13",
+      "height": "1.4833",
+      "label": "<TABLE BORDER=\"0\" CELLBORDER=\"1\" CELLSPACING=\"0\" CELLPADDING=\"8\"><TR><TD BGCOLOR=\"#eef2f5\"><FONT POINT-SIZE=\"11\">«ScriptableObject»</FONT><BR/><B>QuestDefinition</B></TD></TR><TR><TD ALIGN=\"LEFT\">+questId / title: string<BR ALIGN=\"LEFT\"/>+prerequisites: List&lt;QuestDefinition&gt;<BR ALIGN=\"LEFT\"/>+objectives / consumables / items<BR ALIGN=\"LEFT\"/></TD></TR></TABLE>",
+      "pos": "578.51,467.8",
+      "shape": "plain",
+      "width": "3.2158"
+    },
+    {
+      "_gvid": 14,
+      "name": "objective",
+      "_ldraw_": [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#fffffe00"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#eef2f5"
+        },
+        {
+          "op": "P",
+          "points": [
+            [
+              640.16,
+              264.8
+            ],
+            [
+              640.16,
+              306.8
+            ],
+            [
+              848.86,
+              306.8
+            ],
+            [
+              848.86,
+              264.8
+            ]
+          ]
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              640.16,
+              264.8
+            ],
+            [
+              640.16,
+              306.8
+            ],
+            [
+              848.86,
+              306.8
+            ],
+            [
+              848.86,
+              264.8
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 11,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            709.97,
+            288.9
+          ],
+          "align": "l",
+          "width": 69.09,
+          "text": "«Serializable»"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 1
+        },
+        {
+          "op": "T",
+          "pt": [
+            649.16,
+            276.1
+          ],
+          "align": "l",
+          "width": 190.7,
+          "text": "QuestDefinition.BossObjective"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              640.16,
+              215.6
+            ],
+            [
+              640.16,
+              264.8
+            ],
+            [
+              848.86,
+              264.8
+            ],
+            [
+              848.86,
+              215.6
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 0
+        },
+        {
+          "op": "T",
+          "pt": [
+            649.16,
+            242.8
+          ],
+          "align": "l",
+          "width": 164.4,
+          "text": "+bossId / encounterId: string"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            649.16,
+            227.2
+          ],
+          "align": "l",
+          "width": 60.35,
+          "text": "+count: int"
+        }
+      ],
+      "color": "#263442",
+      "fontname": "Arial",
+      "fontsize": "13",
+      "height": "1.2667",
+      "label": "<TABLE BORDER=\"0\" CELLBORDER=\"1\" CELLSPACING=\"0\" CELLPADDING=\"8\"><TR><TD BGCOLOR=\"#eef2f5\"><FONT POINT-SIZE=\"11\">«Serializable»</FONT><BR/><B>QuestDefinition.BossObjective</B></TD></TR><TR><TD ALIGN=\"LEFT\">+bossId / encounterId: string<BR ALIGN=\"LEFT\"/>+count: int<BR ALIGN=\"LEFT\"/></TD></TR></TABLE>",
+      "pos": "744.51,261.2",
+      "shape": "plain",
+      "width": "2.8986"
+    },
+    {
+      "_gvid": 15,
+      "name": "reward",
+      "_ldraw_": [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#fffffe00"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#eef2f5"
+        },
+        {
+          "op": "P",
+          "points": [
+            [
+              880.47,
+              264.8
+            ],
+            [
+              880.47,
+              306.8
+            ],
+            [
+              1072.55,
+              306.8
+            ],
+            [
+              1072.55,
+              264.8
+            ]
+          ]
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              880.47,
+              264.8
+            ],
+            [
+              880.47,
+              306.8
+            ],
+            [
+              1072.55,
+              306.8
+            ],
+            [
+              1072.55,
+              264.8
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 11,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            941.97,
+            288.9
+          ],
+          "align": "l",
+          "width": 69.09,
+          "text": "«Serializable»"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 1
+        },
+        {
+          "op": "T",
+          "pt": [
+            889.47,
+            276.1
+          ],
+          "align": "l",
+          "width": 174.08,
+          "text": "QuestDefinition.ItemReward"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              880.47,
+              215.6
+            ],
+            [
+              880.47,
+              264.8
+            ],
+            [
+              1072.55,
+              264.8
+            ],
+            [
+              1072.55,
+              215.6
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 0
+        },
+        {
+          "op": "T",
+          "pt": [
+            889.47,
+            242.8
+          ],
+          "align": "l",
+          "width": 153.54,
+          "text": "+item: QuestItemDefinition"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            889.47,
+            227.2
+          ],
+          "align": "l",
+          "width": 60.35,
+          "text": "+count: int"
+        }
+      ],
+      "color": "#263442",
+      "fontname": "Arial",
+      "fontsize": "13",
+      "height": "1.2667",
+      "label": "<TABLE BORDER=\"0\" CELLBORDER=\"1\" CELLSPACING=\"0\" CELLPADDING=\"8\"><TR><TD BGCOLOR=\"#eef2f5\"><FONT POINT-SIZE=\"11\">«Serializable»</FONT><BR/><B>QuestDefinition.ItemReward</B></TD></TR><TR><TD ALIGN=\"LEFT\">+item: QuestItemDefinition<BR ALIGN=\"LEFT\"/>+count: int<BR ALIGN=\"LEFT\"/></TD></TR></TABLE>",
+      "pos": "976.51,261.2",
+      "shape": "plain",
+      "width": "2.6678"
+    },
+    {
+      "_gvid": 16,
+      "name": "qi",
+      "_ldraw_": [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#fffffe00"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#eef2f5"
+        },
+        {
+          "op": "P",
+          "points": [
+            [
+              749.52,
+              82.8
+            ],
+            [
+              749.52,
+              124.8
+            ],
+            [
+              935.5,
+              124.8
+            ],
+            [
+              935.5,
+              82.8
+            ]
+          ]
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              749.52,
+              82.8
+            ],
+            [
+              749.52,
+              124.8
+            ],
+            [
+              935.5,
+              124.8
+            ],
+            [
+              935.5,
+              82.8
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 11,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            796.05,
+            106.9
+          ],
+          "align": "l",
+          "width": 92.93,
+          "text": "«ScriptableObject»"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 1
+        },
+        {
+          "op": "T",
+          "pt": [
+            780.76,
+            94.1
+          ],
+          "align": "l",
+          "width": 123.51,
+          "text": "QuestItemDefinition"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              749.52,
+              33.6
+            ],
+            [
+              749.52,
+              82.8
+            ],
+            [
+              935.5,
+              82.8
+            ],
+            [
+              935.5,
+              33.6
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 0
+        },
+        {
+          "op": "T",
+          "pt": [
+            758.52,
+            60.8
+          ],
+          "align": "l",
+          "width": 167.98,
+          "text": "+itemId / displayName: string"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            758.52,
+            45.2
+          ],
+          "align": "l",
+          "width": 72.62,
+          "text": "+icon: Sprite"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              749.52,
+              0
+            ],
+            [
+              749.52,
+              33.6
+            ],
+            [
+              935.5,
+              33.6
+            ],
+            [
+              935.5,
+              0
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            758.52,
+            11.6
+          ],
+          "align": "l",
+          "width": 92.83,
+          "text": "+[static] Find(id)"
+        }
+      ],
+      "color": "#263442",
+      "fontname": "Arial",
+      "fontsize": "13",
+      "height": "1.7333",
+      "label": "<TABLE BORDER=\"0\" CELLBORDER=\"1\" CELLSPACING=\"0\" CELLPADDING=\"8\"><TR><TD BGCOLOR=\"#eef2f5\"><FONT POINT-SIZE=\"11\">«ScriptableObject»</FONT><BR/><B>QuestItemDefinition</B></TD></TR><TR><TD ALIGN=\"LEFT\">+itemId / displayName: string<BR ALIGN=\"LEFT\"/>+icon: Sprite<BR ALIGN=\"LEFT\"/></TD></TR><TR><TD ALIGN=\"LEFT\">+[static] Find(id)<BR ALIGN=\"LEFT\"/></TD></TR></TABLE>",
+      "pos": "842.51,62.4",
+      "shape": "plain",
+      "width": "2.5831"
+    },
+    {
+      "_gvid": 17,
+      "name": "gate",
+      "_ldraw_": [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#fffffe00"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#eef2f5"
+        },
+        {
+          "op": "P",
+          "points": [
+            [
+              508.47,
+              940.4
+            ],
+            [
+              508.47,
+              982.4
+            ],
+            [
+              712.55,
+              982.4
+            ],
+            [
+              712.55,
+              940.4
+            ]
+          ]
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              508.47,
+              940.4
+            ],
+            [
+              508.47,
+              982.4
+            ],
+            [
+              712.55,
+              982.4
+            ],
+            [
+              712.55,
+              940.4
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 11,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            565.88,
+            964.5
+          ],
+          "align": "l",
+          "width": 89.27,
+          "text": "«MonoBehaviour»"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 1
+        },
+        {
+          "op": "T",
+          "pt": [
+            523.84,
+            951.7
+          ],
+          "align": "l",
+          "width": 173.35,
+          "text": "World.QuestBossEncounter"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              508.47,
+              875.6
+            ],
+            [
+              508.47,
+              940.4
+            ],
+            [
+              712.55,
+              940.4
+            ],
+            [
+              712.55,
+              875.6
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 0
+        },
+        {
+          "op": "T",
+          "pt": [
+            517.47,
+            918.4
+          ],
+          "align": "l",
+          "width": 186.08,
+          "text": "+requiredQuest: QuestDefinition"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            517.47,
+            902.8
+          ],
+          "align": "l",
+          "width": 179.58,
+          "text": "+conversation: NpcInteractable"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            517.47,
+            887.2
+          ],
+          "align": "l",
+          "width": 126.11,
+          "text": "+CurrentStage: Stage"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              508.47,
+              842
+            ],
+            [
+              508.47,
+              875.6
+            ],
+            [
+              712.55,
+              875.6
+            ],
+            [
+              712.55,
+              842
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            517.47,
+            853.6
+          ],
+          "align": "l",
+          "width": 126.81,
+          "text": "+RefreshQuestState()"
+        }
+      ],
+      "color": "#263442",
+      "fontname": "Arial",
+      "fontsize": "13",
+      "height": "1.95",
+      "label": "<TABLE BORDER=\"0\" CELLBORDER=\"1\" CELLSPACING=\"0\" CELLPADDING=\"8\"><TR><TD BGCOLOR=\"#eef2f5\"><FONT POINT-SIZE=\"11\">«MonoBehaviour»</FONT><BR/><B>World.QuestBossEncounter</B></TD></TR><TR><TD ALIGN=\"LEFT\">+requiredQuest: QuestDefinition<BR ALIGN=\"LEFT\"/>+conversation: NpcInteractable<BR ALIGN=\"LEFT\"/>+CurrentStage: Stage<BR ALIGN=\"LEFT\"/></TD></TR><TR><TD ALIGN=\"LEFT\">+RefreshQuestState()<BR ALIGN=\"LEFT\"/></TD></TR></TABLE>",
+      "pos": "610.51,912.2",
+      "shape": "plain",
+      "width": "2.8344"
+    },
+    {
+      "_gvid": 18,
+      "name": "eco",
+      "_ldraw_": [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#fffffe00"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#eef2f5"
+        },
+        {
+          "op": "P",
+          "points": [
+            [
+              0,
+              73.8
+            ],
+            [
+              0,
+              115.8
+            ],
+            [
+              217.02,
+              115.8
+            ],
+            [
+              217.02,
+              73.8
+            ]
+          ]
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              0,
+              73.8
+            ],
+            [
+              0,
+              115.8
+            ],
+            [
+              217.02,
+              115.8
+            ],
+            [
+              217.02,
+              73.8
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 11,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            70.61,
+            97.9
+          ],
+          "align": "l",
+          "width": 75.8,
+          "text": "«static service»"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 1
+        },
+        {
+          "op": "T",
+          "pt": [
+            61.19,
+            85.1
+          ],
+          "align": "l",
+          "width": 94.64,
+          "text": "GameEconomy"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#263442"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              0,
+              9
+            ],
+            [
+              0,
+              73.8
+            ],
+            [
+              217.02,
+              73.8
+            ],
+            [
+              217.02,
+              9
+            ]
+          ]
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 0
+        },
+        {
+          "op": "T",
+          "pt": [
+            9,
+            51.8
+          ],
+          "align": "l",
+          "width": 199.02,
+          "text": "+[static] TryGrantQuestReward(...)"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            9,
+            36.2
+          ],
+          "align": "l",
+          "width": 163.65,
+          "text": "+[static] BuyConsumable(...)"
+        },
+        {
+          "op": "F",
+          "size": 13,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            9,
+            20.6
+          ],
+          "align": "l",
+          "width": 162.93,
+          "text": "+[static] SellConsumable(...)"
+        }
+      ],
+      "color": "#263442",
+      "fontname": "Arial",
+      "fontsize": "13",
+      "height": "1.4833",
+      "label": "<TABLE BORDER=\"0\" CELLBORDER=\"1\" CELLSPACING=\"0\" CELLPADDING=\"8\"><TR><TD BGCOLOR=\"#eef2f5\"><FONT POINT-SIZE=\"11\">«static service»</FONT><BR/><B>GameEconomy</B></TD></TR><TR><TD ALIGN=\"LEFT\">+[static] TryGrantQuestReward(...)<BR ALIGN=\"LEFT\"/>+[static] BuyConsumable(...)<BR ALIGN=\"LEFT\"/>+[static] SellConsumable(...)<BR ALIGN=\"LEFT\"/></TD></TR></TABLE>",
+      "pos": "108.51,62.4",
+      "shape": "plain",
+      "width": "3.0142"
+    }
+  ],
+  "edges": [
+    {
+      "_gvid": 0,
+      "tail": 5,
+      "head": 6,
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "b",
+          "points": [
+            [
+              247.59,
+              843.26
+            ],
+            [
+              224.99,
+              825.39
+            ],
+            [
+              206.8,
+              811
+            ],
+            [
+              206.8,
+              811
+            ],
+            [
+              206.8,
+              811
+            ],
+            [
+              206.8,
+              799
+            ],
+            [
+              206.8,
+              799
+            ],
+            [
+              206.8,
+              799
+            ],
+            [
+              224.42,
+              783.98
+            ],
+            [
+              246.52,
+              765.14
+            ]
+          ]
+        }
+      ],
+      "_hdraw_": [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "P",
+          "points": [
+            [
+              251.62,
+              760.8
+            ],
+            [
+              248.33,
+              767.74
+            ],
+            [
+              249.88,
+              762.28
+            ],
+            [
+              246.29,
+              765.34
+            ],
+            [
+              246.29,
+              765.34
+            ],
+            [
+              246.29,
+              765.34
+            ],
+            [
+              249.88,
+              762.28
+            ],
+            [
+              244.25,
+              762.94
+            ]
+          ]
+        }
+      ],
+      "_ldraw_": [
+        {
+          "op": "F",
+          "size": 10,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            257.66,
+            802
+          ],
+          "align": "c",
+          "width": 101.71,
+          "text": "chọn đối tượng · 0..1"
+        }
+      ],
+      "arrowhead": "vee",
+      "arrowsize": ".7",
+      "color": "#526170",
+      "constraint": "false",
+      "fontname": "Arial",
+      "fontsize": "10",
+      "label": "chọn đối tượng · 0..1",
+      "lp": "257.66,805",
+      "pos": "e,252.54,760.01 247.59,843.26 224.99,825.39 206.8,811 206.8,811 206.8,811 206.8,799 206.8,799 206.8,799 224.42,783.98 246.52,765.14"
+    },
+    {
+      "_gvid": 2,
+      "tail": 6,
+      "head": 7,
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "b",
+          "points": [
+            [
+              321.99,
+              611.52
+            ],
+            [
+              321.26,
+              587.44
+            ],
+            [
+              321.36,
+              561.07
+            ],
+            [
+              322.3,
+              537.62
+            ]
+          ]
+        }
+      ],
+      "_tdraw_": [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "p",
+          "points": [
+            [
+              319.54,
+              611.51
+            ],
+            [
+              322.23,
+              618.42
+            ],
+            [
+              324.44,
+              611.34
+            ]
+          ]
+        }
+      ],
+      "arrowhead": "none",
+      "arrowsize": ".7",
+      "arrowtail": "empty",
+      "color": "#526170",
+      "constraint": "false",
+      "dir": "back",
+      "fontname": "Arial",
+      "fontsize": "10",
+      "label": "",
+      "pos": "s,322.29,619.93 321.99,611.52 321.26,587.44 321.36,561.07 322.3,537.62"
+    },
+    {
+      "_gvid": 5,
+      "tail": 7,
+      "head": 9,
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "b",
+          "points": [
+            [
+              239.9,
+              432.18
+            ],
+            [
+              161.59,
+              403.21
+            ],
+            [
+              62.59,
+              366.6
+            ],
+            [
+              62.59,
+              366.6
+            ],
+            [
+              62.59,
+              366.6
+            ],
+            [
+              62.59,
+              354.6
+            ],
+            [
+              62.59,
+              354.6
+            ],
+            [
+              62.59,
+              354.6
+            ],
+            [
+              236.51,
+              323.6
+            ],
+            [
+              236.51,
+              323.6
+            ],
+            [
+              236.51,
+              323.6
+            ],
+            [
+              246.27,
+              317.42
+            ],
+            [
+              259.6,
+              308.98
+            ]
+          ]
+        }
+      ],
+      "_hdraw_": [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "P",
+          "points": [
+            [
+              265.38,
+              305.33
+            ],
+            [
+              261.15,
+              311.73
+            ],
+            [
+              263.45,
+              306.55
+            ],
+            [
+              259.46,
+              309.07
+            ],
+            [
+              259.46,
+              309.07
+            ],
+            [
+              259.46,
+              309.07
+            ],
+            [
+              263.45,
+              306.55
+            ],
+            [
+              257.78,
+              306.41
+            ]
+          ]
+        }
+      ],
+      "_ldraw_": [
+        {
+          "op": "F",
+          "size": 10,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            99.55,
+            357.6
+          ],
+          "align": "c",
+          "width": 73.93,
+          "text": "kịch bản · 0..1"
+        }
+      ],
+      "arrowhead": "vee",
+      "arrowsize": ".7",
+      "color": "#526170",
+      "constraint": "false",
+      "fontname": "Arial",
+      "fontsize": "10",
+      "label": "kịch bản · 0..1",
+      "lp": "99.549,360.6",
+      "pos": "e,266.41,304.68 239.9,432.18 161.59,403.21 62.586,366.6 62.586,366.6 62.586,366.6 62.586,354.6 62.586,354.6 62.586,354.6 236.51,323.6 236.51,323.6 236.51,323.6 246.27,317.42 259.6,308.98"
+    },
+    {
+      "_gvid": 9,
+      "tail": 9,
+      "head": 10,
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "b",
+          "points": [
+            [
+              275.53,
+              191.84
+            ],
+            [
+              263.89,
+              178.11
+            ],
+            [
+              255.14,
+              167.8
+            ],
+            [
+              255.14,
+              167.8
+            ],
+            [
+              255.14,
+              167.8
+            ],
+            [
+              255.14,
+              155.8
+            ],
+            [
+              255.14,
+              155.8
+            ],
+            [
+              255.14,
+              155.8
+            ],
+            [
+              275.66,
+              131.6
+            ],
+            [
+              295.7,
+              107.98
+            ]
+          ]
+        }
+      ],
+      "_ldraw_": [
+        {
+          "op": "F",
+          "size": 10,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            281.83,
+            158.8
+          ],
+          "align": "c",
+          "width": 53.37,
+          "text": "nodes · 0..*"
+        }
+      ],
+      "_tdraw_": [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "P",
+          "points": [
+            [
+              275.44,
+              191.73
+            ],
+            [
+              280.29,
+              193.12
+            ],
+            [
+              280.87,
+              198.14
+            ],
+            [
+              276.02,
+              196.75
+            ]
+          ]
+        }
+      ],
+      "arrowhead": "none",
+      "arrowsize": ".7",
+      "arrowtail": "diamond",
+      "color": "#526170",
+      "constraint": "false",
+      "dir": "both",
+      "fontname": "Arial",
+      "fontsize": "10",
+      "label": "nodes · 0..*",
+      "lp": "281.83,161.8",
+      "pos": "s,281.46,198.82 275.53,191.84 263.89,178.11 255.14,167.8 255.14,167.8 255.14,167.8 255.14,155.8 255.14,155.8 255.14,155.8 275.66,131.6 295.7,107.98"
+    },
+    {
+      "_gvid": 11,
+      "tail": 10,
+      "head": 11,
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "b",
+          "points": [
+            [
+              427.14,
+              62.4
+            ],
+            [
+              453.57,
+              62.4
+            ],
+            [
+              482.49,
+              62.4
+            ],
+            [
+              509.49,
+              62.4
+            ]
+          ]
+        }
+      ],
+      "_ldraw_": [
+        {
+          "op": "F",
+          "size": 10,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            463.64,
+            68.4
+          ],
+          "align": "c",
+          "width": 60.03,
+          "text": "choices · 0..*"
+        }
+      ],
+      "_tdraw_": [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "P",
+          "points": [
+            [
+              427.2,
+              62.4
+            ],
+            [
+              423,
+              65.2
+            ],
+            [
+              418.8,
+              62.4
+            ],
+            [
+              423,
+              59.6
+            ]
+          ]
+        }
+      ],
+      "arrowhead": "none",
+      "arrowsize": ".7",
+      "arrowtail": "diamond",
+      "color": "#526170",
+      "constraint": "false",
+      "dir": "both",
+      "fontname": "Arial",
+      "fontsize": "10",
+      "label": "choices · 0..*",
+      "lp": "463.64,71.4",
+      "pos": "s,417.9,62.4 427.14,62.4 453.57,62.4 482.49,62.4 509.49,62.4"
+    },
+    {
+      "_gvid": 12,
+      "tail": 11,
+      "head": 13,
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "b",
+          "points": [
+            [
+              571.22,
+              123.58
+            ],
+            [
+              545.8,
+              159.74
+            ],
+            [
+              518.35,
+              198.8
+            ],
+            [
+              518.35,
+              198.8
+            ],
+            [
+              518.35,
+              198.8
+            ],
+            [
+              518.35,
+              323.6
+            ],
+            [
+              518.35,
+              323.6
+            ],
+            [
+              518.35,
+              323.6
+            ],
+            [
+              537.02,
+              368.05
+            ],
+            [
+              553.56,
+              407.42
+            ]
+          ]
+        }
+      ],
+      "_hdraw_": [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "P",
+          "points": [
+            [
+              556.15,
+              413.57
+            ],
+            [
+              550.53,
+              408.34
+            ],
+            [
+              555.27,
+              411.47
+            ],
+            [
+              553.44,
+              407.12
+            ],
+            [
+              553.44,
+              407.12
+            ],
+            [
+              553.44,
+              407.12
+            ],
+            [
+              555.27,
+              411.47
+            ],
+            [
+              556.34,
+              405.9
+            ]
+          ]
+        }
+      ],
+      "_ldraw_": [
+        {
+          "op": "F",
+          "size": 10,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            571.43,
+            258.2
+          ],
+          "align": "c",
+          "width": 106.16,
+          "text": "quest / điều kiện · 0..1"
+        }
+      ],
+      "arrowhead": "vee",
+      "arrowsize": ".7",
+      "color": "#526170",
+      "constraint": "false",
+      "fontname": "Arial",
+      "fontsize": "10",
+      "label": "quest / điều kiện · 0..1",
+      "lp": "571.43,261.2",
+      "pos": "e,556.62,414.7 571.22,123.58 545.8,159.74 518.35,198.8 518.35,198.8 518.35,198.8 518.35,323.6 518.35,323.6 518.35,323.6 537.02,368.05 553.56,407.42"
+    },
+    {
+      "_gvid": 7,
+      "tail": 7,
+      "head": 12,
+      "_draw_": [
+        {
+          "op": "S",
+          "style": "dashed"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "b",
+          "points": [
+            [
+              422.98,
+              537.94
+            ],
+            [
+              452.86,
+              561.03
+            ],
+            [
+              478.69,
+              581
+            ],
+            [
+              478.69,
+              581
+            ],
+            [
+              478.69,
+              581
+            ],
+            [
+              611.51,
+              612
+            ],
+            [
+              611.51,
+              612
+            ],
+            [
+              611.51,
+              612
+            ],
+            [
+              619.02,
+              617.56
+            ],
+            [
+              629.99,
+              625.68
+            ]
+          ]
+        }
+      ],
+      "_hdraw_": [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "P",
+          "points": [
+            [
+              635.44,
+              629.72
+            ],
+            [
+              627.94,
+              628.08
+            ],
+            [
+              633.61,
+              628.36
+            ],
+            [
+              629.82,
+              625.55
+            ],
+            [
+              629.82,
+              625.55
+            ],
+            [
+              629.82,
+              625.55
+            ],
+            [
+              633.61,
+              628.36
+            ],
+            [
+              631.69,
+              623.02
+            ]
+          ]
+        }
+      ],
+      "_ldraw_": [
+        {
+          "op": "F",
+          "size": 10,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            530.1,
+            572
+          ],
+          "align": "c",
+          "width": 102.82,
+          "text": "Accept / TryAutoTurnIn"
+        }
+      ],
+      "arrowhead": "vee",
+      "arrowsize": ".7",
+      "color": "#526170",
+      "constraint": "false",
+      "fontname": "Arial",
+      "fontsize": "10",
+      "label": "Accept / TryAutoTurnIn",
+      "lp": "530.1,575",
+      "pos": "e,636.42,630.44 422.98,537.94 452.86,561.03 478.69,581 478.69,581 478.69,581 611.51,612 611.51,612 611.51,612 619.02,617.56 629.99,625.68",
+      "style": "dashed"
+    },
+    {
+      "_gvid": 4,
+      "tail": 7,
+      "head": 8,
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "b",
+          "points": [
+            [
+              248.72,
+              397.75
+            ],
+            [
+              227.4,
+              380.4
+            ],
+            [
+              210.45,
+              366.6
+            ],
+            [
+              210.45,
+              366.6
+            ],
+            [
+              210.45,
+              366.6
+            ],
+            [
+              199.77,
+              350.18
+            ],
+            [
+              186.87,
+              330.37
+            ]
+          ]
+        }
+      ],
+      "_hdraw_": [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "P",
+          "points": [
+            [
+              183.09,
+              324.55
+            ],
+            [
+              189.55,
+              328.7
+            ],
+            [
+              184.34,
+              326.47
+            ],
+            [
+              186.91,
+              330.42
+            ],
+            [
+              186.91,
+              330.42
+            ],
+            [
+              186.91,
+              330.42
+            ],
+            [
+              184.34,
+              326.47
+            ],
+            [
+              184.27,
+              332.14
+            ]
+          ]
+        }
+      ],
+      "_ldraw_": [
+        {
+          "op": "F",
+          "size": 10,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            267.98,
+            357.6
+          ],
+          "align": "c",
+          "width": 115.06,
+          "text": "cửa hàng tùy chọn · 0..1"
+        }
+      ],
+      "arrowhead": "vee",
+      "arrowsize": ".7",
+      "color": "#526170",
+      "constraint": "false",
+      "fontname": "Arial",
+      "fontsize": "10",
+      "label": "cửa hàng tùy chọn · 0..1",
+      "lp": "267.98,360.6",
+      "pos": "e,182.43,323.53 248.72,397.75 227.4,380.4 210.45,366.6 210.45,366.6 210.45,366.6 199.77,350.18 186.87,330.37"
+    },
+    {
+      "_gvid": 8,
+      "tail": 8,
+      "head": 18,
+      "_draw_": [
+        {
+          "op": "S",
+          "style": "dashed"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "b",
+          "points": [
+            [
+              131.94,
+              199.01
+            ],
+            [
+              127.79,
+              174.98
+            ],
+            [
+              123.04,
+              147.49
+            ],
+            [
+              118.91,
+              123.56
+            ]
+          ]
+        }
+      ],
+      "_hdraw_": [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "P",
+          "points": [
+            [
+              117.74,
+              116.8
+            ],
+            [
+              122.03,
+              123.16
+            ],
+            [
+              118.13,
+              119.04
+            ],
+            [
+              118.93,
+              123.69
+            ],
+            [
+              118.93,
+              123.69
+            ],
+            [
+              118.93,
+              123.69
+            ],
+            [
+              118.13,
+              119.04
+            ],
+            [
+              115.82,
+              124.23
+            ]
+          ]
+        }
+      ],
+      "_ldraw_": [
+        {
+          "op": "F",
+          "size": 10,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            148.77,
+            158.8
+          ],
+          "align": "c",
+          "width": 44.47,
+          "text": "mua / bán"
+        }
+      ],
+      "arrowhead": "vee",
+      "arrowsize": ".7",
+      "color": "#526170",
+      "constraint": "false",
+      "fontname": "Arial",
+      "fontsize": "10",
+      "label": "mua / bán",
+      "lp": "148.77,161.8",
+      "pos": "e,117.53,115.6 131.94,199.01 127.79,174.98 123.04,147.49 118.91,123.56",
+      "style": "dashed"
+    },
+    {
+      "_gvid": 13,
+      "tail": 12,
+      "head": 13,
+      "_draw_": [
+        {
+          "op": "S",
+          "style": "dashed"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "b",
+          "points": [
+            [
+              636.46,
+              620.3
+            ],
+            [
+              611.95,
+              599
+            ],
+            [
+              591.25,
+              581
+            ],
+            [
+              591.25,
+              581
+            ],
+            [
+              591.25,
+              581
+            ],
+            [
+              588.36,
+              555.53
+            ],
+            [
+              585.33,
+              528.87
+            ]
+          ]
+        }
+      ],
+      "_hdraw_": [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "P",
+          "points": [
+            [
+              584.57,
+              522.17
+            ],
+            [
+              588.49,
+              528.77
+            ],
+            [
+              584.83,
+              524.44
+            ],
+            [
+              585.36,
+              529.12
+            ],
+            [
+              585.36,
+              529.12
+            ],
+            [
+              585.36,
+              529.12
+            ],
+            [
+              584.83,
+              524.44
+            ],
+            [
+              582.23,
+              529.48
+            ]
+          ]
+        }
+      ],
+      "_ldraw_": [
+        {
+          "op": "F",
+          "size": 10,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            629.88,
+            572
+          ],
+          "align": "c",
+          "width": 77.27,
+          "text": "đọc định nghĩa"
+        }
+      ],
+      "arrowhead": "vee",
+      "arrowsize": ".7",
+      "color": "#526170",
+      "constraint": "false",
+      "fontname": "Arial",
+      "fontsize": "10",
+      "label": "đọc định nghĩa",
+      "lp": "629.88,575",
+      "pos": "e,584.43,520.96 636.46,620.3 611.95,599 591.25,581 591.25,581 591.25,581 588.36,555.53 585.33,528.87",
+      "style": "dashed"
+    },
+    {
+      "_gvid": 14,
+      "tail": 12,
+      "head": 18,
+      "_draw_": [
+        {
+          "op": "S",
+          "style": "dashed"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "b",
+          "points": [
+            [
+              793.71,
+              612.4
+            ],
+            [
+              903.08,
+              505.25
+            ],
+            [
+              1088.51,
+              323.6
+            ],
+            [
+              1088.51,
+              323.6
+            ],
+            [
+              1088.51,
+              323.6
+            ],
+            [
+              1088.51,
+              198.8
+            ],
+            [
+              1088.51,
+              198.8
+            ],
+            [
+              1088.51,
+              198.8
+            ],
+            [
+              979.51,
+              155.8
+            ],
+            [
+              979.51,
+              155.8
+            ],
+            [
+              979.51,
+              155.8
+            ],
+            [
+              233.51,
+              124.8
+            ],
+            [
+              233.51,
+              124.8
+            ],
+            [
+              233.51,
+              124.8
+            ],
+            [
+              229.21,
+              122.69
+            ],
+            [
+              222.21,
+              119.25
+            ]
+          ]
+        }
+      ],
+      "_hdraw_": [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "P",
+          "points": [
+            [
+              216.16,
+              116.28
+            ],
+            [
+              223.83,
+              116.54
+            ],
+            [
+              218.21,
+              117.28
+            ],
+            [
+              222.44,
+              119.36
+            ],
+            [
+              222.44,
+              119.36
+            ],
+            [
+              222.44,
+              119.36
+            ],
+            [
+              218.21,
+              117.28
+            ],
+            [
+              221.06,
+              122.19
+            ]
+          ]
+        }
+      ],
+      "_ldraw_": [
+        {
+          "op": "F",
+          "size": 10,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            1103.42,
+            357.6
+          ],
+          "align": "c",
+          "width": 96.7,
+          "text": "trả thưởng có receipt"
+        }
+      ],
+      "arrowhead": "vee",
+      "arrowsize": ".7",
+      "color": "#526170",
+      "constraint": "false",
+      "fontname": "Arial",
+      "fontsize": "10",
+      "label": "trả thưởng có receipt",
+      "lp": "1103.4,360.6",
+      "pos": "e,215.07,115.74 793.71,612.4 903.08,505.25 1088.5,323.6 1088.5,323.6 1088.5,323.6 1088.5,198.8 1088.5,198.8 1088.5,198.8 979.51,155.8 979.51,155.8 979.51,155.8 233.51,124.8 233.51,124.8 233.51,124.8 229.21,122.69 222.21,119.25",
+      "style": "dashed"
+    },
+    {
+      "_gvid": 15,
+      "tail": 13,
+      "head": 14,
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "b",
+          "points": [
+            [
+              626.65,
+              407.47
+            ],
+            [
+              652.76,
+              375.28
+            ],
+            [
+              684.5,
+              336.17
+            ],
+            [
+              708.46,
+              306.64
+            ]
+          ]
+        }
+      ],
+      "_ldraw_": [
+        {
+          "op": "F",
+          "size": 10,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            701.78,
+            357.6
+          ],
+          "align": "c",
+          "width": 70.59,
+          "text": "objectives · 1..*"
+        }
+      ],
+      "_tdraw_": [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "P",
+          "points": [
+            [
+              626.69,
+              407.42
+            ],
+            [
+              626.22,
+              412.44
+            ],
+            [
+              621.4,
+              413.94
+            ],
+            [
+              621.87,
+              408.92
+            ]
+          ]
+        }
+      ],
+      "arrowhead": "none",
+      "arrowsize": ".7",
+      "arrowtail": "diamond",
+      "color": "#526170",
+      "constraint": "false",
+      "dir": "both",
+      "fontname": "Arial",
+      "fontsize": "10",
+      "label": "objectives · 1..*",
+      "lp": "701.78,360.6",
+      "pos": "s,620.83,414.64 626.65,407.47 652.76,375.28 684.5,336.17 708.46,306.64"
+    },
+    {
+      "_gvid": 16,
+      "tail": 13,
+      "head": 15,
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "b",
+          "points": [
+            [
+              691.17,
+              410.39
+            ],
+            [
+              771.2,
+              370.32
+            ],
+            [
+              864.51,
+              323.6
+            ],
+            [
+              864.51,
+              323.6
+            ],
+            [
+              864.51,
+              323.6
+            ],
+            [
+              877.9,
+              316.26
+            ],
+            [
+              895.41,
+              306.66
+            ]
+          ]
+        }
+      ],
+      "_ldraw_": [
+        {
+          "op": "F",
+          "size": 10,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            820.4,
+            357.6
+          ],
+          "align": "c",
+          "width": 50.01,
+          "text": "items · 0..*"
+        }
+      ],
+      "_tdraw_": [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "P",
+          "points": [
+            [
+              691.3,
+              410.33
+            ],
+            [
+              688.79,
+              414.71
+            ],
+            [
+              683.78,
+              414.09
+            ],
+            [
+              686.29,
+              409.71
+            ]
+          ]
+        }
+      ],
+      "arrowhead": "none",
+      "arrowsize": ".7",
+      "arrowtail": "diamond",
+      "color": "#526170",
+      "constraint": "false",
+      "dir": "both",
+      "fontname": "Arial",
+      "fontsize": "10",
+      "label": "items · 0..*",
+      "lp": "820.4,360.6",
+      "pos": "s,682.98,414.49 691.17,410.39 771.2,370.32 864.51,323.6 864.51,323.6 864.51,323.6 877.9,316.26 895.41,306.66"
+    },
+    {
+      "_gvid": 17,
+      "tail": 15,
+      "head": 16,
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "b",
+          "points": [
+            [
+              946.44,
+              216.03
+            ],
+            [
+              929.44,
+              191.06
+            ],
+            [
+              907.82,
+              159.32
+            ],
+            [
+              888.71,
+              131.25
+            ]
+          ]
+        }
+      ],
+      "_hdraw_": [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "P",
+          "points": [
+            [
+              884.85,
+              125.59
+            ],
+            [
+              891.4,
+              129.6
+            ],
+            [
+              886.14,
+              127.47
+            ],
+            [
+              888.79,
+              131.37
+            ],
+            [
+              888.79,
+              131.37
+            ],
+            [
+              888.79,
+              131.37
+            ],
+            [
+              886.14,
+              127.47
+            ],
+            [
+              886.19,
+              133.15
+            ]
+          ]
+        }
+      ],
+      "_ldraw_": [
+        {
+          "op": "F",
+          "size": 10,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            961.05,
+            158.8
+          ],
+          "align": "c",
+          "width": 95.04,
+          "text": "tham chiếu asset · 1"
+        }
+      ],
+      "arrowhead": "vee",
+      "arrowsize": ".7",
+      "color": "#526170",
+      "constraint": "false",
+      "fontname": "Arial",
+      "fontsize": "10",
+      "label": "tham chiếu asset · 1",
+      "lp": "961.05,161.8",
+      "pos": "e,884.17,124.58 946.44,216.03 929.44,191.06 907.82,159.32 888.71,131.25"
+    },
+    {
+      "_gvid": 20,
+      "tail": 17,
+      "head": 13,
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "b",
+          "points": [
+            [
+              635.78,
+              842.06
+            ],
+            [
+              644.22,
+              818.97
+            ],
+            [
+              651.51,
+              799
+            ],
+            [
+              651.51,
+              799
+            ],
+            [
+              651.51,
+              799
+            ],
+            [
+              810.51,
+              768
+            ],
+            [
+              810.51,
+              768
+            ],
+            [
+              810.51,
+              768
+            ],
+            [
+              810.51,
+              612
+            ],
+            [
+              810.51,
+              612
+            ],
+            [
+              810.51,
+              612
+            ],
+            [
+              734.82,
+              565.28
+            ],
+            [
+              669.9,
+              525.21
+            ]
+          ]
+        }
+      ],
+      "_hdraw_": [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "P",
+          "points": [
+            [
+              664.29,
+              521.75
+            ],
+            [
+              671.9,
+              522.74
+            ],
+            [
+              666.23,
+              522.94
+            ],
+            [
+              670.25,
+              525.42
+            ],
+            [
+              670.25,
+              525.42
+            ],
+            [
+              670.25,
+              525.42
+            ],
+            [
+              666.23,
+              522.94
+            ],
+            [
+              668.59,
+              528.1
+            ]
+          ]
+        }
+      ],
+      "_ldraw_": [
+        {
+          "op": "F",
+          "size": 10,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            850.53,
+            687
+          ],
+          "align": "c",
+          "width": 80.04,
+          "text": "requiredQuest · 1"
+        }
+      ],
+      "arrowhead": "vee",
+      "arrowsize": ".7",
+      "color": "#526170",
+      "constraint": "false",
+      "fontname": "Arial",
+      "fontsize": "10",
+      "label": "requiredQuest · 1",
+      "lp": "850.53,690",
+      "pos": "e,663.25,521.11 635.78,842.06 644.22,818.97 651.51,799 651.51,799 651.51,799 810.51,768 810.51,768 810.51,768 810.51,612 810.51,612 810.51,612 734.82,565.28 669.9,525.21"
+    },
+    {
+      "_gvid": 18,
+      "tail": 17,
+      "head": 7,
+      "_draw_": [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "b",
+          "points": [
+            [
+              573.6,
+              842.18
+            ],
+            [
+              526.35,
+              753.82
+            ],
+            [
+              450.51,
+              612
+            ],
+            [
+              450.51,
+              612
+            ],
+            [
+              450.51,
+              612
+            ],
+            [
+              423.13,
+              578.49
+            ],
+            [
+              394.87,
+              543.89
+            ]
+          ]
+        }
+      ],
+      "_hdraw_": [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "P",
+          "points": [
+            [
+              390.73,
+              538.83
+            ],
+            [
+              397.6,
+              542.25
+            ],
+            [
+              392.17,
+              540.59
+            ],
+            [
+              395.16,
+              544.25
+            ],
+            [
+              395.16,
+              544.25
+            ],
+            [
+              395.16,
+              544.25
+            ],
+            [
+              392.17,
+              540.59
+            ],
+            [
+              392.72,
+              546.24
+            ]
+          ]
+        }
+      ],
+      "_ldraw_": [
+        {
+          "op": "F",
+          "size": 10,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            575.42,
+            687
+          ],
+          "align": "c",
+          "width": 84.49,
+          "text": "conversation · 0..1"
+        }
+      ],
+      "arrowhead": "vee",
+      "arrowsize": ".7",
+      "color": "#526170",
+      "constraint": "false",
+      "fontname": "Arial",
+      "fontsize": "10",
+      "label": "conversation · 0..1",
+      "lp": "575.42,690",
+      "pos": "e,389.96,537.88 573.6,842.18 526.35,753.82 450.51,612 450.51,612 450.51,612 423.13,578.49 394.87,543.89"
+    },
+    {
+      "_gvid": 19,
+      "tail": 17,
+      "head": 12,
+      "_draw_": [
+        {
+          "op": "S",
+          "style": "dashed"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "b",
+          "points": [
+            [
+              643.45,
+              842.13
+            ],
+            [
+              653.6,
+              820.85
+            ],
+            [
+              664.88,
+              797.18
+            ],
+            [
+              675.45,
+              775.01
+            ]
+          ]
+        }
+      ],
+      "_hdraw_": [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#526170"
+        },
+        {
+          "op": "P",
+          "points": [
+            [
+              678.33,
+              768.97
+            ],
+            [
+              678.17,
+              776.64
+            ],
+            [
+              677.35,
+              771.03
+            ],
+            [
+              675.32,
+              775.28
+            ],
+            [
+              675.32,
+              775.28
+            ],
+            [
+              675.32,
+              775.28
+            ],
+            [
+              677.35,
+              771.03
+            ],
+            [
+              672.48,
+              773.93
+            ]
+          ]
+        }
+      ],
+      "_ldraw_": [
+        {
+          "op": "F",
+          "size": 10,
+          "face": "Arial"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [
+            695.82,
+            802
+          ],
+          "align": "c",
+          "width": 65.62,
+          "text": "nghe Changed"
+        }
+      ],
+      "arrowhead": "vee",
+      "arrowsize": ".7",
+      "color": "#526170",
+      "constraint": "false",
+      "fontname": "Arial",
+      "fontsize": "10",
+      "label": "nghe Changed",
+      "lp": "695.82,805",
+      "pos": "e,678.86,767.87 643.45,842.13 653.6,820.85 664.88,797.18 675.45,775.01",
+      "style": "dashed"
+    },
+    {
+      "_gvid": 1,
+      "tail": 5,
+      "head": 6,
+      "arrowsize": ".7",
+      "color": "#526170",
+      "fontname": "Arial",
+      "fontsize": "10",
+      "label": "",
+      "pos": "e,333.51,759.82 333.51,842.13 333.51,818.66 333.51,792.29 333.51,768.23",
+      "style": "invis",
+      "weight": "100"
+    },
+    {
+      "_gvid": 3,
+      "tail": 6,
+      "head": 7,
+      "arrowsize": ".7",
+      "color": "#526170",
+      "fontname": "Arial",
+      "fontsize": "10",
+      "label": "",
+      "pos": "e,344.73,537.62 344.74,619.93 345.66,596.46 345.76,570.09 345.02,546.03",
+      "style": "invis",
+      "weight": "100"
+    },
+    {
+      "_gvid": 6,
+      "tail": 7,
+      "head": 9,
+      "arrowsize": ".7",
+      "color": "#526170",
+      "fontname": "Arial",
+      "fontsize": "10",
+      "label": "",
+      "pos": "e,333.51,323.34 333.51,397.82 333.51,376.51 333.51,353.05 333.51,331.71",
+      "style": "invis",
+      "weight": "100"
+    },
+    {
+      "_gvid": 10,
+      "tail": 9,
+      "head": 10,
+      "arrowsize": ".7",
+      "color": "#526170",
+      "fontname": "Arial",
+      "fontsize": "10",
+      "label": "",
+      "pos": "e,333.51,107.99 333.51,199.01 333.51,172.55 333.51,141.88 333.51,116.41",
+      "style": "invis",
+      "weight": "100"
+    }
+  ]
+}

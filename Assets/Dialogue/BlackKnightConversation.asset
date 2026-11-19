@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6857c924cd9e74438419d923e15327b, type: 3}
+  m_Name: BlackKnightConversation
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueDefinition
+  autoAcceptQuest: {fileID: 0}
+  autoAcceptedStartNodeId: 
+  autoTurnInQuests:
+  - {fileID: 11400000, guid: fdff245a04e08de47b5f5114816a3ac2, type: 2}
+  entryRules:
+  - encounterId: boss:necromancer:wild-forest:01
+    mustBeDefeated: 0
+    quest: {fileID: 0}
+    requiredStatus: 0
+    onlyBeforeCompletionDialogueSeen: 0
+    startNodeId: before_necromancer
+  - encounterId: 
+    mustBeDefeated: 1
+    quest: {fileID: 11400000, guid: fdff245a04e08de47b5f5114816a3ac2, type: 2}
+    requiredStatus: 2
+    onlyBeforeCompletionDialogueSeen: 0
+    startNodeId: progress
+  - encounterId: 
+    mustBeDefeated: 1
+    quest: {fileID: 11400000, guid: fdff245a04e08de47b5f5114816a3ac2, type: 2}
+    requiredStatus: 4
+    onlyBeforeCompletionDialogueSeen: 0
+    startNodeId: report
+  startNodeId: start
+  nodes:
+  - id: start
+    speaker: Black Knight
+    text: "Hi\u1EC7p s\u0129 tr\u1EBB, ta \u0111\xE3 t\u1EADn m\u1EAFt ch\u1EE9ng
+      ki\u1EBFn tr\u1EADn chi\u1EBFn c\u1EE7a ng\u01B0\u01A1i v\xE0 t\xEAn \xE1c
+      qu\u1EF7 \u1EA5y. "
+    textQuest: {fileID: 0}
+    completeQuestWithoutReward: {fileID: 0}
+    acknowledgeQuestCompletion: {fileID: 0}
+    nextNodeId: black_knight_1
+    choices: []
+  - id: black_knight_1
+    speaker: Black Knight
+    text: "D\xF9 h\u1EAFn c\xF3 m\u1EA1nh, nh\u01B0ng thanh ki\u1EBFm c\u1EE7a ng\u01B0\u01A1i
+      v\u1EABn kh\xF4ng h\u1EC1 ch\xF9n b\u01B0\u1EDBc"
+    textQuest: {fileID: 0}
+    completeQuestWithoutReward: {fileID: 0}
+    acknowledgeQuestCompletion: {fileID: 0}
+    nextNodeId: black_knight_2
+    choices: []
+  - id: black_knight_2
+    speaker: Black Knight
+    text: "Ng\u01B0\u01A1i l\xE0 m\u1ED9t k\u1EBB li\u1EC1u ch\u1EBFt, nh\u01B0ng
+      r\u1EA5t ki\xEAn c\u01B0\u1EDDng. Ta ghi nh\u1EADn \u0111i\u1EC1u \u1EA5y. "
+    textQuest: {fileID: 0}
+    completeQuestWithoutReward: {fileID: 0}
+    acknowledgeQuestCompletion: {fileID: 0}
+    nextNodeId: black_knight_3
+    choices: []
+  - id: black_knight_3
+    speaker: Black Knight
+    text: "Nh\u01B0ng, chuy\u1EC7n v\u1EABn ch\u01B0a k\u1EBFt th\xFAc."
+    textQuest: {fileID: 0}
+    completeQuestWithoutReward: {fileID: 0}
+    acknowledgeQuestCompletion: {fileID: 0}
+    nextNodeId: black_knight_4
+    choices: []
+  - id: black_knight_4
+    speaker: Black Knight
+    text: "S\u1EF1 hi\u1EC7n di\u1EC7n c\u1EE7a h\u1EAFn v\u1EABn c\xF2n \u0111\xE2u
+      \u0111\xF3 \u1EDF v\xF9ng \u0111\u1EA5t kia. "
+    textQuest: {fileID: 0}
+    completeQuestWithoutReward: {fileID: 0}
+    acknowledgeQuestCompletion: {fileID: 0}
+    nextNodeId: offer
+    choices: []
+  - id: offer
+    speaker: Black Knight
+    text: "H\xE3y t\xECm h\u1EAFn, v\xE0 tr\u1EDF l\u1EA1i \u0111\xE2y v\u1EDBi chi\u1EBFn
+      th\u1EAFng th\u1EF1c s\u1EF1. "
+    textQuest: {fileID: 11400000, guid: fdff245a04e08de47b5f5114816a3ac2, type: 2}
+    completeQuestWithoutReward: {fileID: 0}
+    acknowledgeQuestCompletion: {fileID: 0}
+    nextNodeId: 
+    choices:
+    - text: "\u0110\u01B0\u1EE3c, ta nh\u1EADn l\u1EDDi. "
+      nextNodeId: accepted
+      action: 1
+      quest: {fileID: 11400000, guid: fdff245a04e08de47b5f5114816a3ac2, type: 2}
+      conditionQuest: {fileID: 0}
+      requiredStatus: 0
+    - text: "Hi\u1EC7n ta kh\xF4ng c\xF3 h\u1EE9ng th\xFA"
+      nextNodeId: start
+      action: 4
+      quest: {fileID: 0}
+      conditionQuest: {fileID: 0}
+      requiredStatus: 0
+  - id: accepted
+    speaker: 
+    text: "Ta s\u1EBD ch\u1EDD ng\u01B0\u01A1i \u1EDF \u0111\xE2y. H\xE3y tr\u1EDF
+      v\u1EC1 khi \u0111\xE3 ho\xE0n th\xE0nh l\u1EDDi h\u1EB9n."
+    textQuest: {fileID: 0}
+    completeQuestWithoutReward: {fileID: 0}
+    acknowledgeQuestCompletion: {fileID: 0}
+    nextNodeId: 
+    choices: []
+  - id: progress
+    speaker: 
+    text: "K\u1EBB g\u1ECDi h\u1ED3n \u1EDF R\u1EEBng ch\u1EBFt l\xE0 m\u1EE5c ti\xEAu
+      c\u1EE7a ng\u01B0\u01A1i. H\xE3y quay l\u1EA1i b\xE1o c\xE1o khi \u0111\xE3
+      h\u1EA1 \u0111\u01B0\u1EE3c h\u1EAFn.\n{progress}"
+    textQuest: {fileID: 11400000, guid: fdff245a04e08de47b5f5114816a3ac2, type: 2}
+    completeQuestWithoutReward: {fileID: 0}
+    acknowledgeQuestCompletion: {fileID: 0}
+    nextNodeId: 
+    choices: []
+  - id: report
+    speaker: Black Knight
+    text: "L\xE0m t\u1ED1t l\u1EAFm. Gi\u1EDD ngu\u01A1i \u0111\xE3 \u0111\u1EE7
+      m\u1EA1nh \u0111\u1EC3 tr\u1EF1c di\u1EC7n v\u1EDBi Ng\xE0i r\u1ED3i. "
+    textQuest: {fileID: 11400000, guid: fdff245a04e08de47b5f5114816a3ac2, type: 2}
+    completeQuestWithoutReward: {fileID: 0}
+    acknowledgeQuestCompletion: {fileID: 0}
+    nextNodeId: after_report
+    choices: []
+  - id: duel
+    speaker: Black Knight
+    text: "C\u1EA7m ki\u1EBFm l\xEAn v\xE0 chi\u1EBFn \u0111\u1EA5u \u0111i!"
+    textQuest: {fileID: 0}
+    completeQuestWithoutReward: {fileID: 0}
+    acknowledgeQuestCompletion: {fileID: 0}
+    nextNodeId: 
+    choices:
+    - text: "Chi\u1EBFn \u0111\u1EA5u"
+      nextNodeId: 
+      action: 5
+      quest: {fileID: 0}
+      conditionQuest: {fileID: 0}
+      requiredStatus: 0
+    - text: "Ch\u01B0a chi\u1EBFn \u0111\u1EA5u"
+      nextNodeId: 
+      action: 4
+      quest: {fileID: 0}
+      conditionQuest: {fileID: 0}
+      requiredStatus: 0
+  - id: before_necromancer
+    speaker: Black Knight
+    text: "Ta c\u1EA3m nh\u1EADn \u0111\u01B0\u1EE3c t\xE0 thu\u1EADt v\u1EABn c\xF2n
+      trong R\u1EEBng hoang. H\xE3y h\u1EA1 k\u1EBB g\u1ECDi h\u1ED3n \u1EDF \u0111\xF3
+      tr\u01B0\u1EDBc, r\u1ED3i tr\u1EDF l\u1EA1i g\u1EB7p ta. Khi \u1EA5y, ch\xFAng
+      ta s\u1EBD c\xF3 chuy\u1EC7n \u0111\u1EC3 n\xF3i."
+    textQuest: {fileID: 0}
+    completeQuestWithoutReward: {fileID: 0}
+    acknowledgeQuestCompletion: {fileID: 0}
+    nextNodeId: 
+    choices: []
+  - id: after_report
+    speaker: Black Knight
+    text: "Nh\u01B0ng tr\u01B0\u1EDBc \u0111\xF3, ng\u01B0\u01A1i c\u1EA7n ph\u1EA3i
+      b\u01B0\u1EDBc qua x\xE1c c\u1EE7a ta \u0111\xE3. "
+    textQuest: {fileID: 0}
+    completeQuestWithoutReward: {fileID: 0}
+    acknowledgeQuestCompletion: {fileID: 0}
+    nextNodeId: duel
+    choices: []

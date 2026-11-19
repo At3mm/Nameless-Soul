@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 53
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::DialogueGraphLayouts
+  positions:
+  - assetGuid: 3454d439ba2afe74e8ad0bc568557085
+    key: node:black_knight_3
+    value: {x: 1699, y: 0}
+  - assetGuid: 3454d439ba2afe74e8ad0bc568557085
+    key: node:black_knight_4
+    value: {x: 2246, y: 0}
+  - assetGuid: 3454d439ba2afe74e8ad0bc568557085
+    key: node:offer
+    value: {x: 2859, y: -2}
+  - assetGuid: 3454d439ba2afe74e8ad0bc568557085
+    key: node:accepted
+    value: {x: 3413, y: 21}
+  - assetGuid: 3454d439ba2afe74e8ad0bc568557085
+    key: rule:1
+    value: {x: -28, y: 310}
+  - assetGuid: 3454d439ba2afe74e8ad0bc568557085
+    key: node:progress
+    value: {x: 574, y: 242}
+  - assetGuid: 3454d439ba2afe74e8ad0bc568557085
+    key: node:before_necromancer
+    value: {x: 420, y: -358}
+  - assetGuid: 3454d439ba2afe74e8ad0bc568557085
+    key: node:report
+    value: {x: 549, y: 512}
+  - assetGuid: 3454d439ba2afe74e8ad0bc568557085
+    key: node:duel
+    value: {x: 1509, y: 775}
+  - assetGuid: 3454d439ba2afe74e8ad0bc568557085
+    key: node:line_add18b30
+    value: {x: 1036, y: 506}
+  - assetGuid: 3454d439ba2afe74e8ad0bc568557085
+    key: node:after_report
+    value: {x: 1010, y: 516}
+  - assetGuid: 3454d439ba2afe74e8ad0bc568557085
+    key: node:line_e515fa07
+    value: {x: 1473, y: 510}
+  - assetGuid: 3454d439ba2afe74e8ad0bc568557085
+    key: node:after_report_2
+    value: {x: 1473, y: 510}
+  - assetGuid: 18d42014fa9b62746a302756f9dc8a97
+    key: node:start
+    value: {x: -118, y: -367}
+  - assetGuid: 18d42014fa9b62746a302756f9dc8a97
+    key: node:progress
+    value: {x: 400, y: 280}
+  - assetGuid: 18d42014fa9b62746a302756f9dc8a97
+    key: node:offer
+    value: {x: 400, y: -60}
+  - assetGuid: 18d42014fa9b62746a302756f9dc8a97
+    key: node:accepted
+    value: {x: 810, y: -60}
+  - assetGuid: 18d42014fa9b62746a302756f9dc8a97
+    key: rule:0
+    value: {x: 351, y: 210}
+  - assetGuid: 18d42014fa9b62746a302756f9dc8a97
+    key: start
+    value: {x: -456, y: 278}
+  - assetGuid: 18d42014fa9b62746a302756f9dc8a97
+    key: rule:1
+    value: {x: -140, y: 754}
+  - assetGuid: 18d42014fa9b62746a302756f9dc8a97
+    key: rule:2
+    value: {x: -18, y: 950}
+  - assetGuid: 18d42014fa9b62746a302756f9dc8a97
+    key: node:report
+    value: {x: 345, y: 730}
+  - assetGuid: 18d42014fa9b62746a302756f9dc8a97
+    key: node:rewarded
+    value: {x: 774, y: 721}
+  - assetGuid: 18d42014fa9b62746a302756f9dc8a97
+    key: node:after
+    value: {x: 810, y: 950}
+  - assetGuid: 18d42014fa9b62746a302756f9dc8a97
+    key: node:offer_1
+    value: {x: 813, y: -62}
+  - assetGuid: 18d42014fa9b62746a302756f9dc8a97
+    key: node:line_c3abc5e0
+    value: {x: 1238, y: -63}
+  - assetGuid: 18d42014fa9b62746a302756f9dc8a97
+    key: node:offer_2
+    value: {x: 1238, y: -63}
+  - assetGuid: 18d42014fa9b62746a302756f9dc8a97
+    key: node:line_4283266e
+    value: {x: 1655, y: -61}
+  - assetGuid: 18d42014fa9b62746a302756f9dc8a97
+    key: node:offer_3
+    value: {x: 1655, y: -61}
+  - assetGuid: 18d42014fa9b62746a302756f9dc8a97
+    key: node:line_edbceac1
+    value: {x: 2063, y: -60}
+  - assetGuid: 18d42014fa9b62746a302756f9dc8a97
+    key: node:offer_4
+    value: {x: 2015, y: 275}
+  - assetGuid: 18d42014fa9b62746a302756f9dc8a97
+    key: node:line_357df013
+    value: {x: 1234, y: 720}
+  - assetGuid: 18d42014fa9b62746a302756f9dc8a97
+    key: node:line_445e072c
+    value: {x: 1765, y: 719}
+  - assetGuid: 18d42014fa9b62746a302756f9dc8a97
+    key: node:line_d8d062a9
+    value: {x: 2238, y: 718}
+  - assetGuid: 18d42014fa9b62746a302756f9dc8a97
+    key: node:reward_2
+    value: {x: 1234, y: 720}
+  - assetGuid: 18d42014fa9b62746a302756f9dc8a97
+    key: node:reward_3
+    value: {x: 1765, y: 719}
+  - assetGuid: 18d42014fa9b62746a302756f9dc8a97
+    key: node:reward_4
+    value: {x: 2227, y: 738}

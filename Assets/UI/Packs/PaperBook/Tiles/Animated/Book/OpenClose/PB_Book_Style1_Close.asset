@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: PB_Book_Style1_Close
+  m_EditorClassIdentifier: Unity.2D.Tilemap.Extras::UnityEngine.Tilemaps.AnimatedTile
+  m_AnimatedSprites:
+  - {fileID: 21300000, guid: e9d303b4c5a44cb4788dae3c1e90e91a, type: 3}
+  - {fileID: 21300000, guid: 460a0e41d0fe0da40affb7d9eaedbdeb, type: 3}
+  - {fileID: 21300000, guid: 0b8c006bfb8fe7b43ad8f23ba5d66090, type: 3}
+  - {fileID: 21300000, guid: bcf7dc7a6f2f37f4dad74ba6175628d8, type: 3}
+  - {fileID: 21300000, guid: b8ff9902b5bf8b9498c94ffddf03e798, type: 3}
+  m_MinSpeed: 14.285714
+  m_MaxSpeed: 14.285714
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
+  m_TileAnimationFlags: 9
