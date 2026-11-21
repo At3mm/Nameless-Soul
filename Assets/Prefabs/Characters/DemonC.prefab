@@ -280,7 +280,7 @@ MonoBehaviour:
     hitEffectPrefab: {fileID: 0}
     hitSound: {fileID: 0}
   - skillName: HeavyAttack
-    damageMultiplier: 1.3
+    damageMultiplier: 1.2557693
     knockbackForce: 3
     canBeParried: 1
     cooldownTime: 3
@@ -316,10 +316,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f7e446b622450341b3727857aa782ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterStats
-  maxHP: 110
-  currentHP: 110
-  ATK: 33
-  DEF: 4
+  maxHP: 180
+  currentHP: 180
+  ATK: 52
+  DEF: 6
   STR: 0
   maxStamina: 60
   currentStamina: 60
@@ -459,7 +459,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAreaDamage
   archetypeId: demon-c
-  fallbackProfile: {fileID: 11400000, guid: a2287eea82260474b863b3ffd6c14d16, type: 2}
+  fallbackProfile: {fileID: 11400000, guid: 4cb1837f12ccd3c44adb3cb129c07df7, type: 2}
   profileOverride: {fileID: 0}
 --- !u!1 &914665148097303097
 GameObject:

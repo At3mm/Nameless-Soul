@@ -90,7 +90,9 @@ namespace World
             var entry = AddUnlocked(unlocked, scenePath, id);
             if (!string.IsNullOrWhiteSpace(displayName)) entry.displayName = displayName;
             PlayerPrefs.SetString(UnlockSaveKey, JsonUtility.ToJson(unlocked));
-            PlayerPrefs.SetString(SaveKey, JsonUtility.ToJson(r)); PlayerPrefs.Save(); SavedChanged?.Invoke(); return true;
+            PlayerPrefs.SetString(SaveKey, JsonUtility.ToJson(r)); PlayerPrefs.Save();
+            if (rememberForReturn) GameplayTutorial.Report(GameObject.FindGameObjectWithTag("Player"), GameplayTutorial.Lesson.Pray);
+            SavedChanged?.Invoke(); return true;
         }
         public static bool Unlock(string scenePath, string id, Vector3 position, string displayName)
         {

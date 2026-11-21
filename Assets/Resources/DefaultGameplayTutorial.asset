@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04c0aff7071a8e049a46c60d5436aaec, type: 3}
+  m_Name: DefaultGameplayTutorial
+  m_EditorClassIdentifier: Assembly-CSharp::GameplayTutorialSettings
+  sceneName: WastelandScene
+  areaId: area1
+  hintDuration: 7
+  hintSpacing: 3
+  dashHintDistance: 5
+  combatHintDistance: 6
+  moveDistance: 2
+  initialDelay: 3.5
+  shrineHintDistance: 5
+  move: "D\xF9ng {Up} / {Left} / {Down} / {Right} \u0111\u1EC3 b\u01B0\u1EDBc ti\u1EBFp
+    tr\xEAn l\u1ED1i m\xF2n."
+  dash: "Nh\u1EA5n {Dash} \u0111\u1EC3 l\u01B0\u1EDBt. Gi\u1EEF ph\xEDm sau khi l\u01B0\u1EDBt
+    \u0111\u1EC3 ch\u1EA1y; ch\xFA \xFD thanh Stamina."
+  attack: "Nh\u1EA5n {Attack} \u0111\u1EC3 \u0111\xE1nh th\u01B0\u1EDDng. Quan s\xE1t
+    kho\u1EA3ng c\xE1ch tr\u01B0\u1EDBc khi ra \u0111\xF2n."
+  parry: "Nh\u1EA5n {Parry} \u0111\u1EC3 \u0111\u1EE1 \u0111\xF2n. Canh \u0111\xFAng
+    l\xFAc \u0111\u1ED1i th\u1EE7 ra \u0111\xF2n \u0111\u1EC3 ph\u1EA3n \u0111\xF2n."
+  skill: "\u0110\xE1nh v\xE0 ph\u1EA3n \u0111\xF2n \u0111\u1EC3 t\xEDch Chi\u1EBFn
+    \xFD (POS), r\u1ED3i nh\u1EA5n {Skill} \u0111\u1EC3 tung k\u1EF9 n\u0103ng."
+  heal: "B\u1EA1n \u0111ang b\u1ECB th\u01B0\u01A1ng. Nh\u1EA5n {Heal} \u0111\u1EC3
+    u\u1ED1ng b\xECnh m\xE1u; c\u1EA7u nguy\u1EC7n t\u1EA1i t\u01B0\u1EE3ng \u0111\u1EC3
+    n\u1EA1p l\u1EA1i."
+  shrine: "\u0110\u1EBFn g\u1EA7n t\u01B0\u1EE3ng v\xE0 nh\u1EA5n {Interact}, ch\u1ECDn
+    C\u1EA7u nguy\u1EC7n \u0111\u1EC3 l\u01B0u h\xE0nh tr\xECnh v\xE0 h\u1ED3i ph\u1EE5c."
+  explore: "Ti\u1EBFp t\u1EE5c kh\xE1m ph\xE1. Khi g\u1EB7p t\u01B0\u1EE3ng th\u1EA7n,
+    nh\u1EA5n {Interact} v\xE0 C\u1EA7u nguy\u1EC7n \u0111\u1EC3 l\u01B0u h\xE0nh
+    tr\xECnh."

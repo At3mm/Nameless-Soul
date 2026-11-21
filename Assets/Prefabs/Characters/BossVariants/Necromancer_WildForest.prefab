@@ -63,6 +63,42 @@ PrefabInstance:
       propertyPath: m_Name
       value: Necromancer_WildForest
       objectReference: {fileID: 0}
+    - target: {fileID: 3722939787762125945, guid: 01284b4efa5986c43a8e4bccf2253de1,
+        type: 3}
+      propertyPath: ATK
+      value: 68
+      objectReference: {fileID: 0}
+    - target: {fileID: 3722939787762125945, guid: 01284b4efa5986c43a8e4bccf2253de1,
+        type: 3}
+      propertyPath: DEF
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3722939787762125945, guid: 01284b4efa5986c43a8e4bccf2253de1,
+        type: 3}
+      propertyPath: STR
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3722939787762125945, guid: 01284b4efa5986c43a8e4bccf2253de1,
+        type: 3}
+      propertyPath: maxHP
+      value: 1450
+      objectReference: {fileID: 0}
+    - target: {fileID: 3722939787762125945, guid: 01284b4efa5986c43a8e4bccf2253de1,
+        type: 3}
+      propertyPath: CRIT_Rate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3722939787762125945, guid: 01284b4efa5986c43a8e4bccf2253de1,
+        type: 3}
+      propertyPath: currentHP
+      value: 1450
+      objectReference: {fileID: 0}
+    - target: {fileID: 5083336601149098419, guid: 01284b4efa5986c43a8e4bccf2253de1,
+        type: 3}
+      propertyPath: fallbackProfile
+      value: 
+      objectReference: {fileID: 11400000, guid: d52c67ca3d80eaf4a98d64f13b548e84,
+        type: 2}
     - target: {fileID: 5083336601149098419, guid: 01284b4efa5986c43a8e4bccf2253de1,
         type: 3}
       propertyPath: profileOverride
@@ -105,6 +141,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: b6c7d9ae5e4106c448cde095ceb50361,
         type: 2}
+    - target: {fileID: 8205505930462141524, guid: 01284b4efa5986c43a8e4bccf2253de1,
+        type: 3}
+      propertyPath: skills.Array.data[1].damageMultiplier
+      value: 1.2882353
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205505930462141524, guid: 01284b4efa5986c43a8e4bccf2253de1,
+        type: 3}
+      propertyPath: skills.Array.data[2].damageMultiplier
+      value: 1.2882353
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

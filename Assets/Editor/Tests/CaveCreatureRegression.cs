@@ -104,13 +104,14 @@ public static class CaveCreatureRegression
         var potion=player.GetComponent<PlayerHealthPotion>();
         Check(potion!=null&&potion.capacity==3,"New game still starts with three healing flasks");
         GameEconomy.GrantLifeSeedItem(3);
+        GameEconomy.AddLifeSeeds(5);
         for(int i=0;i<7;i++)Check(GameEconomy.SacrificeLifeSeed(potion),"Sacrifice seed "+(i+1)+" increases flask capacity");
-        Check(potion.capacity==10&&GameEconomy.LifeSeeds==1,"Seven seeds raise capacity from three to ten");
+        Check(potion.capacity==10&&GameEconomy.LifeSeeds==1,"Seven sacrifices consume twelve seeds to raise capacity from three to ten");
         Check(!GameEconomy.SacrificeLifeSeed(potion)&&GameEconomy.LifeSeeds==1,"Capacity cap does not consume an extra seed");
         foreach(var spec in CaveCreatureSetup.Specs)
         {
             var prefab=AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Prefabs/Characters/"+spec.prefix+".prefab");
-            Check(prefab!=null&&prefab.GetComponent<EnemyClassification>().enemyType==(spec.elite?EnemyClassification.EnemyType.Elite:EnemyClassification.EnemyType.Normal),spec.prefix+" classification correct");
+            Check(prefab!=null&&prefab.GetComponent<EnemyClassification>().enemyType==(spec.boss?EnemyClassification.EnemyType.Boss:spec.elite?EnemyClassification.EnemyType.Elite:EnemyClassification.EnemyType.Normal),spec.prefix+" classification correct");
             Check(prefab.GetComponent<EnemyAudio>()?.profile!=null,spec.prefix+" audio profile present");
             foreach(var path in Directory.GetFiles("Assets/Sprites/"+spec.folder,"*.png",SearchOption.AllDirectories))
             {
@@ -148,8 +149,8 @@ public static class CaveCreatureRegression
                 Check(!target.GetComponent<AnimationEventHandler>().isActionLocked,spec.prefix+" "+skill.skillName+" unlocks after animation");
             }
             int before=GameEconomy.LifeSeeds;target.GetComponent<CharacterHealth>().TakeDamageOverTime(1000000);yield return null;
-            Check(GameEconomy.LifeSeeds==before+(spec.elite?1:0),spec.prefix+" death grants seeds only for Elite");
-            if(spec.elite)Check(GameEconomy.RecordEliteSeedDrop(target.GetComponent<EnemyClassification>())==null,"Minotaur encounter cannot pay seed twice");
+            Check(GameEconomy.LifeSeeds==before+(spec.elite||spec.boss?1:0),spec.prefix+" death grants seeds only for Elite and Boss");
+            if(spec.elite||spec.boss)Check(GameEconomy.RecordEliteSeedDrop(target.GetComponent<EnemyClassification>())==null,"Minotaur encounter cannot pay seed twice");
             Object.Destroy(target);target=null;yield return null;
         }
         Object.Destroy(player);player=null;yield return null;

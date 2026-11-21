@@ -12,182 +12,259 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22c3e26459acd8745b0847568fbb95a5, type: 3}
   m_Name: 01_AncientTrail
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamageProfile
-  notes: 'Tier 1. Reference: player 100 HP / 10 DEF, 1 second hit immunity. Enemy
-    critical chance is zero. Spawn area stays fixed during chase.'
+  notes: 'Progression reference: 0 total purchases, roughly 40% HP / 30% ATK / 10%
+    DEF / remainder Stamina. Boss normal hit removes 22 HP at reference DEF; matching
+    Elite hit is exactly 2/3. Damage and rewards remain tied to spawn. Moderate pacing:
+    85-95% purchase milestones on a single clear; boss reward about 2-3 upgrades.
+    Combo HP budget 45%. Flame Golem is a lighter single-phase boss. No gate on boss
+    access. Necromancer summons grant no currency.'
+  recommendedPurchases: 0
+  referencePlayerDefense: 10
+  useAreaRewards: 1
+  normalGold: 12
+  normalExperience: 1500
+  eliteGold: 60
+  eliteExperience: 3000
+  bossGold: 180
+  bossExperience: 12000
+  maxComboHPFraction: 0.45
   enemies:
-  - archetypeId: slime
-    attack: 18
-    trueDamage: 0
-    criticalChance: 0
-    criticalMultiplier: 1.5
-    skills:
-    - skillName: NormalAttack
-      damageMultiplier: 0.85
-    - skillName: HeavyAttack
-      damageMultiplier: 1.35
-  - archetypeId: orc
-    attack: 20
-    trueDamage: 0
-    criticalChance: 0
-    criticalMultiplier: 1.5
-    skills:
-    - skillName: NormalAttack
-      damageMultiplier: 1
-    - skillName: HeavyAttack
-      damageMultiplier: 1.4
-  - archetypeId: werewolf
-    attack: 22
-    trueDamage: 1
-    criticalChance: 0
-    criticalMultiplier: 1.5
-    skills:
-    - skillName: NormalAttack
-      damageMultiplier: 1
-    - skillName: TeleportAttack
-      damageMultiplier: 1.25
-  - archetypeId: werebear
-    attack: 27
-    trueDamage: 1
-    criticalChance: 0
-    criticalMultiplier: 1.5
-    skills:
-    - skillName: Skill1
-      damageMultiplier: 0.95
-    - skillName: Skill2
-      damageMultiplier: 0.8
-    - skillName: Skill3
-      damageMultiplier: 1.45
-  - archetypeId: elite-orc
-    attack: 28
-    trueDamage: 1
-    criticalChance: 0
-    criticalMultiplier: 1.5
-    skills:
-    - skillName: Skill1
-      damageMultiplier: 0.95
-    - skillName: Skill2
-      damageMultiplier: 0.75
-    - skillName: Skill3
-      damageMultiplier: 1.4
-  - archetypeId: orc-rider
-    attack: 26
-    trueDamage: 2
-    criticalChance: 0
-    criticalMultiplier: 1.5
-    skills:
-    - skillName: NormalAttack
-      damageMultiplier: 1
-    - skillName: HeavyAttack
-      damageMultiplier: 1.4
-    - skillName: Skill3
-      damageMultiplier: 1.1
-  - archetypeId: necromancer
-    attack: 28
-    trueDamage: 2
-    criticalChance: 0
-    criticalMultiplier: 1.5
-    skills:
-    - skillName: NormalAttack
-      damageMultiplier: 1
-    - skillName: HeavyAttack
-      damageMultiplier: 1.25
-    - skillName: Summon
-      damageMultiplier: 1.5
-  - archetypeId: necromancer-bat
-    attack: 13
-    trueDamage: 1
-    criticalChance: 0
-    criticalMultiplier: 1.5
-    skills:
-    - skillName: NormalAttack
-      damageMultiplier: 1
-    - skillName: HeavyAttack
-      damageMultiplier: 1.4
-  - archetypeId: black-knight
-    attack: 30
-    trueDamage: 2
-    criticalChance: 0
-    criticalMultiplier: 1.5
-    skills:
-    - skillName: NormalAttack
-      damageMultiplier: 1
-    - skillName: Skill2
-      damageMultiplier: 1.3
-    - skillName: Skill3
-      damageMultiplier: 1.5
-  - archetypeId: skeleton
-    attack: 20
-    trueDamage: 0
-    criticalChance: 0
-    criticalMultiplier: 1.5
-    skills:
-    - skillName: NormalAttack
-      damageMultiplier: 1
-    - skillName: HeavyAttack
-      damageMultiplier: 1.25
   - archetypeId: armor-skeleton
-    attack: 22
+    attack: 20
     trueDamage: 0
     criticalChance: 0
     criticalMultiplier: 1.5
-    skills:
-    - skillName: NormalAttack
-      damageMultiplier: 1.05
-    - skillName: HeavyAttack
-      damageMultiplier: 0.65
-  - archetypeId: greatsword-skeleton
-    attack: 28
-    trueDamage: 1
-    criticalChance: 0
-    criticalMultiplier: 1.5
+    balanceVitality: 1
+    maxHP: 78
+    defense: 4
     skills:
     - skillName: NormalAttack
       damageMultiplier: 1
     - skillName: HeavyAttack
-      damageMultiplier: 1.45
+      damageMultiplier: 1.175
+  - archetypeId: black-knight
+    attack: 32
+    trueDamage: 0
+    criticalChance: 0
+    criticalMultiplier: 1.5
+    balanceVitality: 1
+    maxHP: 450
+    defense: 5
+    skills:
+    - skillName: NormalAttack
+      damageMultiplier: 1
+    - skillName: Skill2
+      damageMultiplier: 1.240625
     - skillName: Skill3
-      damageMultiplier: 1.2
+      damageMultiplier: 1.240625
+  - archetypeId: black-knight-boss
+    attack: 32
+    trueDamage: 0
+    criticalChance: 0
+    criticalMultiplier: 1.5
+    balanceVitality: 1
+    maxHP: 450
+    defense: 5
+    skills:
+    - skillName: NormalAttack
+      damageMultiplier: 1
+    - skillName: Skill2
+      damageMultiplier: 1.240625
+    - skillName: Skill3
+      damageMultiplier: 1.240625
+  - archetypeId: necromancer
+    attack: 32
+    trueDamage: 0
+    criticalChance: 0
+    criticalMultiplier: 1.5
+    balanceVitality: 1
+    maxHP: 450
+    defense: 5
+    skills:
+    - skillName: NormalAttack
+      damageMultiplier: 1
+    - skillName: HeavyAttack
+      damageMultiplier: 1.240625
+    - skillName: Summon
+      damageMultiplier: 1.240625
   - archetypeId: demon-c
     attack: 20
     trueDamage: 0
     criticalChance: 0
     criticalMultiplier: 1.5
+    balanceVitality: 1
+    maxHP: 60
+    defense: 2
     skills:
     - skillName: NormalAttack
       damageMultiplier: 1
     - skillName: HeavyAttack
-      damageMultiplier: 1.3
+      damageMultiplier: 1.175
+  - archetypeId: elite-orc
+    attack: 24.666668
+    trueDamage: 0
+    criticalChance: 0
+    criticalMultiplier: 1.5
+    balanceVitality: 1
+    maxHP: 158
+    defense: 4
+    skills:
+    - skillName: Skill1
+      damageMultiplier: 0.99999994
+    - skillName: Skill2
+      damageMultiplier: 0.7918919
+    - skillName: Skill3
+      damageMultiplier: 1.2081081
   - archetypeId: flame-golem
-    attack: 24
+    attack: 27.6
     trueDamage: 0
     criticalChance: 0
     criticalMultiplier: 1.5
+    balanceVitality: 1
+    maxHP: 315
+    defense: 3
     skills:
     - skillName: NormalAttack
       damageMultiplier: 1
     - skillName: HeavyAttack
-      damageMultiplier: 1.35
+      damageMultiplier: 1.2231884
     - skillName: Skill3
-      damageMultiplier: 1.2
+      damageMultiplier: 1.2231884
+  - archetypeId: greatsword-skeleton
+    attack: 24.666668
+    trueDamage: 0
+    criticalChance: 0
+    criticalMultiplier: 1.5
+    balanceVitality: 1
+    maxHP: 158
+    defense: 4
+    skills:
+    - skillName: NormalAttack
+      damageMultiplier: 0.99999994
+    - skillName: HeavyAttack
+      damageMultiplier: 1.2081081
+    - skillName: Skill3
+      damageMultiplier: 1.2081081
   - archetypeId: lava-slime
-    attack: 18
+    attack: 20
     trueDamage: 0
     criticalChance: 0
     criticalMultiplier: 1.5
+    balanceVitality: 1
+    maxHP: 45
+    defense: 2
     skills:
     - skillName: NormalAttack
       damageMultiplier: 1
     - skillName: HeavyAttack
-      damageMultiplier: 1.25
+      damageMultiplier: 1.175
   - archetypeId: minotaur
-    attack: 30
-    trueDamage: 2
+    attack: 24.666668
+    trueDamage: 0
     criticalChance: 0
     criticalMultiplier: 1.5
+    balanceVitality: 1
+    maxHP: 158
+    defense: 4
     skills:
     - skillName: NormalAttack
-      damageMultiplier: 1.15
+      damageMultiplier: 0.99999994
     - skillName: HeavyAttack
-      damageMultiplier: 1.25
+      damageMultiplier: 1.2081081
     - skillName: Skill3
-      damageMultiplier: 1.45
+      damageMultiplier: 1.2081081
+  - archetypeId: necromancer-bat
+    attack: 15
+    trueDamage: 0
+    criticalChance: 0
+    criticalMultiplier: 1.5
+    balanceVitality: 1
+    maxHP: 15
+    defense: 0
+    skills:
+    - skillName: NormalAttack
+      damageMultiplier: 1
+    - skillName: HeavyAttack
+      damageMultiplier: 1.1166667
+  - archetypeId: orc
+    attack: 20
+    trueDamage: 0
+    criticalChance: 0
+    criticalMultiplier: 1.5
+    balanceVitality: 1
+    maxHP: 60
+    defense: 2
+    skills:
+    - skillName: NormalAttack
+      damageMultiplier: 1
+    - skillName: HeavyAttack
+      damageMultiplier: 1.175
+  - archetypeId: orc-rider
+    attack: 32
+    trueDamage: 0
+    criticalChance: 0
+    criticalMultiplier: 1.5
+    balanceVitality: 1
+    maxHP: 450
+    defense: 5
+    skills:
+    - skillName: NormalAttack
+      damageMultiplier: 1
+    - skillName: HeavyAttack
+      damageMultiplier: 0.79375
+    - skillName: Skill3
+      damageMultiplier: 1.240625
+  - archetypeId: skeleton
+    attack: 20
+    trueDamage: 0
+    criticalChance: 0
+    criticalMultiplier: 1.5
+    balanceVitality: 1
+    maxHP: 48
+    defense: 2
+    skills:
+    - skillName: NormalAttack
+      damageMultiplier: 1
+    - skillName: HeavyAttack
+      damageMultiplier: 1.175
+  - archetypeId: slime
+    attack: 20
+    trueDamage: 0
+    criticalChance: 0
+    criticalMultiplier: 1.5
+    balanceVitality: 1
+    maxHP: 48
+    defense: 2
+    skills:
+    - skillName: NormalAttack
+      damageMultiplier: 1
+    - skillName: HeavyAttack
+      damageMultiplier: 1.175
+  - archetypeId: werebear
+    attack: 24.666668
+    trueDamage: 0
+    criticalChance: 0
+    criticalMultiplier: 1.5
+    balanceVitality: 1
+    maxHP: 158
+    defense: 4
+    skills:
+    - skillName: Skill1
+      damageMultiplier: 0.99999994
+    - skillName: Skill2
+      damageMultiplier: 0.7918919
+    - skillName: Skill3
+      damageMultiplier: 1.2081081
+  - archetypeId: werewolf
+    attack: 20
+    trueDamage: 0
+    criticalChance: 0
+    criticalMultiplier: 1.5
+    balanceVitality: 1
+    maxHP: 54
+    defense: 2
+    skills:
+    - skillName: NormalAttack
+      damageMultiplier: 1
+    - skillName: TeleportAttack
+      damageMultiplier: 1.175

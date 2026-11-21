@@ -311,7 +311,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 1030
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 8733521959260579022, guid: 54d8854768e51f84eb8c1e2017910a83,
@@ -454,6 +454,8 @@ MonoBehaviour:
   maxRetreatDistance: 3
   lungeSpeed: 3
   lungeDuration: 0.12
+  restrictLungeSkills: 0
+  lungeSkillNames: []
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 1
@@ -493,7 +495,7 @@ MonoBehaviour:
     hitEffectPrefab: {fileID: 0}
     hitSound: {fileID: 0}
   - skillName: HeavyAttack
-    damageMultiplier: 1.4
+    damageMultiplier: 1.1785715
     knockbackForce: 2
     canBeParried: 1
     cooldownTime: 2.6
@@ -529,14 +531,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f7e446b622450341b3727857aa782ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterStats
-  maxHP: 40
-  currentHP: 40
-  ATK: 8
+  maxHP: 30
+  currentHP: 30
+  ATK: 24.5
   DEF: 0
   STR: 0
   maxStamina: 100
   currentStamina: 0
-  CRIT_Rate: 0.1
+  CRIT_Rate: 0
   CRIT_Damage: 1.5
   RES: 0.2
   usePostureSystem: 0
@@ -682,7 +684,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAreaDamage
   archetypeId: necromancer-bat
-  fallbackProfile: {fileID: 11400000, guid: 701983951e4597f4b8325ca36ec30e3f, type: 2}
+  fallbackProfile: {fileID: 11400000, guid: d52c67ca3d80eaf4a98d64f13b548e84, type: 2}
   profileOverride: {fileID: 0}
 --- !u!1 &2953324986029507843
 GameObject:

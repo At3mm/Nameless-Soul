@@ -25,3 +25,4 @@ MonoBehaviour:
   eliteExperience: 150
   bossGold: 250
   bossExperience: 1000
+  potionSeedCosts: 01000000010000000200000002000000020000000200000002000000

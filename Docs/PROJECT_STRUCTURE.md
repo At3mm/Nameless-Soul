@@ -42,3 +42,9 @@ Các phiên kiểm thử có thể dùng Play Mode, nên lưu scene trước khi
 Muốn phục hồi scene, sao chép đúng scene cần dùng vào một thư mục mới trong `Assets` bằng Unity; tránh phục hồi toàn bộ cây cùng GUID khi asset tương ứng đã tồn tại. Không chép các bản báo cáo cũ đè lên báo cáo chính nếu chưa đối chiếu nội dung.
 
 Lần sắp xếp này chuyển 144 tệp C# bằng AssetDatabase và giữ nguyên GUID, tên lớp, namespace, prefab, Animation Event và đường dẫn dữ liệu Resources. Các thư mục rỗng Materials, Shaders và Screenshots ở gốc Assets đã được bỏ; tài nguyên thực tế trong các thư mục chức năng không bị xóa.
+
+## Bản phát hành Windows
+
+Công cụ build nằm trong Assets/Editor/Infrastructure/WindowsReleaseBuild.cs; cấu hình bộ cài trong Tools/Build. Builds/Windows chứa player, Builds/Installer chứa bộ cài; cả hai là dữ liệu sinh ra và được Git bỏ qua. Xem Guides/WINDOWS_RELEASE.md.
+
+Các thư mục *-Preview và UML-Review-* là bản xuất tài liệu cục bộ; nguồn UML chuẩn trong Report-UML vẫn được quản lý bằng Git. Bản sao lưu khôi phục không bị xóa trong lần dọn này.

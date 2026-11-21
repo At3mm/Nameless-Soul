@@ -629,7 +629,7 @@ MonoBehaviour:
     hitEffectPrefab: {fileID: 0}
     hitSound: {fileID: 0}
   - skillName: HeavyAttack
-    damageMultiplier: 1.25
+    damageMultiplier: 1.2557693
     knockbackForce: 3
     canBeParried: 1
     cooldownTime: 3.5
@@ -665,10 +665,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f7e446b622450341b3727857aa782ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterStats
-  maxHP: 90
-  currentHP: 90
-  ATK: 31
-  DEF: 3
+  maxHP: 135
+  currentHP: 135
+  ATK: 52
+  DEF: 6
   STR: 0
   maxStamina: 50
   currentStamina: 50
@@ -808,7 +808,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAreaDamage
   archetypeId: lava-slime
-  fallbackProfile: {fileID: 11400000, guid: a2287eea82260474b863b3ffd6c14d16, type: 2}
+  fallbackProfile: {fileID: 11400000, guid: 4cb1837f12ccd3c44adb3cb129c07df7, type: 2}
   profileOverride: {fileID: 0}
 --- !u!114 &4535367511871435818
 MonoBehaviour:

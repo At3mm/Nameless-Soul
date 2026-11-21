@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c63a272df99a84b9131b61b5e2fca2, type: 3}
+  m_Name: BossDefeatCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::BossDefeatCatalog
+  bossEncounterIds:
+  - Assets/Scenes/CaveScene.unity|GlobalObjectId_V1-2-a7d8611664dfeed42b3fa8a2e9c56f93-2268095539133015547-1583599238
+  - Assets/Scenes/WastelandScene.unity|GlobalObjectId_V1-2-0adc5a91b8604e04983fda6e178dd8e2-4127225519775723034-31378949
+  - Assets/Scenes/WastelandScene.unity|GlobalObjectId_V1-2-0adc5a91b8604e04983fda6e178dd8e2-5175127443426566100-439833565
+  - Assets/Scenes/WastelandScene.unity|GlobalObjectId_V1-2-0adc5a91b8604e04983fda6e178dd8e2-5810136062764054325-619475436
+  - boss:necromancer:wild-forest:01

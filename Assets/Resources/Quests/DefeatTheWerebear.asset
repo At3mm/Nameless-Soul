@@ -29,7 +29,7 @@ MonoBehaviour:
     description: "H\u1EA1 Werebear"
     count: 1
   gold: 150
-  experience: 300
+  experience: 4000
   lifeSeeds: 1
   consumables: []
   items: []

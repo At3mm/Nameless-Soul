@@ -72,7 +72,7 @@ public static class EconomyRegression
                 var reward = enemy.GetComponent<EnemyCurrencyReward>();
                 Check(!reward.TryClaim(),type+": living enemy cannot grant death reward",checks);
                 coins=GameEconomy.Gold; exp=GameEconomy.Experience;
-                GameEconomy.Settings.Rewards(type,out int goldReward,out int expReward);
+                reward.GetBaseRewards(out int goldReward,out int expReward);
                 enemy.GetComponent<CharacterHealth>().TakeDamageOverTime(100000);
                 Check(GameEconomy.Gold==coins+goldReward && GameEconomy.Experience==exp+expReward,type+": actual death grants configured Gold/EXP once",checks);
                 Check(!reward.TryClaim() && GameEconomy.Gold==coins+goldReward,type+": duplicate death reward rejected",checks);
@@ -81,8 +81,9 @@ public static class EconomyRegression
             Check(NormalEnemyRespawns.ResetNormals(scene)==1,"Prayer restores only the normal reward-bearing enemy",checks);
             var revived = scene.GetRootGameObjects().SelectMany(root=>root.GetComponentsInChildren<EnemyClassification>())
                 .Single(e=>e.gameObject.activeInHierarchy && e.enemyType==EnemyClassification.EnemyType.Normal);
+            int revivedGold,revivedXP;revived.GetComponent<EnemyCurrencyReward>().GetBaseRewards(out revivedGold,out revivedXP);
             revived.Health.TakeDamageOverTime(100000);
-            Check(GameEconomy.Gold==coins+GameEconomy.Settings.normalGold && GameEconomy.Experience==exp+GameEconomy.Settings.normalExperience,"Revived normal enemy grants a fresh reward on its next death",checks);
+            Check(GameEconomy.Gold==coins+revivedGold && GameEconomy.Experience==exp+revivedXP,"Revived normal enemy grants a fresh reward on its next death",checks);
 
             GameEconomy.AddExperience(1000);
             var actor = player.GetComponent<PlayerInteractor>() ?? player.AddComponent<PlayerInteractor>();

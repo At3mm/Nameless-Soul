@@ -93,6 +93,7 @@ public class PlayerCombat : MonoBehaviour
         // 2. Cho phép tung chiêu
         if (animHandler != null) animHandler.LockAction();
         animator.SetTrigger("PlayerNormalAttack");
+        GameplayTutorial.Report(gameObject, GameplayTutorial.Lesson.Attack);
     }
 
     private void OnParry(InputAction.CallbackContext context)
@@ -101,6 +102,7 @@ public class PlayerCombat : MonoBehaviour
 
         if (animHandler != null) animHandler.LockAction();
         animator.SetTrigger("PlayerParry");
+        GameplayTutorial.Report(gameObject, GameplayTutorial.Lesson.Parry);
         CombatSFX.ParryReady(transform.position);
     }
 
@@ -124,6 +126,7 @@ public class PlayerCombat : MonoBehaviour
         // 2. Cho phép tung chiêu
         if (animHandler != null) animHandler.LockAction();
         animator.SetTrigger("PlayerSkill2");
+        GameplayTutorial.Report(gameObject, GameplayTutorial.Lesson.Skill);
         CombatSFX.Skill2Cast(transform.position);
     }
 }

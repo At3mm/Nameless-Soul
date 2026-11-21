@@ -761,6 +761,7 @@ GameObject:
   - component: {fileID: 2784919882961441154}
   - component: {fileID: 9218949029695336959}
   - component: {fileID: 5969935329764977978}
+  - component: {fileID: 7625490791236639288}
   m_Layer: 7
   m_Name: BlackKnightBoss
   m_TagString: EnemyBoss
@@ -991,7 +992,7 @@ MonoBehaviour:
     hitEffectPrefab: {fileID: 0}
     hitSound: {fileID: 0}
   - skillName: Skill2
-    damageMultiplier: 1.3
+    damageMultiplier: 1.3000001
     knockbackForce: 5
     canBeParried: 1
     cooldownTime: 4
@@ -1011,7 +1012,7 @@ MonoBehaviour:
     hitEffectPrefab: {fileID: 0}
     hitSound: {fileID: 0}
   - skillName: Skill3
-    damageMultiplier: 1.5
+    damageMultiplier: 1.3000001
     knockbackForce: 6
     canBeParried: 1
     cooldownTime: 6
@@ -1047,11 +1048,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f7e446b622450341b3727857aa782ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterStats
-  maxHP: 800
-  currentHP: 800
-  ATK: 35
-  DEF: 12
-  STR: 3
+  maxHP: 2400
+  currentHP: 2400
+  ATK: 98
+  DEF: 13
+  STR: 0
   maxStamina: 180
   currentStamina: 180
   CRIT_Rate: 0
@@ -1190,7 +1191,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAreaDamage
   archetypeId: black-knight-boss
-  fallbackProfile: {fileID: 11400000, guid: f4ba55cb37bf8174eb1da02708cfbd5a, type: 2}
+  fallbackProfile: {fileID: 11400000, guid: 4cb1837f12ccd3c44adb3cb129c07df7, type: 2}
   profileOverride: {fileID: 11400000, guid: f4ba55cb37bf8174eb1da02708cfbd5a, type: 2}
 --- !u!114 &8677044164712399148
 MonoBehaviour:
@@ -1232,12 +1233,12 @@ MonoBehaviour:
   heavyAttackState: PlayerSkill2
   dashState: PlayerDash
   parryState: PlayerParry
-  reactionDelay: 0.3
+  reactionDelay: 0.35
   observationMemory: 1.2
   comboChance: 0.65
   maxComboLength: 2
-  stepGap: 0.15
-  recoveryTime: 0.9
+  stepGap: 0.25
+  recoveryTime: 1
   animationTimeout: 5
   combos:
   - name: Slash then heavy
@@ -1301,3 +1302,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BossItemReward
   rewardsEnabled: 1
   item: {fileID: 11400000, guid: 12ab491ebfd0713448b6d1e546535535, type: 2}
+--- !u!114 &7625490791236639288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8712496352172479359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee0f5d3baa3429449ab28c9949e4414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FinalBossDamageBonus
+  bonusPerBoss: 0.05

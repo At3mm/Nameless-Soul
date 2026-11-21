@@ -52,6 +52,20 @@ public class CharacterHealth : MonoBehaviour
         // 2. KIỂM TRA VÔ ĐỊCH (I-FRAMES)
         if (invulnerability != null && invulnerability.isInvulnerable) return;
 
+        // 4. TÍNH SÁT THƯƠNG
+        var attackerBuffs = attacker != null ? attacker.GetComponentInParent<CharacterBuffs>() : null;
+        float outgoingMultiplier = attackerBuffs != null ? attackerBuffs.DamageMultiplier : 1f;
+        outgoingMultiplier*=SoulConsumption.OutgoingMultiplier(attacker);
+        var buffs = GetComponent<CharacterBuffs>();
+        float reduction = buffs != null ? buffs.IncomingDamageMultiplier : 1f;
+        reduction*=SoulConsumption.IncomingMultiplier(transform);
+        float actualPhysDamage = Mathf.Max(0, Mathf.Max(0f, physDamage) * outgoingMultiplier - stats.EffectiveDefense);
+        float totalDamage = (actualPhysDamage + Mathf.Max(0f, trueDamage) * outgoingMultiplier) * reduction;
+        totalDamage*=FinalBossDamageBonus.MultiplierFor(this,attacker);
+        float beforeBudget=totalDamage;
+        var attackManager=attacker!=null?attacker.GetComponentInParent<SkillDamageManager>():null;
+        if(attackManager!=null)totalDamage=attackManager.LimitPlayerDamage(this,totalDamage);
+        if(beforeBudget>0f&&totalDamage<=0f)return;
         // 3. KHÓA HÀNH ĐỘNG & ÉP ANIMATION
         if (animHandler != null)
         {
@@ -63,15 +77,7 @@ public class CharacterHealth : MonoBehaviour
             animator.Play("TakeDamage", -1, 0f);
         }
 
-        // 4. TÍNH SÁT THƯƠNG
-        var attackerBuffs = attacker != null ? attacker.GetComponentInParent<CharacterBuffs>() : null;
-        float outgoingMultiplier = attackerBuffs != null ? attackerBuffs.DamageMultiplier : 1f;
-        outgoingMultiplier*=SoulConsumption.OutgoingMultiplier(attacker);
-        var buffs = GetComponent<CharacterBuffs>();
-        float reduction = buffs != null ? buffs.IncomingDamageMultiplier : 1f;
-        reduction*=SoulConsumption.IncomingMultiplier(transform);
-        float actualPhysDamage = Mathf.Max(0, Mathf.Max(0f, physDamage) * outgoingMultiplier - stats.EffectiveDefense);
-        float totalDamage = (actualPhysDamage + Mathf.Max(0f, trueDamage) * outgoingMultiplier) * reduction;
+
         stats.currentHP -= totalDamage;
         if (totalDamage > 0f)
         {

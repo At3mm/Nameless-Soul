@@ -11,7 +11,7 @@ public sealed class GameFreshRunTool : EditorWindow
 {
     private const string ActiveKey="Noname.FreshRun.Active", StartedKey="Noname.FreshRun.Started", PendingKey="Noname.FreshRun.Pending";
     private const string BackupPath="Library/DeveloperTools/FreshRunBackup.json";
-    private static readonly string[] Keys={World.CheckpointService.SaveKey,World.CheckpointService.UnlockSaveKey,GameEconomy.SaveKey,EnemyDefeatState.SaveKey,BossItemInventory.SaveKey,QuestService.SaveKey,"Noname.PreviousRun.v1"};
+    private static readonly string[] Keys={World.CheckpointService.SaveKey,World.CheckpointService.UnlockSaveKey,GameEconomy.SaveKey,EnemyDefeatState.SaveKey,BossItemInventory.SaveKey,QuestService.SaveKey,GameplayTutorial.SaveKey,"Noname.PreviousRun.v1"};
     [Serializable] private sealed class Entry { public string key,value; public bool existed; }
     [Serializable] private sealed class Backup { public List<Entry> entries=new List<Entry>(); public string playStart; public bool hadVolume; public float volume; }
     public static bool IsTesting => SessionState.GetBool(ActiveKey,false);
@@ -74,8 +74,9 @@ public sealed class GameFreshRunTool : EditorWindow
     private static void Restore()
     {
         var backup=JsonUtility.FromJson<Backup>(File.ReadAllText(BackupPath));
-        if(backup==null||backup.entries==null||!Array.TrueForAll(Keys,key=>key==QuestService.SaveKey||backup.entries.Exists(entry=>entry.key==key)))throw new InvalidDataException("Fresh-run backup is incomplete.");
+        if(backup==null||backup.entries==null||!Array.TrueForAll(Keys,key=>key==QuestService.SaveKey||key==GameplayTutorial.SaveKey||backup.entries.Exists(entry=>entry.key==key)))throw new InvalidDataException("Fresh-run backup is incomplete.");
         if(!backup.entries.Exists(entry=>entry.key==QuestService.SaveKey))PlayerPrefs.DeleteKey(QuestService.SaveKey);
+        if(!backup.entries.Exists(entry=>entry.key==GameplayTutorial.SaveKey))PlayerPrefs.DeleteKey(GameplayTutorial.SaveKey);
         foreach(var entry in backup.entries){if(entry.existed)PlayerPrefs.SetString(entry.key,entry.value);else PlayerPrefs.DeleteKey(entry.key);}
         if(backup.hadVolume)PlayerPrefs.SetFloat("Noname.MasterVolume",backup.volume);else PlayerPrefs.DeleteKey("Noname.MasterVolume");
         PlayerPrefs.Save();ReloadCaches();AudioListener.volume=backup.volume;Time.timeScale=1;

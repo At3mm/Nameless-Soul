@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 35201065786699778}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.58, y: -0.071, z: 0}
+  m_LocalPosition: {x: 1.4499999, y: -0.17750001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -388,7 +388,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6472713925195821309
 RectTransform:
   m_ObjectHideFlags: 0
@@ -760,9 +760,13 @@ GameObject:
   - component: {fileID: 9035406517703258454}
   - component: {fileID: 9192628536676895875}
   - component: {fileID: 60022589315591232}
+  - component: {fileID: 3220896913333106469}
+  - component: {fileID: 6493417287165322719}
+  - component: {fileID: 4626034154475358385}
+  - component: {fileID: 8141867755226995208}
   m_Layer: 7
   m_Name: FlameGolem
-  m_TagString: EnemyNormal
+  m_TagString: EnemyBoss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -913,8 +917,8 @@ MonoBehaviour:
   retreatSpeed: 2.5
   safeDistance: 3
   relentlessPursuit: 0
-  minHesitationTime: 0.4
-  maxHesitationTime: 1.2
+  minHesitationTime: 0.65
+  maxHesitationTime: 1.4
   sprintTriggerDistance: 4
   sprintSpeed: 6.5
   sprintCooldown: 4
@@ -1010,32 +1014,12 @@ MonoBehaviour:
     burnBuildup: 15
     poisonBuildup: 0
     stressBuildup: 0
-    attackRange: 1
-    hitboxOffset: {x: 0.65, y: 0}
+    attackRange: 2.5
+    hitboxOffset: {x: 1.625, y: 0}
     hitEffectPrefab: {fileID: 0}
     hitSound: {fileID: 0}
   - skillName: HeavyAttack
-    damageMultiplier: 1.35
-    knockbackForce: 3
-    canBeParried: 1
-    cooldownTime: 3.8
-    staminaCost: 0
-    staminaDamageMultiplier: 1
-    gainsPostureOnHit: 1
-    postureGainPerHit: 10
-    multiplyByTargetCount: 0
-    usePostureToActivate: 0
-    postureCost: 20
-    lastUsedTime: -100
-    burnBuildup: 30
-    poisonBuildup: 0
-    stressBuildup: 0
-    attackRange: 1.35
-    hitboxOffset: {x: 0.55, y: 0}
-    hitEffectPrefab: {fileID: 0}
-    hitSound: {fileID: 0}
-  - skillName: Skill3
-    damageMultiplier: 1.2
+    damageMultiplier: 1.2896552
     knockbackForce: 3
     canBeParried: 1
     cooldownTime: 5
@@ -1047,11 +1031,31 @@ MonoBehaviour:
     usePostureToActivate: 0
     postureCost: 20
     lastUsedTime: -100
+    burnBuildup: 30
+    poisonBuildup: 0
+    stressBuildup: 0
+    attackRange: 3.375
+    hitboxOffset: {x: 1.375, y: 0}
+    hitEffectPrefab: {fileID: 0}
+    hitSound: {fileID: 0}
+  - skillName: Skill3
+    damageMultiplier: 1.2896552
+    knockbackForce: 3
+    canBeParried: 1
+    cooldownTime: 7
+    staminaCost: 0
+    staminaDamageMultiplier: 1
+    gainsPostureOnHit: 1
+    postureGainPerHit: 10
+    multiplyByTargetCount: 0
+    usePostureToActivate: 0
+    postureCost: 20
+    lastUsedTime: -100
     burnBuildup: 45
     poisonBuildup: 0
     stressBuildup: 0
-    attackRange: 1.25
-    hitboxOffset: {x: 0.65, y: 0}
+    attackRange: 3.125
+    hitboxOffset: {x: 1.625, y: 0}
     hitEffectPrefab: {fileID: 0}
     hitSound: {fileID: 0}
   characterTransform: {fileID: 7925992351336890134}
@@ -1071,10 +1075,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f7e446b622450341b3727857aa782ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterStats
-  maxHP: 190
-  currentHP: 190
-  ATK: 38
-  DEF: 9
+  maxHP: 1680
+  currentHP: 1680
+  ATK: 81.200005
+  DEF: 11
   STR: 0
   maxStamina: 95
   currentStamina: 95
@@ -1134,8 +1138,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.02, y: 0.15}
-  m_Size: {x: 0.95, y: 1.1}
+  m_Offset: {x: 0.05, y: 0.375}
+  m_Size: {x: 2.375, y: 2.75}
   m_Direction: 0
 --- !u!114 &2268095539133015547
 MonoBehaviour:
@@ -1149,7 +1153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e5dec1f9bfca54e802a3c973ddcfd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyClassification
-  enemyType: 0
+  enemyType: 2
   displayName: Flame Golem
   questBossId: flame-golem
   persistentId: 
@@ -1187,7 +1191,7 @@ MonoBehaviour:
   brokenState: Broken
   idleState: FlameGolemIdle
   showWorldBar: 1
-  barHeight: 1.11
+  barHeight: 2.775
 --- !u!114 &6380763258534899970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1214,7 +1218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAreaDamage
   archetypeId: flame-golem
-  fallbackProfile: {fileID: 11400000, guid: a2287eea82260474b863b3ffd6c14d16, type: 2}
+  fallbackProfile: {fileID: 11400000, guid: 4cb1837f12ccd3c44adb3cb129c07df7, type: 2}
   profileOverride: {fileID: 0}
 --- !u!114 &9192628536676895875
 MonoBehaviour:
@@ -1255,3 +1259,90 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LavaAffinity
   immuneToLavaBurn: 1
+--- !u!114 &3220896913333106469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8434125624367963642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ea2cd67c4587594bb7b4f03cc9a20a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossPhaseController
+  useSecondPhase: 0
+  phase2HealthThreshold: 0.5
+  phase1Skills:
+  - NormalAttack
+  - HeavyAttack
+  - Skill3
+  phase2Skills:
+  - NormalAttack
+  - HeavyAttack
+  - Skill3
+  transitionDuration: 5
+  transitionState: TakeDamage
+  idleState: FlameGolemIdle
+--- !u!114 &6493417287165322719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8434125624367963642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e33ad842607ee364da42dc13f07aeb7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossMovesetDirector
+  attackState: PlayerNormalAttack
+  heavyAttackState: PlayerSkill2
+  dashState: PlayerDash
+  parryState: PlayerParry
+  reactionDelay: 0.45
+  observationMemory: 1.2
+  comboChance: 0.55
+  maxComboLength: 2
+  stepGap: 0.3
+  recoveryTime: 1.2
+  animationTimeout: 5
+  combos:
+  - name: Stone pressure
+    responseTo: 0
+    weight: 1
+    minDistance: 0
+    maxDistance: 3.8
+    skills:
+    - NormalAttack
+    - HeavyAttack
+--- !u!114 &4626034154475358385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8434125624367963642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 990d45280b7aa454a9ea8973c1b94540, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyCurrencyReward
+  rewardsEnabled: 1
+  useDefaultRewards: 0
+  gold: 1320
+  experience: 150000
+--- !u!114 &8141867755226995208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8434125624367963642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00598306c96bc549985fcbcba7ece66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossItemReward
+  rewardsEnabled: 1
+  item: {fileID: 11400000, guid: d521c71a755a92d4f8c2f15d9fa7171c, type: 2}

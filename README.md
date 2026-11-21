@@ -69,3 +69,7 @@ Các thư mục cache, thiết lập máy cá nhân và bản sao lưu cục b�
 - Repo phụ trước đây: https://github.com/ManhQuyet2836/Dungeon-Souls
 
 Repo chính giữ riêng tư. Một số tài nguyên thuộc bên thứ ba; xem giấy phép đi kèm trước khi phân phối lại.
+
+## Xuất game Windows
+
+Xem [hướng dẫn build và tạo bộ cài](Docs/Guides/WINDOWS_RELEASE.md). Trong Unity, dùng Tools > Build > Validate Windows Release rồi Build Windows Release. Bộ cài được tạo bằng Tools/Build/Package-Windows.ps1; output nằm trong Builds và không đưa vào Git.

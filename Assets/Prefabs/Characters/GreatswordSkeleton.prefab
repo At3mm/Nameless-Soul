@@ -95,7 +95,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 1030
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -6866970289176938103, guid: 58e5a9dcc04095249916a5621e6667be,
@@ -238,6 +238,8 @@ MonoBehaviour:
   maxRetreatDistance: 3
   lungeSpeed: 3.5
   lungeDuration: 0.1
+  restrictLungeSkills: 0
+  lungeSkillNames: []
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 1
@@ -277,7 +279,7 @@ MonoBehaviour:
     hitEffectPrefab: {fileID: 0}
     hitSound: {fileID: 0}
   - skillName: HeavyAttack
-    damageMultiplier: 1.45
+    damageMultiplier: 1.2754098
     knockbackForce: 3
     canBeParried: 1
     cooldownTime: 4.5
@@ -297,7 +299,7 @@ MonoBehaviour:
     hitEffectPrefab: {fileID: 0}
     hitSound: {fileID: 0}
   - skillName: Skill3
-    damageMultiplier: 1.2
+    damageMultiplier: 1.2754098
     knockbackForce: 3
     canBeParried: 1
     cooldownTime: 3.5
@@ -333,11 +335,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f7e446b622450341b3727857aa782ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterStats
-  maxHP: 450
-  currentHP: 450
-  ATK: 28
+  maxHP: 682
+  currentHP: 682
+  ATK: 61
   DEF: 10
-  STR: 1
+  STR: 0
   maxStamina: 130
   currentStamina: 130
   CRIT_Rate: 0
@@ -476,7 +478,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAreaDamage
   archetypeId: greatsword-skeleton
-  fallbackProfile: {fileID: 11400000, guid: 701983951e4597f4b8325ca36ec30e3f, type: 2}
+  fallbackProfile: {fileID: 11400000, guid: a2287eea82260474b863b3ffd6c14d16, type: 2}
   profileOverride: {fileID: 0}
 --- !u!1 &1229611123893232604
 GameObject:

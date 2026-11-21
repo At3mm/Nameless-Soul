@@ -526,7 +526,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 1030
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 5861065601878388453, guid: d99294589955819469a9a0fece41f21e,
@@ -669,6 +669,8 @@ MonoBehaviour:
   maxRetreatDistance: 3
   lungeSpeed: 5
   lungeDuration: 0.15
+  restrictLungeSkills: 0
+  lungeSkillNames: []
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 1
@@ -708,7 +710,7 @@ MonoBehaviour:
     hitEffectPrefab: {fileID: 0}
     hitSound: {fileID: 0}
   - skillName: Skill2
-    damageMultiplier: 0.3
+    damageMultiplier: 0.73513514
     knockbackForce: 2
     canBeParried: 1
     cooldownTime: 3
@@ -728,7 +730,7 @@ MonoBehaviour:
     hitEffectPrefab: {fileID: 0}
     hitSound: {fileID: 0}
   - skillName: Skill3
-    damageMultiplier: 1.7
+    damageMultiplier: 1.2648649
     knockbackForce: 24
     canBeParried: 0
     cooldownTime: 6
@@ -764,14 +766,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f7e446b622450341b3727857aa782ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterStats
-  maxHP: 100
-  currentHP: 0
-  ATK: 20
-  DEF: 10
-  STR: 5
+  maxHP: 508
+  currentHP: 508
+  ATK: 49.333332
+  DEF: 8
+  STR: 0
   maxStamina: 100
   currentStamina: 0
-  CRIT_Rate: 0.1
+  CRIT_Rate: 0
   CRIT_Damage: 1.5
   RES: 0.2
   usePostureSystem: 0
@@ -927,7 +929,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAreaDamage
   archetypeId: elite-orc
-  fallbackProfile: {fileID: 11400000, guid: 701983951e4597f4b8325ca36ec30e3f, type: 2}
+  fallbackProfile: {fileID: 11400000, guid: d52c67ca3d80eaf4a98d64f13b548e84, type: 2}
   profileOverride: {fileID: 0}
 --- !u!1 &7438846021688001454
 GameObject:

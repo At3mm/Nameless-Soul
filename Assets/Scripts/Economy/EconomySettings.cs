@@ -20,6 +20,14 @@ public sealed class EconomySettings : ScriptableObject
     [Min(0)] public int bossGold = 250;
     [Min(0)] public int bossExperience = 1000;
 
+    [Header("Life seeds per capacity increase, starting at 3 flasks")]
+    public int[] potionSeedCosts = {1,1,2,2,2,2,2};
+    public int PotionSeedCost(int upgrades)
+    {
+        if(upgrades<0||upgrades>=PlayerHealthPotion.MaximumCapacity-PlayerHealthPotion.StartingCapacity)return 0;
+        return potionSeedCosts!=null&&upgrades<potionSeedCosts.Length?Mathf.Max(1,potionSeedCosts[upgrades]):2;
+    }
+
     public int UpgradeCost(int purchases)
     {
         if (purchases < 0 || purchases == int.MaxValue) return -1;

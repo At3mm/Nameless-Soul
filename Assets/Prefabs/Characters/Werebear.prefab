@@ -525,7 +525,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 1030
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2310158733827298281, guid: 96202124ba126c641aff183ae54926ed,
@@ -668,6 +668,8 @@ MonoBehaviour:
   maxRetreatDistance: 3
   lungeSpeed: 4
   lungeDuration: 0.15
+  restrictLungeSkills: 0
+  lungeSkillNames: []
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 1
@@ -687,7 +689,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SkillDamageManager
   skills:
   - skillName: Skill1
-    damageMultiplier: 0.85
+    damageMultiplier: 1
     knockbackForce: 4
     canBeParried: 1
     cooldownTime: 1.5
@@ -707,7 +709,7 @@ MonoBehaviour:
     hitEffectPrefab: {fileID: 0}
     hitSound: {fileID: 0}
   - skillName: Skill2
-    damageMultiplier: 0.7
+    damageMultiplier: 0.7522124
     knockbackForce: 4
     canBeParried: 1
     cooldownTime: 3.2
@@ -727,7 +729,7 @@ MonoBehaviour:
     hitEffectPrefab: {fileID: 0}
     hitSound: {fileID: 0}
   - skillName: Skill3
-    damageMultiplier: 1.5
+    damageMultiplier: 1.2477877
     knockbackForce: 8
     canBeParried: 1
     cooldownTime: 5
@@ -763,14 +765,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f7e446b622450341b3727857aa782ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterStats
-  maxHP: 300
-  currentHP: 0
-  ATK: 28
-  DEF: 10
-  STR: 5
+  maxHP: 350
+  currentHP: 350
+  ATK: 37.666664
+  DEF: 6
+  STR: 0
   maxStamina: 160
   currentStamina: 0
-  CRIT_Rate: 0.1
+  CRIT_Rate: 0
   CRIT_Damage: 1.5
   RES: 0.2
   usePostureSystem: 0
@@ -906,7 +908,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAreaDamage
   archetypeId: werebear
-  fallbackProfile: {fileID: 11400000, guid: 701983951e4597f4b8325ca36ec30e3f, type: 2}
+  fallbackProfile: {fileID: 11400000, guid: 19cee59a211f47e43b6d67843843465d, type: 2}
   profileOverride: {fileID: 0}
 --- !u!1 &7438846021688001454
 GameObject:

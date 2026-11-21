@@ -259,7 +259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SkillDamageManager
   skills:
   - skillName: NormalAttack
-    damageMultiplier: 1.05
+    damageMultiplier: 1
     knockbackForce: 3
     canBeParried: 1
     cooldownTime: 1.8
@@ -279,7 +279,7 @@ MonoBehaviour:
     hitEffectPrefab: {fileID: 0}
     hitSound: {fileID: 0}
   - skillName: HeavyAttack
-    damageMultiplier: 0.65
+    damageMultiplier: 1.2488889
     knockbackForce: 3
     canBeParried: 1
     cooldownTime: 4
@@ -315,10 +315,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f7e446b622450341b3727857aa782ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterStats
-  maxHP: 140
-  currentHP: 140
-  ATK: 22
-  DEF: 8
+  maxHP: 195
+  currentHP: 195
+  ATK: 45
+  DEF: 7
   STR: 0
   maxStamina: 75
   currentStamina: 75
@@ -458,7 +458,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAreaDamage
   archetypeId: armor-skeleton
-  fallbackProfile: {fileID: 11400000, guid: 701983951e4597f4b8325ca36ec30e3f, type: 2}
+  fallbackProfile: {fileID: 11400000, guid: a2287eea82260474b863b3ffd6c14d16, type: 2}
   profileOverride: {fileID: 0}
 --- !u!1 &1211507881379880002
 GameObject:

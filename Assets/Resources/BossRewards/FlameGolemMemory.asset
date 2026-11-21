@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe29a484502668408d93ee442fd5a05, type: 3}
+  m_Name: FlameGolemMemory
+  m_EditorClassIdentifier: Assembly-CSharp::BossItemDefinition
+  itemId: flame-golem-memory
+  displayName: "K\xFD \u1EE9c: Golem"
+  description: "M\u1ED9t tr\xE1ng s\u0129 t\u1EEBng \u0111\u01B0\u1EE3c xem l\xE0
+    k\u1EBB m\u1EA1nh nh\u1EA5t, nh\u01B0ng ch\u1EC9 v\xEC t\xE2m h\u1ED3n tha h\xF3a
+    n\xEAn b\u1ECB b\xF3ng t\u1ED1i nu\u1ED1t ch\u1EEDng. Th\u1EE9 s\u1EE9c m\u1EA1nh
+    t\u1EEBng \u0111\xE1ng t\u1EF1 h\xE0o gi\u1EDD l\u1EA1i tr\u1EDF th\xE0nh th\u1EE9
+    m\xE0 m\u1ECDi k\u1EBB y\u1EBFu \u0111\u1EC1u ph\u1EA3i khi\u1EBFp s\u1EE3. "
+  icon: {fileID: 1148743783311001300, guid: ad0b286f37f16834ab4d54e4f3e0c076, type: 3}
+  category: 2
+  rarity: 3
+  roles: 4
+  maxStack: 1
+  consumable: 0
+  useCooldown: 1
+  buyable: 0
+  sellable: 0
+  buyPrice: 30
+  sellPrice: 10
+  effects: []
+  showAsQuestItem: 0

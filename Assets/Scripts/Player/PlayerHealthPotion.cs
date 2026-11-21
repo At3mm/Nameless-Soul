@@ -65,6 +65,7 @@ public sealed class PlayerHealthPotion : MonoBehaviour
         if (healed <= 0f) return false;
         CombatSFX.Heal(transform.position);
         charges--;
+        GameplayTutorial.Report(gameObject, GameplayTutorial.Lesson.Heal);
         readyAt = Time.time + Mathf.Max(0f, cooldown);
         return true;
     }

@@ -11,7 +11,7 @@ public sealed class GameResetTool : EditorWindow
     private const string PendingKey = "Noname.ResetTool.Pending";
     private const string PlayKey = "Noname.ResetTool.Restart";
     private const string BackupPath = "Library/DeveloperTools/LastGameResetBackup.json";
-    private static readonly string[] Keys = { World.CheckpointService.SaveKey, World.CheckpointService.UnlockSaveKey, GameEconomy.SaveKey, EnemyDefeatState.SaveKey, BossItemInventory.SaveKey, QuestService.SaveKey };
+    private static readonly string[] Keys = { World.CheckpointService.SaveKey, World.CheckpointService.UnlockSaveKey, GameEconomy.SaveKey, EnemyDefeatState.SaveKey, BossItemInventory.SaveKey, QuestService.SaveKey, GameplayTutorial.SaveKey };
     [Serializable] private sealed class Entry { public string key, value; public bool existed; }
     [Serializable] private sealed class Backup { public string created; public List<Entry> entries = new List<Entry>(); }
 
@@ -77,6 +77,7 @@ public sealed class GameResetTool : EditorWindow
         foreach (string key in Keys) backup.entries.Add(new Entry { key=key,existed=PlayerPrefs.HasKey(key),value=PlayerPrefs.GetString(key,"") });
         Directory.CreateDirectory(Path.GetDirectoryName(BackupPath));
         File.WriteAllText(BackupPath,JsonUtility.ToJson(backup,true));
+        PlayerPrefs.DeleteKey(GameplayTutorial.SaveKey);
         World.CheckpointService.ClearSaved();
         EnemyDefeatState.ClearSaved();PlayerPrefs.DeleteKey(QuestService.SaveKey);QuestService.ReloadFromSave();
         PlayerPrefs.DeleteKey(BossItemInventory.SaveKey); BossItemInventory.ReloadFromSave();QuestService.ReloadFromSave();
@@ -87,7 +88,7 @@ public sealed class GameResetTool : EditorWindow
     {
         if (EditorApplication.isPlayingOrWillChangePlaymode) throw new InvalidOperationException("Stop Play Mode before restoring saves.");
         var backup=JsonUtility.FromJson<Backup>(File.ReadAllText(BackupPath));
-        if (backup==null || backup.entries==null || !Array.TrueForAll(Keys,key=>key==QuestService.SaveKey || key==EnemyDefeatState.SaveKey || key==BossItemInventory.SaveKey || backup.entries.Exists(e=>e!=null && e.key==key)))
+        if (backup==null || backup.entries==null || !Array.TrueForAll(Keys,key=>key==QuestService.SaveKey || key==GameplayTutorial.SaveKey || key==EnemyDefeatState.SaveKey || key==BossItemInventory.SaveKey || backup.entries.Exists(e=>e!=null && e.key==key)))
             throw new InvalidDataException("Invalid game-reset backup.");
         foreach (string key in Keys)
         {

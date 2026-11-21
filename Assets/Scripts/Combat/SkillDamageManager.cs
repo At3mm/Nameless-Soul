@@ -11,6 +11,21 @@ public class SkillDamageManager : MonoBehaviour
     public LayerMask targetLayer;
     private CharacterStats myStats;
     private PlayerController playerController;
+    private readonly Dictionary<CharacterHealth,float> comboDamage=new Dictionary<CharacterHealth,float>();
+    public void BeginDamageSequence(){comboDamage.Clear();}
+    // Called only after parry, invulnerability and damage modifiers have been evaluated.
+    public float LimitPlayerDamage(CharacterHealth target,float damage)
+    {
+        if(target==null||damage<=0||target.GetComponent<PlayerController>()==null||GetComponent<EnemyClassification>()==null)return damage;
+        var area=GetComponent<EnemyAreaDamage>();
+        var profile=area!=null?area.ResolveProfile():null;
+        if(profile==null)return damage;
+        var stats=target.GetComponent<CharacterStats>();if(stats==null)return damage;
+        float spent;comboDamage.TryGetValue(target,out spent);
+        float accepted=Mathf.Min(damage,Mathf.Max(0,stats.maxHP*Mathf.Clamp(profile.maxComboHPFraction,.1f,1f)-spent));
+        comboDamage[target]=spent+accepted;
+        return accepted;
+    }
 
     private void Awake()
     {
@@ -83,6 +98,8 @@ public class SkillDamageManager : MonoBehaviour
             myStats.currentStamina = Mathf.Max(0f, myStats.currentStamina - staminaCost);
             if (playerController != null) playerController.DelayStaminaRecovery();
         }
+        var director=GetComponent<BossMovesetDirector>();
+        if(director==null||!director.IsControlling)BeginDamageSequence();
         skill.lastUsedTime = Time.time;
 
         return true;

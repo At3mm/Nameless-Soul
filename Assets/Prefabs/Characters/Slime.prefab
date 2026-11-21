@@ -525,7 +525,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 1030
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7363166705265310760, guid: 122e7506b4c34c545bb632dc12eeb65c,
@@ -668,6 +668,8 @@ MonoBehaviour:
   maxRetreatDistance: 3
   lungeSpeed: 4
   lungeDuration: 0.15
+  restrictLungeSkills: 0
+  lungeSkillNames: []
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 1
@@ -687,7 +689,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SkillDamageManager
   skills:
   - skillName: NormalAttack
-    damageMultiplier: 0.85
+    damageMultiplier: 1
     knockbackForce: 4
     canBeParried: 1
     cooldownTime: 1.2
@@ -707,7 +709,7 @@ MonoBehaviour:
     hitEffectPrefab: {fileID: 0}
     hitSound: {fileID: 0}
   - skillName: HeavyAttack
-    damageMultiplier: 1.35
+    damageMultiplier: 1.175
     knockbackForce: 7
     canBeParried: 1
     cooldownTime: 2.8
@@ -743,14 +745,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f7e446b622450341b3727857aa782ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterStats
-  maxHP: 70
-  currentHP: 0
+  maxHP: 48
+  currentHP: 48
   ATK: 20
-  DEF: 10
-  STR: 5
+  DEF: 2
+  STR: 0
   maxStamina: 75
   currentStamina: 0
-  CRIT_Rate: 0.1
+  CRIT_Rate: 0
   CRIT_Damage: 1.5
   RES: 0.2
   usePostureSystem: 0

@@ -14,6 +14,7 @@ public sealed class MainMenuController : MonoBehaviour
     public string gameTitle = "Nameless Soul";
     public Sprite titleLogo;
     public string firstScene = "Assets/Scenes/WastelandScene.unity";
+    public string firstSpawnPointId = "NewGameArea1";
     private static readonly string[] SaveKeys = { CheckpointService.SaveKey, CheckpointService.UnlockSaveKey, GameEconomy.SaveKey, EnemyDefeatState.SaveKey, BossItemInventory.SaveKey, QuestService.SaveKey };
     private readonly List<Button> buttons = new List<Button>();
     private CanvasGroup content;
@@ -130,12 +131,13 @@ public sealed class MainMenuController : MonoBehaviour
             // Only confirmed new runs reach this path. Keep a recoverable copy of the previous slot.
             var backup=new SaveBackup();foreach(var key in SaveKeys)backup.entries.Add(new SaveEntry{key=key,existed=PlayerPrefs.HasKey(key),value=PlayerPrefs.GetString(key,"")});
             PlayerPrefs.SetString("Noname.PreviousRun.v1",JsonUtility.ToJson(backup));
+            GameplayTutorial.BeginNewRun();
             CheckpointService.ClearSaved();EnemyDefeatState.ClearSaved();PlayerPrefs.DeleteKey(QuestService.SaveKey);QuestService.ReloadFromSave();
             PlayerPrefs.DeleteKey(BossItemInventory.SaveKey);BossItemInventory.ReloadFromSave();
             PlayerPrefs.DeleteKey(GameEconomy.SaveKey);GameEconomy.ReloadFromSave();PlayerPrefs.Save();
         }
         busy=true;content.interactable=false;Time.timeScale=1;AudioListener.pause=false;
-        SceneSpawnPoint.Prepare("",null);ScreenFader.Instance.TransitionToScene(firstScene,.45f);
+        SceneSpawnPoint.Prepare(System.IO.Path.GetFileNameWithoutExtension(firstScene),firstSpawnPointId);ScreenFader.Instance.TransitionToScene(firstScene,.45f);
     }
     [Serializable] private sealed class SaveEntry { public string key,value;public bool existed; }
     [Serializable] private sealed class SaveBackup { public List<SaveEntry> entries=new List<SaveEntry>(); }

@@ -114,13 +114,14 @@ public static class GameEconomy
         EnsureLoaded();if(amount<=0||data.lifeSeeds<amount)return false;
         data.lifeSeeds-=amount;if(!purchasing)Commit();return true;
     }
+    public static int NextPotionSeedCost => Settings.PotionSeedCost(PotionCapacityUpgrades);
     public static bool SacrificeLifeSeed(PlayerHealthPotion potion)
     {
         EnsureLoaded();
-        if (purchasing || potion == null || data.lifeSeeds <= 0 || potion.capacity >= PlayerHealthPotion.MaximumCapacity || data.potionCapacityUpgrades >= PlayerHealthPotion.MaximumCapacity - PlayerHealthPotion.StartingCapacity) return false;
+        if (purchasing || potion == null || data.lifeSeeds < NextPotionSeedCost || NextPotionSeedCost<=0 || potion.capacity >= PlayerHealthPotion.MaximumCapacity || data.potionCapacityUpgrades >= PlayerHealthPotion.MaximumCapacity - PlayerHealthPotion.StartingCapacity) return false;
         var health = potion.GetComponent<CharacterHealth>();
         if (health == null || health.isDead) return false;
-        data.lifeSeeds--; data.potionCapacityUpgrades++;
+        data.lifeSeeds-=NextPotionSeedCost; data.potionCapacityUpgrades++;
         Commit(); return true;
     }
     public static bool HasCollectedLifeSeed(string id) { EnsureLoaded(); return Array.IndexOf(data.collectedLifeSeeds, id) >= 0; }

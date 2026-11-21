@@ -17,6 +17,13 @@ namespace World
         public bool useCustomStock;
         public System.Collections.Generic.List<ConsumableKind> consumableStock=new System.Collections.Generic.List<ConsumableKind>();
         public bool includeCustomItems=true;
+        [Tooltip("Consumable purchases cost at least four ordinary enemies in the merchant's area. Sell prices are not inflated.")]
+        public bool useAreaConsumablePricing=true;
+        private int areaNormalGold;
+        public static int AreaBuyPrice(int basePrice,int normalGold)
+        {
+            return (int)System.Math.Min(int.MaxValue,System.Math.Max((long)Mathf.Max(1,basePrice),(long)Mathf.Max(0,normalGold)*4));
+        }
         public ConsumableKind[] AvailableConsumables
         {
             get
@@ -67,7 +74,7 @@ namespace World
         private bool pausedByShop;
         private readonly Color ink = new Color(.23f,.17f,.12f);
         private readonly Color lightInk = new Color(.96f,.90f,.76f);
-        private int BuyPrice => CustomDefinition!=null?Mathf.Max(0,CustomDefinition.buyPrice):Mathf.Max(1,Definition!=null?Definition.buyPrice:1);
+        private int BuyPrice => CustomDefinition!=null?Mathf.Max(0,CustomDefinition.buyPrice):AreaBuyPrice(Definition!=null?Definition.buyPrice:1,areaNormalGold);
         private int SellPrice => CustomDefinition!=null?Mathf.Max(0,CustomDefinition.sellPrice):Mathf.Clamp(Definition!=null?Definition.sellPrice:1,1,BuyPrice);
         private string ModeName => selected == 0 ? "Mua vật phẩm" : "Bán vật phẩm";
         private int UnitPrice => selected == 0 ? BuyPrice : SellPrice;
@@ -89,6 +96,8 @@ namespace World
         {
             if(IsOpen || player==null || owner==null || !owner.IsOpen || owner.IsClosing)return;
             if(!IsUnlocked){player.ShowNotice("Hoàn thành nhiệm vụ của NPC trước để mở khóa cửa hàng.");return;}
+            var zone=AreaManager.FindArea(transform.position,gameObject.scene.handle);
+            areaNormalGold=useAreaConsumablePricing&&zone!=null&&zone.area!=null&&zone.area.enemyDamageProfile!=null?zone.area.enemyDamageProfile.normalGold:0;
             stockedConsumables=AvailableConsumables;
             customItems.Clear();if(includeCustomItems)foreach(var item in GameItemDefinition.All)if(item.buyable||item.sellable)customItems.Add(item);
             if(ShopItemCount==0){player.ShowNotice("Cửa hàng chưa có hàng hóa.");return;}
@@ -239,7 +248,7 @@ namespace World
                 var def=ConsumableCatalog.Default!=null?ConsumableCatalog.Default.Find(index<stockedConsumables.Length?stockedConsumables[index]:(ConsumableKind)(-1)):null;
                 var custom=CustomAt(index);
                 rowNames[i].text=custom!=null?custom.displayName:def!=null?def.displayName:"—";
-                int price=def!=null?(selected==0?Mathf.Max(1,def.buyPrice):Mathf.Clamp(def.sellPrice,1,Mathf.Max(1,def.buyPrice))):1;
+                int price=def!=null?(selected==0?AreaBuyPrice(def.buyPrice,areaNormalGold):Mathf.Clamp(def.sellPrice,1,Mathf.Max(1,def.buyPrice))):1;
                 if(custom!=null)price=Mathf.Max(0,selected==0?custom.buyPrice:custom.sellPrice);
                 int owned=custom!=null?ItemInventory.Count(custom):GameEconomy.ConsumableCount(index<stockedConsumables.Length?stockedConsumables[index]:(ConsumableKind)(-1));
                 rowPrices[i].text=(price+" Gold")+"\nCó: "+owned;

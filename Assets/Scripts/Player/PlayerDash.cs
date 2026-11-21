@@ -68,6 +68,7 @@ public class PlayerDash : MonoBehaviour
     private IEnumerator PerformDash(Vector2 inputDirection)
     {
         isDashing = true;
+        GameplayTutorial.Report(gameObject, GameplayTutorial.Lesson.Dash);
         CombatSFX.Dash(transform.position);
         lastDashTime = Time.time;
 

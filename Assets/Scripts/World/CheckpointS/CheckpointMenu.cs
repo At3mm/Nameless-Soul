@@ -325,7 +325,7 @@ namespace World
         {
             var potion = player != null ? player.GetComponent<PlayerHealthPotion>() : null;
             bool maximum = potion != null && potion.capacity >= PlayerHealthPotion.MaximumCapacity;
-            description.text = LifeSeedItem.Name+" · Có: " + GameEconomy.LifeSeeds + "\n" + (maximum ? "Đã đạt sức chứa tối đa." : "Dâng 1 hạt: sức chứa bình máu +1 vĩnh viễn.") + "\nSức chứa: " + (potion != null ? potion.capacity.ToString() : "—") + " / " + PlayerHealthPotion.MaximumCapacity;
+            description.text = LifeSeedItem.Name+" · Có: " + GameEconomy.LifeSeeds + "\n" + (maximum ? "Đã đạt sức chứa tối đa." : "Dâng "+GameEconomy.NextPotionSeedCost+" hạt: sức chứa bình máu +1 vĩnh viễn.") + "\nSức chứa: " + (potion != null ? potion.capacity.ToString() : "—") + " / " + PlayerHealthPotion.MaximumCapacity;
             sacrificeButton.interactable = potion != null;
         }
         public bool Sacrifice()
@@ -334,7 +334,7 @@ namespace World
             if (!IsOpen || IsClosing || IsPraying || CurrentSection != 1 || player == null || player.IsInCombat) return false;
             var potion = player.GetComponent<PlayerHealthPotion>();
             if (!GameEconomy.SacrificeLifeSeed(potion))
-            { player.ShowNotice(potion!=null && potion.capacity>=PlayerHealthPotion.MaximumCapacity?"Sức chứa bình máu đã đạt tối đa.":GameEconomy.LifeSeeds<=0?"Không đủ Hạt sinh mệnh để hiến tế.":"Chưa thể hiến tế lúc này."); MenuSFX.Play(MenuSFX.Kind.Error); return false; }
+            { player.ShowNotice(potion!=null && potion.capacity>=PlayerHealthPotion.MaximumCapacity?"Sức chứa bình máu đã đạt tối đa.":GameEconomy.LifeSeeds<GameEconomy.NextPotionSeedCost?"Cần "+GameEconomy.NextPotionSeedCost+" Hạt sinh mệnh để hiến tế.":"Chưa thể hiến tế lúc này."); MenuSFX.Play(MenuSFX.Kind.Error); return false; }
             player.ShowNotice("Hiến tế thành công. Sức chứa bình máu +1.");
             potion.AddCharges(1);
             RefreshPotionCount(); RefreshSacrifice();

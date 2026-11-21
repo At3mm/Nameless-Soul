@@ -12,7 +12,7 @@ public static class CaveCreatureSetup
     public sealed class Spec
     {
         public string folder,prefix,sheet,id,audio;
-        public bool elite;
+        public bool elite,boss;
         public int attacks;
         public float hp,stamina,defense,bar,ppu;
         public Vector2 body,offset;
@@ -23,7 +23,7 @@ public static class CaveCreatureSetup
     }
     public static Spec[] Specs => new[]{
         new Spec{folder="Demon C",prefix="DemonC",sheet="Demon_C",id="demon-c",audio="Werewolf",attacks=2,ppu=25,hp=110,stamina=60,defense=4,bar=1.0f,body=new Vector2(.65f,.85f),offset=new Vector2(0,.04f),hits=new[]{3,3},attackByArea=new float[]{20,24,28,33},skills=new[]{Skill("NormalAttack",1,.85f,.65f,1.6f,15),Skill("HeavyAttack",1.3f,1.15f,.65f,3f,20)},lunges=new[]{"NormalAttack"}},
-        new Spec{folder="Flame Golem",prefix="FlameGolem",sheet="Flame Golem",id="flame-golem",audio="Werebear",attacks=3,ppu=25,hp=190,stamina=95,defense=9,bar=1.25f,body=new Vector2(.95f,1.1f),offset=new Vector2(.02f,.15f),hits=new[]{6,6,5},attackByArea=new float[]{24,28,33,38},skills=new[]{Skill("NormalAttack",1,1,.65f,2.1f,15),Skill("HeavyAttack",1.35f,1.35f,.55f,3.8f,30),Skill("Skill3",1.2f,1.25f,.65f,5f,45)},lunges=new[]{"NormalAttack"}},
+        new Spec{folder="Flame Golem",prefix="FlameGolem",sheet="Flame Golem",id="flame-golem",audio="Werebear",boss=true,attacks=3,ppu=10,hp=190,stamina=95,defense=9,bar=1.25f,body=new Vector2(2.375f,2.75f),offset=new Vector2(.05f,.375f),hits=new[]{6,6,5},attackByArea=new float[]{24,28,33,38},skills=new[]{Skill("NormalAttack",1,2.5f,1.625f,2.1f,15),Skill("HeavyAttack",1.35f,3.375f,1.375f,5f,30),Skill("Skill3",1.2f,3.125f,1.625f,7f,45)},lunges=new[]{"NormalAttack"}},
         new Spec{folder="Lava Slime",prefix="LavaSlime",sheet="Lava Slime",id="lava-slime",audio="Slime",attacks=2,ppu=25,hp=90,stamina=50,defense=3,bar=.7f,body=new Vector2(.65f,.43f),offset=new Vector2(-.05f,-.05f),hits=new[]{3,5},attackByArea=new float[]{18,22,27,31},skills=new[]{Skill("NormalAttack",1,.8f,.6f,1.5f,20),Skill("HeavyAttack",1.25f,1.3f,1.05f,3.5f,35)},lunges=new[]{"NormalAttack"}},
         new Spec{folder="Minotaur",prefix="Minotaur",sheet="Minotaur",id="minotaur",audio="OrcRider",elite=true,attacks=3,ppu=10,hp=600,stamina=150,defense=12,bar=1.75f,body=new Vector2(1.5f,1.9f),offset=new Vector2(.1f,.15f),hits=new[]{5,4,4},attackByArea=new float[]{30,35,41,48},skills=new[]{Skill("NormalAttack",1.15f,2.3f,1.8f,2.8f),Skill("HeavyAttack",1.25f,1.8f,2.1f,4f),Skill("Skill3",1.45f,2.5f,1.8f,5f)},lunges=new[]{"HeavyAttack"}}
     };
@@ -89,7 +89,7 @@ public static class CaveCreatureSetup
         {
             go.name=s.prefix;go.transform.localScale=Vector3.one;go.GetComponent<Animator>().runtimeAnimatorController=controller;
             var visual=go.GetComponent<SpriteRenderer>();visual.sprite=Frames(Sheet(s,"Idle","Idle"))[0];visual.color=Color.white;
-            var classification=go.GetComponent<EnemyClassification>();classification.enemyType=s.elite?EnemyClassification.EnemyType.Elite:EnemyClassification.EnemyType.Normal;classification.displayName=s.prefix=="DemonC"?"Demon C":s.folder;classification.questBossId=s.id;classification.persistentId="";classification.preservePersistentId=false;go.tag=s.elite?"EnemyElite":"EnemyNormal";
+            var classification=go.GetComponent<EnemyClassification>();classification.enemyType=s.boss?EnemyClassification.EnemyType.Boss:s.elite?EnemyClassification.EnemyType.Elite:EnemyClassification.EnemyType.Normal;classification.displayName=s.prefix=="DemonC"?"Demon C":s.folder;classification.questBossId=s.id;classification.persistentId="";classification.preservePersistentId=false;go.tag=s.boss?"EnemyBoss":s.elite?"EnemyElite":"EnemyNormal";
             var stats=go.GetComponent<CharacterStats>();stats.maxHP=stats.currentHP=s.hp;stats.maxStamina=stats.currentStamina=s.stamina;stats.DEF=s.defense;stats.ATK=s.attackByArea[3];stats.STR=s.elite?1:0;stats.CRIT_Rate=0;
             var manager=go.GetComponent<SkillDamageManager>();manager.characterTransform=go.transform;manager.skills=s.skills.ToList();
             var combat=go.GetComponent<EnemyCombat>();combat.skillManager=manager;combat.restrictLungeSkills=true;combat.lungeSkillNames=s.lunges.ToList();combat.lungeSpeed=s.elite?4:2;combat.lungeDuration=.1f;
@@ -149,6 +149,6 @@ public static class CaveCreatureSetup
     {
         const string path="Assets/Resources/Items/LifeSeed.asset";
         if(GameItemDefinition.FindItem(LifeSeedItem.Id)!=null)return;
-        var seed=ScriptableObject.CreateInstance<ItemDefinition>();seed.itemId=LifeSeedItem.Id;seed.displayName="Hạt sinh mệnh";seed.description="Tự nhận khi hạ Elite hoặc Boss. Dâng 1 hạt tại Tượng thần → Hiến tế vật phẩm để tăng vĩnh viễn sức chứa bình máu thêm 1, từ 3 lên tối đa 10. Không dùng trực tiếp hoặc gắn vào ô nhanh.";seed.icon=Resources.Load<Sprite>("LifeSeedIcon");seed.category=ItemCategory.Support;seed.rarity=ItemRarity.Rare;seed.consumable=false;seed.maxStack=int.MaxValue;seed.buyable=seed.sellable=false;AssetDatabase.CreateAsset(seed,path);
+        var seed=ScriptableObject.CreateInstance<ItemDefinition>();seed.itemId=LifeSeedItem.Id;seed.displayName="Hạt sinh mệnh";seed.description="Tự nhận khi hạ Elite hoặc Boss. Hai lần tăng đầu cần 1 hạt/lần, các lần sau cần 2 hạt/lần tại Tượng thần → Hiến tế vật phẩm để tăng vĩnh viễn sức chứa bình máu thêm 1, từ 3 lên tối đa 10. Không dùng trực tiếp hoặc gắn vào ô nhanh.";seed.icon=Resources.Load<Sprite>("LifeSeedIcon");seed.category=ItemCategory.Support;seed.rarity=ItemRarity.Rare;seed.consumable=false;seed.maxStack=int.MaxValue;seed.buyable=seed.sellable=false;AssetDatabase.CreateAsset(seed,path);
     }
 }

@@ -831,7 +831,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 1030
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7711302792023820087, guid: db96858986bcc7740924d0af87b9f802,
@@ -992,7 +992,7 @@ MonoBehaviour:
     hitEffectPrefab: {fileID: 0}
     hitSound: {fileID: 0}
   - skillName: HeavyAttack
-    damageMultiplier: 1.5
+    damageMultiplier: 0.7647059
     knockbackForce: 5
     canBeParried: 1
     cooldownTime: 3
@@ -1012,7 +1012,7 @@ MonoBehaviour:
     hitEffectPrefab: {fileID: 0}
     hitSound: {fileID: 0}
   - skillName: Skill3
-    damageMultiplier: 1.5
+    damageMultiplier: 1.2745098
     knockbackForce: 2
     canBeParried: 1
     cooldownTime: 5
@@ -1048,14 +1048,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f7e446b622450341b3727857aa782ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterStats
-  maxHP: 100
-  currentHP: 0
-  ATK: 20
-  DEF: 10
-  STR: 5
+  maxHP: 1000
+  currentHP: 1000
+  ATK: 51
+  DEF: 7
+  STR: 0
   maxStamina: 100
   currentStamina: 0
-  CRIT_Rate: 0.1
+  CRIT_Rate: 0
   CRIT_Damage: 1.5
   RES: 0.2
   usePostureSystem: 0
@@ -1181,6 +1181,8 @@ MonoBehaviour:
   maxRetreatDistance: 3
   lungeSpeed: 7
   lungeDuration: 0.12
+  restrictLungeSkills: 0
+  lungeSkillNames: []
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 1
@@ -1204,12 +1206,12 @@ MonoBehaviour:
   heavyAttackState: PlayerSkill2
   dashState: PlayerDash
   parryState: PlayerParry
-  reactionDelay: 0.3
+  reactionDelay: 0.35
   observationMemory: 1.2
-  comboChance: 0.8
+  comboChance: 0.7
   maxComboLength: 3
-  stepGap: 0.15
-  recoveryTime: 0.8
+  stepGap: 0.25
+  recoveryTime: 1
   animationTimeout: 5
   combos:
   - name: Pressure combo
@@ -1316,5 +1318,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAreaDamage
   archetypeId: orc-rider
-  fallbackProfile: {fileID: 11400000, guid: 701983951e4597f4b8325ca36ec30e3f, type: 2}
+  fallbackProfile: {fileID: 11400000, guid: 19cee59a211f47e43b6d67843843465d, type: 2}
   profileOverride: {fileID: 0}

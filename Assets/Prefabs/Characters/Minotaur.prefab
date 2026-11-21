@@ -905,7 +905,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SkillDamageManager
   skills:
   - skillName: NormalAttack
-    damageMultiplier: 1.15
+    damageMultiplier: 1
     knockbackForce: 3
     canBeParried: 1
     cooldownTime: 2.8
@@ -925,7 +925,7 @@ MonoBehaviour:
     hitEffectPrefab: {fileID: 0}
     hitSound: {fileID: 0}
   - skillName: HeavyAttack
-    damageMultiplier: 1.25
+    damageMultiplier: 1.28
     knockbackForce: 3
     canBeParried: 1
     cooldownTime: 4
@@ -945,7 +945,7 @@ MonoBehaviour:
     hitEffectPrefab: {fileID: 0}
     hitSound: {fileID: 0}
   - skillName: Skill3
-    damageMultiplier: 1.45
+    damageMultiplier: 1.28
     knockbackForce: 3
     canBeParried: 1
     cooldownTime: 5
@@ -981,11 +981,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f7e446b622450341b3727857aa782ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterStats
-  maxHP: 600
-  currentHP: 600
-  ATK: 48
+  maxHP: 840
+  currentHP: 840
+  ATK: 70
   DEF: 12
-  STR: 1
+  STR: 0
   maxStamina: 150
   currentStamina: 150
   CRIT_Rate: 0
@@ -1124,7 +1124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAreaDamage
   archetypeId: minotaur
-  fallbackProfile: {fileID: 11400000, guid: a2287eea82260474b863b3ffd6c14d16, type: 2}
+  fallbackProfile: {fileID: 11400000, guid: 4cb1837f12ccd3c44adb3cb129c07df7, type: 2}
   profileOverride: {fileID: 0}
 --- !u!1 &8638941568002919430
 GameObject:

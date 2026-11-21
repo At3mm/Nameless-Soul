@@ -16,4 +16,4 @@ MonoBehaviour:
   displayName: "H\u1EA7m ng\u1EE5c"
   subtitle: 
   entrySound: {fileID: 0}
-  enemyDamageProfile: {fileID: 11400000, guid: d52c67ca3d80eaf4a98d64f13b548e84, type: 2}
+  enemyDamageProfile: {fileID: 11400000, guid: 4cb1837f12ccd3c44adb3cb129c07df7, type: 2}

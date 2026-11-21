@@ -23937,6 +23937,21 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 1.506427
       objectReference: {fileID: 0}
+    - target: {fileID: 2784919882961441154, guid: 70441d80439e2c04d9e6927136a8007c,
+        type: 3}
+      propertyPath: stepGap
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2784919882961441154, guid: 70441d80439e2c04d9e6927136a8007c,
+        type: 3}
+      propertyPath: recoveryTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2784919882961441154, guid: 70441d80439e2c04d9e6927136a8007c,
+        type: 3}
+      propertyPath: reactionDelay
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 6697758567701081939, guid: 70441d80439e2c04d9e6927136a8007c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -45396,6 +45411,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2268095539133015547, guid: 6468c38d156e10142b34950ca06534f4,
+        type: 3}
+      propertyPath: persistentId
+      value: Assets/Scenes/CaveScene.unity|GlobalObjectId_V1-2-a7d8611664dfeed42b3fa8a2e9c56f93-2268095539133015547-1583599238
+      objectReference: {fileID: 0}
     - target: {fileID: 7925992351336890134, guid: 6468c38d156e10142b34950ca06534f4,
         type: 3}
       propertyPath: m_LocalPosition.x

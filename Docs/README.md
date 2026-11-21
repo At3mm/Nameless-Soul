@@ -9,3 +9,4 @@
 
 Tài liệu thử nghiệm và dữ liệu render tạm nằm trong `Library/`, không phải tài nguyên phát hành.
 
+- [Build và bộ cài Windows](Guides/WINDOWS_RELEASE.md): kiểm tra dự án, xuất game và đóng gói Inno Setup.

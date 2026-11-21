@@ -119,3 +119,11 @@ InitTestScene*.unity*
 # Graduation reports are archived separately by the project owner
 /Docs/*.docx
 /Docs/*.pdf
+
+# Local diagram previews and report export bundles
+/Docs/*-Preview/
+/Docs/UML-Review-*/
+/Docs/Report-Diagrams-Preview.html
+/Docs/*-UML-review-*.zip
+**/__pycache__/
+*.pyc
