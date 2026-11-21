@@ -25,7 +25,7 @@ foreach($sourceName in @("Assets","References")){
  $sourceRoot=Join-Path $projectRoot $sourceName
  foreach($file in Get-ChildItem -LiteralPath $sourceRoot -Recurse -File){
   if($file.Extension -eq ".meta" -or $file.Name -notmatch '(?i)(licen[cs]e|credits|attribution|^SOURCE\.md$)'){continue}
-  $relative=[System.IO.Path]::GetRelativePath($projectRoot,$file.FullName)
+  $relative=$file.FullName.Substring($projectRoot.TrimEnd([char[]]@('\','/')).Length+1)
   $destination=Join-Path $notices $relative
   New-Item -ItemType Directory -Path (Split-Path $destination) -Force|Out-Null
   Copy-Item -LiteralPath $file.FullName -Destination $destination -Force
