@@ -37,7 +37,7 @@ namespace World
         private readonly List<Behaviour> travelControls = new List<Behaviour>();
         public static bool IsRespawning => instance != null && instance.respawning;
         public static bool IsTraveling => instance != null && instance.traveling;
-        [Min(0f)] public float deathDelay = 1.5f;
+        [Min(0f)] public float deathDelay = PlayerDeathCutscene.Duration + .6f;
 
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
         private static void ResetStatic() { instance = null; SavedChanged = null; }
@@ -264,6 +264,7 @@ namespace World
             if (!health.CompareTag("Player") || respawning || traveling) return;
             pending = ReadSaved() ?? fallback;
             if (!Valid(pending)) { Debug.LogError("No loadable respawn scene configured."); return; }
+            PlayerDeathCutscene.Play();
             StartCoroutine(Reload(deathDelay));
         }
         private IEnumerator Reload(float delay)
