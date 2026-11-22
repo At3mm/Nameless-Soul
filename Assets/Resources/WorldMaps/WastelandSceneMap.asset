@@ -43,3 +43,16 @@ MonoBehaviour:
     worldPosition: {x: -23.463428, y: -78.56748}
   - displayName: "V\xF9ng \u0111\u1EA5t ch\u1EBFt"
     worldPosition: {x: -30.661802, y: 24.464977}
+  areas:
+  - areaId: area1
+    displayName: "L\u1ED1i m\xF2n c\u1ED5"
+    worldPosition: {x: 133.48001, y: -72.9}
+  - areaId: area3
+    displayName: "R\u1EEBng hoang"
+    worldPosition: {x: -40.7, y: -62.5}
+  - areaId: area2
+    displayName: "R\u1EEBng ti\xEAn"
+    worldPosition: {x: 117.48, y: -72.9}
+  - areaId: area4
+    displayName: "V\xF9ng \u0111\u1EA5t ch\u1EBFt"
+    worldPosition: {x: -18.0289, y: 6.02625}

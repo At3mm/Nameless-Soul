@@ -29,3 +29,7 @@ MonoBehaviour:
     worldPosition: {x: 3.35, y: 26.4}
   - displayName: "T\u1EADn c\xF9ng c\u1EE7a th\u1EBF gi\u1EDBi"
     worldPosition: {x: 1.11, y: 45.1}
+  areas:
+  - areaId: area5
+    displayName: "H\u1EA7m ng\u1EE5c"
+    worldPosition: {x: -1.7272, y: 28.20202}

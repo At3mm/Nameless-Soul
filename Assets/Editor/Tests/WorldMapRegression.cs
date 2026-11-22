@@ -17,12 +17,19 @@ public static class WorldMapRegression
             var map = maps.SingleOrDefault(entry => entry.scenePath == scenePath);
             if (map == null || map.image == null || map.playerMarker == null ||
                 string.IsNullOrWhiteSpace(map.displayName) || map.worldBounds.width <= 0 ||
-                map.worldBounds.height <= 0 || map.checkpoints == null || map.checkpoints.Length == 0)
-                throw new InvalidOperationException("Missing map image, bounds, marker, region name, or checkpoint labels for " + scenePath);
+                map.worldBounds.height <= 0 || map.checkpoints == null || map.checkpoints.Length == 0 ||
+                map.areas == null || map.areas.Length == 0)
+                throw new InvalidOperationException("Missing map image, bounds, marker, region name, checkpoint labels, or area labels for " + scenePath);
             foreach (var checkpoint in map.checkpoints)
                 if (checkpoint == null || string.IsNullOrWhiteSpace(checkpoint.displayName) ||
                     !map.worldBounds.Contains(checkpoint.worldPosition))
                     throw new InvalidOperationException("Invalid checkpoint label data for " + scenePath);
+            foreach (var area in map.areas)
+                if (area == null || string.IsNullOrWhiteSpace(area.areaId) ||
+                    string.IsNullOrWhiteSpace(area.displayName) || !map.worldBounds.Contains(area.worldPosition))
+                    throw new InvalidOperationException("Invalid named area label data for " + scenePath);
+            if (map.areas.Select(area => area.areaId).Distinct(StringComparer.Ordinal).Count() != map.areas.Length)
+                throw new InvalidOperationException("Duplicate named area labels for " + scenePath);
             var size = new Vector2(100, 60);
             var lowerLeft = WorldMapOverlay.WorldToMapPosition(new Vector3(map.worldBounds.xMin, map.worldBounds.yMin), map.worldBounds, size);
             var center = WorldMapOverlay.WorldToMapPosition(map.worldBounds.center, map.worldBounds, size);
@@ -32,6 +39,6 @@ public static class WorldMapRegression
                 Vector2.Distance(upperRight, new Vector2(50, 30)) > .01f)
                 throw new InvalidOperationException("Player marker projection is incorrect for " + scenePath);
         }
-        Debug.Log("PASS: Two scene maps include checkpoint labels, the player portrait, valid bounds, and correct marker projection.");
+        Debug.Log("PASS: Two scene maps include checkpoint and named area labels, the player portrait, valid bounds, and correct marker projection.");
     }
 }

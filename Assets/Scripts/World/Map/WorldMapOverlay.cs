@@ -14,15 +14,28 @@ namespace World
         {
             public RectTransform root;
             public RectTransform label;
+            public string displayName;
             public Vector2 mapPosition;
+        }
+
+        private sealed class AreaLabelView
+        {
+            public RectTransform root;
+            public string displayName;
+            public Vector2 mapPosition;
+            public Vector2 screenOffset;
         }
 
         private const float MinZoom = 1f;
         private const float MaxZoom = 4f;
+        private const float WheelZoomFactor = 1.25f;
+        private const float WheelZoomSpeedMultiplier = 5f;
         private const float CheckpointLabelZoom = 1.65f;
+        private const float AreaLabelZoom = 1.25f;
         private static WorldMapOverlay instance;
         private readonly List<Behaviour> suspendedControls = new List<Behaviour>();
         private readonly List<CheckpointLabelView> checkpointLabels = new List<CheckpointLabelView>();
+        private readonly List<AreaLabelView> areaLabels = new List<AreaLabelView>();
         private WorldMapDefinition[] maps = Array.Empty<WorldMapDefinition>();
         private GameObject canvasRoot;
         private RectTransform mapViewRect, mapRect, markerRect;
@@ -210,10 +223,12 @@ namespace World
             panelImage.color = panelSprite != null ? Color.white : new Color(.12f, .1f, .08f, .98f);
             panelImage.raycastTarget = false;
 
-            title = MakeText(panelRect, "Map Title", new Vector2(.055f, .88f), new Vector2(.36f, .97f), 28, TextAnchor.MiddleLeft);
+            title = MakeText(panelRect, "Map Title", new Vector2(.055f, .88f), new Vector2(.36f, .97f), 30, TextAnchor.MiddleLeft);
             title.text = "BẢN ĐỒ";
-            areaTitle = MakeText(panelRect, "Area Name", new Vector2(.57f, .88f), new Vector2(.94f, .97f), 28, TextAnchor.MiddleRight);
+            SetTextOutline(title, new Color(.98f, .88f, .65f, .95f), new Vector2(1f, -1f));
+            areaTitle = MakeText(panelRect, "Area Name", new Vector2(.57f, .88f), new Vector2(.94f, .97f), 30, TextAnchor.MiddleRight);
             areaTitle.color = new Color(.99f, .82f, .47f);
+            SetTextOutline(areaTitle, new Color(.08f, .055f, .03f, .95f), new Vector2(1.5f, -1.5f));
             var rule = MakeImage(panelRect, "Header Rule", new Color(.39f, .25f, .12f));
             rule.rectTransform.anchorMin = new Vector2(.055f, .865f);
             rule.rectTransform.anchorMax = new Vector2(.945f, .87f);
@@ -241,21 +256,42 @@ namespace World
             mapImage = imageObject.GetComponent<RawImage>();
             mapImage.raycastTarget = false;
 
-            var marker = MakeImage(view.transform, "Player Head Marker", Color.white);
-            markerRect = marker.rectTransform;
+            var markerFrame = MakeImage(view.transform, "Player Marker Frame", new Color(.88f, .64f, .26f));
+            markerRect = markerFrame.rectTransform;
             markerRect.anchorMin = markerRect.anchorMax = new Vector2(.5f, .5f);
-            markerRect.sizeDelta = new Vector2(32, 32);
+            markerRect.sizeDelta = new Vector2(42, 42);
+            var frameOutline = markerFrame.gameObject.AddComponent<Outline>();
+            frameOutline.effectColor = new Color(.08f, .045f, .02f, 1f);
+            frameOutline.effectDistance = new Vector2(2, -2);
+            var markerBacking = MakeImage(markerFrame.transform, "Player Marker Backing", new Color(.1f, .065f, .035f));
+            markerBacking.rectTransform.anchorMin = markerBacking.rectTransform.anchorMax = new Vector2(.5f, .5f);
+            markerBacking.rectTransform.sizeDelta = new Vector2(36, 36);
+            var marker = MakeImage(markerBacking.transform, "Player Head Marker", Color.white);
+            marker.rectTransform.anchorMin = marker.rectTransform.anchorMax = new Vector2(.5f, .5f);
+            marker.rectTransform.sizeDelta = new Vector2(30, 30);
             markerImage = marker;
             markerImage.preserveAspect = true;
-            var markerOutline = marker.gameObject.AddComponent<Outline>();
-            markerOutline.effectColor = new Color(.14f, .08f, .035f, 1f);
-            markerOutline.effectDistance = new Vector2(2, -2);
 
-            help = MakeText(panelRect, "Map Help", new Vector2(.055f, .025f), new Vector2(.77f, .105f), 17, TextAnchor.MiddleLeft);
+            var footer = MakeImage(panelRect, "Map Help Backing", new Color(.06f, .045f, .03f, .92f));
+            footer.rectTransform.anchorMin = new Vector2(.04f, .02f);
+            footer.rectTransform.anchorMax = new Vector2(.96f, .11f);
+            footer.rectTransform.offsetMin = footer.rectTransform.offsetMax = Vector2.zero;
+
+            help = MakeText(panelRect, "Map Help", new Vector2(.055f, .025f), new Vector2(.77f, .105f), 19, TextAnchor.MiddleLeft);
             help.text = "ESC / M  Đóng   •   Con lăn  Phóng to / thu nhỏ   •   Kéo chuột trái  Di chuyển   •   E  Đổi bản đồ";
-            zoomLabel = MakeText(panelRect, "Zoom Level", new Vector2(.78f, .025f), new Vector2(.945f, .105f), 18, TextAnchor.MiddleRight);
+            help.color = new Color(.98f, .91f, .76f);
+            SetTextOutline(help, new Color(.035f, .025f, .015f, 1f), new Vector2(1.5f, -1.5f));
+            zoomLabel = MakeText(panelRect, "Zoom Level", new Vector2(.78f, .025f), new Vector2(.945f, .105f), 20, TextAnchor.MiddleRight);
             zoomLabel.color = new Color(.99f, .82f, .47f);
+            SetTextOutline(zoomLabel, new Color(.035f, .025f, .015f, 1f), new Vector2(1.5f, -1.5f));
             canvasRoot.SetActive(false);
+        }
+
+        private static void SetTextOutline(Text text, Color color, Vector2 distance)
+        {
+            var outline = text.gameObject.AddComponent<Outline>();
+            outline.effectColor = color;
+            outline.effectDistance = distance;
         }
 
         private Text MakeText(Transform parent, string name, Vector2 min, Vector2 max, int size, TextAnchor alignment)
@@ -307,8 +343,10 @@ namespace World
             zoom = MinZoom;
             panOffset = Vector2.zero;
             BuildCheckpointLabels(definition, baseSize);
+            BuildAreaLabels(definition, baseSize);
             ApplyMapTransform();
             RefreshMarker();
+            markerRect.SetAsLastSibling();
             RefreshZoomLabel();
         }
 
@@ -337,27 +375,81 @@ namespace World
                 labelObject.transform.SetParent(root, false);
                 var labelRect = labelObject.GetComponent<RectTransform>();
                 labelRect.anchorMin = labelRect.anchorMax = new Vector2(.5f, .5f);
-                labelRect.sizeDelta = new Vector2(214, 34);
+                labelRect.sizeDelta = new Vector2(220, 38);
                 var side = checkpointLabels.Count % 2 == 0 ? 1f : -1f;
                 labelRect.pivot = new Vector2(side > 0 ? 0f : 1f, .5f);
                 labelRect.anchoredPosition = new Vector2(side * 9f, 20f);
                 var plate = labelObject.GetComponent<Image>();
-                plate.sprite = panelSprite;
-                plate.type = panelSprite != null && panelSprite.border.sqrMagnitude > 0 ? Image.Type.Sliced : Image.Type.Simple;
-                plate.color = panelSprite != null ? Color.white : new Color(.15f, .1f, .055f, .96f);
+                plate.color = new Color(.07f, .05f, .03f, .94f);
                 plate.raycastTarget = false;
-                var text = MakeText(labelObject.transform, "Name", Vector2.zero, Vector2.one, 16, TextAnchor.MiddleCenter);
+                var plateOutline = labelObject.AddComponent<Outline>();
+                plateOutline.effectColor = new Color(.83f, .61f, .29f, .95f);
+                plateOutline.effectDistance = new Vector2(1f, -1f);
+                var text = MakeText(labelObject.transform, "Name", Vector2.zero, Vector2.one, 18, TextAnchor.MiddleCenter);
                 text.text = checkpoint.displayName;
-                text.color = new Color(.24f, .16f, .085f);
+                text.color = new Color(.98f, .9f, .72f);
+                SetTextOutline(text, new Color(.035f, .025f, .015f, 1f), new Vector2(1f, -1f));
 
                 var locationView = new CheckpointLabelView
                 {
                     root = root,
                     label = labelRect,
+                    displayName = checkpoint.displayName,
                     mapPosition = WorldToMapPosition(checkpoint.worldPosition, definition.worldBounds, baseSize)
                 };
                 checkpointLabels.Add(locationView);
             }
+        }
+
+        private void BuildAreaLabels(WorldMapDefinition definition, Vector2 baseSize)
+        {
+            foreach (var view in areaLabels)
+                if (view.root != null) Destroy(view.root.gameObject);
+            areaLabels.Clear();
+            if (definition.areas == null) return;
+
+            foreach (var area in definition.areas)
+            {
+                if (area == null || string.IsNullOrWhiteSpace(area.displayName)) continue;
+                var labelObject = new GameObject("Area Name " + area.displayName, typeof(RectTransform), typeof(Image));
+                labelObject.transform.SetParent(mapViewRect, false);
+                var labelRect = labelObject.GetComponent<RectTransform>();
+                labelRect.anchorMin = labelRect.anchorMax = new Vector2(.5f, .5f);
+                labelRect.sizeDelta = new Vector2(200, 40);
+                var plate = labelObject.GetComponent<Image>();
+                plate.color = new Color(.055f, .04f, .025f, .9f);
+                plate.raycastTarget = false;
+                var plateOutline = labelObject.AddComponent<Outline>();
+                plateOutline.effectColor = new Color(.88f, .66f, .32f, .95f);
+                plateOutline.effectDistance = new Vector2(1.5f, -1.5f);
+                var text = MakeText(labelObject.transform, "Name", Vector2.zero, Vector2.one, 19, TextAnchor.MiddleCenter);
+                text.text = area.displayName;
+                text.color = new Color(1f, .91f, .72f);
+                SetTextOutline(text, new Color(.025f, .018f, .01f, 1f), new Vector2(1f, -1f));
+                var mapPosition = WorldToMapPosition(area.worldPosition, definition.worldBounds, baseSize);
+                var screenOffset = FindAreaLabelOffset(mapPosition);
+                areaLabels.Add(new AreaLabelView
+                {
+                    root = labelRect,
+                    displayName = area.displayName,
+                    mapPosition = mapPosition,
+                    screenOffset = screenOffset
+                });
+            }
+        }
+
+        private Vector2 FindAreaLabelOffset(Vector2 mapPosition)
+        {
+            var candidates = new[] { 0f, 48f, -48f, 96f, -96f };
+            foreach (float offset in candidates)
+            {
+                bool overlaps = areaLabels.Any(existing =>
+                    Mathf.Abs((mapPosition.x - existing.mapPosition.x) * AreaLabelZoom) < 200f &&
+                    Mathf.Abs((mapPosition.y - existing.mapPosition.y) * AreaLabelZoom +
+                        offset - existing.screenOffset.y) < 42f);
+                if (!overlaps) return new Vector2(0f, offset);
+            }
+            return new Vector2(0f, candidates[candidates.Length - 1]);
         }
 
         private void ApplyMapTransform()
@@ -367,19 +459,44 @@ namespace World
             var baseSize = new Vector2(mapImage.texture.width * baseMapScale, mapImage.texture.height * baseMapScale);
             mapRect.sizeDelta = baseSize * zoom;
             mapRect.anchoredPosition = panOffset;
+            bool showAreaNames = zoom >= AreaLabelZoom;
+            foreach (var area in areaLabels)
+            {
+                if (area.root == null) continue;
+                area.root.anchoredPosition = panOffset + area.mapPosition * zoom + area.screenOffset;
+                area.root.gameObject.SetActive(showAreaNames);
+            }
             bool showCheckpointNames = zoom >= CheckpointLabelZoom;
             foreach (var checkpoint in checkpointLabels)
             {
                 if (checkpoint.root == null) continue;
                 checkpoint.root.anchoredPosition = panOffset + checkpoint.mapPosition * zoom;
+                bool showLabel = showCheckpointNames;
+                if (showCheckpointNames)
+                {
+                    bool placeRight = checkpoint.root.anchoredPosition.x < mapViewRect.rect.width * .25f;
+                    checkpoint.label.pivot = new Vector2(placeRight ? 0f : 1f, .5f);
+                    checkpoint.label.anchoredPosition = new Vector2(placeRight ? 9f : -9f,
+                        checkpoint.root.anchoredPosition.y > mapViewRect.rect.height * .3f ? -20f : 20f);
+                    showLabel = !areaLabels.Any(area =>
+                        string.Equals(area.displayName, checkpoint.displayName, StringComparison.Ordinal) ||
+                        LabelsOverlap(area.root, checkpoint.label));
+                }
                 checkpoint.root.gameObject.SetActive(showCheckpointNames);
-                if (!showCheckpointNames) continue;
-                bool placeRight = checkpoint.root.anchoredPosition.x < mapViewRect.rect.width * .25f;
-                checkpoint.label.pivot = new Vector2(placeRight ? 0f : 1f, .5f);
-                checkpoint.label.anchoredPosition = new Vector2(placeRight ? 9f : -9f,
-                    checkpoint.root.anchoredPosition.y > mapViewRect.rect.height * .3f ? -20f : 20f);
+                checkpoint.label.gameObject.SetActive(showLabel);
             }
             RefreshZoomLabel();
+        }
+
+        private static bool LabelsOverlap(RectTransform first, RectTransform second)
+        {
+            if (first == null || second == null) return false;
+            Vector2 firstCenter = first.anchoredPosition;
+            Vector2 secondCenter = second.anchoredPosition + second.parent.GetComponent<RectTransform>().anchoredPosition;
+            secondCenter += new Vector2(second.pivot.x == 0f ? second.rect.width * .5f : -second.rect.width * .5f, 0f);
+            Vector2 halfSize = (first.rect.size + second.rect.size) * .5f;
+            Vector2 distance = firstCenter - secondCenter;
+            return Mathf.Abs(distance.x) < halfSize.x && Mathf.Abs(distance.y) < halfSize.y;
         }
 
         private void ClampPan()
@@ -421,8 +538,8 @@ namespace World
             if (!RectTransformUtility.ScreenPointToLocalPointInRectangle(mapViewRect, screenPosition, null, out var pointer))
                 return;
             float steps = Mathf.Clamp(scroll / 120f, -1f, 1f);
-            if (Mathf.Abs(steps) < .1f) steps = scroll * .02f;
-            float nextZoom = Mathf.Clamp(zoom * Mathf.Pow(1.25f, steps), MinZoom, MaxZoom);
+            if (Mathf.Abs(steps) < .1f) steps = Mathf.Clamp(scroll * .25f, -1f, 1f);
+            float nextZoom = Mathf.Clamp(zoom * Mathf.Pow(WheelZoomFactor, steps * WheelZoomSpeedMultiplier), MinZoom, MaxZoom);
             if (Mathf.Approximately(nextZoom, zoom)) return;
             var mapPoint = (pointer - panOffset) / zoom;
             zoom = nextZoom;

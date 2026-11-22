@@ -33,7 +33,7 @@ public static class WorldMapBaker
         catch (Exception error) { Debug.LogException(error); EditorApplication.delayCall += () => EditorApplication.Exit(1); }
     }
 
-    [MenuItem("Tools/Build/Bake World Map Checkpoint Labels")]
+    [MenuItem("Tools/Build/Bake World Map Labels")]
     public static void BakeCheckpointLabels()
     {
         foreach (var path in Scenes) BakeCheckpointLabels(path);
@@ -182,6 +182,22 @@ public static class WorldMapBaker
             .OrderBy(location => location.displayName, StringComparer.Ordinal)
             .ToArray();
         if (definition.checkpoints.Length == 0) throw new InvalidOperationException("No checkpoint locations found in " + scene.path);
+        definition.areas = scene.GetRootGameObjects()
+            .SelectMany(root => root.GetComponentsInChildren<AreaTrigger>(true))
+            .Where(trigger => trigger != null && trigger.area != null &&
+                !string.IsNullOrWhiteSpace(trigger.area.areaId) &&
+                !string.IsNullOrWhiteSpace(trigger.area.displayName))
+            .GroupBy(trigger => trigger.area.areaId, StringComparer.Ordinal)
+            .Select(group => new WorldMapDefinition.AreaLocation
+            {
+                areaId = group.Key,
+                displayName = group.First().area.displayName,
+                worldPosition = group.Aggregate(Vector2.zero,
+                    (position, trigger) => position + (Vector2)trigger.transform.position) / group.Count()
+            })
+            .OrderBy(location => location.displayName, StringComparer.Ordinal)
+            .ToArray();
+        if (definition.areas.Length == 0) throw new InvalidOperationException("No named area triggers found in " + scene.path);
     }
 
     static void Hide(GameObject go, Dictionary<GameObject, bool> hidden)
