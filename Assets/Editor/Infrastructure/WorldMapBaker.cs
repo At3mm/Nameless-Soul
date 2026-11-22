@@ -33,6 +33,35 @@ public static class WorldMapBaker
         catch (Exception error) { Debug.LogException(error); EditorApplication.delayCall += () => EditorApplication.Exit(1); }
     }
 
+    [MenuItem("Tools/Build/Bake World Map Checkpoint Labels")]
+    public static void BakeCheckpointLabels()
+    {
+        foreach (var path in Scenes) BakeCheckpointLabels(path);
+        AssetDatabase.SaveAssets();
+    }
+
+    static void BakeCheckpointLabels(string path)
+    {
+        var scene = SceneManager.GetSceneByPath(path);
+        bool opened = !scene.IsValid() || !scene.isLoaded;
+        var previousActive = SceneManager.GetActiveScene();
+        if (opened) scene = EditorSceneManager.OpenScene(path, OpenSceneMode.Additive);
+        SceneManager.SetActiveScene(scene);
+        try
+        {
+            var name = Path.GetFileNameWithoutExtension(path);
+            var definition = AssetDatabase.LoadAssetAtPath<WorldMapDefinition>("Assets/Resources/WorldMaps/" + name + "Map.asset");
+            if (definition == null) throw new InvalidOperationException("Missing world map definition for " + path);
+            SetCheckpointLabels(scene, definition);
+            EditorUtility.SetDirty(definition);
+        }
+        finally
+        {
+            if (opened && scene.IsValid() && scene.isLoaded) EditorSceneManager.CloseScene(scene, true);
+            if (previousActive.IsValid() && previousActive.isLoaded) SceneManager.SetActiveScene(previousActive);
+        }
+    }
+
     static void BakeScene(string path)
     {
         var scene = SceneManager.GetSceneByPath(path);
@@ -121,6 +150,7 @@ public static class WorldMapBaker
             definition.displayName = name == "WastelandScene" ? "RỪNG HOANG" : "HANG ĐỘNG";
             definition.image = AssetDatabase.LoadAssetAtPath<Texture2D>(imagePath);
             definition.worldBounds = worldBounds;
+            SetCheckpointLabels(scene, definition);
             EditorUtility.SetDirty(definition);
             Debug.Log("Baked world map " + name + " with bounds " + worldBounds);
         }
@@ -134,6 +164,24 @@ public static class WorldMapBaker
             if (opened && scene.IsValid() && scene.isLoaded) EditorSceneManager.CloseScene(scene, true);
             if (previousActive.IsValid() && previousActive.isLoaded) SceneManager.SetActiveScene(previousActive);
         }
+    }
+
+    static void SetCheckpointLabels(Scene scene, WorldMapDefinition definition)
+    {
+        string portraitPath = "Assets/UI/Packs/FantasyUI/Sprites/PlayerHUD/CompactHUD_Portrait.png";
+        definition.playerMarker = AssetDatabase.LoadAllAssetsAtPath(portraitPath).OfType<Sprite>().FirstOrDefault();
+        if (definition.playerMarker == null) throw new InvalidOperationException("Missing player map portrait at " + portraitPath);
+        definition.checkpoints = scene.GetRootGameObjects()
+            .SelectMany(root => root.GetComponentsInChildren<CheckpointMenu>(true))
+            .Where(menu => menu != null && !string.IsNullOrWhiteSpace(menu.checkpointName))
+            .Select(menu => new WorldMapDefinition.CheckpointLocation
+            {
+                displayName = menu.checkpointName,
+                worldPosition = menu.transform.position
+            })
+            .OrderBy(location => location.displayName, StringComparer.Ordinal)
+            .ToArray();
+        if (definition.checkpoints.Length == 0) throw new InvalidOperationException("No checkpoint locations found in " + scene.path);
     }
 
     static void Hide(GameObject go, Dictionary<GameObject, bool> hidden)

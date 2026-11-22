@@ -21,3 +21,11 @@ MonoBehaviour:
     y: -13.439999
     width: 115.84
     height: 86.88
+  playerMarker: {fileID: 21300000, guid: 0342346e6e3bc1a46a9f273d86563c92, type: 3}
+  checkpoints:
+  - displayName: "C\u1EEDa h\u1EA7m ng\u1EE5c"
+    worldPosition: {x: -2.9200547, y: 4.3627415}
+  - displayName: "Ph\xF2ng canh"
+    worldPosition: {x: 3.35, y: 26.4}
+  - displayName: "T\u1EADn c\xF9ng c\u1EE7a th\u1EBF gi\u1EDBi"
+    worldPosition: {x: 1.11, y: 45.1}

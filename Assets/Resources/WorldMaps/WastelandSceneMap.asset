@@ -21,3 +21,25 @@ MonoBehaviour:
     y: -123.64
     width: 308.37335
     height: 231.28
+  playerMarker: {fileID: 21300000, guid: 0342346e6e3bc1a46a9f273d86563c92, type: 3}
+  checkpoints:
+  - displayName: "Ch\xE2n c\u1EA7u R\u1EEBng hoang"
+    worldPosition: {x: 22.11, y: -69.81}
+  - displayName: "Ch\xE2n c\u1EA7u R\u1EEBng ti\xEAn"
+    worldPosition: {x: 101.94, y: -43.85}
+  - displayName: "C\u1EEDa h\u1EA7m ng\u1EE5c"
+    worldPosition: {x: 14.55, y: 15.23}
+  - displayName: "Gi\u1EBFng c\u1EA1n"
+    worldPosition: {x: 4.21, y: -4.59}
+  - displayName: "H\u1ED3 R\u1EEBng ti\xEAn"
+    worldPosition: {x: 89.59, y: -68.23}
+  - displayName: "H\u1ED3 n\u01B0\u1EDBc hoang"
+    worldPosition: {x: -76.49, y: -28.7}
+  - displayName: "L\u1ED1i m\xF2n c\u1ED5"
+    worldPosition: {x: 113.32202, y: -73.18937}
+  - displayName: "Ng\xE3 r\u1EBD R\u1EEBng hoang"
+    worldPosition: {x: -16.452595, y: -33.63415}
+  - displayName: "T\u01B0\u1EE3ng c\u1ED5"
+    worldPosition: {x: -23.463428, y: -78.56748}
+  - displayName: "V\xF9ng \u0111\u1EA5t ch\u1EBFt"
+    worldPosition: {x: -30.661802, y: 24.464977}
