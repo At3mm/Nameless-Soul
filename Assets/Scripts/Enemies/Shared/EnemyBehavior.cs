@@ -878,7 +878,8 @@ public class EnemyBehavior : MonoBehaviour
 
         Vector2 bestDir = avoidNormal;
         float bestScore = -9999f;
-        float bestClearDist = 1f;
+        float bestClearDist = 0f;
+        bool foundClearDirection = false;
 
         // Quét 16 góc xung quanh để tìm lối thoát thông thoáng nhất
         for (int i = 0; i < 16; i++)
@@ -905,10 +906,30 @@ public class EnemyBehavior : MonoBehaviour
                 bestScore = score;
                 bestDir = dir;
                 bestClearDist = clearDist;
+                foundClearDirection = true;
             }
         }
 
-        float travelDist = Mathf.Clamp(bestClearDist * 0.85f, 1.2f, patrolRadius);
+        if (!foundClearDirection)
+        {
+            patrolTarget = currentPos;
+            currentSteeredDirection = Vector2.zero;
+            rb.linearVelocity = Vector2.zero;
+            isWaiting = true;
+            waitTimer = waitTimeAtEdge;
+            return;
+        }
+
+        float travelDist = Mathf.Min(patrolRadius, Mathf.Max(0f, bestClearDist - Mathf.Max(.1f, obstacleCheckRadius * .25f)));
+        if (travelDist <= .1f)
+        {
+            patrolTarget = currentPos;
+            currentSteeredDirection = Vector2.zero;
+            rb.linearVelocity = Vector2.zero;
+            isWaiting = true;
+            waitTimer = waitTimeAtEdge;
+            return;
+        }
         patrolTarget = currentPos + bestDir * travelDist;
         currentSteeredDirection = bestDir;
         rb.linearVelocity = bestDir * patrolSpeed * WaterMovementMultiplier;

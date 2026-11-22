@@ -7,20 +7,23 @@ namespace World
     {
         public string spawnPointId;
         private static string pendingScene, pendingPoint;
+        private static bool pendingInitialGameSpawn;
 
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
         private static void ResetPending()
         {
             SceneManager.sceneLoaded -= PlacePlayer;
             pendingScene = pendingPoint = null;
+            pendingInitialGameSpawn = false;
         }
 
-        public static void Prepare(string sceneName, string pointId)
+        public static void Prepare(string sceneName, string pointId, bool initialGameSpawn = false)
         {
             ResetPending();
             if (string.IsNullOrWhiteSpace(pointId)) return;
             pendingScene = sceneName;
             pendingPoint = pointId;
+            pendingInitialGameSpawn = initialGameSpawn;
             SceneManager.sceneLoaded += PlacePlayer;
         }
 
@@ -28,6 +31,7 @@ namespace World
         {
             if (scene.name != pendingScene) return;
             string id = pendingPoint;
+            bool initialGameSpawn = pendingInitialGameSpawn;
             ResetPending(); // Consume once; direct scene loads retain their default spawn.
             SceneSpawnPoint point = null;
             GameObject player = null;
@@ -52,6 +56,7 @@ namespace World
                 body.angularVelocity = 0f;
             }
             Physics2D.SyncTransforms();
+            if (initialGameSpawn) CheckpointService.SetInitialSpawn(scene.path, point.transform.position);
         }
 
         private void OnDrawGizmosSelected()

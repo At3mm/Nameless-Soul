@@ -15,7 +15,7 @@ public static class ProjectPlayRegression
     const string Pending = "ProjectPlayRegression.Pending";
     const string Profiles = "Assets/Effects/Audio/Enemies/Profiles/";
     static readonly string[] Actors = { "Orc", "EliteOrc", "OrcRider", "Slime", "Werewolf", "Werebear", "Necromancer", "NecromancerBat", "Skeleton", "ArmorSkeleton", "GreatswordSkeleton", "BlackKnight", "BlackKnightBoss" };
-    static readonly string[] Keys = { World.CheckpointService.SaveKey, World.CheckpointService.UnlockSaveKey, GameEconomy.SaveKey, EnemyDefeatState.SaveKey, BossItemInventory.SaveKey, QuestService.SaveKey, "Noname.PreviousRun.v1" };
+    static readonly string[] Keys = { World.CheckpointService.SaveKey, World.CheckpointService.UnlockSaveKey, GameEconomy.SaveKey, EnemyDefeatState.SaveKey, BossItemInventory.SaveKey, QuestService.SaveKey, GameplayTutorial.SaveKey, "Noname.PreviousRun.v1" };
     static readonly List<string> checks = new List<string>();
     static readonly List<string> errors = new List<string>();
     static IEnumerator routine;
@@ -98,6 +98,33 @@ public static class ProjectPlayRegression
         catch(Exception error){failures.Add(name+": "+error.Message);checks.Add("FAIL "+name+" | "+error);}
         finally{Time.timeScale=1;}
     }
+    static string CheckBossMusic()
+    {
+        var music=GameMusicController.Instance;
+        var player=Object.FindFirstObjectByType<PlayerController>();
+        var prefab=AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Prefabs/Characters/FlameGolem.prefab");
+        if(music==null||player==null||prefab==null)throw new InvalidOperationException("Music controller, player, or Flame Golem prefab is missing.");
+        var boss=Object.Instantiate(prefab,player.transform.position+Vector3.right*2,Quaternion.identity);
+        var health=boss.GetComponent<CharacterHealth>();
+        try
+        {
+            var ai=boss.GetComponent<EnemyBehavior>();
+            typeof(EnemyBehavior).GetField("player",System.Reflection.BindingFlags.Instance|System.Reflection.BindingFlags.NonPublic).SetValue(ai,player.transform);
+            ai.currentState=EnemyBehavior.OrcState.Attack;
+            music.Evaluate();
+            Check(music.CurrentContext==GameMusicController.Context.Boss&&music.CurrentTrack==music.Settings.boss,"Engaged boss selects the boss track");
+            health.isDead=true;
+            music.Evaluate();
+            Check(music.CurrentContext==GameMusicController.Context.Exploration&&music.CurrentTrack==music.Settings.exploration,"Defeated boss returns to exploration music");
+            return "Boss and exploration tracks switch with combat state";
+        }
+        finally
+        {
+            if(health!=null)health.isDead=true;
+            Object.Destroy(boss);
+            music.Evaluate();
+        }
+    }
     static IEnumerator Checks()
     {
         foreach(var key in Keys)PlayerPrefs.DeleteKey(key);
@@ -175,6 +202,7 @@ public static class ProjectPlayRegression
         Check(File.ReadAllText("Library/CheckpointTests/travel-results.txt").StartsWith("PASS"),"Same-scene and cross-scene checkpoint travel");
         wait=Time.realtimeSinceStartup+.5f;while(Time.realtimeSinceStartup<wait)yield return null;
         foreach(var enemy in Object.FindObjectsByType<EnemyClassification>(FindObjectsSortMode.None))enemy.gameObject.SetActive(false);
+        Case("Boss music selection",CheckBossMusic);yield return null;yield return null;
         Case("Pause and action recovery in gameplay",PlayerActionLockRegression.Run);yield return null;yield return null;
         var inventory=Object.FindObjectsByType<InventoryConsumablesView>(FindObjectsInactive.Include,FindObjectsSortMode.None).FirstOrDefault();
         Check(inventory!=null,"Gameplay inventory exists");GameEconomy.GrantLifeSeedItem(1);inventory.SelectCategory(InventoryConsumablesView.Category.Support);

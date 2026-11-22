@@ -137,7 +137,7 @@ public sealed class MainMenuController : MonoBehaviour
             PlayerPrefs.DeleteKey(GameEconomy.SaveKey);GameEconomy.ReloadFromSave();PlayerPrefs.Save();
         }
         busy=true;content.interactable=false;Time.timeScale=1;AudioListener.pause=false;
-        SceneSpawnPoint.Prepare(System.IO.Path.GetFileNameWithoutExtension(firstScene),firstSpawnPointId);ScreenFader.Instance.TransitionToScene(firstScene,.45f);
+        SceneSpawnPoint.Prepare(System.IO.Path.GetFileNameWithoutExtension(firstScene),firstSpawnPointId,true);ScreenFader.Instance.TransitionToScene(firstScene,.45f);
     }
     [Serializable] private sealed class SaveEntry { public string key,value;public bool existed; }
     [Serializable] private sealed class SaveBackup { public List<SaveEntry> entries=new List<SaveEntry>(); }

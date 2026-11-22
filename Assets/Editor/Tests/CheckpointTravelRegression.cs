@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -82,6 +83,47 @@ public static class CheckpointTravelRegression
             if(enemy.gameObject.scene==SceneManager.GetActiveScene()&&enemy.gameObject.activeSelf)
             {mapEnemies.Add(enemy.gameObject);enemy.gameObject.SetActive(false);}
     }
+    private static void CheckPatrolStopsAtEnclosedWalls()
+    {
+        var enemy = Object.FindFirstObjectByType<EnemyBehavior>();
+        Check(enemy != null, "Find an authored enemy to verify obstacle-limited patrol");
+        var body = enemy.GetComponent<Rigidbody2D>();
+        bool wasEnabled = enemy.enabled;
+        var previousVelocity = body.linearVelocity;
+        var walls = new List<GameObject>();
+        try
+        {
+            enemy.enabled = false;
+            Vector2 center = enemy.transform.position;
+            enemy.obstacleLayer = 1 << 0;
+            enemy.obstacleCheckRadius = .2f;
+            enemy.patrolRadius = 3f;
+            body.linearVelocity = Vector2.zero;
+            typeof(EnemyBehavior).GetField("lastDirectionChangeTime", BindingFlags.Instance | BindingFlags.NonPublic).SetValue(enemy, -10f);
+            walls.Add(CreatePatrolWall("east", center + Vector2.right * .6f, new Vector2(.25f, 1.5f)));
+            walls.Add(CreatePatrolWall("west", center + Vector2.left * .6f, new Vector2(.25f, 1.5f)));
+            walls.Add(CreatePatrolWall("north", center + Vector2.up * .6f, new Vector2(1.5f, .25f)));
+            walls.Add(CreatePatrolWall("south", center + Vector2.down * .6f, new Vector2(1.5f, .25f)));
+            Physics2D.SyncTransforms();
+            enemy.ChangePatrolDirection(Vector2.right);
+            var target = (Vector2)typeof(EnemyBehavior).GetField("patrolTarget", BindingFlags.Instance | BindingFlags.NonPublic).GetValue(enemy);
+            Check(Vector2.Distance(target, center) < .01f && body.linearVelocity.sqrMagnitude < .001f,
+                "Patrol stops instead of selecting a target through surrounding walls");
+        }
+        finally
+        {
+            foreach (var wall in walls) if (wall != null) Object.Destroy(wall);
+            body.linearVelocity = previousVelocity;
+            enemy.enabled = wasEnabled;
+        }
+    }
+    private static GameObject CreatePatrolWall(string name, Vector2 position, Vector2 size)
+    {
+        var wall = new GameObject("Patrol regression wall " + name);
+        wall.transform.position = position;
+        wall.AddComponent<BoxCollider2D>().size = size;
+        return wall;
+    }
     private static PlayerInteractor Actor()
     {
         var actor = Object.FindFirstObjectByType<PlayerInteractor>();
@@ -112,10 +154,47 @@ public static class CheckpointTravelRegression
     private static IEnumerator Run()
     {
         Check(SceneManager.GetActiveScene().path == "Assets/Scenes/WastelandScene.unity","Start in the real Wasteland scene");
+        CheckpointService.ClearSaved();
+        var newGameSpawn=Object.FindObjectsByType<SceneSpawnPoint>(FindObjectsSortMode.None).Single(p=>p.spawnPointId=="NewGameArea1");
+        Vector3 initialPosition=newGameSpawn.transform.position;
+        SceneSpawnPoint.Prepare("WastelandScene",newGameSpawn.spawnPointId,true);
+        var initialLoad=SceneManager.LoadSceneAsync("Assets/Scenes/WastelandScene.unity");
+        while(!initialLoad.isDone)yield return null;
+        yield return null;yield return null;
+        Actor();
+        CheckPatrolStopsAtEnclosedWalls();
+        yield return null;
+        IsolateFromMapCombat();
+        var actor=Actor();
+        Check(Vector3.Distance(actor.transform.position,initialPosition)<.1f,"New game spawn point places player at the initial position");
+        actor.transform.position=initialPosition+Vector3.right*12;
+        Physics2D.SyncTransforms();
+        var checkpointService=Object.FindFirstObjectByType<CheckpointService>();
+        Check(checkpointService!=null,"Checkpoint service is available for respawn regression");
+        typeof(CheckpointService).GetMethod("OnDied",BindingFlags.Instance|BindingFlags.NonPublic)
+            .Invoke(checkpointService,new object[]{actor.GetComponent<CharacterHealth>()});
+        while(CheckpointService.IsRespawning)yield return null;
+        yield return null;yield return null;
+        actor=Actor();
+        Check(CheckpointService.ReadSaved()==null&&Vector3.Distance(actor.transform.position,initialPosition)<.1f,"Death without a saved statue returns to the new game spawn point");
+        Vector3 savedStatuePosition=initialPosition+Vector3.right*5;
+        Check(CheckpointService.Save(SceneManager.GetActiveScene().path,"respawn-priority-test",savedStatuePosition,"Tượng thử"),
+            "Save a statue checkpoint for respawn precedence regression");
+        actor.transform.position=savedStatuePosition+Vector3.right*12;
+        Physics2D.SyncTransforms();
+        checkpointService=Object.FindFirstObjectByType<CheckpointService>();
+        typeof(CheckpointService).GetMethod("OnDied",BindingFlags.Instance|BindingFlags.NonPublic)
+            .Invoke(checkpointService,new object[]{actor.GetComponent<CharacterHealth>()});
+        while(CheckpointService.IsRespawning)yield return null;
+        yield return null;yield return null;
+        actor=Actor();
+        Check(CheckpointService.ReadSaved()!=null&&CheckpointService.ReadSaved().checkpointId=="respawn-priority-test"&&
+            Vector3.Distance(actor.transform.position,savedStatuePosition)<.1f,
+            "Death with a saved statue still returns to that checkpoint instead of the initial spawn");
         IsolateFromMapCombat();
         var source = Object.FindFirstObjectByType<CheckpointInteractable>();
         string sourcePath = source.gameObject.scene.path, sourceId = source.checkpointId;
-        var actor = Actor();
+        actor = Actor();
         actor.transform.position = new Vector3(10000,10000,0);
         CheckpointService.ClearSaved();
         Check(!CheckpointService.CanTravelTo(sourcePath,sourceId),"Locked statues reject travel");
@@ -193,7 +272,8 @@ public static class CheckpointTravelRegression
         yield return null; yield return null;
         IsolateFromMapCombat();
         actor = Actor(); actor.transform.position = new Vector3(10000,10000,0);
-        var caveStatue = SpawnStatue(actor.transform.position+Vector3.right,"travel-cave-test","Tượng hang thử nghiệm");
+        // Checkpoint IDs are scoped to a map; identical IDs on different maps must not alias.
+        var caveStatue = SpawnStatue(actor.transform.position+Vector3.right,sourceId,"Tượng hang thử nghiệm");
         Unlock(caveStatue);
         menu = caveStatue.GetComponent<CheckpointMenu>();
         Check(menu.Open(actor),"Checkpoint menu works in another scene");
@@ -212,7 +292,8 @@ public static class CheckpointTravelRegression
         actor = Actor();
         source = Object.FindObjectsByType<CheckpointInteractable>(FindObjectsSortMode.None).Single(s=>s.checkpointId==sourceId);
         Check(SceneManager.GetActiveScene().path==sourcePath && Vector3.Distance(actor.transform.position,source.RespawnPosition)<.1f,"Cross-scene travel resolves the real target statue and spawn position");
-        Check(CheckpointService.ReadSaved().checkpointId==sourceId && CheckpointService.IsUnlocked("Assets/Scenes/CaveScene.unity","travel-cave-test"),"Cross-scene arrival updates respawn without losing unlocks");
+        var saved=CheckpointService.ReadSaved();
+        Check(saved.checkpointId==sourceId && saved.scenePath==sourcePath && CheckpointService.IsUnlocked("Assets/Scenes/CaveScene.unity",sourceId),"Cross-scene arrival resolves identical checkpoint IDs by map without losing unlocks");
         Check(Time.timeScale==1 && actor.GetComponent<PlayerController>().enabled && !CheckpointMenu.AnyOpen,"Cross-scene fade restores controls and clears all menu locks");
         Check(actor.GetComponent<CharacterStats>().currentHP==actor.GetComponent<CharacterStats>().maxHP && actor.GetComponent<CharacterStats>().currentStamina==actor.GetComponent<CharacterStats>().maxStamina,"Cross-scene travel refills HP and stamina");
         Check(actor.GetComponent<PlayerHealthPotion>().Charges==actor.GetComponent<PlayerHealthPotion>().capacity && actor.GetComponent<PlayerHealthPotion>().CooldownRemaining==0,"Cross-scene travel refills potions and resets cooldown");

@@ -15,7 +15,7 @@ public static class BlackKnightFlowRegression
     const string Pending = "BlackKnightFlowRegression.Pending";
     const string Profiles = "Assets/Effects/Audio/Enemies/Profiles/";
     static readonly string[] Actors = { "Orc", "EliteOrc", "OrcRider", "Slime", "Werewolf", "Werebear", "Necromancer", "NecromancerBat", "Skeleton", "ArmorSkeleton", "GreatswordSkeleton", "BlackKnight", "BlackKnightBoss" };
-    static readonly string[] Keys = { World.CheckpointService.SaveKey, World.CheckpointService.UnlockSaveKey, GameEconomy.SaveKey, EnemyDefeatState.SaveKey, BossItemInventory.SaveKey, QuestService.SaveKey, "Noname.PreviousRun.v1" };
+    static readonly string[] Keys = { World.CheckpointService.SaveKey, World.CheckpointService.UnlockSaveKey, GameEconomy.SaveKey, EnemyDefeatState.SaveKey, BossItemInventory.SaveKey, QuestService.SaveKey, GameplayTutorial.SaveKey, "Noname.PreviousRun.v1" };
     static readonly List<string> checks = new List<string>();
     static readonly List<string> errors = new List<string>();
     static IEnumerator routine;

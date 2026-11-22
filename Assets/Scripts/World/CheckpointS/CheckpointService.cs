@@ -253,6 +253,12 @@ namespace World
             PlayerPrefs.DeleteKey(SaveKey); PlayerPrefs.DeleteKey(UnlockSaveKey);
             PlayerPrefs.Save(); SavedChanged?.Invoke();
         }
+        public static void SetInitialSpawn(string scenePath, Vector3 position)
+        {
+            if (instance == null || ReadSaved() != null) return;
+            var initial = new Record { scenePath = scenePath, checkpointId = "initial", x = position.x, y = position.y, z = position.z };
+            if (Valid(initial)) instance.fallback = initial;
+        }
         private void OnDied(CharacterHealth health)
         {
             if (!health.CompareTag("Player") || respawning || traveling) return;
