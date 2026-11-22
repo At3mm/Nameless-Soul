@@ -89,7 +89,7 @@ namespace World
                 if (keyboard != null && (keyboard.escapeKey.wasPressedThisFrame || keyboard.mKey.wasPressedThisFrame))
                 {
                     GameControls.SuppressThisFrame();
-                    Close();
+                    Close(keyboard.escapeKey.wasPressedThisFrame);
                     return;
                 }
                 if (keyboard != null && keyboard.eKey.wasPressedThisFrame)
@@ -137,8 +137,7 @@ namespace World
                 {
                     player.GetComponent<PlayerController>(), player.GetComponent<PlayerCombat>(),
                     player.GetComponent<PlayerDash>(), player.GetComponent<CharacterParry>(),
-                    player.GetComponent<PlayerHealthPotion>(), player.GetComponent<PlayerInteractor>(),
-                    player.GetComponent<SettingsMenuToggle>()
+                    player.GetComponent<PlayerHealthPotion>(), player.GetComponent<PlayerInteractor>()
                 })
                 {
                     if (control == null || !control.enabled) continue;
@@ -148,16 +147,25 @@ namespace World
                 var body = player.GetComponent<Rigidbody2D>();
                 if (body != null) body.linearVelocity = Vector2.zero;
             }
+            foreach (var pauseMenu in FindObjectsByType<SettingsMenuToggle>(
+                         FindObjectsInactive.Exclude, FindObjectsSortMode.None))
+            {
+                if (pauseMenu == null || !pauseMenu.enabled || suspendedControls.Contains(pauseMenu)) continue;
+                suspendedControls.Add(pauseMenu);
+                pauseMenu.enabled = false;
+            }
             Time.timeScale = 0f;
             RefreshMap();
         }
 
-        private void Close()
+        private void Close(bool suppressEscapePauseToggle = false)
         {
             if (!isOpen) return;
             isOpen = false;
             draggingMap = false;
             Time.timeScale = previousTimeScale;
+            if (suppressEscapePauseToggle)
+                suspendedControls.OfType<SettingsMenuToggle>().FirstOrDefault()?.SuppressEscapeToggleUntilReleased();
             foreach (var control in suspendedControls)
                 if (control != null) control.enabled = true;
             suspendedControls.Clear();

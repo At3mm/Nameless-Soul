@@ -34,6 +34,7 @@ public class SettingsMenuToggle : MonoBehaviour
     private InputAction toggleAction;
     private float previousTimeScale;
     private bool pausedByMenu;
+    private bool suppressEscapeToggleUntilReleased;
     private readonly List<Behaviour> suspendedControls = new List<Behaviour>();
 
     private void Awake()
@@ -59,8 +60,14 @@ public class SettingsMenuToggle : MonoBehaviour
         RestoreGameplay();
     }
     private void OnDestroy() { GameControls.Release(toggleAction); }
+    internal void SuppressEscapeToggleUntilReleased()
+    {
+        suppressEscapeToggleUntilReleased = Keyboard.current != null && Keyboard.current.escapeKey.isPressed;
+    }
+
     private void OnToggle(InputAction.CallbackContext context)
     {
+        if (suppressEscapeToggleUntilReleased && context.control != null && context.control.path == "<Keyboard>/escape") return;
         if(GameControls.Blocked)return;
         if (World.InGameCutscene.BlocksPauseMenu || World.CheckpointMenu.BlocksPauseMenu || World.NpcInteractable.BlocksPauseMenu) return;
         var navigation=GetComponent<PauseBookNavigation>();
@@ -97,6 +104,8 @@ public class SettingsMenuToggle : MonoBehaviour
 
     private void Update()
     {
+        if (suppressEscapeToggleUntilReleased && (Keyboard.current == null || !Keyboard.current.escapeKey.isPressed))
+            suppressEscapeToggleUntilReleased = false;
         if (!IsAnimating) return;
         AdvanceBookAnimation(Time.unscaledDeltaTime);
     }
