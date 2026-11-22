@@ -71,6 +71,8 @@ Assets/Plugins/**           linguist-generated
 Packages/packages-lock.json linguist-generated
 
 # Unity LFS
+Builds/Windows/**       lfs
+Builds/Windows/README.md -filter diff -merge text
 *.cubemap               lfs
 *.unitypackage          lfs
 

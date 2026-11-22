@@ -72,4 +72,6 @@ Repo chính giữ riêng tư. Một số tài nguyên thuộc bên thứ ba; xem
 
 ## Xuất game Windows
 
-Xem [hướng dẫn build và tạo bộ cài](Docs/Guides/WINDOWS_RELEASE.md). Trong Unity, dùng Tools > Build > Validate Windows Release rồi Build Windows Release. Bộ cài được tạo bằng Tools/Build/Package-Windows.ps1; output nằm trong Builds và không đưa vào Git.
+Xem [hướng dẫn build và tạo bộ cài](Docs/Guides/WINDOWS_RELEASE.md). Trong Unity, dùng Tools > Build > Validate Windows Release rồi Build Windows Release. Bộ cài được tạo bằng Tools/Build/Package-Windows.ps1; output không đưa vào Git trên các nhánh nguồn.
+
+Bản Windows Release đã build sẵn được lưu riêng trong nhánh `windows-release-2026-11-22`, tại `Builds/Windows`. Xem `Builds/Windows/README.md` trên nhánh đó để tải và chạy; không merge nhánh build vào `main`.
