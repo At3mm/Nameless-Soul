@@ -60,9 +60,10 @@ public static class WorldMapBaker
                     tilemap.CompressBounds();
             }
 
+            int uiLayer = LayerMask.NameToLayer("UI");
             var renderers = scene.GetRootGameObjects().SelectMany(root => root.GetComponentsInChildren<Renderer>(true))
                 .Where(r => r != null && r.enabled && r.gameObject.activeInHierarchy &&
-                    (r is SpriteRenderer || r is TilemapRenderer))
+                    (r is SpriteRenderer || r is TilemapRenderer) && (uiLayer < 0 || r.gameObject.layer != uiLayer))
                 .ToArray();
             if (renderers.Length == 0) throw new InvalidOperationException("No visible map renderers in " + path);
 
@@ -83,7 +84,6 @@ public static class WorldMapBaker
             camera.transform.position = new Vector3(bounds.center.x, bounds.center.y, -100f);
             camera.clearFlags = CameraClearFlags.SolidColor;
             camera.backgroundColor = new Color(.035f, .045f, .04f, 1f);
-            int uiLayer = LayerMask.NameToLayer("UI");
             camera.cullingMask = uiLayer >= 0 ? ~(1 << uiLayer) : ~0;
             camera.nearClipPlane = .1f;
             camera.farClipPlane = 1000f;

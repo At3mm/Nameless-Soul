@@ -17,7 +17,7 @@ MonoBehaviour:
   image: {fileID: 2800000, guid: 2951c304115a0314e8a79324f73b5880, type: 3}
   worldBounds:
     serializedVersion: 2
-    x: -2345.3777
-    y: -518.20557
-    width: 14568.895
-    height: 10926.671
+    x: -147.18668
+    y: -123.64
+    width: 308.37335
+    height: 231.28
